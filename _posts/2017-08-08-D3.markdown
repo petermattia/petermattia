@@ -6,40 +6,9 @@ date: 2017-08-08
 ---
 
 
-{% highlight javascript %}
-var barChart = {
-
-  init:     function() { /***/ },
-  draw:     function() { /***/ },
-  drawBar:  function() { /***/ },
-
-  update: function () {
-      var self = this;
-      // select the foreground bars and call the animate method on them
-      d3.selectAll("rect.foreground").each(self.animate);
-  },
-
-  animate: function (d, i) {
-    var total = data[i];
-    var bar = d3.select(this);
-    if (barHeight - total != bar.attr("y")) {
-      bar.transition().duration(1500).attr("height", total).attr("y", barHeight - total);
-    }
-  }
-}
-
-// In this example, every couple seconds update the bar chart with new numbers!
-setInterval(function() {
-  data = d3.range(n).map(random); // get new random numbers
-  barChart.update();
-}, 2000);
-{% endhighlight %}
-
 <figure class="final">
   <figcaption>The final result</figcaption>
 </figure>
-
-<a href="http://codepen.io/mshwery/pen/uCBbn" class="codepen" target="_blank">Check out the code in action on CodePen</a>
 
 <style>
   svg {
