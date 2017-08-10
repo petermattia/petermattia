@@ -1,0 +1,149 @@
+---
+layout: post
+categories: articles
+title: Why make a website?
+date: 2017-08-08
+---
+Why am I making a personal website? It's not very common for graduate students
+in materials science (I don't think I know anyone else with one...), and it's
+arguably a distraction from my priorities (namely, writing my paper...*cough cough*).
+
+A few reasons:
+* Start blogging - nothing serious, a mix of science and personal blogging. I
+plan on blogging mostly for myself.
+* Develop a larger community for electrochemistry and materials science online -
+I wish there were more resources when I started grad school
+* Showcase some of my research
+* Understand the Internet better (because it still blows my mind)
+* Learn web technologies, specifically AWS and d3.js
+
+The last one, in particular, was compelling enough for me to actually make this website.
+After a summer of learning a bit of both data science and software engineering
+for my fast charging project (see [Research](http://www.petermattia.com/research)),
+I'm beginning to become more interested in both, either as career options
+or as critical components of a battery-testing-automation startup
+(still in the works...).
+
+In both chemical engineering and materials science, everyone uses MATLAB,
+which I think is exceptional for routine scientific computing tasks.
+I'm a big fan of MATLAB - it's perfect for engineers, particularly
+students, who need to quickly analyze data and don't want to deal with
+'CS stuff' like libraries, dependencies, etc.
+But, of course, I recognize no serious software engineer would even think about
+using it.
+So this website will be partially an exercise in breaking out of my MATLAB
+comfort zone.
+
+Additionally, I've always been impressed with "pretty" data visualization,
+and d3.js certainly appears to be up to the task. Check out the plot below,
+which comes from [this tutorial](http://www.mattshwery.com/d3-js):
+
+<figure class="final">
+  <figcaption>d3.js example</figcaption>
+</figure>
+
+A long-term side project of mine will be converting my cyclic voltammetry
+MATLAB app (see [Projects](http://www.petermattia.com/projects))
+into a d3.js based app to gain better experience with web apps.
+
+#### Making this website
+
+In the process, I read a lot about how to make and host a website. There are plenty of options:
+Wordpress with Dreamhost, Wordpress with AWS, Jekyll on Github, Jekyll on AWS, etc.
+([Wordpress](http://www.wordpress.com) is a very common platform for blogs and personal sites, but it's
+somewhat slow and clunky. [Jekyll](https://jekyllrb.com) is a newer 'static site generator',
+which means it creates nice-looking, speedy websites from relatively simple text editor input.)
+I decided to go with Jekyll on AWS, since it's the most difficult - meaning I'd
+learn the most from it.
+
+It took about a full day to get everything where I wanted it to be,
+mostly through copious Googling.
+In contrast, I was able to get a Wordpress site on AWS running in around an hour.
+I definitely wouldn't recommend this method to most people trying to create a
+website, but it worked for my purposes - I became more familiar with the
+Terminal, text editing, AWS S3, domain names, etc.
+
+Welp, first blog post down. Here's to what's next!
+
+<style>
+  svg {
+    font: 10px sans-serif;
+  }
+
+  .foreground {
+    fill: #2D6A99;
+  }
+
+  .background {
+    fill: #eee;
+  }
+</style>
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script type="text/javascript">
+
+  var n = 10,
+      random = function() { return Math.floor(Math.random() * 100); },
+      data = d3.range(n).map(random);
+
+  var barChart = {
+    init: function(el) {
+      this.height = 80;
+      this.width = 220;
+      this.padding = 12;
+      barWidth = Math.floor((this.width - (this.padding * (data.length - 1))) / data.length);
+      barHeight = this.height;
+
+      this.svg = d3.select(el).insert('svg', ':first-child')
+        .attr('width', this.width)
+        .attr("height", this.height);
+
+      this.draw();
+    },
+
+    draw: function() {
+      var self = this;
+
+      this.meters = this.svg
+        .append("g")
+          .attr("class", "meter")
+          .selectAll("rect")
+            .data(data)
+            .enter()
+            .append('g')
+              .attr("class", "bar");
+
+      this.drawBar().attr("class", "background").attr("y", 0).attr("height", barHeight);
+      this.drawBar().attr("class", "foreground").attr("y", barHeight).attr("height", 0);
+
+      setInterval(function() {
+        data = d3.range(n).map(random);
+        self.update();
+      }, 2000);
+    },
+
+    update: function () {
+        var self = this;
+        d3.selectAll("rect.foreground").each(self.animate);
+    },
+
+    animate: function (d, i) {
+      var total = data[i];
+      var bar = d3.select(this);
+      if (barHeight - total != bar.attr("y")) {
+        bar.transition().duration(1500).attr("height", total).attr("y", barHeight - total);
+      }
+    },
+
+    drawBar: function () {
+      var self = this;
+
+      return this.meters.append("rect")
+        .attr("x", function (d, i) {
+          return i * (barWidth + self.padding);
+        })
+        .attr("width", barWidth);
+    }
+  }
+
+  barChart.init('figure.final');
+</script>
