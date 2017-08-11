@@ -21,5 +21,3 @@ C. C. Bomberger, **P. M. Attia**, A. K. Prasad, and J. M. O. Zide. *Modeling Pas
 **P. M. Attia**. *Mega-Sized Concerns from the Nano-Sized World: The Intersection of Nano- and Environmental Ethics.* Sci Eng Ethics, 19, 3, 1007-1016 (2013). PDF, [DOI](http://dx.doi.org/10.1007/s11948-012-9422-3)
 
 P Dongmo, Y Zhong, **P Attia**, C Bomberger, R Cheaito, JF Ihlefeld, PE Hopkins, and J Zide. *Enhanced room temperature electronic and thermoelectric properties of the dilute bismuthide InGaBiAs.* J Appl Phys 112, 093710 (2012). PDF, [DOI](http://dx.doi.org/10.1063/1.4761996)
-
-{: reversed="reversed"}

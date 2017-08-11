@@ -43,7 +43,7 @@ Engineering Intern, [DuPont](http://www.dupont.com) Engineering Technologies
 
 ## Journal Publications
 
-[See my current publications here](/publications) 
+[See my current publications here](/publications)
 
 ## Presentations
 
