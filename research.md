@@ -5,12 +5,12 @@ permalink: /research/
 order: 2
 ---
 
-[See my current publications here](/publications) 
+[See my current publications here](/publications)
 
 Research at Stanford
 ====================
 
-UNDER CONSTRUCTION
+### UNDER CONSTRUCTION
 
 Research at Delaware
 ====================

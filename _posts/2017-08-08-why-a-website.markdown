@@ -63,7 +63,7 @@ I definitely wouldn't recommend this method to most people trying to create a
 website, but it worked for my purposes - I became more familiar with the
 Terminal, text editing, AWS S3, domain names, etc.
 
-Welp, first blog post down. Here's to what's next!
+Welp, first post down. Here's to what's next!
 
 <style>
   svg {

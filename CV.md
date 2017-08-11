@@ -6,6 +6,8 @@ order: 4
 ---
 Last updated August 8, 2017
 
+### Under Construction
+
 ## Education
 
 # Stanford University (September 2014-Present)
@@ -71,7 +73,7 @@ Engineering Intern, [DuPont](http://www.dupont.com) Engineering Technologies
   	</tr>
     <tr>
       <td>May 2017</td>
-      <td style="text-align:center">231<sup>st</sup> Electrochemical Society Meeting</td>
+      <td style="text-align:center"><a href="http://ma.ecsdl.org/content/MA2017-01/1/104.short">231<sup>st</sup> Electrochemical Society Meeting</a> </td>
       <td style="text-align:center">New Orleans, LA</td>
     </tr>
   </tbody>

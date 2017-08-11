@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 order: 1
 ---
-UNDER CONSTRUCTION
+### UNDER CONSTRUCTION
 
 I am a fourth-year PhD student in Materials Science and Engineering at Stanford
 University.
@@ -14,7 +14,8 @@ primarily on two
 
 
 I graduated from the University of Delaware with a degree in Chemical
-Engineering in 2014.
+Engineering in 2014. I loved my time at UD as a Fightin' Blue Hen -
+I particularly enjoyed driving a Zamboni....
 
 https://withjoy.com/toripluspete
 
