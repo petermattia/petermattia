@@ -15,12 +15,10 @@
 # in the templates via {{ site.myvariable }}.
 title: Peter M. Attia
 email: peter.m.attia@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: Batteries, electrochemistry, graduate school, and random thoughts
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "http://petermattia.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://petermattia.com"
+google_analytics: UA-104350225-1
 facebook_username: peter.attia
 linkedin_username: peter-attia-5aa4ab68
 github_username:  petermattia
@@ -32,13 +30,14 @@ plugins:
   - jekyll-feed
 
 # Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# The following items will not be processed, by default.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - deploy.sh
+  - s3_website.yml
