@@ -29,9 +29,9 @@ Senior Thesis: ["Thermoelectric Power Generation in Dynamic Temperature Environm
 ## Technical Experience
 
 Graduate Research Assistant, Stanford University ([Chueh Lab](http://chuehlab.stanford.edu))
-* Leading a multi-disciplinary team developing methods for autonomous optimization of battery fast-charging policies
-* Developed a new method of electrochemical analysis to measure solid-electrolyte interphase (SEI) growth as a function of voltage
-* Designed the Chueh lab’s “Gen 2” battery fabrication and characterization facilities
+* Leading experimental side of a multi-disciplinary team developing methods for autonomous optimization of battery fast-charging policies
+* Developing a new method of electrochemical analysis to measure solid-electrolyte interphase (SEI) growth as a function of voltage
+* Designing the Chueh lab’s “Gen 2” battery fabrication and characterization facilities
 
 Undergraduate Research Assistant, University of Delaware ([Zide Lab](http://www.zidelab.org/))
 * Built lumped parameter model of heat transfer in thermoelectric materials using MATLAB
