@@ -4,9 +4,7 @@ title: Curriculum Vitae
 permalink: /cv/
 order: 4
 ---
-Last updated August 8, 2017
-
-### Under Construction
+Last updated August 13, 2017
 
 ## Education
 
@@ -51,12 +49,6 @@ Engineering Intern, [DuPont](http://www.dupont.com) Engineering Technologies
 
 # Stanford
 
-|      Conference           |  Location  |    Date          |
-|  :-----------------:       | :--------: | :-----------:    |
-| [GCEP Student Energy Lectures](http://gcep.stanford.edu/outreach/studentactivities_abstracts2017.html#july31) | Stanford, CA |July 2017    |
-|   231<sup>st</sup> Electrochemical Society Meeting | New Orleans, LA |May 2017    |
-
-
 <table style="width:100%">
   <thead>
     <tr>
@@ -67,12 +59,12 @@ Engineering Intern, [DuPont](http://www.dupont.com) Engineering Technologies
   </thead>
   <tbody>
   	<tr>
-  	  <td>July 2017</td>
+  	  <td style="text-align:center">July 2017</td>
   	  <td style="text-align:center"> <a href="http://gcep.stanford.edu/outreach/studentactivities_abstracts2017.html#july31">GCEP Student Energy Lectures</a> </td>
   	  <td style="text-align:center">Stanford, CA</td>
   	</tr>
     <tr>
-      <td>May 2017</td>
+      <td style="text-align:center">May 2017</td>
       <td style="text-align:center"><a href="http://ma.ecsdl.org/content/MA2017-01/1/104.short">231<sup>st</sup> Electrochemical Society Meeting</a> </td>
       <td style="text-align:center">New Orleans, LA</td>
     </tr>
@@ -98,16 +90,48 @@ Engineering Intern, [DuPont](http://www.dupont.com) Engineering Technologies
 
 ## Selected Honors and Awards
 
-|       Award          |    Date       |
-|  :----------------------------------------------------------------------------| -------------:  |
-|  Alexander J. Taylor Outstanding Senior Man Finalist (University of Delaware) | April 2014  |
-|  National Science Foundation Graduate Research Fellowship | April 2014 |
-|  Stanford Graduate Fellowship | March 2014 |
-|  Gates-Cambridge Scholarship Finalist | February 2014 |
-|  Tau Beta Pi Engineering Honor Society | June 2013 |
-|  [NASA Space Grant Scholarship](http://www.udel.edu/udaily/2013/apr/space-grant-042613.html) | March 2013
-|  [Barry Goldwater Scholarship](http://www.udel.edu/udaily/2013/apr/goldwater-scholars-041113.html) | March 2013 |
-|  University of Delaware Distinguished Scholarship - Full Tuition | March 2010 |
+<table style="width:100%">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Award</th>
+    </tr>
+  </thead>
+  <tbody>
+  	<tr>
+      <td style="text-align:center">April 2014</td>
+      <td style="text-align:center">Alexander J. Taylor Outstanding Senior Man Finalist (University of Delaware) </td>
+    </tr>
+    <tr>
+      <td style="text-align:center">April 2014</td>
+      <td style="text-align:center">National Science Foundation Graduate Research Fellowship </td>
+    </tr>
+    <tr>
+      <td style="text-align:center">March 2014</td>
+      <td style="text-align:center">Stanford Graduate Fellowship </td>
+    </tr>
+    <tr>
+      <td style="text-align:center">February 2014</td>
+      <td style="text-align:center">Gates-Cambridge Scholarship Finalist </td>
+    </tr>
+    <tr>
+      <td style="text-align:center">June 2013</td>
+      <td style="text-align:center">Tau Beta Pi Engineering Honor Society Scholarship </td>
+    </tr>
+    <tr>
+      <td style="text-align:center">March 2013</td>
+      <td style="text-align:center"><a href="http://www.udel.edu/udaily/2013/apr/space-grant-042613.html">NASA Space Grant Scholarship </a> </td>
+    </tr>
+    <tr>
+      <td style="text-align:center">March 2013</td>
+      <td style="text-align:center"><a href="http://www.udel.edu/udaily/2013/apr/goldwater-scholars-041113.html">Barry Goldwater Scholarship </a> </td>
+    </tr>
+    <tr>
+      <td style="text-align:center">March 2010</td>
+      <td style="text-align:center">University of Delaware Distinguished Scholarship - Full Tuition </td>
+    </tr>
+  </tbody>
+</table>
 
 <br>
 

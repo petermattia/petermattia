@@ -53,15 +53,16 @@ Wordpress with Dreamhost, Wordpress with AWS, Jekyll on Github, Jekyll on AWS, e
 ([Wordpress](http://www.wordpress.com) is a very common platform for blogs and personal sites, but it's
 somewhat slow and clunky. [Jekyll](https://jekyllrb.com) is a newer 'static site generator',
 which means it creates nice-looking, speedy websites from relatively simple text editor input.)
-I decided to go with Jekyll on AWS, since it's the most difficult - meaning I'd
-learn the most from it.
+I decided to go with Jekyll on AWS S3, since it's the most difficult (relatively
+speaking - it's wasn't actually "difficult") - meaning I'd learn the most from it.
 
-It took about a full day to get everything where I wanted it to be,
-mostly through copious Googling.
-In contrast, I was able to get a Wordpress site on AWS running in around an hour.
+It took about a full day to get everything where I wanted it to be -
+overall pretty easy and kinda fun, but still longer than what I expected for
+such a standard procedure.
+In contrast, I was able to get a Wordpress site on AWS running in around 30 minutes.
 I definitely wouldn't recommend this method to most people trying to create a
-website, but it worked for my purposes - I became more familiar with the
-Terminal, text editing, AWS S3, domain names, etc.
+website, but it worked well for my purposes - I became more familiar with the
+Terminal, Markdown, AWS S3, domain names, etc.
 
 Welp, first post down. Here's to what's next!
 
