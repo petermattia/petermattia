@@ -29,6 +29,14 @@ theme: minima
 plugins:
   - jekyll-feed
 
+collections:
+  cyclic_voltammetry_simulation:
+    output: true
+    permalink: /:collection/:name
+  cyclic-voltammetry_results:
+    output: true
+    permalink: /:collection/:name
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 exclude:

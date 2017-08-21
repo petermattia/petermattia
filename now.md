@@ -13,3 +13,5 @@ My priorities for the next month include:
 * Complete this website
 * Run 20 miles a week - starting off slow, getting back into it
 * Continue wedding planning with Victoria
+
+[What is a now page?](http://nownownow.com/about)

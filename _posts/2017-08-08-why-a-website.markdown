@@ -9,8 +9,8 @@ in materials science (I don't think I know anyone else with one...), and it's
 arguably a distraction from my priorities (namely, writing my paper...*cough cough*).
 
 A few reasons:
-* Start blogging - nothing serious, a mix of science and personal blogging. I
-plan on blogging mostly for myself.
+* Start blogging, as a way to maintian writing skills (with some accountability).
+I plan on posting a mix of science and personal content
 * Develop a larger community for electrochemistry and materials science online -
 I wish there were more resources when I started grad school
 * Showcase some of my research
