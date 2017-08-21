@@ -15,12 +15,18 @@ reference textbook than a "learning" textbook.
 
 With some help from a post-doc in my lab (who took Allen Bard's
 electrochemistry class at UT Austin!),
-I built a MATLAB app to help me better understand simple electrochemistry.
+I built a MATLAB app to help me perform simple electrochemical simulations -
+and thus better understand electrochemistry.
 Check out a screenshot below:
 
 ![Screenshot]({{ site.url }}/assets/CVsimscreenshot.png)
 
-In the process, I learned about fundamental electrochemistry. I'm working on
-documentating the results to make simple electrochemical simulations more accessible.
-This will be a work in progress, but you can check out my progress 
+In the process, I learned about the basics of electrochemistry
+and finite element simulations.
+I'm working on documentating my code to make simple electrochemical
+simulations more accessible.
+This will be a work in progress, but you can check it out
 [here!](\cyclic_voltammetry_simulation\index.html)
+
+As I'm in the middle of writing my own paper, progress may be a bit slower than
+desired ;).

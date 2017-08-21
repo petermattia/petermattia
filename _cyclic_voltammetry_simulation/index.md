@@ -1,36 +1,41 @@
 ---
 layout: page
 categories: articles
-title: Cyclic Voltammetry App
+title: "Cyclic Voltammetry App: Tutorial"
 ---
 
-Recently, my battery research has taken a dive into fundamental electrochemistry -
-charge-transfer vs mass-transfer, reversibility, asymmetry, etc. I found myself
-frequently confused by these terms and concepts, without a good resource to
-develop my understanding. Of course,
-[Bard and Faulkner](https://www.amazon.com/Electrochemical-Methods-Fundamentals-Allen-Bard/dp/0471043729)
-is an essential reference for electrochemists, but I've found it a better
-reference textbook than a "learning" textbook.
+This tutorial will explain the simulation that powers my simple
+cyclic voltammetry MATLAB app.
+I built this app to help me better understand simple electrochemistry, and I
+hope it helps you too!
 
-With help from a post-doc in my lab (who took Allen Bard's
-electrochemistry class at UT Austin!),
-I built a MATLAB app to help me better understand simple electrochemistry.
-The simulations are derived from Appendix B of Bard and Faulkner.
 Check out a screenshot below:
 
 ![Screenshot]({{ site.url }}/assets/CVsimscreenshot.png)
 
-You can download the app on the [MATLAB File Exchange](https://www.mathworks.com/matlabcentral/fileexchange/64011-cyclic-voltammetry-simulator)
+You can download the app on the
+[MATLAB File Exchange](https://www.mathworks.com/matlabcentral/fileexchange/64011-cyclic-voltammetry-simulator)
 and on [GitHub](https://github.com/petermattia/Cyclic-Voltammetry-Simulator).
 
 Building the app itself was actually pretty easy and fun, thanks to MATLAB's
 [App Designer](https://www.mathworks.com/products/matlab/app-designer.html).
-In this tutorial, however, I'll just focus on explaining the electrochemical
-simulation itself. Equations and discussion will be cross-referenced
-to Bard and Faulkner, 2<sup>nd</sup> edition, with links to Wikipedia.
+In this tutorial, however, I'll focus on explaining the electrochemical
+simulation itself.
+My primary source for these simulations is Appendix B of
+[Bard and Faulkner, 2<sup>nd</sup> edition](https://www.amazon.com/Electrochemical-Methods-Fundamentals-Allen-Bard/dp/0471043729).
 
-[Fundamental electrochemistry](/cyclic_voltammetry_simulation/fundamentals.html)
+Equations and discussion will be cross-referenced to Bard and Faulkner,
+with links to Wikipedia.
 
-[Simulation](/cyclic_voltammetry_simulation//simulation.html)
+Future goals include an additional tutorial sharing my findings, and porting
+this MATLAB app to the web. 
 
-[Code](/cyclic_voltammetry_simulation/code.html)
+Enjoy!
+
+#### **Note: This is a work in progress!**
+
+### [Fundamental electrochemistry](/cyclic_voltammetry_simulation/fundamentals.html)
+
+### [Simulation](/cyclic_voltammetry_simulation//simulation.html)
+
+### [Code](/cyclic_voltammetry_simulation/code.html)

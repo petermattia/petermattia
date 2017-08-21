@@ -9,15 +9,16 @@ order: 1
 I am a fourth-year PhD student in Materials Science and Engineering at Stanford
 University.
 I work with [Prof. William Chueh](http://chuehlab.stanford.edu) on improving
-the rate capability and lifetime of lithium-ion batteries. My research focuses
-primarily on two
+the rate capability and lifetime of lithium-ion batteries.
+In a nutshell, [my research](/research) focuses on making lithium-ion batteries last longer
+and charge faster.
 
 
 I graduated from the University of Delaware with a degree in Chemical
 Engineering in 2014. I loved my time at UD as a Fightin' Blue Hen -
 I particularly enjoyed driving a Zamboni....
 
-https://withjoy.com/toripluspete
+[Lastly, I'm getting married!](https://withjoy.com/toripluspete)
 
 ### Which Peter Attia are you?
 

@@ -11,7 +11,12 @@ chemical reaction of the reduced species, as below:
 
 $$ O + e^- \overset{k_f}{\underset{k_r}{\leftrightarrows}} R \overset{k_c}{\rightarrow} Z $$
 
-In this experiment, we model three mechanistic processes: the electrochemical
+This simulation assumes an aqueous electrochemistry system.
+A metal electrode in solution supplies and extracts electrons from aqueous species
+O and R, such as in the case of
+ [ferro-/ferricyanide](https://en.wikipedia.org/wiki/Ferrocyanide).
+
+In this simulation, we model three mechanistic processes: the electrochemical
 reaction (charge transfer), the chemical reaction, and diffusion.
 
 #### Electrochemical reaction (charge transfer)
@@ -21,9 +26,9 @@ The forward electrochemical rate constant, $k_f$, and reverse electrochemical
 rate constant, $k_r$, primarily depend on the fundemental electrochemical
 parameters $k_0$ and $\alpha$ (Eqns 3.3.9 & 3.3.10):
 
-$$ k_f = k^0 \exp[{-\alpha f (E - E^{0'})}] $$
+$$ k_f = k^0 \exp\left({-\alpha f (E - E^{0'})}\right) $$
 
-$$ k_r = k^0 \exp[{(1-\alpha) f (E - E^{0'})}] $$
+$$ k_r = k^0 \exp\left({(1-\alpha) f (E - E^{0'})}\right) $$
 
 $k_0$ is the standard electrochemical rate constant, defined as the "kinetic
 facility" of a redox couple - in other words, it measures the ease of electron
@@ -41,7 +46,21 @@ Three more terms:
 - $E$ is the applied potential, in $V$
 - $E^{0'}$ is the formal potential, in $V$. Thus, $E - E^{0'}$ is the overpotential.
 
+The surface concentrations of O and R ultimately control the measured current (3.3.11):
+
+$$ i = F A k^0 \left[C_O(0,t)\exp\left({-\alpha f (E - E^{0'})}\right) - C_R(0,t)\exp\left({(1-\alpha) f (E - E^{0'})}\right)\right] $$
+
+Here, $C_O(0,t)$ and $C_R(0,t)$ are the concentrations of O and R at the electrode
+surface.
+
 #### Chemical reaction
-The reduction product can also chemically react (in this case, )
+The reduction product can also chemically react in a simple unimolecular
+reaction ($R \overset{k_c}{\rightarrow} Z $). Standard
+[first-order reaction kinetics](https://en.wikipedia.org/wiki/First-order_reaction)
+describe this unimolecular reaction:
+
+$$ \frac{\partial C_R(x,t)}{\partial t} = -k_1 C_R $$
 
 #### Diffusion
+
+To be continued...
