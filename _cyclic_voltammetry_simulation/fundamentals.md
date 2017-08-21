@@ -16,7 +16,7 @@ reaction (charge transfer), the chemical reaction, and diffusion.
 
 #### Electrochemical reaction (charge transfer)
 
-In this model, the charge-tranfer kinetics are modeled by the Bulter-Volmer equation.
+In this model, the charge-tranfer kinetics follow the Bulter-Volmer formulation.
 The forward electrochemical rate constant, $k_f$, and reverse electrochemical
 rate constant, $k_r$, primarily depend on the fundemental electrochemical
 parameters $k_0$ and $\alpha$ (Eqns 3.3.9 & 3.3.10):

@@ -4,7 +4,7 @@ categories: articles
 title: "Cyclic Voltammetry App: Code"
 ---
 
-The simulation code is posted below.
+The full simulation code is posted below.
 
 ~~~~matlab
 %%%%%
