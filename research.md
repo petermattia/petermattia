@@ -22,6 +22,7 @@ I'll provide more details when I've published my work, but my two projects inclu
 which is one of the largest sources of degradation in lithium-ion batteries
 - High-throughput screening of fast-charging policies for commercial cells
 
+<br>
 
 ![University of Delaware]({{ site.url }}/assets/UDfull.jpg)
 
@@ -37,7 +38,8 @@ I worked under [Dr. Joshua Zide](http://www.zidelab.org/) for three years on a n
  This work is detailed in [Bomberger *et al*](http://dx.doi.org/10.1016/j.applthermaleng.2013.02.039)
  and [Attia *et al*](http://dx.doi.org/10.1016/j.energy.2013.08.046).
 
-I also wrote a paper on the ethics of nanotechnology and the environment. Read more at the bottom of [this page](http://www1.udel.edu/researchmagazine/issue/vol4_no2/teamwork.html).
+I also wrote a paper on the ethics of nanotechnology and the environment. Read more at the bottom of [this page](http://www1.udel.edu/researchmagazine/issue/vol4_no2/teamwork.html),
+or read the paper [here](http://dx.doi.org/10.1007/s11948-012-9422-3).
 
 <!--![DuPont]({{ site.url }}/assets/DuPont.jpg)-->
 

@@ -17,7 +17,7 @@ You can download the app on the
 [MATLAB File Exchange](https://www.mathworks.com/matlabcentral/fileexchange/64011-cyclic-voltammetry-simulator)
 and on [GitHub](https://github.com/petermattia/Cyclic-Voltammetry-Simulator).
 
-Building the app itself was actually pretty easy and fun, thanks to MATLAB's
+Building the app itself was straightforward and fun, thanks to MATLAB's
 [App Designer](https://www.mathworks.com/products/matlab/app-designer.html).
 In this tutorial, however, I'll focus on explaining the electrochemical
 simulation itself.
@@ -28,7 +28,7 @@ Equations and discussion will be cross-referenced to Bard and Faulkner,
 with links to Wikipedia.
 
 Future goals include an additional tutorial sharing my findings, and porting
-this MATLAB app to the web. 
+this MATLAB app to the web.
 
 Enjoy!
 

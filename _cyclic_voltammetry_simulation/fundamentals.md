@@ -59,7 +59,10 @@ reaction ($R \overset{k_c}{\rightarrow} Z $). Standard
 [first-order reaction kinetics](https://en.wikipedia.org/wiki/First-order_reaction)
 describe this unimolecular reaction:
 
-$$ \frac{\partial C_R(x,t)}{\partial t} = -k_1 C_R $$
+$$ \frac{\partial C_R(x,t)}{\partial t} = -k_c C_R $$
+
+The units of $k_c$ are $s^{-1}$, as expected for a
+first-order reaction rate constant.
 
 #### Diffusion
 
