@@ -8,9 +8,7 @@ order: 1
 
 I am a fourth-year PhD student in Materials Science and Engineering at Stanford
 University.
-I work with [Prof. William Chueh](http://chuehlab.stanford.edu) on improving
-the rate capability and lifetime of lithium-ion batteries.
-In a nutshell, [my research](/research) focuses on making lithium-ion batteries last longer
+[My research](/research) focuses on making lithium-ion batteries last longer
 and charge faster.
 
 

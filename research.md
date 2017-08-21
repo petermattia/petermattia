@@ -13,11 +13,13 @@ order: 2
 Research at Stanford
 ====================
 
-My research aims to make lithium-ion batteries last longer and charge faster.
+I work with [Prof. William Chueh](http://chuehlab.stanford.edu) on improving
+the rate capability and lifetime of lithium-ion batteries.
+In a nutshell, my research aims to make lithium-ion batteries last longer and charge faster.
 I'll provide more details when I've published my work, but my two projects include:
 - Studying growth of the
 [solid-electrolyte interphase](https://en.wikipedia.org/wiki/Lithium-ion_battery#Electrolytes),
-which , on a model carbon anode
+which is one of the largest sources of degradation in lithium-ion batteries
 - High-throughput screening of fast-charging policies for commercial cells
 
 
