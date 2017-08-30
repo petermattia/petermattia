@@ -11,7 +11,7 @@ chemical reaction of the reduced species, as below:
 
 $$ O + e^- \overset{k_f}{\underset{k_r}{\leftrightarrows}} R \overset{k_c}{\rightarrow} Z $$
 
-This simulation assumes an aqueous electrochemistry system.
+This simulation assumes aqueous electrochemistry.
 A metal electrode in solution supplies and extracts electrons from aqueous species
 O and R, such as in the case of
  [ferro-/ferricyanide](https://en.wikipedia.org/wiki/Ferrocyanide).

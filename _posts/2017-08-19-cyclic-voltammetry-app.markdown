@@ -5,7 +5,8 @@ title: Cyclic Voltammetry app tutorial
 date: 2017-08-19
 ---
 
-Recently, my battery research has taken a dive into fundamental electrochemistry -
+Recently, I've been learning about fundamental electrochemistry
+through my battery research -
 charge-transfer vs mass-transfer, reversibility, asymmetry, etc. I found myself
 frequently confused by these terms and concepts, without a good resource to
 develop my understanding. Of course,
