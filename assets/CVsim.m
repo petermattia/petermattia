@@ -1,21 +1,6 @@
----
-layout: page
-categories: articles
-title: "Cyclic Voltammetry App: Code"
----
-
-I've posted the standalone simulation code below.
-It's decently well commented now, but I hope to improve the documentation soon.
-
-You can download this MATLAB script directly
-[here]({{site.url}}/assets/CVsim.m).
-
-~~~~matlab
-%%%%%
-% From Bard and Faulkner, 2nd edition, Appendix B
+% CV simulation - Bard and Faulkner, Appendix B
 % Peter Attia
 % Updated August 31, 2017
-%%%%%
 
 clear, clc, close all
 
@@ -100,4 +85,3 @@ eta = eta(1:length(Z));
 
 plot(eta,Z)
 xlabel('Overpotential (V)'), ylabel('Dimensionless current')
-~~~~
