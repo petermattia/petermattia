@@ -13,7 +13,6 @@ GCEP talk
 TODO:
 About page
 More images
-Maps
 Finish simulation tutorial
 Create results Tutorial
 Port app to web

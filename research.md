@@ -29,7 +29,7 @@ which is one of the largest sources of degradation in lithium-ion batteries
 Research at Delaware
 ====================
 
-I worked under [Dr. Joshua Zide](http://www.zidelab.org/) for three years on a novel application of
+I worked with [Dr. Joshua Zide](http://www.zidelab.org/) for three years on a novel application of
 [thermoelectric materials](http://www.thermoelectrics.caltech.edu/thermoelectrics/index.html).
  Thermoelectrics are often considered for waste-heat recovery applications,
  exploiting a steady-state spatial temperature gradient to generate electricity.
