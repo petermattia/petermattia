@@ -16,7 +16,7 @@ I graduated from the University of Delaware with a degree in Chemical
 Engineering in 2014. I loved my time at UD as a Fightin' Blue Hen -
 I particularly enjoyed driving a Zamboni....
 
-One of my life goals is to [visit all 50 states](/50states.md).
+One of my life goals is to [visit all 50 states](/50states).
 
 [Lastly, I'm getting married!](https://withjoy.com/toripluspete)
 
