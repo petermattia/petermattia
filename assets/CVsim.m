@@ -1,6 +1,6 @@
 % CV simulation - Bard and Faulkner, Appendix B
 % Peter Attia
-% Updated August 31, 2017
+% Updated September 12, 2017
 
 clear, clc, close all
 
@@ -13,17 +13,17 @@ v      = 1E-3;  % [=] V/s, sweep rate. Default = 1E-3
 n      = 1.0;   % [=] number of electrons transfered. Default = 1
 alpha  = 0.5;   % [=] dimensionless charge-transfer coefficient. Default = 0.5
 k0     = 0.01;  % [=] cm/s, electrochemical rate constant. Default = 1E-2
-k1      = 0;    % [=] 1/s, chemical rate constant. Default = 0
-
-%%% SIMULATION VARIABLES %%%
-L      = 500;    % [=] number of iterations per t_k (pg 790). Default = 200
-DM     = 0.45;   % [=] model diffusion coefficient (pg 788). Default = 0.45
+k1     = 0;    % [=] 1/s, chemical rate constant. Default = 0
 
 %%% CONSTANTS %%%
 F      = 96485;   % [=] C/mol, Faraday's constant
 R      = 8.3145;  % [=] J/mol-K, ideal gas constant
 T      = 298.15;  % [=] K, temperature. Default = 298.15
-f      = F/(R*T); % [=] dimensionless Faraday's constant at room temperature
+f      = F/(R*T); % [=] 1/V, normalized Faraday's constant at room temperature
+
+%%% SIMULATION VARIABLES %%%
+L      = 500;    % [=] number of iterations per t_k (pg 790). Default = 200
+DM     = 0.45;   % [=] model diffusion coefficient (pg 788). Default = 0.45
 
 %%% DERIVED CONSTANTS %%%
 j      = ceil(4.2*L^0.5)+5;   % [=] number of boxes. If L~200, j=65

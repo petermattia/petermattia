@@ -1,14 +1,14 @@
 ---
 layout: page
 categories: articles
-title: "Cyclic Voltammetry App: Code"
+title: "Cyclic Voltammetry App: Simulation details"
 ---
 
-I've posted the standalone simulation code below.
-It's decently well commented now, but I hope to improve the documentation soon.
+## UNDER CONSTRUCTION
 
-You can download this MATLAB script directly
-[here]({{site.url}}/assets/CVsim.m).
+In this post, I'll explain the cyclic voltammetry simulation I've created in
+greater detail. You can find the entire script
+[here](/cyclic_voltammetry_simulation/code.html).
 
 ~~~~matlab
 %%%%%
@@ -16,7 +16,15 @@ You can download this MATLAB script directly
 % Peter Attia
 % Updated August 31, 2017
 %%%%%
+~~~~
 
+Again, this simulation is well-described in Bard and Faulkner, Appendix B.
+Highly recommended for all the details.
+This walkthrough is designed to serve as a "practical" guide to performing these
+simulations, as well as to make Bard and Faulkner's
+occasionally dense writing style more accessible.
+
+~~~~matlab
 clear, clc, close all
 
 %%% INDEPENDENT VARIABLES %%%
@@ -29,13 +37,32 @@ n      = 1.0;   % [=] number of electrons transfered. Default = 1
 alpha  = 0.5;   % [=] dimensionless charge-transfer coefficient. Default = 0.5
 k0     = 0.01;  % [=] cm/s, electrochemical rate constant. Default = 1E-2
 k1     = 0;    % [=] 1/s, chemical rate constant. Default = 0
+~~~~
 
+These variables are the "adjustable" parameters in this simulation.
+These parameters should be straightforward to someone interested in cyclic
+voltammetry simulations. I'll note that $ k_0 $ is the electrochemical rate constant,
+with units of cm/s, and $ k_1 $ is the chemical rate constant, with units of 1/s.
+You can read more about these terms on the
+[fundamentals](/cyclic_voltammetry_simulation/fundamentals.html) page.
+
+~~~~matlab
 %%% CONSTANTS %%%
 F      = 96485;   % [=] C/mol, Faraday's constant
 R      = 8.3145;  % [=] J/mol-K, ideal gas constant
 T      = 298.15;  % [=] K, temperature. Default = 298.15
 f      = F/(R*T); % [=] 1/V, normalized Faraday's constant at room temperature
+~~~~
 
+These variables are fundamental physical constants.
+The [Faraday constant](https://en.wikipedia.org/wiki/Faraday_constant)
+is often normalized by $ RT $.
+
+In my work, I don't consider temperatures other than room temperature.
+If your work involves variable temperature, you can move $ T $ from "constants"
+to "independent variables".
+
+~~~~matlab
 %%% SIMULATION VARIABLES %%%
 L      = 500;    % [=] number of iterations per t_k (pg 790). Default = 200
 DM     = 0.45;   % [=] model diffusion coefficient (pg 788). Default = 0.45

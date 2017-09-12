@@ -36,6 +36,6 @@ Enjoy!
 
 ### [Fundamental electrochemistry](/cyclic_voltammetry_simulation/fundamentals.html)
 
-### [Simulation](/cyclic_voltammetry_simulation//simulation.html)
+### [Simulation](/cyclic_voltammetry_simulation/simulation.html)
 
 ### [Code](/cyclic_voltammetry_simulation/code.html)

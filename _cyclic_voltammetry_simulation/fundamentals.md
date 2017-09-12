@@ -66,4 +66,32 @@ first-order reaction rate constant.
 
 #### Diffusion
 
-To be continued...
+[Fick's laws](https://en.wikipedia.org/wiki/Fick%27s_laws_of_diffusion)
+model diffusion in this system.
+Fick's first law of diffusion is:
+
+$$ J_i(x,t) = -D_i\frac{\partial C_i(x,t)}{\partial x} $$
+
+Here, $ J_i(x,t) $ is the flux ($ {mol}/{cm^2s} $) of species $ i $, and
+$ D_i $ ($ {cm^2}/{s} $) is the diffusion coefficient of species $ i $.
+A common assumption in aqueous electrochemistry is that the diffusion coefficients
+of $ O $ and $ R $ are equal, or $ D_O = D_R $.
+
+Fick's second law is:
+
+$$ -\frac{\partial C_i(x,t)}{\partial t} = \frac{\partial J_i(x,t)}{\partial x} $$
+
+The combined first and second law is:
+
+$$ \frac{\partial C_i(x,t)}{\partial t} = D_i\frac{\partial C_i^2(x,t)}{\partial x^2} $$
+
+#### Summary
+
+The interplay between the electrochemical reaction at the surface, the
+chemical reaction of the reduced product $ R $, and the diffusion of both $ O $
+and $ R $ yield the cyclic voltammetry result. Specifically, two dimensionless
+numbers - $ \Lambda $, an indicator for charge transfer vs mass transfer
+rates, and $ k_1 t_k $, an indicator for chemical reaction rate vs experiment
+time, define the system's electrochemical reversibility and
+chemical reversibility, respectively.
+I will discuss in greater detail in a future post.
