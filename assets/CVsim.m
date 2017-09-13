@@ -51,15 +51,15 @@ Enorm = eta*f;
 kf = ( k0*tk*exp(  -alpha *Enorm) )./( sqrt(DM*L)*Dx );
 kb = ( k0*tk*exp((1-alpha)*Enorm) )./( sqrt(DM*L)*Dx );
 
-O = C*ones(length(k)-1,j); % Initial concentrations of O
-R = zeros(length(k)-1,j);  % Initial concentrations of R
-Z = zeros(length(k)-1,1);  % Dimensionless current
+O = C*ones(L+1,j); % Initial concentrations of O
+R = zeros(L+1,j);  % Initial concentrations of R
+Z = zeros(L+1,1);  % Dimensionless current
 
-% First dimensionless current
+% First dimensionless current (pg 792)
 Z(1) = ( kf(1)*O(1,2) - kb(1)*R(1,2) ) ./ (1 + kf(1) + kb(1));
 
 % k = time index. j = distance index
-for i1 = 2:length(k)-1
+for i1 = 2:length(k)
     % Update surface concentrations
     Z(i1)   = ( kf(i1).*O(i1,2) - kb(i1).*R(i1,2) ) ./ (1 + kf(i1) + kb(i1));
     O(i1,1) = O(i1,2) - Z(i1) + km*R(i1-1,1);
@@ -79,9 +79,6 @@ for i1 = 2:length(k)-1
     % convention is weird
     Z(i1)   = -( kf(i1).*O(i1,2) - kb(i1).*R(i1,2) ) ./ (1 + kf(i1) + kb(i1));
 end
-
-% Clip to be same size
-eta = eta(1:length(Z));
 
 plot(eta,Z)
 xlabel('Overpotential (V)'), ylabel('Dimensionless current')
