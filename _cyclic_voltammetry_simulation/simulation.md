@@ -193,7 +193,8 @@ Z = zeros(L+1,1);  % Dimensionless current
 ~~~~
 
 Again, I'll walk through the variables:
-- $ k $ (`k`) is the time index. `k` is a vector
+- $ k $ (`k`) is the time index. `k` is a vector. Since `k = 0:L` (inclusive),
+  we require $ L + 1 $ boxes, instead of $ L $ boxes. 
 - $ t $ (`t`) is the simulation step time. `t` is a vector
 - $ \eta_1 $ (`eta1`) and $ \eta_2 $ (`eta2`) combine to form $ \eta $ (`eta`),
   which is a vector of the overpotential. We plot `eta` at the end.
