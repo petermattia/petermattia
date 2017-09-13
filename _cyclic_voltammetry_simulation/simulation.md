@@ -258,6 +258,8 @@ end
 - `O(i1,2)` instead of `O(i1,1)`?
 - `Z(i1)` twice?
 
+The Bard and Faulkner current convention truly is weird. 
+
 ### Plot results
 
 We're done! Plot `eta` vs `Z` to see the final result.
