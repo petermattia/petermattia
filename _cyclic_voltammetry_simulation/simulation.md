@@ -96,6 +96,7 @@ Two notes on $ L $:
   This simulation is an analytical form of a set of differential equations,
   so it's already computationally inexpensive.
   In my experience, $ L = 500 $ produces smooth curves.
+
 - Changing $ L $ will change the magnitude of dimensionless current, so don't
   change $ L $ when comparing two simulations - unless, of course, you're
   interested in understanding the effect of $ L $ 😉.
@@ -132,23 +133,27 @@ individually:
   units of boxes. 3D diffusion proceeds as $ 6(Dt)^{0.5} $. In units of 'boxes',
   we need $ j_{max} = 6(Dt)^{1/2}/\Delta x + 1 $. With some algebra, we find
   that $ j_{max} < 4.2 L^{1/2} $. I added the `+5` since it can't hurt.
-- $ \Delta \eta $ (`Deta`) is the total voltage range of a scan in
 
 - $ t_k $ (`tk`) is the total experiment time, or a "characteristic experimental
   duration". It's found from multiplying the time of a scan in
   [one direction](https://en.wikipedia.org/wiki/One_Direction) by two
   (to account for both sweeps) and dividing by the voltage sweep rate
+
 - $ \Delta t $ (`dt`) is the size of each timestep, given the total experiment
   time and the number of timesteps we desire, $ L $
+
 - $ \Delta x $ (`dx`) is the width of each box. It's controlled by $ D_M $, as
   discussed above.
+
 - $ k_1 t_k $ (`ktk`) is the dimensionless kinetic parameter. Specifically, it
   is the dimensionless *chemical* kinetic parameter, capturing the effect of
   the $R \overset{k_c}{\rightarrow} Z $ reaction.
   $ k_1 t_k $ controls the extent of chemical reversibility.
   I will discuss what this means in a seperate post.
+
 - $ k_m $ (`km`) is the normalized dimensionless kinetic parameter. This value
   is convenient in future calculations.
+
 - $ \Lambda $ (`Lambda`) is the dimensionless electrochemical reversibility
   parameter. It's an indicator of the balance between charge-transfer and
   mass-transfer rates. I'll do a follow-up post on chemical and electrochemical
@@ -194,20 +199,28 @@ Z = zeros(L+1,1);  % Dimensionless current
 
 Again, I'll walk through the variables:
 - $ k $ (`k`) is the time index. `k` is a vector. Since `k = 0:L` (inclusive),
-  we require $ L + 1 $ boxes, instead of $ L $ boxes. 
-- $ t $ (`t`) is the simulation step time. `t` is a vector
+  we require $ L + 1 $ boxes, instead of $ L $ boxes.
+
+- $ t $ (`t`) is the simulation step time, in seconds. `t` is a vector
+-
 - $ \eta_1 $ (`eta1`) and $ \eta_2 $ (`eta2`) combine to form $ \eta $ (`eta`),
   which is a vector of the overpotential. We plot `eta` at the end.
-- $ E_{norm} $ (`Enorm`) is a vector of the dimensionless overpotential.
+
+- $ E_{norm} $ (`Enorm`) is a vector of the dimensionless overpotential in volts.
   This form is convenient for Butler-Volmer expressions.
-- $ k_f $ (`kf`) and $ k_b $ (`kb`) are the forward and reverse rate constants,
-   given by the [Butler-Volmer equation](https://en.wikipedia.org/wiki/Butler–Volmer_equation).
-   `kf` and `kb` are vectors, with values that change with `Enorm`.
+
+- $ k_f $ (`kf`) and $ k_b $ (`kb`) are the dimensionless
+  forward and reverse rate constants,
+  given by the
+  [Butler-Volmer equation](https://en.wikipedia.org/wiki/Butler–Volmer_equation).
+  `kf` and `kb` are vectors, with values that change with `Enorm`.
+
 - `O` and `R` are the initial concentrations of $ O $ and $ R $, respectively.
   The initial concentration of $ O $ is $ C $, and the initial concentration
   of $ R $ is $ 0 $.
   The `O` and `R` arrays have $ L + 1 $ columns (time steps)
   and $ j $ rows (length steps).
+
 - `Z` is a vector of the dimensionless current, which we'll plot at the end.
   We need $ L + 1 $ columns (time steps).
 
