@@ -6,7 +6,9 @@ title: "Cyclic Voltammetry App: Simulation walkthrough"
 
 ## UNDER CONSTRUCTION
 
-In this post, I'll explain the cyclic voltammetry simulation I've created in
+In this post, I'll explain the
+[cyclic voltammetry simulation](/cyclic_voltammetry_simulation/index.html).)
+I've created in
 greater detail. You can find the full MATLAB script file
 [here](/cyclic_voltammetry_simulation/code.html).
 
@@ -14,7 +16,7 @@ greater detail. You can find the full MATLAB script file
 %%%%%
 % From Bard and Faulkner, 2nd edition, Appendix B
 % Peter Attia
-% Updated August 31, 2017
+% Updated September 13, 2017
 %%%%%
 
 clear, clc, close all
@@ -103,7 +105,7 @@ $ D_M $ is defined as $ D\Delta t / \Delta x^2 $.
 A "model diffusion coefficient" is used to ensure that one implicit
 assumption is satisfied: within a single timestep, material can only diffuse
 between nearest-neighbor boxes.
-If $ \delta x $ is too small for a given $ \delta t $, the simulation becomes
+If $ \Delta x $ is too small for a given $ \Delta t $, the simulation becomes
 unphysical. For example, if $ D_M = 0.5 $, a mass-transfer operation between a
 full box and an empty box will leave both boxes half-full, which violates
 Fick's laws.
@@ -114,14 +116,13 @@ Bard and Faulkner recommend $ D_M = 0.45 $, which we retain here.
 
 ~~~~matlab
 %%% DERIVED CONSTANTS %%%
-j      = ceil(4.2*L^0.5)+5;   % [=] number of boxes (pg 792-793). If L~200, j=65
-Deta   = etai-etaf;           % [=] V, voltage range of one scan (pg 790)
-tk     = 2*Deta/v;            % [=] s, characteristic exp. time (pg 790). In this case, total time of fwd and rev scans
-Dt     = tk/L;                % [=] s, delta time (Eqn B.1.10, pg 790)
-Dx     = sqrt(D*Dt/DM);       % [=] cm, delta x (Eqn B.1.13, pg 791)
-ktk    = k1*tk;               % [=] dimensionless kinetic parameter (Eqn B.3.7, pg 797)
-km     = ktk/L;               % [=] normalized dimensionless kinetic parameter (see bottom of pg 797)
-Lambda = k0/(D*f*v)^0.5;      % [=] dimensionless reversibility parameter (Eqn 6.4.4, pg. 236-239)
+j      = ceil(4.2*L^0.5)+5;  % [=] number of boxes (pg 792-793). If L~200, j=65
+tk     = 2*(etai-etaf)/v;    % [=] s, characteristic exp. time (pg 790). In this case, total time of fwd and rev scans
+Dt     = tk/L;               % [=] s, delta time (Eqn B.1.10, pg 790)
+Dx     = sqrt(D*Dt/DM);      % [=] cm, delta x (Eqn B.1.13, pg 791)
+ktk    = k1*tk;              % [=] dimensionless kinetic parameter (Eqn B.3.7, pg 797)
+km     = ktk/L;              % [=] normalized dimensionless kinetic parameter (see bottom of pg 797)
+Lambda = k0/(D*f*v)^0.5;     % [=] dimensionless reversibility parameter (Eqn 6.4.4, pg. 236-239)
 ~~~~
 
 This section shows the derived constants. I'll walk through each of them
@@ -132,9 +133,11 @@ individually:
   we need $ j_{max} = 6(Dt)^{1/2}/\Delta x + 1 $. With some algebra, we find
   that $ j_{max} < 4.2 L^{1/2} $. I added the `+5` since it can't hurt.
 - $ \Delta \eta $ (`Deta`) is the total voltage range of a scan in
-  [one direction](https://en.wikipedia.org/wiki/One_Direction)
+
 - $ t_k $ (`tk`) is the total experiment time, or a "characteristic experimental
-  duration"
+  duration". It's found from multiplying the time of a scan in
+  [one direction](https://en.wikipedia.org/wiki/One_Direction) by two
+  (to account for both sweeps) and dividing by the voltage sweep rate
 - $ \Delta t $ (`dt`) is the size of each timestep, given the total experiment
   time and the number of timesteps we desire, $ L $
 - $ \Delta x $ (`dx`) is the width of each box. It's controlled by $ D_M $, as
@@ -194,16 +197,17 @@ Again, I'll walk through the variables:
 - $ t $ (`t`) is the simulation step time. `t` is a vector
 - $ \eta_1 $ (`eta1`) and $ \eta_2 $ (`eta2`) combine to form $ \eta $ (`eta`),
   which is a vector of the overpotential. We plot `eta` at the end.
-- $ E_{norm} $ (`Enorm`) is the dimensionless overpotential. This form is
-  convenient for Butler-Volmer expressions.
-- $ k_f $ (`k_f`) and $ k_b $ (`k_b`) are the forward and reverse rate constants,
+- $ E_{norm} $ (`Enorm`) is a vector of the dimensionless overpotential.
+  This form is convenient for Butler-Volmer expressions.
+- $ k_f $ (`kf`) and $ k_b $ (`kb`) are the forward and reverse rate constants,
    given by the [Butler-Volmer equation](https://en.wikipedia.org/wiki/Butler–Volmer_equation).
+   `kf` and `kb` are vectors, with values that change with `Enorm`.
 - `O` and `R` are the initial concentrations of $ O $ and $ R $, respectively.
   The initial concentration of $ O $ is $ C $, and the initial concentration
   of $ R $ is $ 0 $.
   The `O` and `R` arrays have $ L + 1 $ columns (time steps)
   and $ j $ rows (length steps).
-- `Z` is the dimensionless current, which we'll plot at the end.
+- `Z` is a vector of the dimensionless current, which we'll plot at the end.
   We need $ L + 1 $ columns (time steps).
 
 ### Run main simulation
@@ -258,7 +262,7 @@ end
 - `O(i1,2)` instead of `O(i1,1)`?
 - `Z(i1)` twice?
 
-The Bard and Faulkner current convention truly is weird. 
+The Bard and Faulkner current convention truly is weird.
 
 ### Plot results
 

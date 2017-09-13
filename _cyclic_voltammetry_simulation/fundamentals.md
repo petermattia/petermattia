@@ -6,7 +6,9 @@ title: "Cyclic Voltammetry App: Fundamental electrochemistry"
 
 ### Fundamental electrochemistry
 
-This simulation couples a one-electron electrochemical reduction with a subsequent
+This
+[cyclic voltammetry simulation](/cyclic_voltammetry_simulation/index.html).) 
+couples a one-electron electrochemical reduction with a subsequent
 chemical reaction of the reduced species, as below:
 
 $$ O + e^- \overset{k_f}{\underset{k_r}{\leftrightarrows}} R \overset{k_c}{\rightarrow} Z $$

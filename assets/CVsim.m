@@ -26,14 +26,13 @@ L      = 500;    % [=] number of iterations per t_k (pg 790). Default = 500
 DM     = 0.45;   % [=] model diffusion coefficient (pg 788). Default = 0.45
 
 %%% DERIVED CONSTANTS %%%
-j      = ceil(4.2*L^0.5)+5;   % [=] number of boxes (pg 792-793). If L~200, j=65
-Deta   = etai-etaf;           % [=] s, time of one scan (pg 790)
-tk     = 2*Deta/v;            % [=] s, characteristic exp. time (pg 790). In this case, total time of fwd and rev scans
-Dt     = tk/L;                % [=] s, delta time (Eqn B.1.10, pg 790)
-Dx     = sqrt(D*Dt/DM);       % [=] cm, delta x (Eqn B.1.13, pg 791)
-ktk    = k1*tk;               % [=] dimensionless kinetic parameter (Eqn B.3.7, pg 797)
-km     = ktk/L;               % [=] normalized dimensionless kinetic parameter (see bottom of pg 797)
-Lambda = k0/(D*f*v)^0.5;      % [=] dimensionless reversibility parameter (Eqn 6.4.4, pg. 236-239)
+j      = ceil(4.2*L^0.5)+5;  % [=] number of boxes (pg 792-793). If L~200, j=65
+tk     = 2*(etai-etaf)/v;    % [=] s, characteristic exp. time (pg 790). In this case, total time of fwd and rev scans
+Dt     = tk/L;               % [=] s, delta time (Eqn B.1.10, pg 790)
+Dx     = sqrt(D*Dt/DM);      % [=] cm, delta x (Eqn B.1.13, pg 791)
+ktk    = k1*tk;              % [=] dimensionless kinetic parameter (Eqn B.3.7, pg 797)
+km     = ktk/L;              % [=] normalized dimensionless kinetic parameter (see bottom of pg 797)
+Lambda = k0/(D*f*v)^0.5;     % [=] dimensionless reversibility parameter (Eqn 6.4.4, pg. 236-239)
 
 if km>0.1
     warning(['k_c*t_k/l equals ' num2str(km) ...
