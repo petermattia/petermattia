@@ -92,6 +92,8 @@ Two notes on $ L $:
   change $ L $ when comparing two simulations - unless, of course, you're
   interested in understanding the effect of $ L $ 😉.
 
+#### TODO
+
 $ D_M $ is the *model diffusion coefficient*.
 $ D_M $ is defined as $ D\Delta t / \Delta x^2 $.
 
@@ -106,6 +108,8 @@ ktk    = k1*tk;               % [=] dimensionless kinetic parameter (Eqn B.3.7, 
 km     = ktk/L;               % [=] normalized dimensionless kinetic parameter (see bottom of pg 797)
 Lambda = k0/(D*f*v)^0.5;      % [=] dimensionless reversibility parameter (Eqn 6.4.4, pg. 236-239)
 ~~~~
+
+#### TODO
 
 This section shows the derived constants. I'll walk through each of them
 individually:
@@ -123,6 +127,8 @@ if km>0.1
         ', which exceeds the upper limit of 0.1 (see B&F, pg 797)'])
 end
 ~~~~
+
+#### TODO
 
 In my experience, this simulation only breaks under one well-documented condition,
 which is addressed by Bard and Faulkner.
@@ -145,6 +151,8 @@ R = zeros(L+1,j);  % Initial concentrations of R
 Z = zeros(L+1,1);  % Dimensionless current
 ~~~~
 
+#### TODO
+
 Again, I'll walk through the variables:
 - $ k $ (`k`) is
 - $ t $ (`t`) is
@@ -166,6 +174,9 @@ We'll now calculate our first current:
 % First dimensionless current (pg 792)
 Z(1) = ( kf(1)*O(1,2) - kb(1)*R(1,2) ) ./ (1 + kf(1) + kb(1));
 ~~~~
+
+#### TODO
+
 Since there is no flux at $ t = 0 $, we
 
 And finally, the bulk of the simulation:
@@ -195,7 +206,7 @@ for i1 = 2:length(k)
 end
 ~~~~
 
-TODO:
+#### TODO:
 - `O(i1,2)` instead of `O(i1,1)`?
 - `Z(i1)` twice?
 
