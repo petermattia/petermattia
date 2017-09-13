@@ -14,7 +14,7 @@ You can download this MATLAB script directly
 %%%%%
 % From Bard and Faulkner, 2nd edition, Appendix B
 % Peter Attia
-% Updated August 31, 2017
+% Updated September 12, 2017
 %%%%%
 
 clear, clc, close all
@@ -41,9 +41,9 @@ L      = 500;    % [=] number of iterations per t_k (pg 790). Default = 500
 DM     = 0.45;   % [=] model diffusion coefficient (pg 788). Default = 0.45
 
 %%% DERIVED CONSTANTS %%%
-j      = ceil(4.2*L^0.5)+5;   % [=] number of boxes. If L~200, j=65
-Deta   = (etai-etaf)/v;       % [=] s, time of one scan (pg 790)
-tk     = 2*Deta;              % [=] s, characteristic exp. time (pg 790). In this case, total time of fwd and rev scans
+j      = ceil(4.2*L^0.5)+5;   % [=] number of boxes (pg 792-793). If L~200, j=65
+Deta   = etai-etaf;           % [=] s, time of one scan (pg 790)
+tk     = 2*Deta/v;            % [=] s, characteristic exp. time (pg 790). In this case, total time of fwd and rev scans
 Dt     = tk/L;                % [=] s, delta time (Eqn B.1.10, pg 790)
 Dx     = sqrt(D*Dt/DM);       % [=] cm, delta x (Eqn B.1.13, pg 791)
 ktk    = k1*tk;               % [=] dimensionless kinetic parameter (Eqn B.3.7, pg 797)
@@ -58,13 +58,12 @@ end
 %%% START SIMULATION %%%
 k = 0:L;
 t = Dt * k;
-X = (k+1)/sqrt(L*DM);
 eta1 = etai - v*t; % negative scan
 eta2 = etaf + v*t; % positive scan
 eta = [eta1(eta1>etaf) eta2(eta2<=etai)]'; % eta includes both fwd and rev
 Enorm = eta*f;
-kf = ( k0*tk*exp(  -alpha *Enorm) )./( sqrt(DM*L)*Dx );
-kb = ( k0*tk*exp((1-alpha)*Enorm) )./( sqrt(DM*L)*Dx );
+kf = ( k0*tk*exp(  -alpha *n*Enorm) )./( sqrt(DM*L)*Dx );
+kb = ( k0*tk*exp((1-alpha)*n*Enorm) )./( sqrt(DM*L)*Dx );
 
 O = C*ones(L+1,j); % Initial concentrations of O
 R = zeros(L+1,j);  % Initial concentrations of R

@@ -26,6 +26,8 @@ This walkthrough is designed to serve as a "practical" guide to performing these
 simulations, as well as to make Bard and Faulkner's
 occasionally dense writing style more accessible.
 
+### Set independent variables
+
 ~~~~matlab
 %%% INDEPENDENT VARIABLES %%%
 C      = 1.0;   % [=] mol/cm^3, initial concentration of O. Default = 1.0
@@ -47,6 +49,8 @@ with units of $ \text{1/s} $.
 You can read more about these terms on the
 [fundamentals](/cyclic_voltammetry_simulation/fundamentals.html) page.
 
+### Set physical constants
+
 ~~~~matlab
 %%% CONSTANTS %%%
 F      = 96485;   % [=] C/mol, Faraday's constant
@@ -62,6 +66,8 @@ is often normalized by $ RT $.
 In my work, I don't consider temperatures other than room temperature.
 If your work involves variable temperature, you can move $ T $ from "constants"
 to "independent variables".
+
+### Set simulation variables
 
 ~~~~matlab
 %%% SIMULATION VARIABLES %%%
@@ -92,16 +98,25 @@ Two notes on $ L $:
   change $ L $ when comparing two simulations - unless, of course, you're
   interested in understanding the effect of $ L $ 😉.
 
-#### TODO
-
 $ D_M $ is the *model diffusion coefficient*.
 $ D_M $ is defined as $ D\Delta t / \Delta x^2 $.
+A "model diffusion coefficient" is used to ensure that one implicit
+assumption is satisfied: within a single timestep, material can only diffuse
+between nearest-neighbor boxes.
+If $ \delta x $ is too small for a given $ \delta t $, the simulation becomes
+unphysical. For example, if $ D_M = 0.5 $, a mass-transfer operation between a
+full box and an empty box will leave both boxes half-full, which violates
+Fick's laws.
+Thus, we must satisfy the condition that $ D_M < 0.5 $.
+Bard and Faulkner recommend $ D_M = 0.45 $, which we retain here.
+
+### Calculate derived constants
 
 ~~~~matlab
 %%% DERIVED CONSTANTS %%%
-j      = ceil(4.2*L^0.5)+5;   % [=] number of boxes. If L~200, j=65
-Deta   = (etai-etaf)/v;       % [=] s, time of one scan (pg 790)
-tk     = 2*Deta;              % [=] s, characteristic exp. time (pg 790). In this case, total time of fwd and rev scans
+j      = ceil(4.2*L^0.5)+5;   % [=] number of boxes (pg 792-793). If L~200, j=65
+Deta   = etai-etaf;           % [=] V, voltage range of one scan (pg 790)
+tk     = 2*Deta/v;            % [=] s, characteristic exp. time (pg 790). In this case, total time of fwd and rev scans
 Dt     = tk/L;                % [=] s, delta time (Eqn B.1.10, pg 790)
 Dx     = sqrt(D*Dt/DM);       % [=] cm, delta x (Eqn B.1.13, pg 791)
 ktk    = k1*tk;               % [=] dimensionless kinetic parameter (Eqn B.3.7, pg 797)
@@ -109,17 +124,34 @@ km     = ktk/L;               % [=] normalized dimensionless kinetic parameter (
 Lambda = k0/(D*f*v)^0.5;      % [=] dimensionless reversibility parameter (Eqn 6.4.4, pg. 236-239)
 ~~~~
 
-#### TODO
-
 This section shows the derived constants. I'll walk through each of them
 individually:
-- $ j $ (`j`) is
-- $ \Delta \eta $ (`Deta`) is
-- $ t_k $ (`tk`) is
-- $ \Delta t $ (`dt`) is
-- $ \Delta x $ (`dx`) is
-- $ k_1 t_k $ (`ktk`) is
-- $ \Lambda $ (`Lambda`) is
+- $ j $ (`j`) is the number of 'finite elements', or 'boxes'. We can calculate
+  the number of boxes required by estimating the diffusion layer length, in
+  units of boxes. 3D diffusion proceeds as $ 6(Dt)^{0.5} $. In units of 'boxes',
+  we need $ j_{max} = 6(Dt)^{1/2}/\Delta x + 1 $. With some algebra, we find
+  that $ j_{max} < 4.2 L^{1/2} $. I added the `+5` since it can't hurt.
+- $ \Delta \eta $ (`Deta`) is the total voltage range of a scan in
+  [one direction](https://en.wikipedia.org/wiki/One_Direction)
+- $ t_k $ (`tk`) is the total experiment time, or a "characteristic experimental
+  duration"
+- $ \Delta t $ (`dt`) is the size of each timestep, given the total experiment
+  time and the number of timesteps we desire, $ L $
+- $ \Delta x $ (`dx`) is the width of each box. It's controlled by $ D_M $, as
+  discussed above.
+- $ k_1 t_k $ (`ktk`) is the dimensionless kinetic parameter. Specifically, it
+  is the dimensionless *chemical* kinetic parameter, capturing the effect of
+  the $R \overset{k_c}{\rightarrow} Z $ reaction.
+  $ k_1 t_k $ controls the extent of chemical reversibility.
+  I will discuss what this means in a seperate post.
+- $ k_m $ (`km`) is the normalized dimensionless kinetic parameter. This value
+  is convenient in future calculations.
+- $ \Lambda $ (`Lambda`) is the dimensionless electrochemical reversibility
+  parameter. It's an indicator of the balance between charge-transfer and
+  mass-transfer rates. I'll do a follow-up post on chemical and electrochemical
+  reversibility soon.
+
+### Warn user about issues
 
 ~~~~matlab
 if km>0.1
@@ -128,45 +160,53 @@ if km>0.1
 end
 ~~~~
 
-#### TODO
-
 In my experience, this simulation only breaks under one well-documented condition,
-which is addressed by Bard and Faulkner.
+which is addressed by Bard and Faulkner (pg 797).
+One limitation of the choice of a finite-element model is a breakdown of the
+approximation at extreme conditions.
+In this case, if $ k_1 $ is too large, the chemical reaction term dominates
+over the electrochemical reaction and diffusion terms.
+According to the text, the limit is $ k_1 t_k/L > 0.1 $.
+My code warns you about this, but allows you to proceed.
+If you see infinite currents, it's probably from this error.
+
+### Pre-initialize variables
 
 Almost there. The next section is mostly pre-initialization:
 ~~~~matlab
 %%% PRE-INITIALIZATION %%%
 k = 0:L;
 t = Dt * k;
-X = (k+1)/sqrt(L*DM);
 eta1 = etai - v*t; % negative scan
 eta2 = etaf + v*t; % positive scan
 eta = [eta1(eta1>etaf) eta2(eta2<=etai)]'; % eta includes both fwd and rev
 Enorm = eta*f;
-kf = ( k0*tk*exp(  -alpha *Enorm) )./( sqrt(DM*L)*Dx );
-kb = ( k0*tk*exp((1-alpha)*Enorm) )./( sqrt(DM*L)*Dx );
+kf = ( k0*tk*exp(  -alpha *n*Enorm) )./( sqrt(DM*L)*Dx );
+kb = ( k0*tk*exp((1-alpha)*n*Enorm) )./( sqrt(DM*L)*Dx );
 
 O = C*ones(L+1,j); % Initial concentrations of O
 R = zeros(L+1,j);  % Initial concentrations of R
 Z = zeros(L+1,1);  % Dimensionless current
 ~~~~
 
-#### TODO
-
 Again, I'll walk through the variables:
-- $ k $ (`k`) is
-- $ t $ (`t`) is
-- $ X $ (`X`) is
-- $ \eta 1 $ (`eta1`) and $ \eta 2 $ (`eta2`) combine to form $ \eta $ (`eta`),
-  which
-- $ E_{norm} $ (`Enorm`) is
-- $ k_f $ (`k_f`) and $ k_b $ (`k_b`) are
+- $ k $ (`k`) is the time index. `k` is a vector
+- $ t $ (`t`) is the simulation step time. `t` is a vector
+- $ \eta_1 $ (`eta1`) and $ \eta_2 $ (`eta2`) combine to form $ \eta $ (`eta`),
+  which is a vector of the overpotential. We plot `eta` at the end.
+- $ E_{norm} $ (`Enorm`) is the dimensionless overpotential. This form is
+  convenient for Butler-Volmer expressions.
+- $ k_f $ (`k_f`) and $ k_b $ (`k_b`) are the forward and reverse rate constants,
+   given by the [Butler-Volmer equation](https://en.wikipedia.org/wiki/Butler–Volmer_equation).
 - `O` and `R` are the initial concentrations of $ O $ and $ R $, respectively.
   The initial concentration of $ O $ is $ C $, and the initial concentration
   of $ R $ is $ 0 $.
-  The size of `O` and `R` is
+  The `O` and `R` arrays have $ L + 1 $ columns (time steps)
+  and $ j $ rows (length steps).
 - `Z` is the dimensionless current, which we'll plot at the end.
-  We need
+  We need $ L + 1 $ columns (time steps).
+
+### Run main simulation
 
 We'll now calculate our first current:
 
@@ -209,6 +249,8 @@ end
 #### TODO:
 - `O(i1,2)` instead of `O(i1,1)`?
 - `Z(i1)` twice?
+
+### Plot results
 
 We're done! Plot `eta` vs `Z` to see the final result.
 
