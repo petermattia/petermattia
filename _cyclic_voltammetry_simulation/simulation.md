@@ -208,18 +208,26 @@ Again, I'll walk through the variables:
 
 ### Run main simulation
 
-We'll now calculate our first current:
+We'll now calculate the current at $ k = t = 0 $:
 
 ~~~~matlab
 % First dimensionless current (pg 792)
 Z(1) = ( kf(1)*O(1,2) - kb(1)*R(1,2) ) ./ (1 + kf(1) + kb(1));
 ~~~~
 
-#### TODO
+We can calculate this current directly since the concentrations at
+$ k = t = 0 $ are defined.
 
-Since there is no flux at $ t = 0 $, we
+### TODO
 
-And finally, the bulk of the simulation:
+The equation we use for dimensionless current is:
+
+$$ Z(k) = \frac{k_f(k)O(k,2) - k_r(k)R(k,2)}{1 + k_f(k) + k_r(k)} $$
+
+That's a lot of $ k $'s! What this equation is saying is ___.
+
+And finally, the bulk of the simulation. We cycle through all possible times;
+within each timestep, we cycle through all lengths.
 
 ~~~~matlab
 %%% START SIMULATION %%%
