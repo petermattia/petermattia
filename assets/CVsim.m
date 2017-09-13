@@ -22,7 +22,7 @@ T      = 298.15;  % [=] K, temperature. Default = 298.15
 f      = F/(R*T); % [=] 1/V, normalized Faraday's constant at room temperature
 
 %%% SIMULATION VARIABLES %%%
-L      = 500;    % [=] number of iterations per t_k (pg 790). Default = 200
+L      = 500;    % [=] number of iterations per t_k (pg 790). Default = 500
 DM     = 0.45;   % [=] model diffusion coefficient (pg 788). Default = 0.45
 
 %%% DERIVED CONSTANTS %%%
