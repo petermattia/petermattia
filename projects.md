@@ -5,7 +5,7 @@ permalink: /projects/
 order: 3
 ---
 
-### Cyclic Voltammetry app
+### Cyclic Voltammetry app and tutorial
 
 I developed a simple MATLAB app for cyclic voltammetry simulations. It's based
 on Bard and Faulkner, 2<sup>nd</sup> edition, Appendix B.
@@ -14,9 +14,7 @@ chemical reaction term for the reduced product.
 My understanding of cyclic voltammetry deepened tremendously by systematically
 exploring different simulation parameters using this app.
 
-I wrote a blog post detailing the methods
-[here]({{ site.url }}{% post_url 2017-08-19-cyclic-voltammetry-app %}), and
-I'm working on a more comprehensive tutorial
+I'm working on a comprehensive tutorial of the simulation
 [here](\cyclic_voltammetry_simulation\index.html).
 
 You can find this project online on the [MATLAB File Exchange](https://www.mathworks.com/matlabcentral/fileexchange/64011-cyclic-voltammetry-simulator)

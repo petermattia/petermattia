@@ -10,7 +10,7 @@ Last updated August 8, 2017
 
 # Stanford
 
-Coming soon (hopefully... ;) )
+Coming soon (hopefully... 😉 )
 
 # Delaware
 

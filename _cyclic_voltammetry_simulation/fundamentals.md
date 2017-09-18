@@ -7,7 +7,7 @@ title: "Cyclic Voltammetry App: Fundamental electrochemistry"
 ### Fundamental electrochemistry
 
 This
-[cyclic voltammetry simulation](/cyclic_voltammetry_simulation/index.html).) 
+[cyclic voltammetry simulation](/cyclic_voltammetry_simulation/index.html).)
 couples a one-electron electrochemical reduction with a subsequent
 chemical reaction of the reduced species, as below:
 
@@ -19,7 +19,8 @@ O and R, such as in the case of
  [ferro-/ferricyanide](https://en.wikipedia.org/wiki/Ferrocyanide).
 
 In this simulation, we model three mechanistic processes: the electrochemical
-reaction (charge transfer), the chemical reaction, and diffusion.
+reaction (charge transfer), the chemical reaction, and diffusion. This type of
+coupled electrochemical-chemical process is often called an $ EC $ reaction.
 
 #### Electrochemical reaction (charge transfer)
 
@@ -77,7 +78,9 @@ $$ J_i(x,t) = -D_i\frac{\partial C_i(x,t)}{\partial x} $$
 Here, $ J_i(x,t) $ is the flux ($ {mol}/{cm^2s} $) of species $ i $, and
 $ D_i $ ($ {cm^2}/{s} $) is the diffusion coefficient of species $ i $.
 A common assumption in aqueous electrochemistry is that the diffusion coefficients
-of $ O $ and $ R $ are equal, or $ D_O = D_R $.
+of $ O $ and $ R $ are equal, or $ D_O = D_R $. This assumption is reasonable
+if $ O $ and $ R $ are molecularly similar, like the
+[ferro/ferricyanide](https://en.wikipedia.org/wiki/Ferrocyanide) system.
 
 Fick's second law is:
 

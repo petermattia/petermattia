@@ -7,7 +7,7 @@ title: "Cyclic Voltammetry App: Simulation walkthrough"
 ## UNDER CONSTRUCTION
 
 In this post, I'll explain the
-[cyclic voltammetry simulation](/cyclic_voltammetry_simulation/index.html).)
+[cyclic voltammetry simulation](/cyclic_voltammetry_simulation/index.html)
 I've created in
 greater detail. You can find the full MATLAB script file
 [here](/cyclic_voltammetry_simulation/code.html).
@@ -81,8 +81,8 @@ $ L $ and $ D_M $ are two intrinsic simulation variables.
 
 $ L $ is the *number of timesteps* in our simulation.
 Our experiment will take some amount of real time ($ t_k $, as discussed below).
-For a trivial example, if our experiment sweeps from $ +1 \text{V} $ to
-$ -1 \text{V} $ at a rate of $ 1 \text{ V/s} $, we are simulating a total
+For a trivial example, if we sweep from $ +1 \text{V} $ to
+$ -1 \text{V} $ and back at a rate of $ 1 \text{ V/s} $, we are simulating a total
 time of $ 4\text{ s} $. If $ L = 500 $, each timestep will be
 $ 4000 \text{ ms / } 500 = 8 \text{ ms} $.
 
@@ -94,7 +94,8 @@ Two notes on $ L $:
   of Bard and Faulkner) is different than "computationally expensive" in 2017.
   My 2014 MacBook Air ran this simulation with $ L = 10000 $ in 0.4s.
   This simulation is an analytical form of a set of differential equations,
-  so it's already computationally inexpensive.
+  so it's already computationally inexpensive relative to its
+  original differential form.
   In my experience, $ L = 500 $ produces smooth curves.
 
 - Changing $ L $ will change the magnitude of dimensionless current, so don't
@@ -113,53 +114,71 @@ Fick's laws.
 Thus, we must satisfy the condition that $ D_M < 0.5 $.
 Bard and Faulkner recommend $ D_M = 0.45 $, which we retain here.
 
-### Calculate derived constants
+Since we've already defined $ D $ and $ \Delta t $ is controlled by $ L $, $ D_M $
+specifies $ \Delta x $. The implication of this definition is that while $ x $
+and $ t $ are physically independent, $ \Delta x $ and $ \Delta t $ are
+*dependent* in this analytical simulation.
+In other words, the spatial resolution is a function of the temporal resolution.
+
+### Calculate temporal and spatial step size
 
 ~~~~matlab
 %%% DERIVED CONSTANTS %%%
-j      = ceil(4.2*L^0.5)+5;  % [=] number of boxes (pg 792-793). If L~200, j=65
-tk     = 2*(etai-etaf)/v;    % [=] s, characteristic exp. time (pg 790). In this case, total time of fwd and rev scans
-Dt     = tk/L;               % [=] s, delta time (Eqn B.1.10, pg 790)
-Dx     = sqrt(D*Dt/DM);      % [=] cm, delta x (Eqn B.1.13, pg 791)
-ktk    = k1*tk;              % [=] dimensionless kinetic parameter (Eqn B.3.7, pg 797)
-km     = ktk/L;              % [=] normalized dimensionless kinetic parameter (see bottom of pg 797)
-Lambda = k0/(D*f*v)^0.5;     % [=] dimensionless reversibility parameter (Eqn 6.4.4, pg. 236-239)
+tk  = 2*(etai-etaf)/v;    % [=] s, characteristic exp. time (pg 790). In this case, total time of fwd and rev scans
+Dt  = tk/L;               % [=] s, delta time (Eqn B.1.10, pg 790)
+Dx  = sqrt(D*Dt/DM);      % [=] cm, delta x (Eqn B.1.13, pg 791)
+j   = ceil(4.2*L^0.5)+5;  % number of boxes (pg 792-793). If L~200, j=65
 ~~~~
 
 This section shows the derived constants. I'll walk through each of them
 individually:
-- $ j $ (`j`) is the number of 'finite elements', or 'boxes'. We can calculate
-  the number of boxes required by estimating the diffusion layer length, in
-  units of boxes. 3D diffusion proceeds as $ 6(Dt)^{0.5} $. In units of 'boxes',
-  we need $ j_{max} = 6(Dt)^{1/2}/\Delta x + 1 $. With some algebra, we find
-  that $ j_{max} < 4.2 L^{1/2} $. I added the `+5` since it can't hurt.
-
 - $ t_k $ (`tk`) is the total experiment time, or a "characteristic experimental
-  duration". It's found from multiplying the time of a scan in
-  [one direction](https://en.wikipedia.org/wiki/One_Direction) by two
-  (to account for both sweeps) and dividing by the voltage sweep rate
+  duration". $ t_k % is calculated from multiplying the total voltage swept by
+  a scan in [one direction](https://en.wikipedia.org/wiki/One_Direction) by two
+  (to account for both sweeps) and dividing by the voltage sweep rate.
 
 - $ \Delta t $ (`dt`) is the size of each timestep, given the total experiment
-  time and the number of timesteps we desire, $ L $
+  time and the number of timesteps we desire, $ L $.
 
 - $ \Delta x $ (`dx`) is the width of each box. It's controlled by $ D_M $, as
   discussed above.
+
+- $ j $ (`j`) is the number of 'finite elements', or 'boxes', in the length dimension.
+  The size of each box, $ \Delta x $, is already set, but we
+  can calculate the number of boxes required by estimating the
+  diffusion layer length in units of boxes.
+  3D diffusion proceeds as $ 6(Dt)^{0.5} $. In units of 'boxes',
+  we need $ j_{max} = 6(Dt)^{1/2}/\Delta x + 1 $. With some algebra, we find
+  that $ j_{max} < 4.2 L^{1/2} $. I added the `+5` since it can't hurt.
+
+### Calculate reversibility parameters
+
+~~~~matlab
+%%% REVERSIBILITY PARAMETERS %%%
+ktk    = k1*tk;              % dimensionless kinetic parameter (Eqn B.3.7, pg 797)
+km     = ktk/L;              % normalized dimensionless kinetic parameter (see bottom of pg 797)
+Lambda = k0/(D*f*v)^0.5;     % dimensionless reversibility parameter (Eqn 6.4.4, pg. 236-239)
+~~~~
+
+These parameters control the extent of chemical and electrochemical reversibility.
+We can estimate the shape of the I-V curve just by knowing the values
+of these parameters.
+I'll do a follow-up post on chemical and electrochemical
+reversibility soon.
 
 - $ k_1 t_k $ (`ktk`) is the dimensionless kinetic parameter. Specifically, it
   is the dimensionless *chemical* kinetic parameter, capturing the effect of
   the $R \overset{k_c}{\rightarrow} Z $ reaction.
   $ k_1 t_k $ controls the extent of chemical reversibility.
-  I will discuss what this means in a seperate post.
 
-- $ k_m $ (`km`) is the normalized dimensionless kinetic parameter. This value
-  is convenient in future calculations.
+- $ k_m $ (`km`) is the normalized dimensionless chemical kinetic parameter.
+  This value is convenient in future calculations.
 
 - $ \Lambda $ (`Lambda`) is the dimensionless electrochemical reversibility
   parameter. It's an indicator of the balance between charge-transfer and
-  mass-transfer rates. I'll do a follow-up post on chemical and electrochemical
-  reversibility soon.
+  mass-transfer rates.
 
-### Warn user about issues
+### Send warnings to user
 
 ~~~~matlab
 if km>0.1
@@ -168,29 +187,30 @@ if km>0.1
 end
 ~~~~
 
-In my experience, this simulation only breaks under one well-documented condition,
-which is addressed by Bard and Faulkner (pg 797).
+In my experience, this simulation only breaks under one condition,
+documented by Bard and Faulkner (pg 797).
 One limitation of the choice of a finite-element model is a breakdown of the
 approximation at extreme conditions.
-In this case, if $ k_1 $ is too large, the chemical reaction term dominates
-over the electrochemical reaction and diffusion terms.
+In this case, if $ k_1 $ is too large, the chemical reaction term consumes
+$ R $ more quickly than physically meaningful.
 According to the text, the limit is $ k_1 t_k/L > 0.1 $.
 My code warns you about this, but allows you to proceed.
-If you see infinite currents, it's probably from this error.
+If you see infinite current spikes in the simulation,
+it's probably from this error.
 
 ### Pre-initialize variables
 
 Almost there. The next section is mostly pre-initialization:
 ~~~~matlab
 %%% PRE-INITIALIZATION %%%
-k = 0:L;
-t = Dt * k;
-eta1 = etai - v*t; % negative scan
-eta2 = etaf + v*t; % positive scan
-eta = [eta1(eta1>etaf) eta2(eta2<=etai)]'; % eta includes both fwd and rev
-Enorm = eta*f;
-kf = ( k0*tk*exp(  -alpha *n*Enorm) )./( sqrt(DM*L)*Dx );
-kb = ( k0*tk*exp((1-alpha)*n*Enorm) )./( sqrt(DM*L)*Dx );
+k = 0:L;                % time index vector
+t = Dt * k;             % time vector
+eta1 = etai - v*t;      % overpotential vector, negative scan
+eta2 = etaf + v*t;      % overpotential vector, positive scan
+eta = [eta1(eta1>etaf) eta2(eta2<=etai)]'; % overpotential scan, both directions
+Enorm = eta*f;          % normalized overpotential
+kf = ( k0*tk*exp(  -alpha *n*Enorm) )./( sqrt(DM*L)*Dx ); % fwd rate constant
+kb = ( k0*tk*exp((1-alpha)*n*Enorm) )./( sqrt(DM*L)*Dx ); % rev rate constant
 
 O = C*ones(L+1,j); % Initial concentrations of O
 R = zeros(L+1,j);  % Initial concentrations of R
@@ -201,7 +221,7 @@ Again, I'll walk through the variables:
 - $ k $ (`k`) is the time index. `k` is a vector. Since `k = 0:L` (inclusive),
   we require $ L + 1 $ boxes, instead of $ L $ boxes.
 
-- $ t $ (`t`) is the simulation step time, in seconds. `t` is a vector
+- $ t $ (`t`) is the simulation step time, in seconds. `t` is a vector.
 
 - $ \eta_1 $ (`eta1`) and $ \eta_2 $ (`eta2`) combine to form $ \eta $ (`eta`),
   which is a vector of the overpotential. We plot `eta` at the end.
@@ -220,6 +240,7 @@ Again, I'll walk through the variables:
   of $ R $ is $ 0 $.
   The `O` and `R` arrays have $ L + 1 $ columns (time steps)
   and $ j $ rows (length steps).
+  $ O $ and $ R $ are indexed as $ O(k,j) $ and $ R(k,j) $ (time, length).
 
 - `Z` is a vector of the dimensionless current, which we'll plot at the end.
   We need $ L + 1 $ columns (time steps).

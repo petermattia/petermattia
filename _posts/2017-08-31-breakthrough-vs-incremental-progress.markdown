@@ -20,6 +20,10 @@ a bad idea, according to Microeconomics 101.
 The battery field seems especially prone to [gimmicky "breakthroughs"](http://www.pocket-lint.com/news/130380-future-batteries-coming-soon-charge-in-seconds-last-months-and-power-over-the-air) that can't approach lithium-ion technology on energy density or
  cycle life, let alone cost.
 
+(There are certainly exceptions - I'm biased, but I'm excited by my labmates'
+work on an (unpublished) liquid-metal battery that is technically and economically
+solid.)
+
 This point has been discussed many times before, so I'll just point to other sources
 here. [This Scientific American article](https://blogs.scientificamerican.com/the-curious-wavefunction/moores-law-and-battery-technology-no-dice/)
 talks about the fallacy of applying [Moore's law](https://en.wikipedia.org/wiki/Moore%27s_law#Alternative_materials_research)

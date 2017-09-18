@@ -6,7 +6,8 @@ title: "Cyclic Voltammetry App: Tutorial"
 
 This tutorial will explain the simulation that powers my simple
 cyclic voltammetry MATLAB app.
-I built this app to help me better understand simple electrochemistry, and I
+I built this app to help me better understand the fundamentals of
+electrochemistry, and I
 hope it helps you too!
 
 Check out a screenshot below:
@@ -27,12 +28,11 @@ My primary source for these simulations is Appendix B of
 Equations and discussion will be cross-referenced to Bard and Faulkner,
 with links to Wikipedia.
 
-Future goals include an additional tutorial sharing my findings, and porting
-this MATLAB app to the web.
+Future goals include an additional tutorial sharing what I've learned
+from these simulations
+and porting this MATLAB app to the web.
 
 Enjoy!
-
-#### **Note: This is a work in progress!**
 
 ### [Fundamental electrochemistry](/cyclic_voltammetry_simulation/fundamentals.html)
 

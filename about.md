@@ -4,21 +4,31 @@ title: About
 permalink: /about/
 order: 1
 ---
-### UNDER CONSTRUCTION
 
-I am a fourth-year PhD student in Materials Science and Engineering at Stanford
-University.
+I am a fourth-year PhD student in Materials Science and Engineering
+at Stanford University.
 [My research](/research) focuses on making lithium-ion batteries last longer
 and charge faster.
+Prior to Stanford,
+I graduated from the University of Delaware
+with a degree in chemical engineering.
 
+One of the many things I've learned in grad school so far is that I like science,
+but I love engineering - specifically, **building systems that save humans time**.
+I'm especially interested in [automating science],
+from simple data analysis scripts to complete closed-loop testing.
+While my expertise is in the physical sciences,
+I'm developing skills in data science and software engineering
+to create platforms for autonomous scientific research.
 
-I graduated from the University of Delaware with a degree in Chemical
-Engineering in 2014. I loved my time at UD as a Fightin' Blue Hen -
-I particularly enjoyed driving a Zamboni....
+This website serves as a collection of software projects,
+data science explorations, electrochemistry tutorials,
+and musings about batteries. I create stuff mostly for myself -
+putting it online keeps me honest.
+Since you're here, I hope my content informs or amuses you.
+Feel free to reach out!
 
-One of my life goals is to [visit all 50 states](/50states).
-
-[Lastly, I'm getting married!](https://withjoy.com/toripluspete)
+If you *really* want to know more about me, [click here](/personal).
 
 ### Which Peter Attia are you?
 
