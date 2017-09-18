@@ -4,13 +4,13 @@ title: Publications
 permalink: /publications/
 order: -1
 ---
-Last updated August 8, 2017
+Last updated September 17, 2017
 
 [Google Scholar](https://scholar.google.com/citations?user=GyD43R4AAAAJ&hl=en&oi=ao)
 
 # Stanford
 
-Coming soon (hopefully... 😉 )
+Coming soon!
 
 # Delaware
 

@@ -15,9 +15,9 @@ with a degree in chemical engineering.
 
 One of the many things I've learned in grad school so far is that I like science,
 but I love engineering - specifically, **building systems that save humans time**.
-I'm especially interested in [automating science],
-from simple data analysis scripts to complete closed-loop testing.
-While my expertise is in the physical sciences,
+I'm especially interested in
+[accelerating scientific progress through automation](/articles/2017/09/18/automating-science.html).
+While my background is in the physical sciences,
 I'm developing skills in data science and software engineering
 to create platforms for autonomous scientific research.
 

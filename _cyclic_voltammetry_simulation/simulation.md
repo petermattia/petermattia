@@ -284,7 +284,7 @@ for i1 = 2:length(k)
 
         R(i1,i2) = R(i1-1,i2) + DM*(R(i1-1,i2+1)+R(i1-1,i2-1)-2*R(i1-1,i2)) ...
             - km * R(i1-1,i2);
-    end
+    end 
 
     % Update current.
     % We flip the sign of current because the Bard and Faulkner current
