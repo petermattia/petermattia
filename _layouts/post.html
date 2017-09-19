@@ -8,13 +8,13 @@ layout: default
     <p class="post-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
         {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        {{ page.date | date: date_format }} | 
+        {{ page.date | date: date_format }} |
       </time>
 
         <span>
           {% for tag in page.tags %}
             {% capture tag_name %}{{ tag }}{% endcapture %}
-            <a href="/tag/{{ tag_name }}"><code class="highlighter-rouge"><nobr>{{ tag_name }}</nobr></code></a>
+            <a href="/tag/{{ tag_name }}.html"><code class="highlighter-rouge"><nobr>{{ tag_name }}</nobr></code></a>
           {% endfor %}
         <p></p></span>
 
