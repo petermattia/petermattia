@@ -99,7 +99,7 @@ Last updated September 17, 2017
 ## Skills and Certifications
 
 
-**Scientific programming:** Python, MATLAB
+**Scientific computing:** Python, MATLAB
 
 **Materials characterization:** SEM, TEM, XRD, XPS, Auger, Raman
 

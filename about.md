@@ -19,7 +19,7 @@ I graduated from the [University of Delaware](https://www.udel.edu)
 with a degree in [chemical engineering](https://www.cbe.udel.edu).
 
 One of the many things I've learned in grad school so far is that I like science,
-but I love engineering - specifically, **building systems that save humans time**.
+but I love engineering - specifically, **building systems that save people time**.
 I'm especially interested in
 [accelerating scientific progress through automation](/articles/2017/09/18/automating-science.html).
 While my background is in the physical sciences,

@@ -7,8 +7,12 @@ description: Thoughts on accelerating scientific innovation through automation
 tags: science
 ---
 
-I believe .
-Life is too short to
+Like everyone else, I wish I had more time -
+there's too much to do with only 24 hours a day!
+If graduate school has taught me one thing, it's the value of time.
+Yet I spend much of my research time doing low-level tasks,
+like ordering supplies, preparing samples, and converting files.
+Life is too short to do these low-level chores over and over again.
 
 Which is why, as a graduate student, I'm very excited for increased automation in science.
 Unlike, say, customer service, science is an ideal field for automation:
@@ -16,16 +20,14 @@ removing the human element from science is often an asset!
 Automation promises higher sample throughput, precision, reproducibility, and
 analytic rigor; lower cost-per-experiment and human bias;
 and, importantly, more efficient use of human time.
-One thing frustrating about graduate school is __
-
-However, I distinguish autonomous science from purely computational approaches like
-the [Materials Project](https://www.materialsproject.org).
-While these initiatives certainly have a role to play,
-I'm an experimentalist, so I'm more excited by automating empirical science.
 
 In this post, I'll discuss three categories of automation in science:
 automated **data processing & analysis**, automated **experimentation**,
 and automated **everything**.
+I distinguish autonomous science from purely computational approaches like
+the [Materials Project](https://www.materialsproject.org);
+while these initiatives certainly have a role to play,
+I'm an experimentalist, so I'm more excited by automating empirical science.
 
 ### Automated data processing & analysis
 
@@ -39,7 +41,8 @@ and it can take hours to extract data into a usable format,
 let alone extract meaningful insight.
 The time savings can be massive - the process of
 ["data wrangling"](https://en.wikipedia.org/wiki/Data_wrangling) in
-data science often takes 90% of the time.
+data science often takes 90% of the analysis time, and I imagine a similar
+ratio for battery analysis.
 
 <p>
 <a href="https://www.voltaiq.com">
@@ -114,7 +117,8 @@ by high-throughput experimentation methods in battery science to reduce the
 While I enjoyed making [coin cells](https://en.wikipedia.org/wiki/Button_cell)
 (mini-batteries for research purposes)
 when I joined the lab, the novelty quickly wore off;
-now, making coin cells is most definitely work - especially when I need 50 identical cells.
+now, as I near my 1000<sup>th</sup> cell, making coin cells is
+most definitely work - especially when I need 50 identical cells at once.
 
 ### Automated everything
 
@@ -154,7 +158,13 @@ for high-throughput biology to improve the productivity of industrial
 microbes.
 Zymergen's CEO describes their results improving microbial strains that are
 already "highly optimized" in the company's [*Science* profile](http://science.sciencemag.org/content/357/6346/18.full):
->So far, Hoffman says, Zymergen's robotic lab has boosted the efficiency of chemical-producing microbes by more than 10%. That increase may not sound like much, but in the $160-billion-per-year sector of the chemical industry that relies on microbial fermentation, a fractional improvement could translate to more money than the entire $7 billion annual budget of the National Science Foundation.
+>So far, Hoffman says, Zymergen's robotic lab has boosted the efficiency of
+>chemical-producing microbes by more than 10%.
+>That increase may not sound like much,
+>but in the <span class="tex2jax_ignore">$</span>160-billion-per-year sector of the chemical industry
+>that relies on microbial fermentation, a fractional improvement
+>could translate to more money than the entire <span class="tex2jax_ignore">$</span>7 billion annual
+>budget of the National Science Foundation.
 
 I like the author's description of the suitability of closed-loop testing for
 "essentially any complex optimization problem for which improvement is well-defined."
@@ -162,7 +172,7 @@ I like the author's description of the suitability of closed-loop testing for
 Closed-loop testing enables a scientific ["4th paradigm"](https://en.wikipedia.org/wiki/Data_science),
  as captured by this quote from Zymergen's ["What we do"](https://zymergen.com/what-we-do/) page:
 
->We replace the hypothesis-driven method with a systematic test-everything approach that lets the data speak for itself
+>We replace the hypothesis-driven method with a systematic test-everything approach that lets the data speak for itself.
 
 This "data-driven" method reminds me of the ["Edisonian approach"](
 https://en.wikipedia.org/wiki/Edisonian_approach).
