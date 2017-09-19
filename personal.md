@@ -5,17 +5,36 @@ permalink: /personal/
 order: -1
 ---
 
+### Engagement
+
+My most exciting "personal" item is that I'm engaged!
+Victoria is genuine, kind, passionate, and quite the looker,
+and I'm beyond excited to spend the rest of my life with her. 
+
+<p>
+<img src="{{ site.url }}/assets/engagementpic.jpg" style="width=200px;display:block; margin-left: auto; margin-right: auto;">
+</p>
+
 ### Hobbies
 
-![Eagles](/assets/djax.jpg "Desean Jackson dropping the ball")
+<p>
+<img src="/assets/djax.jpg" alt="DeSean Jackson dropping the ball" style="display:block; margin-left: auto; margin-right: auto;">
+</p>
 
-I enjoy playing pickup basketball, biking around the Bay Area,
+I enjoy playing pickup basketball, biking and hiking around the Bay Area,
 eating good food,
 and watching the Philadelphia Eagles
 have promising regular seasons and then break my heart in the playoffs.
 
+<p>
+<img src="/assets/missionpeak.jpg" alt="Mission Peak" style="display:block; margin-left: auto; margin-right: auto;">
+</p>
+
 ### Delaware
-![biden](/assets/joebiden.jpg "Joe Biden")
+
+<p>
+<img src="/assets/joebiden.jpg" alt="Joe Biden" style="display:block; margin-left: auto; margin-right: auto;">
+</p>
 
 I have what some might call an irrational love for my home state of Delaware.
 Fun facts about Delaware:
@@ -36,7 +55,9 @@ Famous Delawareans include:
 [Joe Biden](https://en.wikipedia.org/wiki/Joe_Biden),
 our former Vice President ([and a favorite of *The Onion*](http://www.theonion.com/channels/joseph-biden/)).
 
-<img src="/assets/youdee.png" alt="YouDee" style="width: 300px;"/>
+<p>
+<img src="/assets/youdee.png" alt="YouDee" style="width: 300px;display:block; margin-left: auto; margin-right: auto;">
+</p>
 
 As a [Fightin' Blue Hen](https://en.wikipedia.org/wiki/Delaware_Fightin%27_Blue_Hens#Nickname)
 at the University of Delaware,
@@ -58,6 +79,10 @@ For me, Delaware will always be home.
 
 ### Heritage
 
+<p>
+<img src="/assets/complexion.jpg" style="width=100px;display:block; margin-left: auto; margin-right: auto;">
+</p>
+
 My olive complexion, hard-to-place facial features,
 and vaguely-foreign last name make me ethnically ambiguous -
 in approximate order of frequency, people have assumed I'm from
@@ -77,7 +102,9 @@ Check out my progress [here](/50states).
 
 ### Work
 
-<img src="/assets/zamboni.png" alt="Zamboni" style="width: 300px;"/>
+<p>
+<img src="/assets/zamboni.png" alt="Zamboni" style="width: 300px;display:block; margin-left: auto; margin-right: auto;">
+</p>
 
 I take pride in the fact that I have worked a part-time job nearly continuously
 since I was 14, introducing me to all sorts of different people.
@@ -95,7 +122,9 @@ while making terrific gurgling and hissing sounds at 2 AM in an empty ice rink.
 
 ### UrbanPromise
 
-<img src="/assets/UP.jpg" alt="UrbanPromise" style="width: 300px;"/>
+<p>
+<img src="/assets/UP.jpg" alt="UrbanPromise" style="width: 300px; display:block; margin-left: auto; margin-right: auto;">
+</p>
 
 [UrbanPromise Wilmington](http://www.urbanpromise.org/) will always have a
 special place in my heart - and not only because I met my future wife there.

@@ -31,9 +31,10 @@ This is a [analagous](https://en.wikipedia.org/wiki/Data_wrangling)
 
 In science, we just want one.
 
-[![Screenshot]({{ site.url }}/assets/voltaiq.png)](https://www.voltaiq.com)
-
-[Voltaiq](https://www.voltaiq.com)
+<p>
+<a href="https://www.voltaiq.com">
+<img src="{{ site.url }}/assets/voltaiq.png" style="display:block; margin-left: auto; margin-right: auto;">
+</a></p>
 
 Automation enabled by artificial intelligence profiled in
 [*Science* magazine](http://science.sciencemag.org/content/357/6346)
@@ -44,7 +45,12 @@ Automation enabled by artificial intelligence profiled in
 
 Related field is combinatorics
 
-[![Screenshot]({{ site.url }}/assets/wildcat.jpg)](http://www.wildcatdiscovery.com/)
+[ACS Combinatorial Science](http://pubs.acs.org/journal/acsccc)
+
+<p>
+<a href="https://www.wildcatdiscovery.com">
+<img src="{{ site.url }}/assets/wildcat.jpg" style="display:block; margin-left: auto; margin-right: auto;">
+</a></p>
 
 [Wildcat Discovery Technologies](http://www.wildcatdiscovery.com/)
 
@@ -60,6 +66,14 @@ Adam
 
 [*Science*](http://science.sciencemag.org/content/324/5923/85.full)
 
-[![Screenshot]({{ site.url }}/assets/zymergen.png)](https://zymergen.com)
+<p>
+<a href="https://www.zymergen.com">
+<img src="{{ site.url }}/assets/zymergen.png" style="display:block; margin-left: auto; margin-right: auto;">
+</a></p>
+
+From Zymergen's ["What we do"](https://zymergen.com/what-we-do/) page:
+
+>We replace the hypothesis-driven method with a systematic test-everything
+> approach that lets the data speak for itself
 
 [Profiled by *Science* magazine](http://science.sciencemag.org/content/357/6346/18.full)
