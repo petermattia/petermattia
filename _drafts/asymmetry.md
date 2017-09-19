@@ -1,8 +1,8 @@
 ---
 layout: page
 categories: articles
-title: "Chemical and electrochemical reversibility"
-description: Tutorial on chemical and electrochemical reversibility
+title: "Electrochemical asymmetry"
+description: Tutorial on electrochemical asymmetry
 ---
 
 ## UNDER CONSTRUCTION
@@ -13,8 +13,7 @@ I've created in
 greater detail. You can find the full MATLAB script file
 [here](/cyclic_voltammetry_simulation/code.html).
 
-### Chemical reversibility
+### Charge-transfer asymmetry
 
 
-
-### Electrochemical reversibility
+### Compositional asymmetry

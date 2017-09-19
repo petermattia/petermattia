@@ -3,6 +3,8 @@ layout: post
 categories: articles
 title: "Headspace: Thoughts on mentoring"
 date: 2017-09-15
+description: Lessons learned from mentoring junior students
+tags: science
 ---
 
 I started mentoring my first student, Nick, around this time last year. Nick

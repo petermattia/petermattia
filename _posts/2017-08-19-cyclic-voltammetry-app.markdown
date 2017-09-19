@@ -3,6 +3,8 @@ layout: post
 categories: articles
 title: Cyclic Voltammetry app tutorial
 date: 2017-08-19
+description: "Introducing my cyclic voltammetry MATLAB app & tutorial"
+tags: science code
 ---
 
 Recently, I've been learning about fundamental electrochemistry

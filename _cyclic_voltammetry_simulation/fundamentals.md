@@ -2,6 +2,7 @@
 layout: page
 categories: articles
 title: "Cyclic Voltammetry App: Fundamental electrochemistry"
+description: A tutorial on the fundamental electrochemistry of cyclic voltammetry
 ---
 
 ### Fundamental electrochemistry

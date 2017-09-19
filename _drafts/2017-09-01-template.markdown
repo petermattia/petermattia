@@ -3,6 +3,8 @@ layout: post
 categories: articles
 title: Template
 date: 2017-09-01
+description: Thoughts on automating science
+tags: science
 ---
 
 One of my life goals is to visit all 50 states.

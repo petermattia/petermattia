@@ -3,6 +3,8 @@ layout: post
 categories: articles
 title: Surface diffusion in phase-seperating materials
 date: 2017-09-15
+description: Thoughts on automating science
+tags: science
 ---
 
 Despite my

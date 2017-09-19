@@ -3,6 +3,8 @@ layout: post
 categories: articles
 title: Why make a website?
 date: 2017-08-08
+description: Why I'm making a website as a grad student
+tags: personal code
 ---
 Why am I making a personal website? It's not very common for graduate students
 in materials science (I don't think I know anyone else with one...), and it's

@@ -2,6 +2,7 @@
 layout: page
 categories: articles
 title: "Cyclic Voltammetry App: Tutorial"
+description: A tutorial on cyclic voltammetry simulations
 ---
 
 This tutorial will explain the simulation that powers my simple

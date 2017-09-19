@@ -3,6 +3,8 @@ layout: post
 categories: articles
 title: Battery breakthroughs vs incremental progress
 date: 2017-08-31
+description: My "realist" perspective of scientific innovation
+tags: science
 ---
 
 I kept getting LinkedIn emails pestering me to visit their site, and eventually

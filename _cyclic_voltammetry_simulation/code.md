@@ -2,6 +2,7 @@
 layout: page
 categories: articles
 title: "Cyclic Voltammetry App: Code"
+description: Cyclic voltammetry simulation code
 ---
 
 I've posted the standalone

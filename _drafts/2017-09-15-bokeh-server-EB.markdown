@@ -4,6 +4,8 @@ categories: articles
 title: "Making a web app: Hosting a Bokeh server on AWS Elastic Beanstalk
 for dummies"
 date: 2017-09-15
+description: Thoughts on automating science
+tags: science
 ---
 
 Despite my

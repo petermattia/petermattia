@@ -3,6 +3,8 @@ layout: post
 categories: articles
 title: Visiting all 50 states
 date: 2017-09-03
+description: Tracking my progress visiting all 50 states
+tags: code personal
 ---
 
 One of my life goals is to visit all 50 states.

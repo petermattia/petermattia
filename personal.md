@@ -9,7 +9,7 @@ order: -1
 
 My most exciting "personal" item is that I'm engaged!
 Victoria is genuine, kind, passionate, and quite the looker,
-and I'm beyond excited to spend the rest of my life with her. 
+and I'm beyond excited to spend the rest of my life with her.
 
 <p>
 <img src="{{ site.url }}/assets/engagementpic.jpg" style="width=200px;display:block; margin-left: auto; margin-right: auto;">
@@ -91,7 +91,8 @@ and many, many other countries.
 
 In fact, I'm 100% Egyptian.
 My mom was born there and moved to the US as an infant,
-and my dad moved here in his 20s - which makes me 1.5 generation American, I think.
+and my dad moved here in his 20s - which makes me 1.5 generation American,
+[I think](https://en.wikipedia.org/wiki/Immigrant_generations).
 Unfortunately, I speak very little Arabic.
 
 
