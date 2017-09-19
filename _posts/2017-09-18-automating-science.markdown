@@ -5,9 +5,7 @@ title: Automating science
 date: 2017-09-18
 ---
 
-Automation:
-
-I fundementally believe
+I believe
 
 For this reason,
 
@@ -19,28 +17,49 @@ While I enjoyed making coin cells (mini-batteries for research purposes) when
 I joined the lab, the novelty quickly wore off; now, making coin cells is
 most definitely work.
 
-NOT simulations
+I do want to distinguish these  from purely computational approaches like
+the [Materials Project](https://www.materialsproject.org).
 
-Three categories: automated processing, automated experimentation,
-and automated everything.
 
-### Automated processing & analysis
+In this post, I'll discuss three categories of automation in science:
+automated **data processing & analysis**, automated **experimentation**,
+and automated **everything**.
 
-analagous to data science munging
+### Automated data processing & analysis
+
+This is a [analagous](https://en.wikipedia.org/wiki/Data_wrangling)
 
 In science, we just want one.
 
-Voltaiq
+[![Screenshot]({{ site.url }}/assets/voltaiq.png)](https://www.voltaiq.com)
+
+[Voltaiq](https://www.voltaiq.com)
+
+Automation enabled by artificial intelligence profiled in
+[*Science* magazine](http://science.sciencemag.org/content/357/6346)
 
 ### Automated experimentation
 
-** High-throughput testing **
+**High-throughput testing**
+
+Related field is combinatorics
+
+[![Screenshot]({{ site.url }}/assets/wildcat.jpg)](http://www.wildcatdiscovery.com/)
 
 [Wildcat Discovery Technologies](http://www.wildcatdiscovery.com/)
 
 ### Automated everything
 
-** Closed-loop testing **
+**Closed-loop testing**
+
+Well suited for optimization problems
 
 Adam
-Science article: http://science.sciencemag.org/content/357/6346/18.full
+
+[*Nature*](https://search.proquest.com/docview/204547838)
+
+[*Science*](http://science.sciencemag.org/content/324/5923/85.full)
+
+[![Screenshot]({{ site.url }}/assets/zymergen.png)](https://zymergen.com)
+
+[Profiled by *Science* magazine](http://science.sciencemag.org/content/357/6346/18.full)

@@ -5,13 +5,14 @@ permalink: /about/
 order: 1
 ---
 
-I am a fourth-year PhD student in Materials Science and Engineering
-at Stanford University.
+I am a fourth-year PhD student in
+[Materials Science and Engineering](https://mse.stanford.edu)
+at [Stanford University](https://www.stanford.edu).
 [My research](/research) focuses on making lithium-ion batteries last longer
 and charge faster.
 Prior to Stanford,
-I graduated from the University of Delaware
-with a degree in chemical engineering.
+I graduated from the [University of Delaware](https://www.udel.edu)
+with a degree in [chemical engineering](https://www.cbe.udel.edu).
 
 One of the many things I've learned in grad school so far is that I like science,
 but I love engineering - specifically, **building systems that save humans time**.

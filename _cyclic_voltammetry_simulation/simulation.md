@@ -4,8 +4,6 @@ categories: articles
 title: "Cyclic Voltammetry App: Simulation walkthrough"
 ---
 
-## UNDER CONSTRUCTION
-
 In this post, I'll explain the
 [cyclic voltammetry simulation](/cyclic_voltammetry_simulation/index.html)
 I've created in
@@ -16,7 +14,7 @@ greater detail. You can find the full MATLAB script file
 %%%%%
 % From Bard and Faulkner, 2nd edition, Appendix B
 % Peter Attia
-% Updated September 13, 2017
+% Updated September 17, 2017
 %%%%%
 
 clear, clc, close all
@@ -182,21 +180,26 @@ reversibility soon.
 
 ~~~~matlab
 if km>0.1
-    warning(['k_c*t_k/l equals ' num2str(km) ...
+    warning(['k_c*t_k/L equals ' num2str(km) ...
         ', which exceeds the upper limit of 0.1 (see B&F, pg 797)'])
 end
 ~~~~
 
 In my experience, this simulation only breaks under one condition,
 documented by Bard and Faulkner (pg 797).
-One limitation of the choice of a finite-element model is a breakdown of the
-approximation at extreme conditions.
-In this case, if $ k_1 $ is too large, the chemical reaction term consumes
-$ R $ more quickly than physically meaningful.
+One limitation of the choice of a finite-element model is that the
+approximation breaks down at extreme conditions.
+In this case, if $ k_1 $ is too large, the rate of chemical reaction significantly
+exceeds the time resolution of the simulation, $ t_k/L = \Delta t $.
+For example, if $ k_1 = 10 \text{ s}^{-1} $ and $ \Delta t = 0.1 \text{ s} $,
+we turn over product faster than we can compute the changes.
+This condition leads to numerical instabilities.
+
 According to the text, the limit is $ k_1 t_k/L > 0.1 $.
 My code warns you about this, but allows you to proceed.
-If you see infinite current spikes in the simulation,
-it's probably from this error.
+If this condition is not satisfied, you may see
+infinite current "spikes" when you run the simulation.
+To study a system with a high value of $ k_1 $, increase $ L $.
 
 ### Pre-initialize variables
 
@@ -209,8 +212,8 @@ eta1 = etai - v*t;      % overpotential vector, negative scan
 eta2 = etaf + v*t;      % overpotential vector, positive scan
 eta = [eta1(eta1>etaf) eta2(eta2<=etai)]'; % overpotential scan, both directions
 Enorm = eta*f;          % normalized overpotential
-kf = ( k0*tk*exp(  -alpha *n*Enorm) )./( sqrt(DM*L)*Dx ); % fwd rate constant
-kb = ( k0*tk*exp((1-alpha)*n*Enorm) )./( sqrt(DM*L)*Dx ); % rev rate constant
+kf = (k0*(tk/D)^0.5).*exp(  -alpha *n*Enorm); % dimensionless fwd rate constant (pg 799)
+kb = (k0*(tk/D)^0.5).*exp((1-alpha)*n*Enorm); % dimensionless rev rate constant (pg 799)
 
 O = C*ones(L+1,j); % Initial concentrations of O
 R = zeros(L+1,j);  % Initial concentrations of R
@@ -234,42 +237,34 @@ Again, I'll walk through the variables:
   given by the
   [Butler-Volmer equation](https://en.wikipedia.org/wiki/Butler–Volmer_equation).
   `kf` and `kb` are vectors, with values that change with `Enorm`.
+  We make the rate constants dimensionless by multiplying by $ (t_k/D)^{0.5} $,
+  which comes from expressing the physical definition of current in terms of
+  simulation variables (see Bard & Faulkner, Eqns B.4.9 and B.4.10).
 
 - `O` and `R` are the initial concentrations of $ O $ and $ R $, respectively.
   The initial concentration of $ O $ is $ C $, and the initial concentration
   of $ R $ is $ 0 $.
-  The `O` and `R` arrays have $ L + 1 $ columns (time steps)
-  and $ j $ rows (length steps).
-  $ O $ and $ R $ are indexed as $ O(k,j) $ and $ R(k,j) $ (time, length).
+  The `O` and `R` arrays have $ L + 1 $ rows (time steps)
+  and $ j $ columns (length steps).
+  $ O $ and $ R $ are indexed as $ O(k,j) $ and $ R(k,j) $, or
+  $ \text{(time, length)} $.
+  Note that this convention switches the rows and columns in Bard & Faulkner's
+  convention. I find mine more intuitive to work with in MATLAB.
 
 - `Z` is a vector of the dimensionless current, which we'll plot at the end.
   We need $ L + 1 $ columns (time steps).
 
 ### Run main simulation
 
-We'll now calculate the current at $ k = t = 0 $:
-
-~~~~matlab
-% First dimensionless current (pg 792)
-Z(1) = ( kf(1)*O(1,2) - kb(1)*R(1,2) ) ./ (1 + kf(1) + kb(1));
-~~~~
-
-We can calculate this current directly since the concentrations at
-$ k = t = 0 $ are defined.
-
-### TODO
-
-The equation we use for dimensionless current is:
-
-$$ Z(k) = \frac{k_f(k)O(k,2) - k_r(k)R(k,2)}{1 + k_f(k) + k_r(k)} $$
-
-That's a lot of $ k $'s! What this equation is saying is ___.
-
-And finally, the bulk of the simulation. We cycle through all possible times;
+And finally, we run the simulation. We cycle through all possible times;
 within each timestep, we cycle through all lengths.
 
 ~~~~matlab
 %%% START SIMULATION %%%
+
+% First dimensionless current (pg 792)
+Z(1) = ( kf(1)*O(1,2) - kb(1)*R(1,2) ) ./ (1 + kf(1) + kb(1));
+
 % k = time index. j = distance index
 for i1 = 2:length(k)
     % Update surface concentrations
@@ -284,7 +279,7 @@ for i1 = 2:length(k)
 
         R(i1,i2) = R(i1-1,i2) + DM*(R(i1-1,i2+1)+R(i1-1,i2-1)-2*R(i1-1,i2)) ...
             - km * R(i1-1,i2);
-    end 
+    end
 
     % Update current.
     % We flip the sign of current because the Bard and Faulkner current
@@ -292,6 +287,38 @@ for i1 = 2:length(k)
     Z(i1)   = -( kf(i1).*O(i1,2) - kb(i1).*R(i1,2) ) ./ (1 + kf(i1) + kb(i1));
 end
 ~~~~
+
+#### Initial current
+
+We'll now calculate the current at $ k = t = 0 $:
+
+We can calculate this current directly since the concentrations at
+$ k = t = 0 $ are defined.
+
+The equation we use for dimensionless current is:
+
+$$ Z(k) = \frac{k_f(k)O(k,2) - k_r(k)R(k,2)}{1 + k_f(k) + k_r(k)} $$
+
+That's a lot of $ k $'s! What this equation is saying is ___.
+
+#### Surface dynamics
+
+The surface dynamics follow (Eqns B.4.13 & B.4.14):
+
+$$ O(k+1,1) = O(k,1) + D_M\big[ O(k,2) - O(k,1)\big] - Z(k)\big( D_M/L\big) $$
+
+$$ R(k+1,1) = R(k,1) + D_M\big[ R(k,2) - R(k,1)\big] + Z(k)\big( D_M/L\big) $$
+
+#### Bulk dynamics:
+
+The bulk dynamics of O incorporate diffusion (Eqn B.1.9)
+
+$$ O(k+1,j) = O(k,j) + D_M\big[ O(k,j+1) - 2O(k,j) + O(k,j-1)\big] $$
+
+For R, incorporate diffision + chemical reaction (Eqn B.3.5)
+
+$$ R(k+1,j) = R(k,j) + D_M\big[ R(k,j+1) - 2R(k,j) + R(k,j-1)\big] - \big(k_1 t_k/L \big) R(k,j) $$
+
 
 #### TODO:
 - `O(i1,2)` instead of `O(i1,1)`?

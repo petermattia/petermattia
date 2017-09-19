@@ -14,7 +14,7 @@ chemical reaction term for the reduced product.
 My understanding of cyclic voltammetry deepened tremendously by systematically
 exploring different simulation parameters using this app.
 
-I'm working on a comprehensive tutorial of the simulation
+You can find a comprehensive tutorial of the simulation
 [here](\cyclic_voltammetry_simulation\index.html).
 
 You can find this project online on the [MATLAB File Exchange](https://www.mathworks.com/matlabcentral/fileexchange/64011-cyclic-voltammetry-simulator)
