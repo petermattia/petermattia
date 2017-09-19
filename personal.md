@@ -12,7 +12,7 @@ Victoria is genuine, kind, passionate, and quite the looker,
 and I'm beyond excited to spend the rest of my life with her.
 
 <p>
-<img src="{{ site.url }}/assets/engagementpic.jpg" style="width=200px;display:block; margin-left: auto; margin-right: auto;">
+<img src="/assets/engagementpic.JPG" style="width=200px;display:block; margin-left: auto; margin-right: auto;">
 </p>
 
 ### Hobbies
@@ -27,7 +27,7 @@ and watching the Philadelphia Eagles
 have promising regular seasons and then break my heart in the playoffs.
 
 <p>
-<img src="/assets/missionpeak.jpg" alt="Mission Peak" style="display:block; margin-left: auto; margin-right: auto;">
+<img src="/assets/missionpeak.JPG" alt="Mission Peak" style="display:block; margin-left: auto; margin-right: auto;">
 </p>
 
 ### Delaware
@@ -80,7 +80,7 @@ For me, Delaware will always be home.
 ### Heritage
 
 <p>
-<img src="/assets/complexion.jpg" style="width=100px;display:block; margin-left: auto; margin-right: auto;">
+<img src="/assets/complexion.JPG" style="width=100px;display:block; margin-left: auto; margin-right: auto;">
 </p>
 
 My olive complexion, hard-to-place facial features,
