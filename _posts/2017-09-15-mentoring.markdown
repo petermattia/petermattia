@@ -9,7 +9,7 @@ tags: science
 
 I started mentoring my first student, Nick, around this time last year. Nick
 was with us for the academic year, working around ~15 hours a week.
-We had a lot to do - setting up the hardware, developing analysis scripts,
+We had a lot to do - setting up the equipment, developing analysis scripts,
 catching up on the literature, etc. Since this was a multidisciplinary
 collaboration, we had to schedule meetings, book rooms, set up shared accounts,
 etc. Additionally, as an industry-sponsored project, we had to frequently
