@@ -42,5 +42,10 @@ but it doesn't nativly support plotting standard *xy* data
 The [plotly.js](http://plot.ly/javascript/) library was very straightforward
 to set up and had built-in functionality for saving figures and data -
 it was clearly designed for scientific applications like my own.
-Lastly, I used the [w3.css](https://www.w3schools.com/w3css/default.asp)
+Lastly, I used the [math.js](http://mathjs.org) library for array manipulations
+and the [w3.css](https://www.w3schools.com/w3css/default.asp)
 CSS library to create the buttons.
+
+If you're interested, the source code for the
+[front end](https://github.com/petermattia/petermattia/blob/master/_cyclic_voltammetry_simulation/CVwebapp.md)
+and the [back end](https://github.com/petermattia/petermattia/blob/master/assets/CVsim.js) is on GitHub.

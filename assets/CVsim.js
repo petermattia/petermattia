@@ -23,13 +23,13 @@ var CVplot = function() {
   // DERIVED CONSTANTS
   var tk  = 2*(etai-etaf)/v;   // [=] s, characteristic exp. time (pg 790). In this case, total time of fwd and rev scans
   var Dt  = tk/L;              // [=] s, delta time (Eqn B.1.10, pg 790)
-  var Dx  = Math.sqrt(D*Dt/DM);     // [=] cm, delta x (Eqn B.1.13, pg 791)
-  var j   = Math.ceil(4.2*Math.sqrt(L))+5; // number of boxes (pg 792-793). If L~200, j=65
+  var Dx  = math.sqrt(D*Dt/DM);     // [=] cm, delta x (Eqn B.1.13, pg 791)
+  var j   = math.ceil(4.2*math.sqrt(L))+5; // number of boxes (pg 792-793). If L~200, j=65
 
   // REVERSIBILITY PARAMETERS
   var ktk    = k1*tk;           // dimensionless kinetic parameter (Eqn B.3.7, pg 797)
   var km     = ktk/L;           // normalized dimensionless kinetic parameter (see bottom of pg 797)
-  var Lambda = k0/Math.sqrt(D*f*v);  // dimensionless reversibility parameter (Eqn 6.4.4, pg. 236-239)
+  var Lambda = k0/math.sqrt(D*f*v);  // dimensionless reversibility parameter (Eqn 6.4.4, pg. 236-239)
 
   // UPDATE REVERSIBILITY PARAMETERS
   document.getElementById("echemrev").value = Lambda.toExponential(3);
@@ -44,19 +44,38 @@ var CVplot = function() {
   document.getElementById("chemrevwarn").value = warning;
 
   // PRE-INITIALIZATION
-  /*
-  var k = 0:L;                // time index vector
-  var t = Dt * k;             // time vector
-  var eta1 = etai - v*t;      // overpotential vector, negative scan
-  var eta2 = etaf + v*t;      // overpotential vector, positive scan
-  var eta = [eta1(eta1>etaf) eta2(eta2<=etai)]; // overpotential scan, both directions
-  var Enorm = eta*f;          // normalized overpotential
-  var kf = k0.*exp(  -alpha *n*Enorm); // [=] cm/s, fwd rate constant (pg 799)
-  var kb = k0.*exp((1-alpha)*n*Enorm); // [=] cm/s, rev rate constant (pg 799)
+  var k = math.range(0,L+1);    // time index vector
+  var t = k.clone();
+  for(var i=0; i<k.length; i++) { // time vector
+    t[i] *= Dt;
+  }
+  var eta1 = t.clone();
+  var eta2 = t.clone();
+  for(var i=0; i<k.length; i++) { // time vector
+    eta1[i] = etai - v*t[i]; // overpotential vector, negative scan
+    eta2[i] = etaf + v*t[i]; // overpotential vector, positive scan
+  }
+  console.log(eta1);
 
-  var O = C*ones(L+1,j); // [=] mol/cm^3, concentration of O
-  var R = zeros(L+1,j);  // [=] mol/cm^3, concentration of R
-  var JO = zeros(1,L+1); // [=] mol/cm^2-s, flux of O at the surface
+  /*
+  var eta = [eta1(eta1>etaf) eta2(eta2<=etai)]; // overpotential scan, both directions
+
+
+  var Enorm = eta;
+  for(var i=0; i<eta.length; i++) { // time vector
+    Enorm[i] *= f; // normalized overpotential
+  }
+  var kf = Enorm;
+  var kr = Enorm;
+  for(var i=0; i<eta.length; i++) { // time vector
+    kf[i] = k0*exp(  -alpha *n*Enorm[i]); // [=] cm/s, fwd rate constant (pg 799)
+    kb[i] = k0*exp((1-alpha)*n*Enorm[i]); // [=] cm/s, rev rate constant (pg 799)
+  }
+
+  /*var b = math.matrix(math.ones([2, 3]));
+  var O = math.matrix(math.ones([L+1, j])); // [=] mol/cm^3, concentration of O
+  var R = math.matrix(math.zeros([L+1, j])); // [=] mol/cm^3, concentration of O
+  var JO = math.matrix(math.zeros([1,L+1])); // [=] mol/cm^2-s, flux of O at the surface
 
   // START SIMULATION
   // i1 = time index. i2 = distance index

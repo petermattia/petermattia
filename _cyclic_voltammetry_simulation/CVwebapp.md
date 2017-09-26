@@ -8,6 +8,7 @@ description: A Javascript web app for cyclic voltammetry simulations, built with
 <head>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.16.3/math.min.js"></script>
     <script src="/assets/CVsim.js" type="text/javascript"></script>
 
     <style>
