@@ -1,42 +1,35 @@
 ---
 layout: page
 categories: articles
-title: "Cyclic Voltammetry App: Tutorial"
-description: A tutorial on cyclic voltammetry simulations
+title: "Cyclic voltammetry simulation tutorials"
+description: Tutorials on cyclic voltammetry simulations
 ---
 
-This tutorial will explain the simulation that powers my simple
-cyclic voltammetry MATLAB app.
-I built this app to help me better understand the fundamentals of
+These tutorials will explain the simulation that powers my simple
+cyclic voltammetry apps.
+I built these apps to better understand the fundamentals of
 electrochemistry, and I
-hope it helps you too!
+hope they help you too!
 
-Check out a screenshot below:
-
-![Screenshot]({{ site.url }}/assets/CVsimscreenshot.png)
-
-You can download the app on the
+I originally wrote this simulation in MATLAB and later ported it to JavaScript.
+The JavaScript version lives [here](/cyclic_voltammetry_simulation/CVwebapp.html).
+You can download the MATLAB version on the
 [MATLAB File Exchange](https://www.mathworks.com/matlabcentral/fileexchange/64011-cyclic-voltammetry-simulator)
 and on [GitHub](https://github.com/petermattia/Cyclic-Voltammetry-Simulator).
 
-Building the app itself was straightforward and fun, thanks to MATLAB's
-[App Designer](https://www.mathworks.com/products/matlab/app-designer.html).
-In this tutorial, however, I'll focus on explaining the electrochemical
-simulation itself.
-My primary source for these simulations is Appendix B of
-[Bard and Faulkner, 2<sup>nd</sup> edition](https://www.amazon.com/Electrochemical-Methods-Fundamentals-Allen-Bard/dp/0471043729).
-
-Equations and discussion will be cross-referenced to Bard and Faulkner,
-with links to Wikipedia.
-
-Future goals include an additional tutorial sharing what I've learned
-from these simulations
-and porting this MATLAB app to the web.
+My primary source for these simulations is [Bard and Faulkner, *Electrochemical Methods: Fundamentals and Applications*, 2<sup>nd</sup> edition](https://www.amazon.com/Electrochemical-Methods-Fundamentals-Allen-Bard/dp/0471043729),
+Appendix B.
+I also validated my simulation with the
+[Excel simulation](http://pubs.acs.org/doi/suppl/10.1021/acs.jchemed.5b00225/suppl_file/ed5b00225_si_001.xls) published [in this journal article](https://dx.doi.org/10.1021/acs.jchemed.5b00225).
+You can also find an excellent (qualitative) cyclic voltammetry tutorial
+[here](http://sop4cv.com/index.html).
 
 Enjoy!
 
 ### [Fundamental electrochemistry](/cyclic_voltammetry_simulation/fundamentals.html)
 
-### [Simulation](/cyclic_voltammetry_simulation/simulation.html)
+### [Simulation walkthrough](/cyclic_voltammetry_simulation/simulation.html)
+
+### [Chemical and electrochemical reversibility](/cyclic_voltammetry_simulation/reversibility.html)
 
 ### [Code](/cyclic_voltammetry_simulation/code.html)

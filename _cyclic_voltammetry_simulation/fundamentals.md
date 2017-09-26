@@ -8,7 +8,7 @@ description: A tutorial on the fundamental electrochemistry of cyclic voltammetr
 ### Fundamental electrochemistry
 
 This
-[cyclic voltammetry simulation](/cyclic_voltammetry_simulation/index.html).)
+[cyclic voltammetry simulation](/cyclic_voltammetry_simulation/index.html)
 couples a one-electron electrochemical reduction with a subsequent
 chemical reaction of the reduced species, as below:
 
@@ -37,7 +37,7 @@ $$ k_r = k^0 \exp\left({(1-\alpha) f (E - E^{0'})}\right) $$
 $k_0$ is the standard electrochemical rate constant, defined as the "kinetic
 facility" of a redox couple - in other words, it measures the ease of electron
 transfer in the redox reaction (see section 3.3.3).
-$k_0$, $k_f$, and $k_c$ all have units of $cm/s$.
+$k_0$, $k_f$, and $k_c$ all have units of $ \text{cm/s}$.
 
 $\alpha$ is the
 [transfer coefficient](https://en.wikipedia.org/wiki/Charge_transfer_coefficient),
@@ -65,7 +65,7 @@ describe this unimolecular reaction:
 
 $$ \frac{\partial C_R(x,t)}{\partial t} = -k_c C_R $$
 
-The units of $k_c$ are $s^{-1}$, as expected for a
+The units of $k_c$ are $ \text{s}^{-1}$, as expected for a
 first-order reaction rate constant.
 
 #### Diffusion
@@ -76,8 +76,8 @@ Fick's first law of diffusion is:
 
 $$ J_i(x,t) = -D_i\frac{\partial C_i(x,t)}{\partial x} $$
 
-Here, $ J_i(x,t) $ is the flux ($ {mol}/{cm^2s} $) of species $ i $, and
-$ D_i $ ($ {cm^2}/{s} $) is the diffusion coefficient of species $ i $.
+Here, $ J_i(x,t) $ is the flux ($ \text{mol/cm}^2 \text{s} $) of species $ i $, and
+$ D_i $ ($ \text{cm}^2 \text{s} $) is the diffusion coefficient of species $ i $.
 A common assumption in aqueous electrochemistry is that the diffusion coefficients
 of $ O $ and $ R $ are equal, or $ D_O = D_R $. This assumption is reasonable
 if $ O $ and $ R $ are molecularly similar, like the
@@ -100,4 +100,5 @@ numbers - $ \Lambda $, an indicator for charge transfer vs mass transfer
 rates, and $ k_1 t_k $, an indicator for chemical reaction rate vs experiment
 time, define the system's electrochemical reversibility and
 chemical reversibility, respectively.
-I will discuss in greater detail in a future post.
+I discuss these in greater detail
+[here](/cyclic_voltammetry_simulation/reversibility.html).

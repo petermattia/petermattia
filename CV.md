@@ -98,8 +98,9 @@ Last updated September 17, 2017
 
 ## Skills and Certifications
 
+**Scientific computing:** MATLAB, Python
 
-**Scientific computing:** Python, MATLAB
+**Computer programming:** Python, bash, Javascript
 
 **Materials characterization:** SEM, TEM, XRD, XPS, Auger, Raman
 
@@ -111,4 +112,6 @@ with Bio-logic and Arbin potentiostats
 
 **Engineer-in-Training certification** (obtained by passing the Fundamentals of Engineering exam)
 
-<br>
+## Professional service
+
+**Reviewer:** [*Journal of the Electrochemical Society*](http://jes.ecsdl.org)
