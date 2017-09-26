@@ -55,8 +55,6 @@ var CVplot = function() {
     eta1[i] = etai - v*t[i]; // overpotential vector, negative scan
     eta2[i] = etaf + v*t[i]; // overpotential vector, positive scan
   }
-  console.log(eta1);
-
   /*
   var eta = [eta1(eta1>etaf) eta2(eta2<=etai)]; // overpotential scan, both directions
 
@@ -72,16 +70,17 @@ var CVplot = function() {
     kb[i] = k0*exp((1-alpha)*n*Enorm[i]); // [=] cm/s, rev rate constant (pg 799)
   }
 
-  /*var b = math.matrix(math.ones([2, 3]));
+  */
   var O = math.matrix(math.ones([L+1, j])); // [=] mol/cm^3, concentration of O
   var R = math.matrix(math.zeros([L+1, j])); // [=] mol/cm^3, concentration of O
   var JO = math.matrix(math.zeros([1,L+1])); // [=] mol/cm^2-s, flux of O at the surface
 
+  /*
   // START SIMULATION
   // i1 = time index. i2 = distance index
-  for (i1 = 1:L){
+  for(var i1=0; i1<L.length; i1++) {
       // Update bulk concentrations of O and R
-      for (i2 = 2:j-1){
+      for(var i2=1; i2<j; i2++) {
         O(i1+1,i2) = O(i1,i2) + DM*(O(i1,i2+1)+O(i1,i2-1)-2*O(i1,i2));
 
         R(i1+1,i2) = R(i1,i2) + DM*(R(i1,i2+1)+R(i1,i2-1)-2*R(i1,i2)) ...
@@ -95,9 +94,12 @@ var CVplot = function() {
       O(i1+1,1) = O(i1+1,2) - JO(i1+1)*(Dx/D);
       R(i1+1,1) = R(i1+1,2) + JO(i1+1)*(Dx/D) - km*R(i1+1,1);
   }
-
+  
   // Calculate current density, Z, from flux of O
-  Z = -n.*F.*JO/10; // [=] A/m^2 -> mA/cm^2, current density
+  var Z = J0.clone();
+  for(var i=0; i<J0.length; i++) { // time vector
+    Z[i] *= -n*F*J0[i]/10; // [=] A/m^2 -> mA/cm^2, current density
+  }
 
   // PLOT RESULTS
   // Sometimes length(eta) = length(Z) + 1. If this is the case, truncate last value
