@@ -45,6 +45,7 @@ var CVplot = function() {
 
   // PRE-INITIALIZATION
   var k = math.range(0,L+1);    // time index vector
+  console.log(k);
   var t = k.clone();
   for(var i=0; i<k.length; i++) { // time vector
     t[i] *= Dt;
@@ -55,10 +56,28 @@ var CVplot = function() {
     eta1[i] = etai - v*t[i]; // overpotential vector, negative scan
     eta2[i] = etaf + v*t[i]; // overpotential vector, positive scan
   }
+  console.log(t);
+
+  // overpotential scan, both directions
+  var eta = t.clone();
+  var i = 0;
+  var curr_eta = etai;
+  while(curr_eta>etaf){
+    eta[i] = curr_eta;
+    i += 1;
+    curr_eta = eta1[i];
+  }
+  eta[i] = etaf;
+  i += 1;
+  curr_eta = etaf;
+  while(curr_eta<etai){
+    eta[i] = curr_eta;
+    i += 1;
+    curr_eta = eta1[i];
+  }
+  console.log(eta);
+
   /*
-  var eta = [eta1(eta1>etaf) eta2(eta2<=etai)]; // overpotential scan, both directions
-
-
   var Enorm = eta;
   for(var i=0; i<eta.length; i++) { // time vector
     Enorm[i] *= f; // normalized overpotential
@@ -94,13 +113,13 @@ var CVplot = function() {
       O(i1+1,1) = O(i1+1,2) - JO(i1+1)*(Dx/D);
       R(i1+1,1) = R(i1+1,2) + JO(i1+1)*(Dx/D) - km*R(i1+1,1);
   }
-  
+  */
   // Calculate current density, Z, from flux of O
-  var Z = J0.clone();
-  for(var i=0; i<J0.length; i++) { // time vector
-    Z[i] *= -n*F*J0[i]/10; // [=] A/m^2 -> mA/cm^2, current density
+  var Z = JO.clone();
+  for(var i=0; i<JO.length; i++) { // time vector
+    Z[i] *= -n*F*JO[i]/10; // [=] A/m^2 -> mA/cm^2, current density
   }
-
+  /*
   // PLOT RESULTS
   // Sometimes length(eta) = length(Z) + 1. If this is the case, truncate last value
   if length(eta) > length(Z)
@@ -108,8 +127,8 @@ var CVplot = function() {
   end
   */
 
-  var eta = [1, 2, 3, 4];
-  var Z = [C, randomWholeNum(), randomWholeNum(), randomWholeNum()];
+  //var eta = [1, 2, 3, 4];
+  //var Z = [C, randomWholeNum(), randomWholeNum(), randomWholeNum()];
   return [eta, Z];
 }
 
