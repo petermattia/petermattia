@@ -6,7 +6,7 @@
 % Updated September 24, 2017
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%clear, clc, close all
+clear, clc, close all
 
 %% INDEPENDENT VARIABLES %%
 C      = 1.0;    % [=] mol/cm^3, initial concentration of O. Default = 1.0
