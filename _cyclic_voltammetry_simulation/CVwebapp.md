@@ -24,7 +24,11 @@ description: A Javascript web app for cyclic voltammetry simulations, built with
 
 <body>
 
-    I did a thing. Check it out here!
+    I did a thing. Check it out here! <br>
+
+    To study the concentration profiles, use the
+    <a href="/cyclic_voltammetry_simulation/index.html">MATLAB version</a>
+    of this app.
 
     <div id="CVplot"><!-- Plotly chart will be drawn inside this DIV --></div>
     <br>
