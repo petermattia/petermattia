@@ -288,6 +288,8 @@ Z = -n.*F.*JO/10; % [=] A/m^2 -> mA/cm^2, current density
 
 I found Bard and Faulkner's derivations opaque, since I was always mentally
 converting between dimenional and dimensionless variables.
+Additionally, the use of dimensionless current hides
+important subtleties in the simulation results.
 I much prefered the derivation published by Brown
 [in this paper](https://dx.doi.org/10.1021/acs.jchemed.5b00225),
 which is written with dimensional variables.

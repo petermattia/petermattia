@@ -112,18 +112,18 @@ description: A Javascript web app for cyclic voltammetry simulations, built with
 
     var layout = {
       title: 'Cyclic Voltammetry simulation: EC mechanism',
-
       xaxis: {
         title: 'Overpotential (V)',
         showgrid: true,
         zeroline: false
       },
-
       yaxis: {
         title: 'Current density (mA/cm<sup>2</sup>)',
         showgrid: true,
         zeroline: false
       },
+      displaylogo: false,
+      hovermode: 'closest'
     };
 
     Plotly.newPlot('CVplot', data, layout);
