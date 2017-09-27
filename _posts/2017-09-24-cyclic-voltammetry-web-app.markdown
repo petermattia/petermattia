@@ -15,12 +15,12 @@ As a result, I found some inconsistencies in previous versions of the code and a
 **If you're using a version before version 2.0, or code with a date earlier than 9/24, please update to the latest version.**
 
 2. I also ported my MATLAB app to the web! You can find it
-[here](/cyclic_voltammetry_simulation/CVwebapp.html).
+[here](/cyclic_voltammetry_simulation/cvwebapp.html).
 I hope this web app can increase the accessibility of simple electrochemical
 simulations.
 
 <p>
-<a href="{{ site.url }}/cyclic_voltammetry_simulation/CVwebapp.html">
+<a href="{{ site.url }}/cyclic_voltammetry_simulation/cvwebapp.html">
 <img src="{{ site.url }}/img/CVsimplotly.png" style="display:block; margin-left: auto; margin-right: auto;">
 </a></p>
 
