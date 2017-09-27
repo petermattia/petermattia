@@ -20,16 +20,45 @@ description: A Javascript web app for cyclic voltammetry simulations, built with
       margin: 2px 0;
       box-sizing: border-box;
     }
+    /* Create two equal columns that floats next to each other */
+    .column {
+      float: left;
+      width: 50%;
+      padding: 10px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
     </style>
 </head>
 
 <body>
-    I did a thing. Check it out here! <br>
+    This cyclic voltammetry simulation couples a one-electron electrochemical
+    reaction with a subsequent chemical reaction of the reduced species, as below:
 
+    $$ O + e^- \overset{k_f}{\underset{k_r}{\leftrightarrows}} R \overset{k_c}{\rightarrow} Z $$
+
+    I've created tutorials on the
+    <a href="/cyclic_voltammetry_simulation/fundamentals.html">
+    fundamental electrochemistry</a> of cyclic voltammetry and on
+    <a href="/cyclic_voltammetry_simulation/simulation.html">
+    a walkthrough of a MATLAB/Octave version of this simulation</a>.
+    To save an image and extract the <i>x-y</i> data, use the first two buttons
+    in the toolbar.
     To study the concentration profiles, use the
     <a href="/cyclic_voltammetry_simulation/index.html">MATLAB version</a>
     of this app.
 
+    <br><br>I discussed how I made this app in
+    <a href="/articles/2017/09/24/cyclic-voltammetry-web-app.html">this post</a>.
+    I hope that this tool increases the accessibility of simple cyclic voltammetry simulations.
+    Please contact me with any questions, comments, or suggestions!
+
+    <br><br>
     <div id="CVplot"><!-- Plotly chart will be drawn inside this DIV --></div>
     <br>
     $ C = $ <input type="text" id="conc" value="1"> $ \text{mol/cm}^3 $, initial concentration of $ O $ <br>
@@ -38,20 +67,25 @@ description: A Javascript web app for cyclic voltammetry simulations, built with
     $ \eta_f = $ <input type="text" id="etaf" value="-0.2"> $ \text{V} $, final overpotential <br>
     $ \nu = $ <input type="text" id="v" value="1E-3"> $ \text{V/s} $, scan rate <br>
     $ \alpha = $ <input type="text" id="alpha" value="0.5">, charge transfer coefficient <br>
-    $ k_0 = $ <input type="text" id="k0" value="10"> $ \text{cm/s} $, electrochemical rate constant <br>
-    $ k_1 = $ <input type="text" id="k1" value="1E-5"> $ \text{s}^{-1} $, chemical rate constant <br>
+    $ k_0 = $ <input type="text" id="k0" value="1E-2"> $ \text{cm/s} $, electrochemical rate constant <br>
+    $ k_1 = $ <input type="text" id="k1" value="1E-3"> $ \text{s}^{-1} $, chemical rate constant <br>
     <br>
-    Legend: <input type="text" id="legend" value="sim2"> <br>
 
-    <br>
-    <button id="addDataset" class="w3-btn w3-ripple w3-green">Add</button>
-    <button id="removeDataset" class="w3-btn w3-ripple w3-green">Remove</button>
+    <div class="row">
+      <div class="column">
+        Legend: <input type="text" id="legend" value="sim2"> <br>
+        <br>
+        <button id="addDataset" class="w3-btn w3-ripple w3-green">Add</button>
+        <button id="removeDataset" class="w3-btn w3-ripple w3-green">Remove</button>
+      </div>
+      <div class="column">
+        <a href="/cyclic_voltammetry_simulation/reversibility.html"><big>Reversibility parameters</big></a><br>
+        $ \Lambda = $ <input type="text" id="echemrev" value="0" class="field left" readonly><br>
+        $ k_1t_k = $ <input type="text" id="chemrev" value="0" class="field left" readonly><br>
+        <textarea cols="50" id="chemrevwarn" value="" class="field left" readonly style="color:#f00;"></textarea><br>
+      </div>
+    </div>
 
-
-    <br><br> Reversibility parameters: <br>
-    $ \Lambda = $ <input type="text" id="echemrev" value="0" class="field left" readonly><br>
-    $ k_1t_k = $ <input type="text" id="chemrev" value="0" class="field left" readonly><br>
-    <textarea cols="50" id="chemrevwarn" value="" class="field left" readonly></textarea><br>
 
     <br><br>
 

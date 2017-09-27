@@ -42,7 +42,8 @@ var CVplot = function() {
 
   // CHEMICAL REVERSIBILITY WARNING
   if (km>0.1) {
-    var warning = 'k_c*t_k/L equals '+ km.toString() +', which exceeds the upper limit of 0.1 (see B&F, pg 797)';
+    var warning = 'k_1*t_k/L equals '+ km.toString() +', ' +
+      'which exceeds the upper limit of 0.1 (see B&F, pg 797). Try lowering k_1';
   } else {
     var warning = 'No warnings';
   }
