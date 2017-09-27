@@ -5,4 +5,4 @@ categories: articles
 description: A Javascript web app for cyclic voltammetry simulations, built with plotly.js
 ---
 
-{% include CVapp.html %}
+{% include cvapp.html %}

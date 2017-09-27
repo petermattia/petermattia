@@ -11,7 +11,7 @@ I built these apps to better understand the fundamentals of
 electrochemistry, and I hope they help you too!
 
 I originally wrote this simulation in MATLAB and later ported it to JavaScript.
-The JavaScript version lives [here](/cyclic_voltammetry_simulation/CVwebapp.html).
+The JavaScript version lives [here](/cyclic_voltammetry_simulation/cvwebapp.html).
 You can download the MATLAB version on the
 [MATLAB File Exchange](https://www.mathworks.com/matlabcentral/fileexchange/64011-cyclic-voltammetry-simulator)
 and on [GitHub](https://github.com/petermattia/Cyclic-Voltammetry-Simulator).
@@ -25,7 +25,7 @@ You can also find an excellent (qualitative) cyclic voltammetry tutorial
 
 Enjoy!
 
-### [Online simulation](/cyclic_voltammetry_simulation/CVwebapp.html)
+### [Online simulation](/cyclic_voltammetry_simulation/cvwebapp.html)
 
 ### [Fundamental electrochemistry](/cyclic_voltammetry_simulation/fundamentals.html)
 
