@@ -4,7 +4,7 @@ categories: articles
 title: "Chemical and electrochemical reversibility"
 description: Tutorial on chemical and electrochemical reversibility in cyclic voltammetry simulations
 ---
-
+20170809 Peter A 17Su electrochem fundementals
 ## UNDER CONSTRUCTION
 
 My personal research has been

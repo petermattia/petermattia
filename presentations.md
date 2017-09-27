@@ -4,7 +4,7 @@ title: Presentations
 permalink: /presentations/
 order: -1
 ---
-Last updated September 17, 2017
+Last updated September 25, 2017
 
 # Stanford
 
@@ -17,6 +17,25 @@ Last updated September 17, 2017
     </tr>
   </thead>
   <tbody>
+
+  	<tr>
+  	  <td style="text-align:center">October 2017</td>
+  	  <td style="text-align:center"> <a href="https://gcepsymposium.stanford.edu">
+      GCEP Research Symposium Poster Session</a> </td>
+  	  <td style="text-align:center">Stanford, CA</td>
+  	</tr>
+    <tr>
+      <td style="text-align:center">August 2017</td>
+      <td style="text-align:center"> <a href="https://energy.stanford.edu/research/seed-grants">
+      Stanford Precourt Institute for Energy Seed Grants Annual Workshop</a> </td>
+      <td style="text-align:center">Stanford, CA</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">August 2017</td>
+      <td style="text-align:center"> <a href="https://energy.stanford.edu/research/research-opportunities/super">
+      SUPER Lunch Seminar</a> </td>
+      <td style="text-align:center">Stanford, CA</td>
+    </tr>
   	<tr>
   	  <td style="text-align:center">July 2017</td>
   	  <td style="text-align:center"> <a href="http://gcep.stanford.edu/outreach/studentactivities_abstracts2017.html#july31">GCEP Student Energy Lectures</a> </td>
