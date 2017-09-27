@@ -7,13 +7,16 @@ description: Tutorial on chemical and electrochemical reversibility in cyclic vo
 20170809 Peter A 17Su electrochem fundementals
 ## UNDER CONSTRUCTION
 
-My personal research has been
+My personal research has been .
+In my quest to bring order from the chaos, I encountered
+[this page](http://www.asdlib.org/onlineArticles/ecourseware/Kelly_Potentiometry/PDF-4-Reversibility.pdf),
+in which the author states:
 
 > “The term ‘reversible’ is probably the most confusing, misused, and ambiguous term in all of electrochemistry”
 
-My version of the quote is as follows:
+After spending more time with this material, my version of the quote is as follows:
 
-> “The terms ‘reversible’ and ‘symmetric’ --is-- are probably the most confusing, misused, and ambiguous terms in all of electrochemistry”
+> “The term<span style="color:red">*s*</span> ‘reversible’ and ‘symmetric’ ~~is~~ <span style="color:red">*are*</span> probably the most confusing, misused, and ambiguous term<span style="color:red">*s*</span> in all of electrochemistry”
 
 In this post,
 - **Chemical reversibility:** Product of electrochemical reaction returns to original reactant upon a reverse scan, instead of a side product
@@ -21,8 +24,8 @@ In this post,
 - **General reversibility:** Some property (e.g. structure) is cycleable
 
 My sources include:
-- Richard Kelly, “Reversibility – Chemical vs. Electrochemical”
-- Mary Louie, Ph.D. thesis, Appendix A.1
+- [Richard Kelly, “Reversibility – Chemical vs. Electrochemical”](http://www.asdlib.org/onlineArticles/ecourseware/Kelly_Potentiometry/PDF-4-Reversibility.pdf)
+- [Mary Louie, Ph.D. thesis, Appendix A.1](http://thesis.library.caltech.edu/6420/4/Appendix.pdf)
 - Bard & Faulkner, 2nd edition
 
 ### Background
@@ -74,7 +77,7 @@ The units of $ k_0 $ are $ \text{cm/s} $.
 Electrochemically facile reactions have values of
 $ k_0 $ near $ \text{1-10 cm/s} $, while
 electrochemically infacile reactions have values of
-$ k_0 $ near $ \text{10^{-9} cm/s} $.
+$ k_0 $ near $ \text{10}^{-9} \text{cm/s} $.
 
 #### Electrochemical reversibility
 
@@ -107,7 +110,7 @@ as the material is subjected to extreme voltages,
 and *after many sweeps*, as the material continues to change with time
 (even if the material doesn't experience additional overpotential).
 
-Since I've already made up this term, I'll continue to make up a definition.
+Since I've already made up this term, I'll continue to make up definitions.
 General reversibility is equivalent to **cycleability**.
 This definition is in the context of bulk material changes, not
 side reactions (since side reactions represent chemical irreversibility).

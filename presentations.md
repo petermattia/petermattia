@@ -17,7 +17,6 @@ Last updated September 25, 2017
     </tr>
   </thead>
   <tbody>
-
   	<tr>
   	  <td style="text-align:center">October 2017</td>
   	  <td style="text-align:center"> <a href="https://gcepsymposium.stanford.edu">
