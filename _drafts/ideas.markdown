@@ -33,6 +33,3 @@ Web scraping & data science:
     - Better team wins (tiebreaker: home team wins)
     - My models
     - Vegas line
-
-TODO:
-Port app to web
