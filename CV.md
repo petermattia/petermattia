@@ -116,4 +116,4 @@ with Bio-logic and Arbin potentiostats
 
 **Reviewer:** [*Journal of the Electrochemical Society*](http://jes.ecsdl.org)
 
-**Mentor:** Three undergraduate/master's students
+**Mentor:** Three undergraduate & masters students
