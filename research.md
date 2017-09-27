@@ -8,7 +8,7 @@ order: 2
 [See my current publications here](/publications)
 
 
-![Stanford]({{ site.url }}/assets/SUSig_2color_Stree_Left.png)
+![Stanford]({{ site.url }}/img/SUSig_2color_Stree_Left.png)
 
 Research at Stanford
 ====================
@@ -26,7 +26,7 @@ which is one of the largest sources of degradation in lithium-ion batteries
 
 <br>
 
-![University of Delaware]({{ site.url }}/assets/UDfull.jpg)
+![University of Delaware]({{ site.url }}/img/UDfull.jpg)
 
 Research at Delaware
 ====================

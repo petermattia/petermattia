@@ -24,7 +24,6 @@ description: A Javascript web app for cyclic voltammetry simulations, built with
 </head>
 
 <body>
-
     I did a thing. Check it out here! <br>
 
     To study the concentration profiles, use the
@@ -37,9 +36,9 @@ description: A Javascript web app for cyclic voltammetry simulations, built with
     $ D = $ <input type="text" id="D" value="1E-5"> $ \text{cm}^2 \text{/s} $, diffusion coefficient <br>
     $ \eta_i = $ <input type="text" id="etai" value="0.2"> $ \text{V} $, initial overpotential <br>
     $ \eta_f = $ <input type="text" id="etaf" value="-0.2"> $ \text{V} $, final overpotential <br>
-    $ \nu = $ <input type="text" id="v" value="1E-2"> $ \text{V/s} $, scan rate <br>
+    $ \nu = $ <input type="text" id="v" value="1E-3"> $ \text{V/s} $, scan rate <br>
     $ \alpha = $ <input type="text" id="alpha" value="0.5">, charge transfer coefficient <br>
-    $ k_0 = $ <input type="text" id="k0" value="1E-5"> $ \text{cm/s} $, electrochemical rate constant <br>
+    $ k_0 = $ <input type="text" id="k0" value="10"> $ \text{cm/s} $, electrochemical rate constant <br>
     $ k_1 = $ <input type="text" id="k1" value="1E-5"> $ \text{s}^{-1} $, chemical rate constant <br>
     <br>
     Legend: <input type="text" id="legend" value="sim2"> <br>
@@ -87,7 +86,7 @@ description: A Javascript web app for cyclic voltammetry simulations, built with
       },
 
       yaxis: {
-        title: 'Dimensionless current',
+        title: 'Current density (mA/cm<sup>2</sup>)',
         showgrid: true,
         zeroline: false
       },

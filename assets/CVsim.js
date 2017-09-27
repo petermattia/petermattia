@@ -1,8 +1,12 @@
+// Peter Attia
+// CVsim.js
+// 09-24-2017
+// MIT License
 
 var CVplot = function() {
   // Parse text field values entered by user
   var C = parseFloat(document.getElementById('conc').value);
-  var D = parseFloat(document.getElementById('conc').value);
+  var D = parseFloat(document.getElementById('D').value);
   var etai = parseFloat(document.getElementById('etai').value);
   var etaf = parseFloat(document.getElementById('etaf').value);
   var v = parseFloat(document.getElementById('v').value);
@@ -11,6 +15,7 @@ var CVplot = function() {
   var k1 = parseFloat(document.getElementById('k1').value);
 
   // CONSTANTS
+  var n = 1; // nu,ber of electrons per reaction
   var F = 96485;   // [=] C/mol, Faraday's constant
   var R = 8.3145; // [=] J/mol-K, ideal gas constant
   var T = 298.15;  // [=] K, temperature. Default = 298.15
@@ -23,13 +28,13 @@ var CVplot = function() {
   // DERIVED CONSTANTS
   var tk  = 2*(etai-etaf)/v;   // [=] s, characteristic exp. time (pg 790). In this case, total time of fwd and rev scans
   var Dt  = tk/L;              // [=] s, delta time (Eqn B.1.10, pg 790)
-  var Dx  = math.sqrt(D*Dt/DM);     // [=] cm, delta x (Eqn B.1.13, pg 791)
-  var j   = math.ceil(4.2*math.sqrt(L))+5; // number of boxes (pg 792-793). If L~200, j=65
+  var Dx  = Math.sqrt(D*Dt/DM);     // [=] cm, delta x (Eqn B.1.13, pg 791)
+  var j   = Math.ceil(4.2*Math.sqrt(L))+5; // number of boxes (pg 792-793). If L~200, j=65
 
   // REVERSIBILITY PARAMETERS
   var ktk    = k1*tk;           // dimensionless kinetic parameter (Eqn B.3.7, pg 797)
   var km     = ktk/L;           // normalized dimensionless kinetic parameter (see bottom of pg 797)
-  var Lambda = k0/math.sqrt(D*f*v);  // dimensionless reversibility parameter (Eqn 6.4.4, pg. 236-239)
+  var Lambda = k0/Math.sqrt(D*f*v);  // dimensionless reversibility parameter (Eqn 6.4.4, pg. 236-239)
 
   // UPDATE REVERSIBILITY PARAMETERS
   document.getElementById("echemrev").value = Lambda.toExponential(3);
@@ -45,92 +50,92 @@ var CVplot = function() {
 
   // PRE-INITIALIZATION
   var k = math.range(0,L+1);    // time index vector
-  console.log(k);
-  var t = k.clone();
-  for(var i=0; i<k.length; i++) { // time vector
-    t[i] *= Dt;
-  }
-  var eta1 = t.clone();
-  var eta2 = t.clone();
-  for(var i=0; i<k.length; i++) { // time vector
-    eta1[i] = etai - v*t[i]; // overpotential vector, negative scan
-    eta2[i] = etaf + v*t[i]; // overpotential vector, positive scan
-  }
-  console.log(t);
+  var t = math.eval('Dt .* k',{Dt: Dt, k: k}); // [=] s, time vector
+  var eta1 = math.eval('etai - v.*t',{etai: etai, v: v, t:t});
+  var eta2 = math.eval('etaf + v.*t',{etaf: etaf, v: v, t:t});
 
   // overpotential scan, both directions
-  var eta = t.clone();
+  var eta = [];
   var i = 0;
   var curr_eta = etai;
   while(curr_eta>etaf){
     eta[i] = curr_eta;
     i += 1;
-    curr_eta = eta1[i];
+    curr_eta = eta1.subset(math.index(i));
   }
-  eta[i] = etaf;
-  i += 1;
+  var k = 0;
   curr_eta = etaf;
   while(curr_eta<etai){
     eta[i] = curr_eta;
     i += 1;
-    curr_eta = eta1[i];
+    k += 1;
+    curr_eta = eta2.subset(math.index(k));
   }
-  console.log(eta);
+  eta[i] = curr_eta;
 
-  /*
-  var Enorm = eta;
-  for(var i=0; i<eta.length; i++) { // time vector
-    Enorm[i] *= f; // normalized overpotential
-  }
-  var kf = Enorm;
-  var kr = Enorm;
-  for(var i=0; i<eta.length; i++) { // time vector
-    kf[i] = k0*exp(  -alpha *n*Enorm[i]); // [=] cm/s, fwd rate constant (pg 799)
-    kb[i] = k0*exp((1-alpha)*n*Enorm[i]); // [=] cm/s, rev rate constant (pg 799)
-  }
+  var Enorm = math.eval('eta.*f',{eta: eta, f: f}); // dimensionless overpotential
+  // kf [=] cm/s, fwd rate constant (pg 799)
+  var kf = math.eval('k0*exp(  -alpha *n*Enorm)',{k0:k0, alpha:alpha, n:n, Enorm:Enorm});
+  // kr [=] cm/s, rev rate constant (pg 799)
+  var kb = math.eval('k0*exp((1-alpha)*n*Enorm)',{k0:k0, alpha:alpha, n:n, Enorm:Enorm});
 
-  */
-  var O = math.matrix(math.ones([L+1, j])); // [=] mol/cm^3, concentration of O
-  var R = math.matrix(math.zeros([L+1, j])); // [=] mol/cm^3, concentration of O
-  var JO = math.matrix(math.zeros([1,L+1])); // [=] mol/cm^2-s, flux of O at the surface
+  var O = ones(L+1,j,C); // [=] mol/cm^3, concentration of O
+  var R = zeros(L+1,j);  // [=] mol/cm^3, concentration of O
+  var JO = zeros1D(L+1); // [=] mol/cm^2-s, flux of O at the surface
 
-  /*
   // START SIMULATION
   // i1 = time index. i2 = distance index
-  for(var i1=0; i1<L.length; i1++) {
+  for(var i1=0; i1<L; i1++) {
       // Update bulk concentrations of O and R
-      for(var i2=1; i2<j; i2++) {
-        O(i1+1,i2) = O(i1,i2) + DM*(O(i1,i2+1)+O(i1,i2-1)-2*O(i1,i2));
-
-        R(i1+1,i2) = R(i1,i2) + DM*(R(i1,i2+1)+R(i1,i2-1)-2*R(i1,i2)) ...
-        - km * R(i1,i2);
+      for(var i2=1; i2<j-2; i2++) {
+        //console.log(DM*(O[i1][i2+1]+O[i1][i2-1]-2*O[i1][i2]));
+        O[i1+1][i2] = O[i1][i2] + DM*(O[i1][i2+1]+O[i1][i2-1]-2*O[i1][i2]);
+        R[i1+1][i2] = R[i1][i2] + DM*(R[i1][i2+1]+R[i1][i2-1]-2*R[i1][i2]) - km*R[i1][i2];
       }
-
       // Update flux
-      JO(i1+1)   = ( kf(i1+1).*O(i1+1,2) - kb(i1+1).*R(i1+1,2) ) ./ (1 + Dx/D*(kf(i1+1) + kb(i1+1)) );
-
+      JO[i1+1] = ( kf[i1+1]*O[i1+1][1] - kb[i1+1]*R[i1+1][1] ) / (1 + Dx/D*(kf[i1+1] + kb[i1+1]) );
       // Update surface concentrations
-      O(i1+1,1) = O(i1+1,2) - JO(i1+1)*(Dx/D);
-      R(i1+1,1) = R(i1+1,2) + JO(i1+1)*(Dx/D) - km*R(i1+1,1);
+      O[i1+1][0] = O[i1+1][1] - JO[i1+1]*(Dx/D);
+      R[i1+1][0] = R[i1+1][1] + JO[i1+1]*(Dx/D) - km*R[i1+1][1];
   }
-  */
   // Calculate current density, Z, from flux of O
-  var Z = JO.clone();
-  for(var i=0; i<JO.length; i++) { // time vector
-    Z[i] *= -n*F*JO[i]/10; // [=] A/m^2 -> mA/cm^2, current density
-  }
-  /*
-  // PLOT RESULTS
-  // Sometimes length(eta) = length(Z) + 1. If this is the case, truncate last value
-  if length(eta) > length(Z)
-    eta = eta(1:end-1);
-  end
-  */
+  var Z = math.eval('-n*F.*JO./10',{n:n, F:F, JO:JO}); // [=] A/m^2 -> mA/cm^2, current density
 
-  //var eta = [1, 2, 3, 4];
-  //var Z = [C, randomWholeNum(), randomWholeNum(), randomWholeNum()];
   return [eta, Z];
 }
 
+function zeros1D(rows){
+  // makes a 1D array of 0s
+  var arr = [];
+  for (i1=0; i1<rows; i1++){
+    arr[i1] = 0;
+  }
+  return arr;
+}
 
-function randomWholeNum() {return Math.floor(Math.random() * 20);}
+function zeros(rows,cols){
+  // makes a rowsxcols array of 0s
+  var arr = [];
+  for (i1=0; i1<rows; i1++){
+    var temp = [];
+    for (i2=0; i2<cols; i2++){
+      temp[i2] = 0;
+    }
+    arr[i1] = temp;
+  }
+  return arr;
+}
+
+
+function ones(rows,cols,C){
+  // not really ones. Makes a rowsxcols array of C's
+  var arr = [];
+  for (i1=0; i1<rows; i1++){
+    var temp = [];
+    for (i2=0; i2<cols; i2++){
+      temp.push(C);
+    }
+    arr[i1] = temp;
+  }
+  return arr;
+}

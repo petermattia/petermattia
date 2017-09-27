@@ -22,7 +22,7 @@ I built a MATLAB app to help me perform simple electrochemical simulations -
 and thus better understand electrochemistry.
 Check out a screenshot below:
 
-![Screenshot]({{ site.url }}/assets/CVsimscreenshot.png)
+![Screenshot]({{ site.url }}/img/CVsimscreenshot.png)
 
 In the process, I learned about the basics of electrochemistry
 and finite element simulations.

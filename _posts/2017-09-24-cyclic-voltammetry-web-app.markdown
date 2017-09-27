@@ -12,7 +12,7 @@ Two updates on my cyclic voltammetry simulation:
 This process really helped me understand the underlying equations behind these
 simulations.
 As a result, I found some inconsistencies in previous versions of the code and app.
-**If you're using a version before version 2.0, or with a date earlier than 9/24, please update to the latest version.**
+**If you're using a version before version 2.0, or code with a date earlier than 9/24, please update to the latest version.**
 
 2. I also ported my MATLAB app to the web! You can find it
 [here](/cyclic_voltammetry_simulation/CVwebapp.html).
@@ -21,7 +21,7 @@ simulations.
 
 <p>
 <a href="{{ site.url }}/cyclic_voltammetry_simulation/CVwebapp.html">
-<img src="{{ site.url }}/assets/CVwebscreenshot.png" style="display:block; margin-left: auto; margin-right: auto;">
+<img src="{{ site.url }}/img/CVsimplotly.png" style="display:block; margin-left: auto; margin-right: auto;">
 </a></p>
 
 For some technical background on how I built it:
@@ -42,8 +42,8 @@ but it doesn't nativly support plotting standard *xy* data
 The [plotly.js](http://plot.ly/javascript/) library was very straightforward
 to set up and had built-in functionality for saving figures and data -
 it was clearly designed for scientific applications like my own.
-Lastly, I used the [math.js](http://mathjs.org) library for array manipulations
-and the [w3.css](https://www.w3schools.com/w3css/default.asp)
+Lastly, I used the [math.js](http://mathjs.org) library for some array
+manipulations and the [w3.css](https://www.w3schools.com/w3css/default.asp)
 CSS library to create the buttons.
 
 If you're interested, the source code for the

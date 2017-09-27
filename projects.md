@@ -13,7 +13,10 @@ exploring different simulation parameters using this app.
 I also created [comprehensive tutorials of this simulation](/cyclic_voltammetry_simulation/index.html).
 
 JavaScript version:
-![Screenshot]({{ site.url }}/assets/CVwebscreenshot.png)
+<p>
+<a href="{{ site.url }}/cyclic_voltammetry_simulation/CVwebapp.html">
+<img src="{{ site.url }}/img/CVsimplotly.png" style="display:block; margin-left: auto; margin-right: auto;">
+</a></p>
 
 MATLAB version:
-![Screenshot]({{ site.url }}/assets/CVsimscreenshot.png)
+![Screenshot]({{ site.url }}/img/CVsimscreenshot.png)

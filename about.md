@@ -6,7 +6,7 @@ order: 1
 ---
 
 <p>
-<img src="{{ site.url }}/assets/eclub_suit_2.jpg" style="display:block; margin-left: auto; margin-right: auto;">
+<img src="{{ site.url }}/img/eclub_suit_2.jpg" style="display:block; margin-left: auto; margin-right: auto;">
 </p>
 
 I am a fourth-year PhD student in

@@ -8,8 +8,7 @@ description: Tutorials on cyclic voltammetry simulations
 These tutorials will explain the simulation that powers my simple
 cyclic voltammetry apps.
 I built these apps to better understand the fundamentals of
-electrochemistry, and I
-hope they help you too!
+electrochemistry, and I hope they help you too!
 
 I originally wrote this simulation in MATLAB and later ported it to JavaScript.
 The JavaScript version lives [here](/cyclic_voltammetry_simulation/CVwebapp.html).
