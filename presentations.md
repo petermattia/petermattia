@@ -25,7 +25,7 @@ Last updated September 25, 2017
   	  <td style="text-align:center">Stanford, CA</td>
   	</tr>
     <tr>
-      <td style="text-align:center">August 2017</td>
+      <td style="text-align:center">October 2017</td>
       <td style="text-align:center"> <a href="https://energy.stanford.edu/research/seed-grants">
       Stanford Precourt Institute for Energy Seed Grants Annual Workshop</a> </td>
       <td style="text-align:center">Stanford, CA</td>
