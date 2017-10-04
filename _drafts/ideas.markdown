@@ -11,9 +11,6 @@ My papers
 GCEP talk - public speaking
 
 Web scraping & data science:
-- Wikipedia degrees to philosophy distribution
-  - Random articles
-  - Top 100
 - Distribution of battery papers in JECS vs Nature/Science/etc
 
 - Football scores
