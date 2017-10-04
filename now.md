@@ -14,4 +14,4 @@ My priorities for the next month include:
 * Run 20 miles a week
 * Continue wedding planning with Victoria
 
-[What is a now page?](http://nownownow.com/about)
+[What is a now page?](https://nownownow.com/about)

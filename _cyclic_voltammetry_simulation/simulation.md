@@ -429,5 +429,5 @@ I plot `-Z` instead of `Z`.
 The results of a simulation using the default values is below:
 
 <p>
-<img src="{{ site.url }}/img/results.svg" style="display:block; margin-left: auto; margin-right: auto;">
+<img src="/img/cyclic_voltammetry/results.svg" style="display:block; margin-left: auto; margin-right: auto;">
 </p>

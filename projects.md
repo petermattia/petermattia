@@ -14,9 +14,9 @@ I also created [comprehensive tutorials of this simulation](/cyclic_voltammetry_
 
 JavaScript version:
 <p>
-<a href="{{ site.url }}/cyclic_voltammetry_simulation/cvwebapp.html">
-<img src="{{ site.url }}/img/CVsimplotly.png" style="display:block; margin-left: auto; margin-right: auto;">
+<a href="/cyclic_voltammetry_simulation/cvwebapp.html">
+<img src="/img/CVsimplotly.png" style="display:block; margin-left: auto; margin-right: auto;">
 </a></p>
 
 MATLAB version:
-![Screenshot]({{ site.url }}/img/CVsimscreenshot.png)
+![Screenshot](/img/CVsimscreenshot.png)

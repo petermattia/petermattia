@@ -8,12 +8,12 @@ order: 2
 [See my current publications here](/publications)
 
 
-![Stanford]({{ site.url }}/img/SUSig_2color_Stree_Left.png)
+![Stanford](/img/SUSig_2color_Stree_Left.png)
 
 Research at Stanford
 ====================
 
-I work with [Prof. William Chueh](http://chuehlab.stanford.edu) on
+I work with [Prof. William Chueh](https://chuehlab.stanford.edu) on
 **making lithium-ion batteries last longer** and **charge faster.**
 More technically, I use electrochemical characerization to study
 how surface effects impact the side reactions and rate capability
@@ -26,7 +26,7 @@ which is one of the largest sources of degradation in lithium-ion batteries
 
 <br>
 
-![University of Delaware]({{ site.url }}/img/UDfull.jpg)
+![University of Delaware](/img/UDfull.jpg)
 
 Research at Delaware
 ====================
@@ -45,4 +45,4 @@ or read the paper [here](http://dx.doi.org/10.1007/s11948-012-9422-3).
 
 <!--![DuPont]({{ site.url }}/assets/DuPont.jpg)-->
 
-Lastly, I interned with [DuPont](http://www.dupont.com/) Engineering Technologies in the Heat, Mass, and Momentum Transfer group for a summer. I worked on a variety of chemical engineering problems, including water absorption, heat exchanger design, and solid-liquid mixing.
+Lastly, I interned with [DuPont](https://www.dupont.com/) Engineering Technologies in the Heat, Mass, and Momentum Transfer group for a summer. I worked on a variety of chemical engineering problems, including water absorption, heat exchanger design, and solid-liquid mixing.
