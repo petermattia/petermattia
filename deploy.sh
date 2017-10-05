@@ -1,6 +1,6 @@
 echo "Building blog"
 echo '----------------------------'
-JEKYLL_ENV=production jekyll build
+JEKYLL_ENV=production bundle exec jekyll build
 
 echo "Deploying blog to s3"
 echo '----------------------------'
