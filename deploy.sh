@@ -4,7 +4,7 @@ JEKYLL_ENV=production bundle exec jekyll build
 
 echo "Deploying blog to s3"
 echo '----------------------------'
-s3_website push
+bundle exec s3_website push
 
 echo "Committing and pushing to GitHub"
 echo '----------------------------'
