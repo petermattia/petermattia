@@ -4,6 +4,7 @@ JEKYLL_ENV=production bundle exec jekyll build
 
 echo "Deploying blog to s3"
 echo '----------------------------'
+jenv local oracle64-1.7.0.80
 s3_website push --verbose
 
 echo "Committing and pushing to GitHub"
