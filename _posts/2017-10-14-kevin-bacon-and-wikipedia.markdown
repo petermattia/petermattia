@@ -22,7 +22,7 @@ For example,
 ["Bacon number" of 1](https://www.google.com/search?q=bacon+number+tom+hanks),
 since he co-starred in [*Apollo 13*](https://en.wikipedia.org/wiki/Apollo_13_(film))
 with Bacon.
-The Union Civil War general [William Rufus Shafter](https://en.wikipedia.org/wiki/William_Rufus_Shafter)
+The Civil War general [William Rufus Shafter](https://en.wikipedia.org/wiki/William_Rufus_Shafter)
 has a [Bacon number of 7](https://www.google.com/search?q=bacon+number+william+rufus+shafter),
 if you count the tenuous connection between Theodore Roosevelt and Oprah Winfrey
 in [*Food, Inc*](https://en.wikipedia.org/wiki/Food,_Inc).
@@ -90,13 +90,13 @@ There are some rules for what counts as the first link:
 - It must link to a valid Wikipedia page - no in-page citations, external links,
 "meta" Wikipedia pages like
 [this one for pronunciation](https://en.wikipedia.org/wiki/Help:IPA/English), etc
-- The link can't be in parentheses, since these links typically refer to language links
+- The link can't be in parentheses, since these links typically reference language pages
 (see pages like [Science](https://en.wikipedia.org/wiki/Science) or [Egypt](https://en.wikipedia.org/wiki/Egypt))
 - The link can't be a previously referenced page, to avoid loops.
 If the first link has already been referenced, go to the second link, and so on.
 A par
 
-To learn web scraping and Python fundamentals, I developed code to automatically find
+To learn web scraping and Python fundamentals, I wrote a script to automatically find
 the degree of seperation between a Wikipedia page and "philosophy".
 In this post, I share my results.
 Keep in mind I only search the English-language version of Wikipedia
@@ -230,13 +230,28 @@ was also a TV show - [*Glee*](https://en.wikipedia.org/wiki/Glee_(TV_series)).
 
 ### Categories
 
-Yo
+Wikipedia also maintains a
+[list](https://en.wikipedia.org/wiki/Wikipedia:Multiyear_ranking_of_most_viewed_pages#Countries)
+of the 30 most popular pages in 15 different categories.
+We can characterize the distributions of degrees of seperation for the pages
+in each category with a boxplot:
 
 <p>
 <img src="\img\wiki-phil\categories_boxplot.svg" style="display:block; margin-left: auto; margin-right: auto;">
 </p>
 
-Yo yo. The top page in each category is displayed in the label.
+[Sports teams](https://en.wikipedia.org/wiki/Wikipedia:Multiyear_ranking_of_most_viewed_pages#Sport_teams)
+have the closest distribution, since many of the teams are
+association football ("soccer") teams that follow the same path to "philosophy".
+As we've already seen, the ["Films and TV series"](https://en.wikipedia.org/wiki/Wikipedia:Multiyear_ranking_of_most_viewed_pages#Films_and_TV_series)
+category has the largest distribution.
+
+
+Since the above page lists the popularity of each page in each category,
+we can also characterize the popularity of each category.
+Below is a bar chart showing the page popularity of the 1<sup>st</sup>,
+10<sup>th</sup>, and 30<sup>th</sup> most popular pages in each category.
+The top page in each category is displayed in the label.
 
 <p>
 <img src="\img\wiki-phil\categories_popularity.svg" style="display:block; margin-left: auto; margin-right: auto;">
