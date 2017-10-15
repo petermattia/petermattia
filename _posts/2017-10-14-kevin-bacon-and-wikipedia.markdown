@@ -94,7 +94,6 @@ There are some rules for what counts as the first link:
 (see pages like [Science](https://en.wikipedia.org/wiki/Science) or [Egypt](https://en.wikipedia.org/wiki/Egypt))
 - The link can't be a previously referenced page, to avoid loops.
 If the first link has already been referenced, go to the second link, and so on.
-A par
 
 To learn web scraping and Python fundamentals, I wrote a script to automatically find
 the degree of seperation between a Wikipedia page and "philosophy".
@@ -227,6 +226,10 @@ all of which connected through the
 connection documented earlier.
 Interestingly, the page in the top 100 with the highest "philosophy number" (27)
 was also a TV show - [*Glee*](https://en.wikipedia.org/wiki/Glee_(TV_series)).
+For whatever it's worth (read: very little), the second-highest-ranking page,
+[Donald Trump](https://en.wikipedia.org/wiki/Donald_Trump), is equally removed
+from "philosophy" than the third-highest-ranking page,
+[Barack Obama](https://en.wikipedia.org/wiki/Barack_Obama).
 
 ### Categories
 
@@ -257,7 +260,22 @@ The top page in each category is displayed in the label.
 <img src="\img\wiki-phil\categories_popularity.svg" style="display:block; margin-left: auto; margin-right: auto;">
 </p>
 
-Yo yo yo
+I was surprised by two results:
+- The popularity of countries. Wouldn't Wikipedia's most popular page,
+[the United States](https://en.wikipedia.org/wiki/United_States),
+have very general information that's not of interest to the casual Wikipedian?
+I typically go to Wikipedia to find very specific information.
+But I can see the US page's popularity coming from school reports, etc.
+- The popularity of, well, popular people
+(singers, actors, sportsmen, bands).
+[Michael Jackson](https://en.wikipedia.org/wiki/Michael_Jackson) is at \#6,
+[Lady Gaga](https://en.wikipedia.org/wiki/Lady_Gaga) at \#9, and
+[Eminem](https://en.wikipedia.org/wiki/Eminem) at \#10.
+While I'd expect Google queries to be high for these cultural icons, I didn't
+expect Wikipedia to be such a prominent source for information.
+Of course, the entertainers at the top of the list are all American,
+which is partially influenced by using the English-language version of Wikipedia
+and widespread, high-quality internet access in America.
 
 ### Coding
 
