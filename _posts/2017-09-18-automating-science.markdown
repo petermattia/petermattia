@@ -102,7 +102,7 @@ For example, the [Andrew Alliance](https://www.andrewalliance.com) has developed
 
 <p>
 <a href="http://www.wildcatdiscovery.com">
-<img src="{{ site.url }}/img/wildcat.jpg" style="display:block; margin-left: auto; margin-right: auto;">
+<img src="/img/wildcat.jpg" style="display:block; margin-left: auto; margin-right: auto;">
 </a></p>
 
 In the battery space,
@@ -133,7 +133,7 @@ are well defined.
 
 <p>
 <a href="http://science.sciencemag.org/content/324/5923/85.full">
-<img src="{{ site.url }}/img/adam.jpg" style="display:block; margin-left: auto; margin-right: auto;">
+<img src="/img/adam.jpg" style="display:block; margin-left: auto; margin-right: auto;">
 </a></p>
 
 The first reference to a "robot scientist" that I could find is
