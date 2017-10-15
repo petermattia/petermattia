@@ -46,7 +46,7 @@ ratio for battery analysis.
 
 <p>
 <a href="https://www.voltaiq.com">
-<img src="{{ site.url }}/img/voltaiq.png" style="display:block; margin-left: auto; margin-right: auto;">
+<img src="/img/voltaiq.png" style="display:block; margin-left: auto; margin-right: auto;">
 </a></p>
 
 In my field of battery research, [Voltaiq](https://www.voltaiq.com)
@@ -86,7 +86,7 @@ reproducibility.
 
 <p>
 <a href="http://pubs.acs.org/doi/abs/10.1021/acscombsci.6b00153">
-<img src="{{ site.url }}/img/combinatorial.gif" style="display:block; margin-left: auto; margin-right: auto;">
+<img src="/img/combinatorial.gif" style="display:block; margin-left: auto; margin-right: auto;">
 </a></p>
 
 A related field is
