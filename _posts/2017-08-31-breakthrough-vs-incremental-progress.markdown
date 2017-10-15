@@ -55,7 +55,7 @@ In the original article, the author closes with a sentence I strongly disagree w
 What's not to be optimistic about? According to a recent [IEA](https://www.iea.org/publications/freepublications/publication/Global_EV_Outlook_2016.pdf)
 report, battery cost and energy density are both making gains of 5-8%/year:
 
-![Screenshot]({{ site.url }}/img/IEA.png)
+![Screenshot](/img/IEA.png)
 
 That's fantastic! I'd certaintly invest in a company with 5-8% annual returns.
 Plenty of exciting "incremental" developments,

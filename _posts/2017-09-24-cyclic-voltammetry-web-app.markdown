@@ -20,8 +20,8 @@ I hope this web app can increase the accessibility of simple electrochemical
 simulations.
 
 <p>
-<a href="{{ site.url }}/cyclic_voltammetry_simulation/cvwebapp.html">
-<img src="{{ site.url }}/img/CVsimplotly.png" style="display:block; margin-left: auto; margin-right: auto;">
+<a href="/cyclic_voltammetry_simulation/cvwebapp.html">
+<img src="/img/CVsimplotly.png" style="display:block; margin-left: auto; margin-right: auto;">
 </a></p>
 
 For some technical background on how I built it:

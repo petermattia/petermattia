@@ -30,3 +30,8 @@ Web scraping & data science:
     - Better team wins (tiebreaker: home team wins)
     - My models
     - Vegas line
+
+Links:
+-http://pjoos.github.io/2015/11/11/nfl_ml.html
+-http://pjoos.github.io/2016/05/23/nfl_1.html
+-http://www.vikparuchuri.com/blog/predicting-season-records-for-nfl-teams-part-2/

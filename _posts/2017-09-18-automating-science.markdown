@@ -150,7 +150,7 @@ The second-generation robot, [Eve](http://www.cam.ac.uk/research/news/artificial
 
 <p>
 <a href="https://www.zymergen.com">
-<img src="{{ site.url }}/img/zymergen.png" style="display:block; margin-left: auto; margin-right: auto;">
+<img src="/img/zymergen.png" style="display:block; margin-left: auto; margin-right: auto;">
 </a></p>
 
 [Zymergen](https://www.zymergen.com) is a startup pursuing automated science
