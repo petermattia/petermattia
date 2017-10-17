@@ -44,8 +44,8 @@ $$ O + e^- \overset{k_f}{\underset{k_r}{\leftrightarrows}} R \overset{k_c}{\righ
 
 This system is an electrochemical redox reaction in which the
 product can further react in a first-order chemical reaction,
-commonly called an " $ EC $ " mechanism.
-For more details, you can check out the
+commonly called an "$ EC $" mechanism.
+For more details, you can check out other
 [cyclic voltammetry simulation tutorials](/cyclic_voltammetry_simulation/index.html)
 I've created, especially the
 [fundamentals](/cyclic_voltammetry_simulation/fundamentals.html) page.
