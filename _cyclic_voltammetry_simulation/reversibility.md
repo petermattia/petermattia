@@ -60,6 +60,10 @@ Chemically irreversible if rc >> rr
 
 Chemical reversibility is relative to scan rate/cycling rate
 
+$$ k_1 t_k $$
+
+$$ k_1 t_k / l $$
+
 (Plots)
 
 ### Electrochemical reversibility
@@ -101,7 +105,7 @@ $ k_0 $ near $ \text{10}^{-9} \text{cm/s} $.
 A major confusion I encountered in this understanding is the difference between
 electrochemical facility and electrochemical reversibility.
 Kelly's tutorial gives the following definition for electrochemical reversibility
-(here, $ k_s $ is the same as $ k^0 $):
+(here, he uses $ k_s $ to represent $ k^0 $):
 
 ![Kelly reversibility definition](/img/cyclic_voltammetry/kelly_rev.png)
 
