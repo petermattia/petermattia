@@ -12,7 +12,7 @@ description: Tutorial on chemical and electrochemical reversibility in cyclic vo
 My research has started involving various forms of reversibility and asymmetry
 in electrochemistry.
 In my quest to make sense of it all, I developed
-[cyclic voltammetry simulations](\cyclic_voltammetry_simulation\index)
+[cyclic voltammetry simulations](/cyclic_voltammetry_simulation\index)
 to help me better understand these concepts.
 As I was reading more about these topics, I encountered
 [this page](http://www.asdlib.org/onlineArticles/ecourseware/Kelly_Potentiometry/PDF-4-Reversibility.pdf),
@@ -43,7 +43,8 @@ We consider the following system of reactions:
 $$ O + e^- \overset{k_f}{\underset{k_r}{\leftrightarrows}} R \overset{k_c}{\rightarrow} Z $$
 
 This system is an electrochemical redox reaction in which the
-product can further react in a first-order chemical reaction.
+product can further react in a first-order chemical reaction,
+commonly called an " $ EC $ " mechanism.
 For more details, you can check out the
 [cyclic voltammetry simulation tutorials](/cyclic_voltammetry_simulation/index.html)
 I've created, especially the
@@ -83,7 +84,7 @@ We'll look at each of these in detail in the following sections.
 Electrochemical facility is defined by the standard (heterogeneous) rate constant, $ k_0 $.
 I like Bard and Faulkner's definition of electrochemical facility on page 96:
 >The physical interpretation of $ k_0 $ is straightforward.
->It simply is a measure of the kinetic facility of a redox couple
+>It simply is a measure of the kinetic facility of a redox couple.
 
 In other words, electrochemical facility is simply how easily a material
 exchanges an electron with its environment.
@@ -99,7 +100,8 @@ $ k_0 $ near $ \text{10}^{-9} \text{cm/s} $.
 
 A major confusion I encountered in this understanding is the difference between
 electrochemical facility and electrochemical reversibility.
-Kelly's tutorial gives the following definition for electrochemical reversibility:
+Kelly's tutorial gives the following definition for electrochemical reversibility
+(here, $ k_s $ is the same as $ k^0 $):
 
 ![Kelly reversibility definition](/img/cyclic_voltammetry/kelly_rev.png)
 
