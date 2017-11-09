@@ -26,31 +26,37 @@ alternative fuel vehicle (AFV) purchases to the Tesla subset.
 
 ### Population statistics
 
-![Age histogram](\img\delaware-EVs\age.png)
+#### Age
 
-![Age of Tesla purchasers](\img\delaware-EVs\age_tesla.png)
+<img src="\img\delaware-EVs\age.svg" style="display:block; margin-left: auto; margin-right: auto;">
 
-![Vehicle types](\img\delaware-EVs\vehicle_types.png)
+<img src="\img\delaware-EVs\age_tesla.svg" style="display:block; margin-left: auto; margin-right: auto;">
 
-![Makes](\img\delaware-EVs\make.png)
+#### Vehicle types, makes, and models
 
-![Electric vehicle models](\img\delaware-EVs\electric_models.png)
+<img src="\img\delaware-EVs\vehicle_types.svg" style="display:block; margin-left: auto; margin-right: auto;">
+
+<img src="\img\delaware-EVs\make.svg" style="display:block; margin-left: auto; margin-right: auto;">
+
+<img src="\img\delaware-EVs\models.svg" style="display:block; margin-left: auto; margin-right: auto;">
+
+<img src="\img\delaware-EVs\electric_models.svg" style="display:block; margin-left: auto; margin-right: auto;">
 
 ### Spatial distribution of alternative fuel vehicles
 
-![Counties](\img\delaware-EVs\counties.png)
+<img src="\img\delaware-EVs\counties.svg" style="display:block; margin-left: auto; margin-right: auto;">
 
-![AFV normalized map](\img\delaware-EVs\afv_norm_map.png)
+<img src="\img\delaware-EVs\afv_norm_map.png" style="display:block; margin-left: auto; margin-right: auto;">
 
-![Tesla map](\img\delaware-EVs\tesla_map.png)
+<img src="\img\delaware-EVs\tesla_map.png" style="display:block; margin-left: auto; margin-right: auto;">
 
 ### Change in rebate policy
 
-![Monthly sales by type after change in policy](\img\delaware-EVs\policy_change_type.png)
+<img src="\img\delaware-EVs\policy_change_type.svg" style="display:block; margin-left: auto; margin-right: auto;">
 
-![Monthly sales by make after change in policy](\img\delaware-EVs\policy_change_make.png)
+<img src="\img\delaware-EVs\policy_change_make.svg" style="display:block; margin-left: auto; margin-right: auto;">
 
-![Purchasing trends after change in policy](\img\delaware-EVs\policy_change_trends.png)
+<img src="\img\delaware-EVs\policy_change_trends.svg" style="display:block; margin-left: auto; margin-right: auto;">
 
 ### More information
 
