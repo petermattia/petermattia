@@ -46,7 +46,7 @@ ratio for battery analysis.
 
 <p>
 <a href="https://www.voltaiq.com">
-<img src="/img/voltaiq.png" style="display:block; margin-left: auto; margin-right: auto;">
+<img src="/img/automating-science/voltaiq.png" style="display:block; margin-left: auto; margin-right: auto;">
 </a></p>
 
 In my field of battery research, [Voltaiq](https://www.voltaiq.com)
@@ -86,7 +86,7 @@ reproducibility.
 
 <p>
 <a href="http://pubs.acs.org/doi/abs/10.1021/acscombsci.6b00153">
-<img src="/img/combinatorial.gif" style="display:block; margin-left: auto; margin-right: auto;">
+<img src="/img/automating-science/combinatorial.gif" style="display:block; margin-left: auto; margin-right: auto;">
 </a></p>
 
 A related field is
@@ -102,7 +102,7 @@ For example, the [Andrew Alliance](https://www.andrewalliance.com) has developed
 
 <p>
 <a href="http://www.wildcatdiscovery.com">
-<img src="/img/wildcat.jpg" style="display:block; margin-left: auto; margin-right: auto;">
+<img src="/img/automating-science/wildcat.jpg" style="display:block; margin-left: auto; margin-right: auto;">
 </a></p>
 
 In the battery space,
@@ -133,7 +133,7 @@ are well defined.
 
 <p>
 <a href="http://science.sciencemag.org/content/324/5923/85.full">
-<img src="/img/adam.jpg" style="display:block; margin-left: auto; margin-right: auto;">
+<img src="/img/automating-science/adam.jpg" style="display:block; margin-left: auto; margin-right: auto;">
 </a></p>
 
 The first reference to a "robot scientist" that I could find is
@@ -150,7 +150,7 @@ The second-generation robot, [Eve](http://www.cam.ac.uk/research/news/artificial
 
 <p>
 <a href="https://www.zymergen.com">
-<img src="/img/zymergen.png" style="display:block; margin-left: auto; margin-right: auto;">
+<img src="/img/automating-science/zymergen.png" style="display:block; margin-left: auto; margin-right: auto;">
 </a></p>
 
 [Zymergen](https://www.zymergen.com) is a startup pursuing automated science
