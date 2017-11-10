@@ -101,7 +101,7 @@ See Eqn 2-50 and Fig 2-30 in
 for a more detailed description.
 - BC2: $ -k \frac{\partial T(R,t)}{\partial r} = h\big(T(R,t) - T_{\infty} \big) $.
 This is the boundary condition for
-[convective heat transfer](https://en.wikipedia.org/wiki/),
+[convective heat transfer](https://en.wikipedia.org/wiki/Convective_heat_transfer),
 which represents how a cell exchanges heat with its environment.
 
 We also need to set limits of integration for both space and time.

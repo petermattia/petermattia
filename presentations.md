@@ -4,7 +4,7 @@ title: Presentations
 permalink: /presentations/
 order: -1
 ---
-Last updated September 25, 2017
+Last updated November 9, 2017
 
 # Stanford
 
@@ -17,6 +17,11 @@ Last updated September 25, 2017
     </tr>
   </thead>
   <tbody>
+  	<tr>
+  	  <td style="text-align:center">November 2017</td>
+  	  <td style="text-align:center">SAIC Day Poster Session</td>
+  	  <td style="text-align:center">Stanford, CA</td>
+  	</tr>
   	<tr>
   	  <td style="text-align:center">October 2017</td>
   	  <td style="text-align:center"> <a href="https://gcepsymposium.stanford.edu">
