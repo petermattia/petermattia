@@ -11,7 +11,7 @@ tags: data-science
 <img src="\img\delaware-EVs\de_tesla.jpg" style="display:block; margin-left: auto; margin-right: auto;">
 </a></p>
 
-As I was looking for data to use for practicing data analysis,
+As I was looking for data to use for practicing data analysis in Python,
 I came across a dataset combining two things I love: Delaware and electric vehicles.
 This dataset, [State Rebates for Alternative-Fuel Vehicles](https://data.delaware.gov/Energy-and-Environment/State-Rebates-for-Alternative-Fuel-Vehicles/8z8z-di7f),
 contains information on successful applicants for rebates issued by the state under the

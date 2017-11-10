@@ -12,13 +12,13 @@ Victoria is genuine, kind, passionate, and quite the looker,
 and I'm beyond excited to spend the rest of my life with her.
 
 <p>
-<img src="/img/engagementpic.JPG" style="width=200px;display:block; margin-left: auto; margin-right: auto;">
+<img src="/img/personal/engagementpic.JPG" style="width=200px;display:block; margin-left: auto; margin-right: auto;">
 </p>
 
 ### Hobbies
 
 <p>
-<img src="/img/djax.jpg" alt="DeSean Jackson dropping the ball" style="display:block; margin-left: auto; margin-right: auto;">
+<img src="/img/personal/djax.jpg" alt="DeSean Jackson dropping the ball" style="display:block; margin-left: auto; margin-right: auto;">
 </p>
 
 I enjoy playing pickup basketball, biking and hiking around the Bay Area,
@@ -27,13 +27,13 @@ and watching the Philadelphia Eagles
 have promising regular seasons and then break my heart in the playoffs.
 
 <p>
-<img src="/img/missionpeak.JPG" alt="Mission Peak" style="display:block; margin-left: auto; margin-right: auto;">
+<img src="/img/personal/missionpeak.JPG" alt="Mission Peak" style="display:block; margin-left: auto; margin-right: auto;">
 </p>
 
 ### Delaware
 
 <p>
-<img src="/img/joebiden.jpg" alt="Joe Biden" style="display:block; margin-left: auto; margin-right: auto;">
+<img src="/img/personal/joebiden.jpg" alt="Joe Biden" style="display:block; margin-left: auto; margin-right: auto;">
 </p>
 
 I have what some might call an irrational love for my home state of Delaware.
@@ -56,7 +56,7 @@ Famous Delawareans include:
 our former Vice President ([and a favorite of *The Onion*](http://www.theonion.com/channels/joseph-biden/)).
 
 <p>
-<img src="/img/youdee.png" alt="YouDee" style="width: 300px;display:block; margin-left: auto; margin-right: auto;">
+<img src="/img/personal/youdee.png" alt="YouDee" style="width: 300px;display:block; margin-left: auto; margin-right: auto;">
 </p>
 
 As a [Fightin' Blue Hen](https://en.wikipedia.org/wiki/Delaware_Fightin%27_Blue_Hens#Nickname)
@@ -80,7 +80,7 @@ For me, Delaware will always be home.
 ### Heritage
 
 <p>
-<img src="/img/complexion.JPG" style="width=100px;display:block; margin-left: auto; margin-right: auto;">
+<img src="/img/personal/complexion.JPG" style="width=100px;display:block; margin-left: auto; margin-right: auto;">
 </p>
 
 My olive complexion, hard-to-place facial features,
@@ -104,7 +104,7 @@ Check out my progress [here](/50states).
 ### Work
 
 <p>
-<img src="/img/zamboni.png" alt="Zamboni" style="width: 300px;display:block; margin-left: auto; margin-right: auto;">
+<img src="/img/personal/zamboni.png" alt="Zamboni" style="width: 300px;display:block; margin-left: auto; margin-right: auto;">
 </p>
 
 I take pride in the fact that I have worked a part-time job nearly continuously
@@ -124,7 +124,7 @@ while making terrific gurgling and hissing sounds at 2 AM in an empty ice rink.
 ### UrbanPromise
 
 <p>
-<img src="/img/UP.jpg" alt="UrbanPromise" style="width: 300px; display:block; margin-left: auto; margin-right: auto;">
+<img src="/img/personal/UP.jpg" alt="UrbanPromise" style="width: 300px; display:block; margin-left: auto; margin-right: auto;">
 </p>
 
 [UrbanPromise Wilmington](http://www.urbanpromise.org/) will always have a

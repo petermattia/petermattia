@@ -2,7 +2,7 @@
 layout: post
 categories: articles
 title: Thermal modeling of cylindrical batteries
-date: 2017-11-08
+date: 2017-11-09
 description: Using MATLAB to do simple thermal modeling of cylindrical batteries
 tags: science
 ---
@@ -30,15 +30,58 @@ of the anode.
 
 ### Model
 
+#### Assumptions
+
+Keep in mind that the purpose of these simulations is primarily illustrative, not
+high accuracy:
+- *The cylinder is long.* This assumption allows us to model heat transfer in
+just one dimension, $ r $. Since $ R/D = 0.14 $, this assumption is reasonable.
+This assumption is most accurate for the middle of the battery; it serves as
+an upper bound of the center temperature.
+- *Resistive heating is the only source of heat generation.*
+Other sources contribute to heat generation in a battery,
+such as ionic resistance and chemical reaction,
+but [resistive heating](https://en.wikipedia.org/wiki/Joule_heating)
+is one of the simplest to model.
+- *The stainless steel core and case do not contribute to heat transfer.*
+This assumption is reasonable since these components are thin and have rapid
+heat transfer.
+- *The battery's properties are averaged over the bulk.*
+Although the inside of a battery contains many distinct components including the
+anode, cathode, seperator, current collectors, we represent the contributions
+of the individual battery components by average properties.
+- *Bulk properties are invariant with temperature, state of charge, position, etc.*
+Since we don't expect the variation due to these effects to exceed 10-20%,
+this assumption is reasonable for a first-order model.
+
+#### Energy balance
+
+Ultimately, the setup of this model is identical to other cases of
+one-dimensional heat transfer in a cylinder with internal heat generation,
+such as current-carrying wires and reaction-containing pipes.
+The derivation for the 1D cylindrical case is a classic chemical & mechanical
+engineering problem, so I won't repeat it here.
+[This textbook](http://cecs.wright.edu/~sthomas/htchapter02.pdf)
+derives it nicely in equations (2-18) to (2-26).
+
+Basically, we approach this problem with an energy balance:
+
+$$ \text{(rate of energy in) - (rate of energy out) + (rate of heat generation) = (rate of change in energy)} $$
+
+The end result is below:
+
 $$ \frac{1}{r} \frac{\partial}{\partial r}\left(r \frac{\partial T}{\partial r}\right) + \frac{\dot{e}_{gen}}{k} =  \frac{1}{\alpha} \frac{\partial T}{\partial r} $$
 
-This equation includes a few parameters:
+This equation is a [partial differential equation (PDE)](https://en.wikipedia.org/wiki/Partial_differential_equation), which
+generally requires a numerical solution (as opposed to an analytical solution).
+This PDE includes a few parameters:
 - $ k $ is the [*thermal conductivity*](https://en.wikipedia.org/wiki/Thermal_conductivity)
 - $ \alpha = {k}/{\rho c_p} $ is the [*thermal diffusivity*](https://en.wikipedia.org/wiki/Thermal_diffusivity)
-- $ \dot{e}\_{gen} = \left(I^2 R_{int}\right)/\left(\pi r^2 L\right)$ is
+- $ \dot{e}\_{gen} = \left(I^2 R_{int}\right)/\left(\pi R^2 L\right)$ is
 the *volumetric heat generation rate*. Here, we assume a constant heat generation
-rate due to [*resistive heating*](https://en.wikipedia.org/wiki/Joule_heating),
-given by $ I^2 R_{int} $. The volume is simply the volume of a cylinder.
+rate due to [resistive heating](https://en.wikipedia.org/wiki/Joule_heating),
+given by $ I^2 R_{int} $. The volume is simply the volume of an "18650" cylinder
+with $ R = 9 \text{ mm} $ and $ L = 65 \text{ mm} $.
 
 #### Initial and boundary conditions
 
@@ -47,12 +90,23 @@ we need two boundary conditions and one initial condition. They are given by:
 
 - IC: $ T(x,t=0)=T_{init} $. This basically means that the whole cell starts at
   some uniform temperature $ T_{init} $. I've set $ T_{init} = 30°C$ here.
-- BC1: $ \frac{\partial T}{\partial r} \bigr\|_{r=0} = 0 $.
+- BC1:
+$ \frac{\partial T}{\partial r} \bigr\|_{r=0} = 0 $.
+This is the *thermal symmetry* boundary condition;
+since the cell is symmetric across $ r $,
+the maximum temperature is at $ r = 0 $ and thus
+the first derivative is $ 0 $.
+See Eqn 2-50 and Fig 2-30 in
+[this textbook](http://cecs.wright.edu/~sthomas/htchapter02.pdf)
+for a more detailed description.
 - BC2: $ -k \frac{\partial T(R,t)}{\partial r} = h\big(T(R,t) - T_{\infty} \big) $.
+This is the boundary condition for
+[convective heat transfer](https://en.wikipedia.org/wiki/),
+which represents how a cell exchanges heat with its environment.
 
 We also need to set limits of integration for both space and time.
-For space, we integrate between $ r = 0 $ and $ r = R = 0.009 \text{m} $,
-since an 18650 cell has a diameter of $ 9 \text{mm} $.
+For space, we integrate between $ r = 0 $ and $ r = R = 0.009 \text{ m} $,
+since an 18650 cell has a diameter of $ 9 \text{ mm} $.
 For time, we integrate between $ t = 0 $ and the total (dis)charging time,
 which varies depending on the C rate.
 
@@ -60,7 +114,9 @@ which varies depending on the C rate.
 
 We now have a few parameters that require estimation.
 Fortunately, [Drake *et al*](http://www.uta.edu/faculty/jaina/MTL/pubs/Drake-JPS2014.pdf)
-([DOI](https://doi.org/10.1016/j.jpowsour.2013.11.107))
+([DOI](https://doi.org/10.1016/j.jpowsour.2013.11.107)) did a careful analysis
+of these parameters for an LFP/graphite 18650 cell.
+I mostly use his values in my analysis:
 
 <table style="width:100%">
   <thead>
@@ -76,25 +132,25 @@ Fortunately, [Drake *et al*](http://www.uta.edu/faculty/jaina/MTL/pubs/Drake-JPS
       <td style="text-align:center"> $ k $ </td>
       <td style="text-align:center"> $ 0.2 $ </td>
       <td style="text-align:center"> $ \text{ W/mK}  $ </td>
-      <td style="text-align:center"> Drake <i>et al</i> 2014 </td>
+      <td style="text-align:center"> <a href="http://www.uta.edu/faculty/jaina/MTL/pubs/Drake-JPS2014.pdf">Drake <i>et al</i> 2014</a> </td>
     </tr>
     <tr>
       <td style="text-align:center"> $ \rho $ </td>
       <td style="text-align:center"> $ 2362 $ </td>
       <td style="text-align:center"> $ \text{ kg/m}^3  $ </td>
-      <td style="text-align:center"> Drake <i>et al</i> 2014 </td>
+      <td style="text-align:center"> <a href="http://www.uta.edu/faculty/jaina/MTL/pubs/Drake-JPS2014.pdf">Drake <i>et al</i> 2014</a> </td>
     </tr>
     <tr>
       <td style="text-align:center"> $ c_p $ </td>
       <td style="text-align:center"> $ 1000 $ </td>
       <td style="text-align:center"> $ \text{ J/kgK} $ </td>
-      <td style="text-align:center"> [Maleki <i>et al</i> 1998](http://jes.ecsdl.org/content/146/3/947) </td>
+      <td style="text-align:center"> <a href="http://jes.ecsdl.org/content/146/3/947">Maleki <i>et al</i> 1998</a></td>
     </tr>
     <tr>
       <td style="text-align:center"> $ h $ </td>
       <td style="text-align:center"> $ 10 $ </td>
       <td style="text-align:center"> $ \text{ W/m}^2\text{K} $ </td>
-      <td style="text-align:center"> <a href="https://www.engineeringtoolbox.com/convective-heat-transfer-d_430.html">Engineering Toolbox</a> </td>
+      <td style="text-align:center"> <a href="https://www.engineeringtoolbox.com/convective-heat-transfer-d_430.html">Engineering Toolbox</a> (air convection) </td>
     </tr>
     <tr>
       <td style="text-align:center"> $ R_{int} $ </td>
@@ -107,19 +163,25 @@ Fortunately, [Drake *et al*](http://www.uta.edu/faculty/jaina/MTL/pubs/Drake-JPS
 
 <br>
 
-\*For $ c_p $, Drake had a value of $ 1720 \text{ J/kgK} $.
+For $ c_p $, Drake *et al* had a value of $ 1720 \text{ J/kgK} $.
 This value is much higher than other values of $ c_p $ I found in literature.
 $ 1000 \text{ J/kgK} $ seems more reasonable.
+
+One interesting point raised by Drake *et al* is that the radial heat transfer
+coefficient, $ k_r $, is much lower than the axial heat transfer coefficient,
+$ k_z $, since heat transfer through the polymeric seperator is limiting in the
+radial direction.
 
 #### Solving the PDE
 
 MATLAB has a built-in function called [`pdepe`](https://www.mathworks.com/help/matlab/ref/pdepe.html)
 designed to solve one-dimensional PDEs like this one.
 I use this function with little additional modification.
-Unfortunately Python doesn't appear to have a nice PDE solver yet.
 MATLAB's own documentation for this function is quite good.
 If you're interested in seeing my implementation, check out my
 [GitHub repository](https://github.com/petermattia/18650-thermal-modeling) for this code.
+Unfortunately Python doesn't appear to have a nice built-in PDE solver yet,
+although one could solve it manually using an iterative finite-element model.
 
 #### Biot number analysis
 
@@ -147,6 +209,14 @@ surface and bulk temperature is small if $ Bi < 0.1 $.
 Our value is only a factor of two larger than this criterion.
 Thus, we should still account for spatial variation, but we should expect
 a small difference between the surface and core temperatures.
+
+As an aside, this analysis changes significantly if we consider water or oil
+cooling ($ h = 500 \text{W/m}^2\text{K} $):
+
+$$ Bi = 11.25 $$
+
+Now, we should expect a much larger difference between the center and surface
+temperatures.
 
 ### Results
 
@@ -180,5 +250,5 @@ Additional refinements include:
   state-of-charge, direction of charge, and temperature
 - Account for the stainless steel core and can (neglected in this model)
 
-However, I've enjoyed creating this model, and I think it nicely illustrates
-the power of simple simulations to guide thinking of a problem.
+I've enjoyed creating this model, and I think it nicely illustrates
+the power of simple simulations to guide understanding of a problem.
