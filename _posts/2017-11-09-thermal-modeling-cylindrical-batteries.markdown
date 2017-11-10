@@ -246,8 +246,8 @@ Additional refinements include:
 - Solve the PDE including the $ z $ dependence of heat generation to include
   cooling from the caps
 - Develop more sophisticated models for heat generation, $ c_p $, and $ k $ that includes
-  additional heat generation terms (entropic heating, etc) and dependencies on
-  state-of-charge, direction of charge, and temperature
+  additional heat generation terms (ionic resistance, chemical reaction, etc)
+  and dependencies on state-of-charge, direction of charge, and temperature
 - Account for the stainless steel core and can (neglected in this model)
 
 I've enjoyed creating this model, and I think it nicely illustrates
