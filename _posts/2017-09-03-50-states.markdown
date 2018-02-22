@@ -16,4 +16,4 @@ Excited to add more West Coast states soon!
 
 This also served as a simple exercise in embedding Javascript into my website.
 To make this page, I used the free version of the
-USA map from [simplemaps.com](http://simplemaps.com/us).
+USA map from [simplemaps.com](https://simplemaps.com/us).

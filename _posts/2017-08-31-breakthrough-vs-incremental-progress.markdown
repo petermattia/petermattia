@@ -19,7 +19,7 @@ In a mature (25-year), successful [~$30 billion dollar](http://www.marketwatch.c
 industry like this one, challengers to incumbents like Samsung
 and Panasonic are competing with commodities -
 a bad idea, according to Microeconomics 101.
-The battery field seems especially prone to [gimmicky "breakthroughs"](http://www.pocket-lint.com/news/130380-future-batteries-coming-soon-charge-in-seconds-last-months-and-power-over-the-air) that can't approach lithium-ion technology on energy density or
+The battery field seems especially prone to [gimmicky "breakthroughs"](https://www.pocket-lint.com/news/130380-future-batteries-coming-soon-charge-in-seconds-last-months-and-power-over-the-air) that can't approach lithium-ion technology on energy density or
  cycle life, let alone cost.
 
 (There are certainly exceptions - I'm biased, but I'm excited by my labmates'

@@ -29,10 +29,10 @@ in [*Food, Inc*](https://en.wikipedia.org/wiki/Food,_Inc).
 Since Kevin Bacon is a prolific actor, the theory is that
 nearly all actors and actresses are within six degrees of seperation from
 Kevin Bacon.
-Check out the ["Oracle of Bacon"](http://oracleofbacon.org) to explore more
+Check out the ["Oracle of Bacon"](https://oracleofbacon.org) to explore more
 connections, or just Google ["bacon number *person*"](https://www.google.com/search?q=bacon+number+denzel+washington).
 Fortunately, Kevin Bacon's own perspective of the game has taken a [significant
-turn for the better](http://www.cnn.com/2014/03/08/tech/web/kevin-bacon-six-degrees-sxsw/index.html).
+turn for the better](https://www.cnn.com/2014/03/08/tech/web/kevin-bacon-six-degrees-sxsw/index.html).
 
 <p><a href="https://www.wikipedia.org">
 <img src="\img\wiki-phil\Wikipedia-logo-v2.png" style="display:block; margin-left: auto; margin-right: auto;">

@@ -26,7 +26,7 @@ simulations.
 
 For some technical background on how I built it:
 I tried a few different online charting libraries before settling on
-[plotly.js](http://plot.ly/javascript/).
+[plotly.js](https://plot.ly/javascript/).
 I was initially interested in
 [bokeh-server](https://bokeh.pydata.org/en/latest/docs/user_guide/server.html#userguide-server-applications)
 after seeing their
@@ -39,7 +39,7 @@ Next, I tried [Chart.js](http://www.chartjs.org),
 but it doesn't nativly support plotting standard *xy* data
 (it supports *xy* pairs, which is less functional than plotting separate
 *x* and *y* vectors).
-The [plotly.js](http://plot.ly/javascript/) library was very straightforward
+The [plotly.js](https://plot.ly/javascript/) library was very straightforward
 to set up and had built-in functionality for saving figures and data -
 it was clearly designed for scientific applications like my own.
 Lastly, I used the [math.js](http://mathjs.org) library for some array

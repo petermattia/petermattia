@@ -85,14 +85,14 @@ Advantages of high-throughput testing include speed, cost, precision, and
 reproducibility.
 
 <p>
-<a href="http://pubs.acs.org/doi/abs/10.1021/acscombsci.6b00153">
+<a href="https://pubs.acs.org/doi/abs/10.1021/acscombsci.6b00153">
 <img src="/img/automating-science/combinatorial.gif" style="display:block; margin-left: auto; margin-right: auto;">
 </a></p>
 
 A related field is
 [combinatorial chemistry](https://en.wikipedia.org/wiki/Combinatorial_chemistry),
 or systematic exploration of a synthesis parameter space.
-[ACS Combinatorial Science](http://pubs.acs.org/journal/acsccc) highlights
+[ACS Combinatorial Science](https://pubs.acs.org/journal/acsccc) highlights
 work in this area.
 The goal is often to fully populate a parameter space, such as a phase diagram.
 Combinatorial science is especially well-suited for solution chemistry,
@@ -146,7 +146,7 @@ Adam optimizes the growth of microbial cell cultures by changing
 the genotype and environment, a multi-dimensional parameter space.
 Adam made over 7 million optical density measurements - a feat that would
 take years to perform manually.
-The second-generation robot, [Eve](http://www.cam.ac.uk/research/news/artificially-intelligent-robot-scientist-eve-could-boost-search-for-new-drugs), innovates over Adam by more efficiently sampling the parameter space.
+The second-generation robot, [Eve](https://www.cam.ac.uk/research/news/artificially-intelligent-robot-scientist-eve-could-boost-search-for-new-drugs), innovates over Adam by more efficiently sampling the parameter space.
 
 <p>
 <a href="https://www.zymergen.com">

@@ -40,7 +40,7 @@ I have what some might call an irrational love for my home state of Delaware.
 Fun facts about Delaware:
 - 1<sup>st</sup> state to ratify the Constitution
 - 49<sup>th</sup> largest state based on geographic area
-- [60% of Fortune 500 companies are headquartered in the state](http://www.nytimes.com/2012/07/01/business/how-delaware-thrives-as-a-corporate-tax-haven.html?pagewanted=all&_r=0)
+- [60% of Fortune 500 companies are headquartered in the state](https://www.nytimes.com/2012/07/01/business/how-delaware-thrives-as-a-corporate-tax-haven.html)
 - No sales tax!
 
 Famous Delawareans include:
@@ -49,11 +49,11 @@ Famous Delawareans include:
   and [Rich Gannon](https://en.wikipedia.org/wiki/Rich_Gannon)
 - [Henry Heimlich](https://en.wikipedia.org/wiki/Henry_Heimlich), of Heimlich maneuver fame
 - [Dr. Oz](https://en.wikipedia.org/wiki/Mehmet_Oz)
-- [Bob Marley](http://www.delawareonline.com/story/news/local/2015/07/05/delaware-backstory-lovin-bob-marley/29753145/)
+- [Bob Marley](https://www.delawareonline.com/story/news/local/2015/07/05/delaware-backstory-lovin-bob-marley/29753145/)
 - [Ryan Phillippe](https://en.wikipedia.org/wiki/Ryan_Phillippe)
 - And, of course,
 [Joe Biden](https://en.wikipedia.org/wiki/Joe_Biden),
-our former Vice President ([and a favorite of *The Onion*](http://www.theonion.com/channels/joseph-biden/)).
+our former Vice President ([and a favorite of *The Onion*](https://www.theonion.com/channels/joseph-biden/)).
 
 <p>
 <img src="/img/personal/youdee.png" alt="YouDee" style="width: 300px;display:block; margin-left: auto; margin-right: auto;">
@@ -64,13 +64,13 @@ at the University of Delaware,
 I was a proud member of one of intercollegiate athletics' least intimidating mascots
 (rivaled only, perhaps, by the [Stanford Cardinal](https://en.wikipedia.org/wiki/Stanford_Cardinal)).
 Delaware's only professional sports team,
-[the Wilmington Blue Rocks](http://www.milb.com/index.jsp?sid=t426), might take the cake though.
+[the Wilmington Blue Rocks](https://www.milb.com/index.jsp?sid=t426), might take the cake though.
 
 Delaware is also home to:
-- [The 9th-best ice cream in America](http://ir.tripadvisor.com/releasedetail.cfm?ReleaseID=927029)
+- [The 9th-best ice cream in America](https://ir.tripadvisor.com/releasedetail.cfm?ReleaseID=927029)
 - [The Punkin Chunkin World Championship](https://en.wikipedia.org/wiki/Pumpkin_chucking)
 - [A huge music festival](https://fireflyfestival.com)
-- [Some really beautiful beaches](http://www.visitdelaware.com/things-to-do/beaches/)
+- [Some really beautiful beaches](https://www.visitdelaware.com/things-to-do/beaches/)
   (much nicer than Northern California's 😉)
 
 If city life is your thing, we're less than three hours from Philly, Baltimore, DC, and New York.
@@ -113,7 +113,7 @@ I've worked as a supermarket bagboy and cashier, a file clerk in a law firm,
 a landscaping manager, an app developer, and a college tutor.
 My most eclectic job to date, however, would be driving a Zamboni.
 I will always remember my two years at the
-[University of Delaware Ice Arenas](http://www.udel.edu/icearena/) -
+[University of Delaware Ice Arenas](https://www.udel.edu/icearena/) -
 there's nothing quite like cutting ice while high-riving wide-eyed kids or,
 more vividly, riding a jammed Zamboni that is violently spitting
 basketball-sized chunks of ice in seemingly impossible directions
@@ -127,12 +127,12 @@ while making terrific gurgling and hissing sounds at 2 AM in an empty ice rink.
 <img src="/img/personal/UP.jpg" alt="UrbanPromise" style="width: 300px; display:block; margin-left: auto; margin-right: auto;">
 </p>
 
-[UrbanPromise Wilmington](http://www.urbanpromise.org/) will always have a
+[UrbanPromise Wilmington](https://www.urbanpromise.org/) will always have a
 special place in my heart - and not only because I met my future wife there.
 UrbanPromise runs free summer camps and after-school programs for the children of Wilmington.
 Because it hires local teens to help lead camp, UrbanPromise is the largest employer of Wilmington youth.
 As a social service, programs like UrbanPromise are badly needed in Wilmington,
-a [dangerous](http://www.phillymag.com/news/2014/03/27/report-wilmington-dangerous-small-city-country/) and [unforgiving](http://www.delawareonline.com/story/news/crime/2014/08/26/mother-confronts-sons-killer-court/14624211/) place to live,
+a [dangerous](https://www.phillymag.com/news/2014/03/27/report-wilmington-dangerous-small-city-country/) and [unforgiving](https://www.delawareonline.com/story/news/crime/2014/08/26/mother-confronts-sons-killer-court/14624211/) place to live,
 but UrbanPromise's success lies not in its academic enrichment
 or job training programs (both of which are very good!);
 rather, it comes from a [deep dependence on God](https://www.biblegateway.com/passage/?search=1+peter+4%3A11&version=NIV).

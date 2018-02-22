@@ -76,7 +76,7 @@ New Castle, Kent, and Sussex.
 New Castle is the most urban and suburban, and the most populous,
 and is often considered a part of the Philadelphia metropolitan area.
 Kent and Sussex counties are affectionately refered to as
-["slower lower"](http://www.washingtonpost.com/wp-dyn/articles/A54428-2004May25.html)
+["slower lower"](https://www.washingtonpost.com/wp-dyn/articles/A54428-2004May25.html)
 due to their rural culture.
 However, Sussex County is home to some of the East Coast's most popular
 (and finest) beaches, so its coastal regions are fairly affluent.
@@ -194,8 +194,8 @@ If only we had better batteries...
 
 ### More information
 
-The Jupyter notebooks for [data cleaning](http://nbviewer.jupyter.org/github/petermattia/Delaware-EVs/blob/master/Electric%20vehicles%20in%20Delaware%20-%20Data%20cleaning.ipynb?flush_cache=true)
-and [data analysis](http://nbviewer.jupyter.org/github/petermattia/Delaware-EVs/blob/master/Electric%20vehicles%20in%20Delaware%20-%20Data%20analysis.ipynb?flush_cache=true), along with all files,
+The Jupyter notebooks for [data cleaning](https://nbviewer.jupyter.org/github/petermattia/Delaware-EVs/blob/master/Electric%20vehicles%20in%20Delaware%20-%20Data%20cleaning.ipynb?flush_cache=true)
+and [data analysis](https://nbviewer.jupyter.org/github/petermattia/Delaware-EVs/blob/master/Electric%20vehicles%20in%20Delaware%20-%20Data%20analysis.ipynb?flush_cache=true), along with all files,
 are in [this GitHub repository](https://github.com/petermattia/Delaware-EVs).
 I used the
 [numpy](http://numpy.org) (numerics),

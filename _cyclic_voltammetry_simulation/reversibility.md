@@ -90,8 +90,8 @@ I like Bard and Faulkner's definition of electrochemical facility on page 96:
 >The physical interpretation of $ k_0 $ is straightforward.
 >It simply is a measure of the kinetic facility of a redox couple.
 
-In other words, electrochemical facility is simply how easily a material
-exchanges an electron with its environment.
+In other words, electrochemical facility is a measure of the ease
+of electron exchange.
 The units of $ k_0 $ are $ \text{cm/s} $.
 Electrochemically facile reactions have values of
 $ k_0 $ near $ \text{1-10 cm/s} $, while

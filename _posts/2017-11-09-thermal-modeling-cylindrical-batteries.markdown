@@ -70,7 +70,8 @@ $$ \text{(rate of energy in) - (rate of energy out) + (rate of heat generation) 
 
 The end result is below:
 
-$$ \frac{1}{r} \frac{\partial}{\partial r}\left(r \frac{\partial T}{\partial r}\right) + \frac{\dot{e}_{gen}}{k} =  \frac{1}{\alpha} \frac{\partial T}{\partial r} $$
+$$ \frac{1}{\alpha} \frac{\partial T}{\partial t} =
+\frac{1}{r} \frac{\partial}{\partial r}\left(r \frac{\partial T}{\partial r}\right)+ \frac{\dot{e}_{gen}}{k} $$
 
 This equation is a [partial differential equation (PDE)](https://en.wikipedia.org/wiki/Partial_differential_equation), which
 generally requires a numerical solution (as opposed to an analytical solution).

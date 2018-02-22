@@ -21,7 +21,7 @@ I wish there were more resources when I started grad school
 
 The last one, in particular, was compelling enough for me to actually make this website.
 After a summer of learning a bit of both data science and software engineering
-for my fast charging project (see [Research](http://www.petermattia.com/research)),
+for my fast charging project (see [Research](/research)),
 I'm beginning to become more interested in both, either as career options
 or as critical components of a battery-testing-automation startup
 (still in the works...).
@@ -38,21 +38,21 @@ comfort zone.
 
 Additionally, I've always been impressed with "pretty" data visualization,
 and d3.js certainly appears to be up to the task. Check out the plot below,
-which comes from [this tutorial](http://www.mattshwery.com/d3-js):
+which comes from [this tutorial](https://www.mattshwery.com/d3-js):
 
 <figure class="final">
   <figcaption>d3.js example</figcaption>
 </figure>
 
 A long-term side project of mine will be converting my cyclic voltammetry
-MATLAB app (see [Projects](http://www.petermattia.com/projects))
+MATLAB app (see [Projects](/projects))
 into a d3.js based app to gain better experience with web apps.
 
 #### Making this website
 
 In the process, I read a lot about how to make and host a website. There are plenty of options:
 Wordpress with Dreamhost, Wordpress with AWS, Jekyll on Github, Jekyll on AWS, etc.
-([Wordpress](http://www.wordpress.com) is a very common platform for blogs and personal sites, but it's
+([Wordpress](https://www.wordpress.com) is a very common platform for blogs and personal sites, but it's
 somewhat slow and clunky. [Jekyll](https://jekyllrb.com) is a newer 'static site generator',
 which means it creates nice-looking, speedy websites from relatively simple text editor input.)
 I decided to go with Jekyll on AWS S3, since it's the most difficult (relatively
@@ -81,7 +81,7 @@ Welp, first post down. Here's to what's next!
     fill: #eee;
   }
 </style>
-<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 <script type="text/javascript">
 
   var n = 10,

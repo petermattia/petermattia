@@ -4,7 +4,7 @@ title: Presentations
 permalink: /presentations/
 order: -1
 ---
-Last updated November 9, 2017
+Last updated February 21, 2018
 
 # Stanford
 
@@ -17,6 +17,18 @@ Last updated November 9, 2017
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td style="text-align:center">February 2018</td>
+      <td style="text-align:center"><a href="https://www.grc.org/batteries-grs-conference/2018/">
+      Gordon Research Seminar & Conference: Batteries</a></td>
+      <td style="text-align:center">Stanford, CA</td>
+    </tr>
+  	<tr>
+  	  <td style="text-align:center">January 2018</td>
+  	  <td style="text-align:center"><a href="http://www.stanfordenergyweek.com">
+      Stanford Energy Week</a></td>
+  	  <td style="text-align:center">Stanford, CA</td>
+  	</tr>
   	<tr>
   	  <td style="text-align:center">November 2017</td>
   	  <td style="text-align:center">SAIC Day Poster Session</td>
