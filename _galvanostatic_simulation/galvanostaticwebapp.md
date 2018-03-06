@@ -72,7 +72,7 @@ description: A JavaScript web app for galvanostatic simulations, built with plot
     </div>
     <div class="column">
       Simulation timescale,
-      $ \tau = $ <input type="text" id="tau" value="0" class="field left" readonly> $ \text{s} $
+      $ \tau = $ <input type="text" id="tau" value="0" class="field left" readonly> $ \text{h} $
       <br>
     </div>
   </div>
