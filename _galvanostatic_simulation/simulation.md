@@ -1,9 +1,11 @@
 ---
 layout: page
 categories: articles
-title: "Cyclic Voltammetry App: Simulation walkthrough"
-description: A tutorial on cyclic voltammetry simulations
+title: "Galvanostatic App: Simulation walkthrough"
+description: A tutorial on galvanostatic simulations
 ---
+
+## UNDER CONSTRUCTION
 
 In this post, I'll explain the
 [cyclic voltammetry simulation](/cyclic_voltammetry_simulation/index.html)

@@ -10,9 +10,9 @@ I've posted the standalone
 code below.
 It runs in MATLAB and [GNU Octave](https://www.gnu.org/software/octave/).
 You can download the .m file directly
-[here]({{site.url}}/assets/CVsim.m).
+[here](/assets/CVsim.m).
 I've also created a dimensionless version of this simulation,
-which you can download [here]({{site.url}}/assets/CVsim2.m).
+which you can download [here](/assets/CVsim2.m).
 
 ~~~~matlab
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

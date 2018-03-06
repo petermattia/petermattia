@@ -40,12 +40,12 @@ If you *really* want to know more about me, [click here](/personal).
 Seeing how my website barely cracks the top 10 pages of a Google search for
 'Peter Attia', the Peter Attias of this world are doing quite well! The good
 news is I'm in good company; the bad news is it can be difficult to find me via
-online (hence the 'm' in [peter**m**attia.com](https://www.petermattia.com)).
+online (hence the 'm' in [peter**m**attia.com](petermattia.com)).
 
 In particular, two identically-named gentlemen have a much larger web presence than I.
-I'm not [Peter Attia, M.D.](https://eatingacademy.com/dr-peter-attia),
+I'm not [Peter Attia, M.D.](http://eatingacademy.com/dr-peter-attia),
 although we both went to Stanford after studying engineering as an undergraduate
 (although that's about where the similarities end). I'm also not the Peter Attia
-of [www.cucumbernebula.com](https://www.cucumbernebula.com/peter-attia/),
+of [cucumbernebula.com](http://www.cucumbernebula.com/peter-attia/),
 who works on search engine optimization. I don't envy him - Peter Attia, M.D.
 is steep competition on Google!

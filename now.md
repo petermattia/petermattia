@@ -5,11 +5,11 @@ permalink: /now/
 order: 5
 ---
 
-Last updated November 9, 2017
+Last updated February 21, 2018
 
 My priorities for the next month include:
 
-* Organize and analyze data among my various projects
-* Finish wedding planning with Victoria (!)
+* Preparing manuscripts for various projects
+* Implementing initiatives as lab manager
 
 [What is a now page?](https://nownownow.com/about)

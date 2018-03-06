@@ -5,29 +5,40 @@ permalink: /personal/
 order: -1
 ---
 
+Last updated: February 21, 2018
+
 ### Engagement
 
-My most exciting "personal" item is that I'm engaged!
+My most exciting "personal" item is that I'm
+[recently married](https://player.vimeo.com/video/252820064)!
 Victoria is genuine, kind, passionate, and quite the looker,
 and I'm beyond excited to spend the rest of my life with her.
 
 <p>
-<img src="/img/personal/engagementpic.JPG" style="width=200px;display:block; margin-left: auto; margin-right: auto;">
+<img src="/img/personal/engagementpic.JPG" style="display:block; margin-left: auto; margin-right: auto;">
 </p>
 
 ### Hobbies
 
 <p>
-<img src="/img/personal/djax.jpg" alt="DeSean Jackson dropping the ball" style="display:block; margin-left: auto; margin-right: auto;">
+<img src="/img/personal/djax.jpg" alt="DeSean Jackson dropping the ball"
+style="display:block; margin-left: auto; margin-right: auto;">
+</p>
+
+<p>
+<img src="/img/personal/nickfoles.jpg" alt="Nick Foles" style="width:500px;
+display:block; margin-left: auto; margin-right: auto;">
 </p>
 
 I enjoy playing pickup basketball, biking and hiking around the Bay Area,
-eating good food,
+eating and cooking good food,
 and watching the Philadelphia Eagles
-have promising regular seasons and then break my heart in the playoffs.
+~~have promising regular seasons and then break my heart in the playoffs~~
+WIN THE SUPER BOWL!!!!!
 
 <p>
-<img src="/img/personal/missionpeak.JPG" alt="Mission Peak" style="display:block; margin-left: auto; margin-right: auto;">
+<img src="/img/personal/missionpeak.JPG" alt="Mission Peak" style="width:500px;
+display:block; margin-left: auto; margin-right: auto;">
 </p>
 
 ### Delaware
@@ -64,7 +75,7 @@ at the University of Delaware,
 I was a proud member of one of intercollegiate athletics' least intimidating mascots
 (rivaled only, perhaps, by the [Stanford Cardinal](https://en.wikipedia.org/wiki/Stanford_Cardinal)).
 Delaware's only professional sports team,
-[the Wilmington Blue Rocks](https://www.milb.com/index.jsp?sid=t426), might take the cake though.
+[the Wilmington Blue Rocks](http://www.milb.com/index.jsp?sid=t426), might take the cake though.
 
 Delaware is also home to:
 - [The 9th-best ice cream in America](https://ir.tripadvisor.com/releasedetail.cfm?ReleaseID=927029)
@@ -128,7 +139,7 @@ while making terrific gurgling and hissing sounds at 2 AM in an empty ice rink.
 </p>
 
 [UrbanPromise Wilmington](https://www.urbanpromise.org/) will always have a
-special place in my heart - and not only because I met my future wife there.
+special place in my heart - and not only because I met my wife there.
 UrbanPromise runs free summer camps and after-school programs for the children of Wilmington.
 Because it hires local teens to help lead camp, UrbanPromise is the largest employer of Wilmington youth.
 As a social service, programs like UrbanPromise are badly needed in Wilmington,

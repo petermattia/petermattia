@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Cyclic voltammetry web app
+title: Galvanostatic simulator web app
 categories: articles
-description: A JavaScript web app for cyclic voltammetry simulations, built with plotly.js
+description: A JavaScript web app for galvanostatic simulations, built with plotly.js
 ---
 
 <html lang="en">
@@ -10,7 +10,7 @@ description: A JavaScript web app for cyclic voltammetry simulations, built with
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/3.16.3/math.min.js"></script>
-    <script src="/assets/CVsim.js" type="text/javascript"></script>
+    <script src="/assets/galv_sim.js" type="text/javascript"></script>
 
     <style>
       html, body, h1, h2, h3, h4, h5, h6 {
@@ -38,40 +38,29 @@ description: A JavaScript web app for cyclic voltammetry simulations, built with
 </head>
 
 <body>
-  This cyclic voltammetry simulation couples a one-electron electrochemical
-  reaction with a subsequent chemical reaction of the reduced species, as below:
+  This app simulates a one-electron electrochemical
+  reaction under galvanostatic control:
 
-  $$ O + e^- \overset{k_f}{\underset{k_r}{\leftrightarrows}} R \overset{k_c}{\rightarrow} Z $$
+  $$ O + e^- \overset{k_f}{\underset{k_r}{\leftrightarrows}} R $$
 
-  I've created tutorials on the
-  <a href="/cyclic_voltammetry_simulation/fundamentals.html">
-  fundamental electrochemistry</a> of cyclic voltammetry and on
-  <a href="/cyclic_voltammetry_simulation/simulation.html">
-  a walkthrough of a MATLAB/Octave version of this simulation</a>.
-
-  <br><br>I discussed how I made this app in
-  <a href="/articles/2017/09/24/cyclic-voltammetry-web-app.html">this post</a>.
-  I hope that this tool increases the accessibility of simple cyclic voltammetry simulations.
+  I discuss the science behind this simulation on
+  <a href="/articles/2017/09/24/cyclic-voltammetry-web-app.html">this page</a>.
+  I hope that this tool increases the accessibility of simple electrochemical simulations.
   Please contact me with any questions, comments, or suggestions!
-
   <br><br>
   To save an image and extract the <i>x-y</i> data, use the first two buttons
   in the toolbar.
-  To study the concentration profiles, use the
-  <a href="/cyclic_voltammetry_simulation/index.html">MATLAB version</a>
-  of this app.
 
   <br><br>
-  <div id="CVplot"><!-- Plotly chart will be drawn inside this DIV --></div>
+  <div id="galv_plot"><!-- Plotly chart will be drawn inside this DIV --></div>
   <br>
   $ C_O = $ <input type="text" id="conc" value="1"> $ \text{mol/cm}^3 $, initial concentration of $ O $ <br>
   $ D = $ <input type="text" id="D" value="1E-5"> $ \text{cm}^2 \text{/s} $, diffusion coefficient of both $ O $ and $ R $<br>
-  $ \eta_i = $ <input type="text" id="etai" value="0.2"> $ \text{V} $, initial overpotential <br>
-  $ \eta_f = $ <input type="text" id="etaf" value="-0.2"> $ \text{V} $, final overpotential <br>
-  $ \nu = $ <input type="text" id="v" value="1E-3"> $ \text{V/s} $, scan rate <br>
+  $ j = $ <input type="text" id="j" value="1E0"> $ \text{A/m}^2 $, applied current <br>
+  $ n = $ <input type="text" id="n" value="1">, $ e^- $ per reaction <br>
   $ \alpha = $ <input type="text" id="alpha" value="0.5">, charge transfer coefficient <br>
   $ k_0 = $ <input type="text" id="k0" value="1E-2"> $ \text{cm/s} $, electrochemical rate constant <br>
-  $ k_1 = $ <input type="text" id="k1" value="1E-3"> $ \text{s}^{-1} $, chemical rate constant <br>
+  $ L = $ <input type="text" id="L" value="1000">, simulation resolution <br>
   <br>
 
   <div class="row">
@@ -82,19 +71,18 @@ description: A JavaScript web app for cyclic voltammetry simulations, built with
       <button id="removeDataset" class="w3-btn w3-ripple w3-green">Remove</button>
     </div>
     <div class="column">
-      <a href="/cyclic_voltammetry_simulation/reversibility.html"><big>Reversibility parameters</big></a><br>
-      $ \Lambda = $ <input type="text" id="echemrev" value="0" class="field left" readonly><br>
-      $ k_1t_k = $ <input type="text" id="chemrev" value="0" class="field left" readonly><br>
-      <textarea cols="50" id="chemrevwarn" value="" class="field left" readonly style="color:#f00;"></textarea><br>
+      Simulation timescale,
+      $ \tau = $ <input type="text" id="tau" value="0" class="field left" readonly> $ \text{s} $
+      <br>
     </div>
   </div>
   <br><br>
 
   <script>
-    CVplotID = document.getElementById('CVplot');
+    galv_plotID = document.getElementById('galv_plot');
 
     // Initialize CV plot with IV curve generated using default values
-    var result = CVplot();
+    var result = galv_plot();
     var xdata = result[0];
     var ydata = result[1];
 
@@ -112,14 +100,14 @@ description: A JavaScript web app for cyclic voltammetry simulations, built with
     var data = [trace1];
 
     var layout = {
-      title: 'Cyclic Voltammetry simulation: EC mechanism',
+      title: 'Galvanostatic simulation',
       xaxis: {
-        title: 'Overpotential (V)',
+        title: 'Voltage (V vs O/O<sup>-</sup>)',
         showgrid: true,
         zeroline: false
       },
       yaxis: {
-        title: 'Current density (mA/cm<sup>2</sup>)',
+        title: 'A(dQ/dV) (Ah/V)',
         showgrid: true,
         zeroline: false
       },
@@ -127,7 +115,7 @@ description: A JavaScript web app for cyclic voltammetry simulations, built with
       hovermode: 'closest'
     };
 
-    Plotly.newPlot('CVplot', data, layout);
+    Plotly.newPlot('galv_plot', data, layout);
 
     // Add button
     document.getElementById('addDataset').addEventListener('click', function() {
@@ -135,7 +123,7 @@ description: A JavaScript web app for cyclic voltammetry simulations, built with
       legendlabel = document.getElementById('legend').value;
 
       // Run simulation
-      var result = CVplot();
+      var result = galv_plot();
       var xdata = result[0];
       var ydata = result[1];
 
@@ -152,7 +140,7 @@ description: A JavaScript web app for cyclic voltammetry simulations, built with
 
       // add data and update plot
       data.push(newline);
-      Plotly.newPlot('CVplot', data, layout);
+      Plotly.newPlot('galv_plot', data, layout);
 
       // update legend text box
       var simnum = data.length + 1;
@@ -163,7 +151,7 @@ description: A JavaScript web app for cyclic voltammetry simulations, built with
     document.getElementById('removeDataset').addEventListener('click', function() {
         // remove data and update plot
         data.pop();
-        Plotly.newPlot('CVplot', data, layout);
+        Plotly.newPlot('galv_plot', data, layout);
 
         // update legend text box
         var simnum = data.length + 1;
