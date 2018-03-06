@@ -1,7 +1,7 @@
 ---
 layout: page
 categories: articles
-title: "Galvanostatic App: Fundamental electrochemistry"
+title: "Galvanostatic simulations: Fundamental electrochemistry"
 description: A tutorial on the fundamental electrochemistry of galvanostatic control
 ---
 

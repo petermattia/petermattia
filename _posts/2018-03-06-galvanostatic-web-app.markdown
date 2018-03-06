@@ -7,22 +7,24 @@ description: Introducing my galvanostatic simulation web app, built with plotly.
 tags: code science
 ---
 
-Two updates on my cyclic voltammetry simulation:
-1. I've completed the [simulation tutorial](/cyclic_voltammetry_simulation/simulation.html).
-This process really helped me understand the underlying equations behind these
-simulations.
-As a result, I found some inconsistencies in previous versions of the code and app.
-**If you're using a version before version 2.0, or code with a date earlier than 9/24, please update to the latest version.**
+It's been a while since I've posted - turns out planning a wedding, balancing
+multiple projects, and preparing for a conference is a lot of work!
 
-2. I also ported my MATLAB app to the web! You can find it
-[here](/cyclic_voltammetry_simulation/cvwebapp.html).
+Recently, I've encountered some subtle differences between experiments
+probed via cyclic voltammetry and via constant-current (galvanostatic)
+conditions. To help understand the differences,
+I've created another online simulation for galvanostatic
+electrochemistry, which lives
+[here](/galvanostatic_simulation/galvanostaticwebapp.html).
 I hope this web app can increase the accessibility of simple electrochemical
 simulations.
 
 <p>
-<a href="/cyclic_voltammetry_simulation/cvwebapp.html">
-<img src="/img/CVsimplotly.png" style="display:block; margin-left: auto; margin-right: auto;">
+<a href="/galvanostatic_simulation/galvanostaticwebapp.html">
+<img src="/img/galvsimplotly.png" style="display:block; margin-left: auto; margin-right: auto;">
 </a></p>
+
+The simulation tutorials are still in progress.
 
 This simulation was built with the same tools as my cyclic voltammetry
 simulation - more info [here](/articles/2017/09/24/cyclic-voltammetry-web-app.html).

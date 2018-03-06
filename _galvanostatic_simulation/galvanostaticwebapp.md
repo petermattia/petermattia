@@ -43,8 +43,8 @@ description: A JavaScript web app for galvanostatic simulations, built with plot
 
   $$ O + e^- \overset{k_f}{\underset{k_r}{\leftrightarrows}} R $$
 
-  I discuss the science behind this simulation on
-  <a href="/articles/2017/09/24/cyclic-voltammetry-web-app.html">this page</a>.
+  I wrote tutorials describing this simulation
+  <a href="/galvanostatic_simulation/index.html">here</a>.
   I hope that this tool increases the accessibility of simple electrochemical simulations.
   Please contact me with any questions, comments, or suggestions!
   <br><br>

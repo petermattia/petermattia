@@ -1,7 +1,7 @@
 ---
 layout: page
 categories: articles
-title: "Galvanostatic App: Simulation walkthrough"
+title: "Galvanostatic simulations: Simulation walkthrough"
 description: A tutorial on galvanostatic simulations
 ---
 
