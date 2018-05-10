@@ -5,6 +5,8 @@ title: "Cyclic Voltammetry App: Simulation walkthrough"
 description: A tutorial on cyclic voltammetry simulations
 ---
 
+Last updated: May 10, 2018
+
 In this post, I'll explain the
 [cyclic voltammetry simulation](/cyclic_voltammetry_simulation/index.html)
 I've created in greater detail.
@@ -43,14 +45,14 @@ v      = 1E-3;   % [=] V/s, sweep rate. Default = 1E-3
 n      = 1.0;    % [=] number of electrons transfered. Default = 1
 alpha  = 0.5;    % [=] dimensionless charge-transfer coefficient. Default = 0.5
 k0     = 1E-2;   % [=] cm/s, electrochemical rate constant. Default = 1E-2
-k1     = 1E-3;   % [=] 1/s, chemical rate constant. Default = 1E-3
+kc     = 1E-3;   % [=] 1/s, chemical rate constant. Default = 1E-3
 T      = 298.15; % [=] K, temperature. Default = 298.15
 ~~~~
 
 These variables are the "adjustable" parameters in this simulation.
 These parameters should be straightforward to someone interested in cyclic
-voltammetry simulations. I'll note that $ k_0 $ is the electrochemical rate constant,
-with units of $ \text{cm/s} $ , and $ k_1 $ is the chemical rate constant,
+voltammetry simulations. I'll note that $ k^0 $ is the electrochemical rate constant,
+with units of $ \text{cm/s} $ , and $ k_c $ is the chemical rate constant,
 with units of $ \text{1/s} $.
 You can read more about these terms on the
 [fundamentals](/cyclic_voltammetry_simulation/fundamentals.html) page.
@@ -158,7 +160,7 @@ individually:
 
 ~~~~matlab
 %% REVERSIBILITY PARAMETERS %%
-ktk    = k1*tk              % dimensionless kinetic parameter (Eqn B.3.7, pg 797)
+ktk    = kc*tk              % dimensionless kinetic parameter (Eqn B.3.7, pg 797)
 km     = ktk/L              % normalized dimensionless kinetic parameter (see bottom of pg 797)
 Lambda = k0/(D*f*v)^0.5     % dimensionless reversibility parameter (Eqn 6.4.4, pg. 236-239)
 ~~~~
@@ -169,16 +171,16 @@ of these parameters.
 I discuss chemical and electrochemical reversibility
 [here](/cyclic_voltammetry_simulation/index.html).
 
-- $ k_1 t_k $ (`ktk`) is the dimensionless kinetic parameter. Specifically, it
+- $ k_c t_k $ (`ktk`) is the dimensionless kinetic parameter. Specifically, it
   is the dimensionless *chemical* kinetic parameter, capturing the effect of
   the $R \overset{k_c}{\rightarrow} Z $ reaction.
-  $ k_1 t_k $ controls the extent of chemical reversibility.
+  $ k_c t_k $ controls the extent of chemical reversibility.
 
 - $ k_m $ (`km`) is the normalized dimensionless chemical kinetic parameter.
   This value is convenient in future calculations.
 
 - $ \Lambda $ (`Lambda`) is the dimensionless electrochemical reversibility
-  parameter, defined by $ \frac{k_0}{(Dfv)^{0.5}} $. $ \Lambda $ is an indicator of the ratio between the rates of
+  parameter, defined by $ \frac{k^0}{(Dfv)^{0.5}} $. $ \Lambda $ is an indicator of the ratio between the rates of
   charge transfer and mass transfer.
 
 ### Send warnings to user
@@ -195,17 +197,17 @@ In my experience, this simulation only breaks under one condition,
 documented by Bard and Faulkner (pg 797).
 One limitation of the choice of a finite-element model is that the
 approximation breaks down at extreme conditions.
-In this case, if $ k_1 $ is too large, the rate of chemical reaction significantly
+In this case, if $ k_c $ is too large, the rate of chemical reaction significantly
 exceeds the time resolution of the simulation, $ t_k/L = \Delta t $.
-For example, if $ k_1 = 10 \text{ s}^{-1} $ and $ \Delta t = 0.1 \text{ s} $,
+For example, if $ k_c = 10 \text{ s}^{-1} $ and $ \Delta t = 0.1 \text{ s} $,
 we turn over product faster than we can compute the changes in concentration.
 This condition leads to numerical instabilities.
 
-According to the text, the limit is $ k_1 t_k/L > 0.1 $.
+According to the text, the limit is $ k_c t_k/L > 0.1 $.
 My code warns you about this, but allows you to proceed.
 If this condition is not satisfied, you may see
 infinite current "spikes" when you run the simulation.
-To study a system with a high value of $ k_1 $, increase $ L $.
+To study a system with a high value of $ k_c $, increase $ L $.
 
 ### Pre-initialize variables
 
@@ -316,15 +318,15 @@ $$ O(k+1,j) = O(k,j) + D_M\big[ O(k,j+1) - 2O(k,j) + O(k,j-1)\big] $$
 The dynamics of the bulk concentration of $ R $ are identical,
 except we also need to add the subsequent chemical reaction (Eqn B.3.5):
 
-$$ R(k+1,j) = R(k,j) + D_M\big[ R(k,j+1) - 2R(k,j) + R(k,j-1)\big] - \big(k_1 \Delta t \big) R(k,j) $$
+$$ R(k+1,j) = R(k,j) + D_M\big[ R(k,j+1) - 2R(k,j) + R(k,j-1)\big] - \big(k_c \Delta t \big) R(k,j) $$
 
-Every timestep, $ k_1 \Delta t $ molecules of $ R $ convert into the chemical product.
+Every timestep, $ k_c \Delta t $ molecules of $ R $ convert into the chemical product.
 
 #### Current
 
 Bard and Faulkner write an equation for current in Eqn B.4.9:
 
-$$ \frac{i(t)}{nFA} = k_fO(x=0,t) - k_rR(x=0,t) $$
+$$ \frac{i(t)}{nFA} = k_fO(x=0,t) - k_bR(x=0,t) $$
 
 However, I find the Bard and Faulkner sign convention confusing.
 I prefer negative currents for negative overpotential
@@ -335,11 +337,11 @@ you can simply change `plot(eta,Z)` to `plot(eta,-Z)` with no loss of fidelity.
 
 With my preferred current convention, the above equation becomes:
 
-$$ \frac{i(t)}{nFA} = -k_fO(x=0,t) + k_rR(x=0,t) $$
+$$ \frac{i(t)}{nFA} = -k_fO(x=0,t) + k_bR(x=0,t) $$
 
 We can translate these physical varaibles into simulation variables:
 
-$$ \frac{i(k)}{nFA} = -k_f(k)O(k,j=1) + k_r(k)R(k,j=1) $$
+$$ \frac{i(k)}{nFA} = -k_f(k)O(k,j=1) + k_b(k)R(k,j=1) $$
 
 Here, $ O(k,j=1) $ and $ R(k,j=1) $ are the concentrations of $ O $ and $ R $
 at timestep $ k $ in box $ 1 $, which we take to be the surface.
@@ -363,7 +365,7 @@ R(k,1) = R(k,2) - J_R\frac{\Delta x}{D} $$
 At the surface, we can define the current by the flux of $ O $ (pg 792 & B.4.19).
 This relationship gives us another equation for the electrode-electrolyte interface:
 
-$$ \frac{i(k)}{nFA} = -J_O(k) = -k_f(k)O(k,j=1) + k_r(k)R(k,j=1) $$
+$$ \frac{i(k)}{nFA} = -J_O(k) = -k_f(k)O(k,j=1) + k_b(k)R(k,j=1) $$
 
 Lastly, at the interface, the flux of $ O $ is equal and opposite to the flux of
 $ R $:
@@ -373,18 +375,18 @@ $$ J_O(k) = -J_R(k) $$
 We can now substitute variables into the third equation:
 
 $$ -J_O(k) = -k_f(k)\left( O(k,2) - J_O\frac{\Delta x}{D} \right)
-+ k_r(k)\left( R(k,2) - J_R\frac{\Delta x}{D} \right) $$
++ k_b(k)\left( R(k,2) - J_R\frac{\Delta x}{D} \right) $$
 
 $$ J_O(k) = k_f(k)O(k,2) - k_f(k)J_O\frac{\Delta x}{D}
-- k_r(k)R(k,2) - k_r(k)J_O\frac{\Delta x}{D} $$
+- k_b(k)R(k,2) - k_b(k)J_O\frac{\Delta x}{D} $$
 
-$$ J_O(k)\left(1 + k_f(k)\frac{\Delta x}{D} + k_r(k)\frac{\Delta x}{D}\right)
-= k_f(k)O(k,2) - k_r(k)R(k,2) $$
+$$ J_O(k)\left(1 + k_f(k)\frac{\Delta x}{D} + k_b(k)\frac{\Delta x}{D}\right)
+= k_f(k)O(k,2) - k_b(k)R(k,2) $$
 
 With one more rearrangement, we obtain:
 
-$$ J_O(k) = \frac{k_f(k)O(k,2) - k_r(k)R(k,2)}
-{1 + k_f(k)\frac{\Delta x}{D} + k_r(k)\frac{\Delta x}{D}} $$
+$$ J_O(k) = \frac{k_f(k)O(k,2) - k_b(k)R(k,2)}
+{1 + k_f(k)\frac{\Delta x}{D} + k_b(k)\frac{\Delta x}{D}} $$
 
 That's a lot of $ k $'s! We use this equation to calculate the surface flux of $ O $.
 
@@ -403,7 +405,7 @@ $$ J_O(k,1) = -D\frac{O(k,2) - O(k,1)}{\Delta x} \Rightarrow
 O(k,1) = O(k,2) - J_O\frac{\Delta x}{D} $$
 
 $$ J_R(k,1) = -D\frac{R(k,2) - R(k,1)}{\Delta x} \Rightarrow
-R(k,1) = R(k,2) + J_O\frac{\Delta x}{D} - \left( k_1 \Delta t \right) R(k-1,1)$$
+R(k,1) = R(k,2) + J_O\frac{\Delta x}{D} - \left( k_c \Delta t \right) R(k-1,1)$$
 
 ### Plot results
 

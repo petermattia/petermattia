@@ -5,7 +5,7 @@
 % EC mechanism
 % Updated September 24, 2017
 
-% This version adheres more strictly to the Bard and Faulkner 
+% This version adheres more strictly to the Bard and Faulkner
 % dimensionless variable convention. I recommend Brown's formulation
 % ('CVsim.m') for a more intuitive understanding of the simulation.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -21,7 +21,7 @@ v      = 1E-3;   % [=] V/s, sweep rate. Default = 1E-3
 n      = 1.0;    % [=] number of electrons transfered. Default = 1
 alpha  = 0.5;    % [=] dimensionless charge-transfer coefficient. Default = 0.5
 k0     = 1E-2;   % [=] cm/s, electrochemical rate constant. Default = 1E-2
-k1     = 1E-3;   % [=] 1/s, chemical rate constant. Default = 1E-3
+kc     = 1E-3;   % [=] 1/s, chemical rate constant. Default = 1E-3
 T      = 298.15; % [=] K, temperature. Default = 298.15
 
 %% CONSTANTS %%
@@ -40,7 +40,7 @@ Dx  = sqrt(D*Dt/DM);      % [=] cm, delta x (Eqn B.1.13, pg 791)
 j   = ceil(4.2*L^0.5)+5;  % number of boxes (pg 792-793). If L~200, j=65
 
 %% REVERSIBILITY PARAMETERS %%
-ktk    = k1*tk              % dimensionless kinetic parameter (Eqn B.3.7, pg 797)
+ktk    = kc*tk              % dimensionless kinetic parameter (Eqn B.3.7, pg 797)
 km     = ktk/L              % normalized dimensionless kinetic parameter (see bottom of pg 797)
 Lambda = k0/(D*f*v)^0.5     % dimensionless reversibility parameter (Eqn 6.4.4, pg. 236-239)
 
@@ -69,11 +69,11 @@ Z = zeros(1,L+1);  % dimensionless flux of O at the surface
 for i1 = 1:L+1
     % Update flux
     Z(i1)   = ( kf(i1).*O(i1,2) - kb(i1).*R(i1,2) ) ./ (1 + kf(i1) + kb(i1));
-    
+
     % Update surface concentrations
     O(i1,1) = O(i1,2) - Z(i1);
     R(i1,1) = R(i1,2) + Z(i1) - km*R(i1,1);
-    
+
     % Update bulk concentrations of O and R
     for i2 = 2:j-1
         O(i1+1,i2) = O(i1,i2) + DM*(O(i1,i2+1)+O(i1,i2-1)-2*O(i1,i2));

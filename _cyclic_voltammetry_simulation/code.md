@@ -5,6 +5,8 @@ title: "Cyclic Voltammetry App: Code"
 description: Cyclic voltammetry simulation code
 ---
 
+Last updated: May 9, 2018
+
 I've posted the standalone
 [cyclic voltammetry simulation](/cyclic_voltammetry_simulation/index.html)
 code below.
@@ -20,7 +22,7 @@ which you can download [here](/assets/CVsim2.m).
 % Peter Attia
 % Based on Bard and Faulkner, Appendix B
 % EC mechanism
-% Updated September 24, 2017
+% Updated May 10, 2018
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %clear, clc, close all
@@ -34,7 +36,7 @@ v      = 1E-3;   % [=] V/s, sweep rate. Default = 1E-3
 n      = 1.0;    % [=] number of electrons transfered. Default = 1
 alpha  = 0.5;    % [=] dimensionless charge-transfer coefficient. Default = 0.5
 k0     = 1E-2;   % [=] cm/s, electrochemical rate constant. Default = 1E-2
-k1     = 1E-3;   % [=] 1/s, chemical rate constant. Default = 1E-3
+kc     = 1E-3;   % [=] 1/s, chemical rate constant. Default = 1E-3
 T      = 298.15; % [=] K, temperature. Default = 298.15
 
 %% PHYSICAL CONSTANTS %%
@@ -53,7 +55,7 @@ Dx  = sqrt(D*Dt/DM);      % [=] cm, delta x (Eqn B.1.13, pg 791)
 j   = ceil(4.2*L^0.5)+5;  % number of boxes (pg 792-793). If L~200, j=65
 
 %% REVERSIBILITY PARAMETERS %%
-ktk    = k1*tk              % dimensionless kinetic parameter (Eqn B.3.7, pg 797)
+ktk    = kc*tk              % dimensionless kinetic parameter (Eqn B.3.7, pg 797)
 km     = ktk/L              % normalized dimensionless kinetic parameter (see bottom of pg 797)
 Lambda = k0/(D*f*v)^0.5     % dimensionless reversibility parameter (Eqn 6.4.4, pg. 236-239)
 

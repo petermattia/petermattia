@@ -5,14 +5,14 @@ title: "Cyclic Voltammetry App: Fundamental electrochemistry"
 description: A tutorial on the fundamental electrochemistry of cyclic voltammetry
 ---
 
-### Fundamental electrochemistry
+Last updated: May 10, 2018
 
 This
 [cyclic voltammetry simulation](/cyclic_voltammetry_simulation/index.html)
 couples a one-electron electrochemical reduction with a subsequent
 chemical reaction of the reduced species, as below:
 
-$$ O + e^- \overset{k_f}{\underset{k_r}{\leftrightarrows}} R \overset{k_c}{\rightarrow} Z $$
+$$ O + e^- \overset{k_f}{\underset{k_b}{\rightleftarrows}} R \overset{k_c}{\rightarrow} Z $$
 
 This simulation assumes an aqueous electrochemical system.
 A metal electrode in solution supplies and extracts electrons from aqueous species
@@ -26,18 +26,18 @@ coupled electrochemical-chemical process is often called an $ EC $ reaction.
 #### Electrochemical reaction (charge transfer)
 
 In this model, the charge-tranfer kinetics follow the Bulter-Volmer formulation.
-The forward electrochemical rate constant, $k_f$, and reverse electrochemical
-rate constant, $k_r$, primarily depend on the fundemental electrochemical
-parameters $k_0$ and $\alpha$ (Eqns 3.3.9 & 3.3.10):
+The forward electrochemical rate constant, $k_f$, and backwards electrochemical
+rate constant, $k_b$, primarily depend on the fundemental electrochemical
+parameters $k^0$ and $\alpha$ (Eqns 3.3.9 & 3.3.10):
 
 $$ k_f = k^0 \exp\left({-\alpha f (E - E^{0'})}\right) $$
 
-$$ k_r = k^0 \exp\left({(1-\alpha) f (E - E^{0'})}\right) $$
+$$ k_b = k^0 \exp\left({(1-\alpha) f (E - E^{0'})}\right) $$
 
-$k_0$ is the standard electrochemical rate constant, defined as the "kinetic
+$k^0$ is the standard electrochemical rate constant, defined as the "kinetic
 facility" of a redox couple - in other words, it measures the ease of electron
 transfer in the redox reaction (see section 3.3.3).
-$k_0$, $k_f$, and $k_c$ all have units of $ \text{cm/s}$.
+$k^0$, $k_f$, and $k_b$ all have units of $ \text{cm/s}$.
 
 $\alpha$ is the
 [transfer coefficient](https://en.wikipedia.org/wiki/Charge_transfer_coefficient),
@@ -97,7 +97,7 @@ The interplay between the electrochemical reaction at the surface, the
 chemical reaction of the reduced product $ R $, and the diffusion of both $ O $
 and $ R $ yield the cyclic voltammetry result. Specifically, two dimensionless
 numbers - $ \Lambda $, an indicator for charge transfer vs mass transfer
-rates, and $ k_1 t_k $, an indicator for chemical reaction rate vs experiment
+rates, and $ k_c t_k $, an indicator for chemical reaction rate vs experiment
 time, define the system's electrochemical reversibility and
 chemical reversibility, respectively.
 I discuss these in greater detail

@@ -25,11 +25,23 @@ Web scraping & data science:
     - for game in week:
   - Exploratory data analysis
     - Pythagorean win expectation
-  - Predictive model
-    - 50% model
+  - Model features (select via elastic net)
+    - Wins
+    - PF
+    - PA
+    - Pythagorean win expectation
+    - Offensive yards
+    - Defensive yards
+    - Home vs away
+    - Turnovers
+    -
+  - Compare to:
+    - 50% baseline
     - Better team wins (tiebreaker: home team wins)
-    - My models
-    - Vegas line
+    - ESPN experts
+    - Vegas
+    - Bing
+  - Does model get better between weeks 6 and 16
 
 Links:
 -http://pjoos.github.io/2015/11/11/nfl_ml.html

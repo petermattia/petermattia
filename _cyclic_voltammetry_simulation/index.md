@@ -5,6 +5,8 @@ title: "Cyclic voltammetry simulation tutorials"
 description: Tutorials on cyclic voltammetry simulations
 ---
 
+Last updated: May 10, 2018
+
 These tutorials will explain the simulation that powers my simple
 cyclic voltammetry apps.
 I built these apps to better understand the fundamentals of

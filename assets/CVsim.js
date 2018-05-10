@@ -12,7 +12,7 @@ var CVplot = function() {
   var v = parseFloat(document.getElementById('v').value);
   var alpha = parseFloat(document.getElementById('alpha').value);
   var k0 = parseFloat(document.getElementById('k0').value);
-  var k1 = parseFloat(document.getElementById('k1').value);
+  var kc = parseFloat(document.getElementById('kc').value);
 
   // CONSTANTS
   var n = 1; // nu,ber of electrons per reaction
@@ -32,7 +32,7 @@ var CVplot = function() {
   var j   = Math.ceil(4.2*Math.sqrt(L))+5; // number of boxes (pg 792-793). If L~200, j=65
 
   // REVERSIBILITY PARAMETERS
-  var ktk    = k1*tk;           // dimensionless kinetic parameter (Eqn B.3.7, pg 797)
+  var ktk    = kc*tk;           // dimensionless kinetic parameter (Eqn B.3.7, pg 797)
   var km     = ktk/L;           // normalized dimensionless kinetic parameter (see bottom of pg 797)
   var Lambda = k0/Math.sqrt(D*f*v);  // dimensionless reversibility parameter (Eqn 6.4.4, pg. 236-239)
 

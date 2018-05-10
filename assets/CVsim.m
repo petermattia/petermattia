@@ -17,7 +17,7 @@ v      = 1E-3;   % [=] V/s, sweep rate. Default = 1E-3
 n      = 1.0;    % [=] number of electrons transfered. Default = 1
 alpha  = 0.5;    % [=] dimensionless charge-transfer coefficient. Default = 0.5
 k0     = 1E-2;   % [=] cm/s, electrochemical rate constant. Default = 1E-2
-k1     = 1E-3;   % [=] 1/s, chemical rate constant. Default = 1E-3
+kc     = 1E-3;   % [=] 1/s, chemical rate constant. Default = 1E-3
 T      = 298.15; % [=] K, temperature. Default = 298.15
 
 %% PHYSICAL CONSTANTS %%
@@ -36,7 +36,7 @@ Dx  = sqrt(D*Dt/DM);      % [=] cm, delta x (Eqn B.1.13, pg 791)
 j   = ceil(4.2*L^0.5)+5;  % number of boxes (pg 792-793). If L~200, j=65
 
 %% REVERSIBILITY PARAMETERS %%
-ktk    = k1*tk              % dimensionless kinetic parameter (Eqn B.3.7, pg 797)
+ktk    = kc*tk              % dimensionless kinetic parameter (Eqn B.3.7, pg 797)
 km     = ktk/L              % normalized dimensionless kinetic parameter (see bottom of pg 797)
 Lambda = k0/(D*f*v)^0.5     % dimensionless reversibility parameter (Eqn 6.4.4, pg. 236-239)
 
@@ -70,10 +70,10 @@ for i1 = 1:L
         R(i1+1,i2) = R(i1,i2) + DM*(R(i1,i2+1)+R(i1,i2-1)-2*R(i1,i2)) ...
             - km * R(i1,i2);
     end
-    
+
     % Update flux
     JO(i1+1)   = ( kf(i1+1).*O(i1+1,2) - kb(i1+1).*R(i1+1,2) ) ./ (1 + Dx/D*(kf(i1+1) + kb(i1+1)) );
-    
+
     % Update surface concentrations
     O(i1+1,1) = O(i1+1,2) - JO(i1+1)*(Dx/D);
     R(i1+1,1) = R(i1+1,2) + JO(i1+1)*(Dx/D) - km*R(i1+1,1);

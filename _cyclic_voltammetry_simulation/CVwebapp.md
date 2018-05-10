@@ -38,10 +38,12 @@ description: A JavaScript web app for cyclic voltammetry simulations, built with
 </head>
 
 <body>
+  Last updated: May 9, 2018 <br><br>
+
   This cyclic voltammetry simulation couples a one-electron electrochemical
   reaction with a subsequent chemical reaction of the reduced species, as below:
 
-  $$ O + e^- \overset{k_f}{\underset{k_r}{\leftrightarrows}} R \overset{k_c}{\rightarrow} Z $$
+  $$ O + e^- \overset{k_f}{\underset{k_b}{\rightleftarrows}} R \overset{k_c}{\rightarrow} Z $$
 
   I've created tutorials on the
   <a href="/cyclic_voltammetry_simulation/fundamentals.html">
@@ -70,8 +72,8 @@ description: A JavaScript web app for cyclic voltammetry simulations, built with
   $ \eta_f = $ <input type="text" id="etaf" value="-0.2"> $ \text{V} $, final overpotential <br>
   $ \nu = $ <input type="text" id="v" value="1E-3"> $ \text{V/s} $, scan rate <br>
   $ \alpha = $ <input type="text" id="alpha" value="0.5">, charge transfer coefficient <br>
-  $ k_0 = $ <input type="text" id="k0" value="1E-2"> $ \text{cm/s} $, electrochemical rate constant <br>
-  $ k_1 = $ <input type="text" id="k1" value="1E-3"> $ \text{s}^{-1} $, chemical rate constant <br>
+  $ k^0 = $ <input type="text" id="k0" value="1E-2"> $ \text{cm/s} $, electrochemical rate constant <br>
+  $ k_c = $ <input type="text" id="kc" value="1E-3"> $ \text{s}^{-1} $, chemical rate constant <br>
   <br>
 
   <div class="row">
@@ -84,7 +86,7 @@ description: A JavaScript web app for cyclic voltammetry simulations, built with
     <div class="column">
       <a href="/cyclic_voltammetry_simulation/reversibility.html"><big>Reversibility parameters</big></a><br>
       $ \Lambda = $ <input type="text" id="echemrev" value="0" class="field left" readonly><br>
-      $ k_1t_k = $ <input type="text" id="chemrev" value="0" class="field left" readonly><br>
+      $ k_c t_k = $ <input type="text" id="chemrev" value="0" class="field left" readonly><br>
       <textarea cols="50" id="chemrevwarn" value="" class="field left" readonly style="color:#f00;"></textarea><br>
     </div>
   </div>

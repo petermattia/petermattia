@@ -4,13 +4,17 @@ title: Publications
 permalink: /publications/
 order: -1
 ---
-Last updated September 17, 2017
+Last updated May 9, 2017
 
 [Google Scholar](https://scholar.google.com/citations?user=GyD43R4AAAAJ&hl=en&oi=ao)
 
 # Stanford
 
-Coming soon!
+A. Grover, T. Markov, **P. Attia**, N. Jin, N. Perkins,
+B. Cheong, M. Chen, Z. Yang, S. Harris, W. Chueh, and S. Ermon.
+*Best arm identification in multi-armed bandits with delayed feedback*.
+International Conference on Artificial Intelligence and Statistics (AISTATS), 2018.
+[PDF]({{site.url}}/papers/1803.10937.pdf), [arxiv](https://arxiv.org/abs/1803.10937)
 
 # Delaware
 
