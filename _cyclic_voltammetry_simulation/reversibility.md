@@ -12,7 +12,7 @@ Last updated: May 10, 2018
 My research has started involving various forms of reversibility and asymmetry
 in electrochemistry.
 In my quest to make sense of it all, I developed
-[cyclic voltammetry simulations](/cyclic_voltammetry_simulation\index)
+[cyclic voltammetry simulations](/cyclic_voltammetry_simulation/index)
 to help me better understand these concepts.
 As I was reading more about these topics, I encountered
 [this page](http://www.asdlib.org/onlineArticles/ecourseware/Kelly_Potentiometry/PDF-4-Reversibility.pdf),

@@ -7,7 +7,7 @@
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           {% if site.title %}
-          <li>{{ site.title }}, 2017</li>
+          <li>{{ site.title }}, {{ site.time | date: '%Y' }}</li>
           {% endif %}
           {% if site.email %}
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
