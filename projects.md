@@ -8,11 +8,12 @@ order: 3
 ### Electrochemical simulations and tutorials
 
 I developed simple apps in MATLAB and JavaScript for
-[cyclic voltammetry](/cyclic_voltammetry_simulation/index.html)
-and [galvanostatic](/galvanostatic_simulation/index.html) simulations.
+[cyclic voltammetry](/cyclic_voltammetry_simulation/cvwebapp.html)
+and [galvanostatic](/galvanostatic_simulation/galvanostaticwebapp.html) simulations.
 My understanding of electrochemistry deepened tremendously by systematically
 exploring different simulation parameters using these apps.
-I also created .
+I also created
+[comprehensive tutorials of these simulations](/cyclic_voltammetry_simulation/index.html).
 
 Cyclic voltammetry, JavaScript version:
 <p>
