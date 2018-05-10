@@ -116,6 +116,6 @@ with Bio-logic, Arbin, and Maccor potentiostats
 
 **Lab manager:** [Chueh group](https://chuehlab.stanford.edu) (January 2018-present)
 
-**Reviewer:** [*Journal of the Electrochemical Society*](https://jes.ecsdl.org)
+**Reviewer:** [*Journal of the Electrochemical Society*](jes.ecsdl.org)
 
 **Mentor:** Four undergraduate & masters students; [EDGE mentor](https://vpge.stanford.edu/fellowships-funding/enhancing-diversity-graduate)

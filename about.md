@@ -40,7 +40,7 @@ If you *really* want to know more about me, [click here](/personal).
 Seeing how my website barely cracks the top 10 pages of a Google search for
 'Peter Attia', the Peter Attias of this world are doing quite well! The good
 news is I'm in good company; the bad news is it can be difficult to find me via
-online (hence the 'm' in [peter**m**attia.com](petermattia.com)).
+online (hence the 'm' in [peter**m**attia.com](https://petermattia.com)).
 
 In particular, two identically-named gentlemen have a much larger web presence than I.
 I'm not [Peter Attia, M.D.](http://eatingacademy.com/dr-peter-attia),
