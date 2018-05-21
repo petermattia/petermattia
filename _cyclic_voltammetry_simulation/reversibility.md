@@ -7,12 +7,12 @@ description: Tutorial on chemical and electrochemical reversibility in cyclic vo
 
 [//]: # 20170809 Peter A 17Su electrochem fundementals
 
-Last updated: May 10, 2018
+Last updated: May 21, 2018
 
 My research has started involving various forms of reversibility and asymmetry
 in electrochemistry.
 In my quest to make sense of it all, I developed
-[cyclic voltammetry simulations](/cyclic_voltammetry_simulation/index)
+[cyclic voltammetry simulations](/cyclic_voltammetry_simulation/index.html)
 to help me better understand these concepts.
 As I was reading more about these topics, I encountered
 [this page](http://www.asdlib.org/onlineArticles/ecourseware/Kelly_Potentiometry/PDF-4-Reversibility.pdf),
@@ -87,7 +87,9 @@ the degree of chemical irreversibility is controlled by the extent of the chemic
 The extent of the chemical eraction, in turn, is controlled by the rate constant
 of the chemical reaction, $ k_c $, and the timescale of the experiment, or $ t_k $.
 Bard and Faulkner (pg 790) define $ t_k $ as the "characteristic experimental
-timescale", which equals $ 2(V_i - V_f)/\nu $.
+timescale"; for a cyclic voltammetry experiment running from an initial voltage
+$ V_i $, to a final voltage $ V_f $, and back to $ V_i $ with a scan rate of $ \nu $,
+$ t_k = 2(V_i - V_f)/\nu $.
 Thus, the "dimensionless kinetic parameter" (pg 797) that controls the degree of
 chemical irreversibility is given by:
 
