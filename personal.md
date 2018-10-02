@@ -5,9 +5,9 @@ permalink: /personal/
 order: -1
 ---
 
-Last updated: February 21, 2018
+Last updated: October 2, 2018
 
-### Engagement
+### Marriage
 
 My most exciting "personal" item is that I'm
 [recently married](https://player.vimeo.com/video/252820064)!
@@ -34,12 +34,7 @@ I enjoy playing pickup basketball, biking and hiking around the Bay Area,
 eating and cooking good food,
 and watching the Philadelphia Eagles
 ~~have promising regular seasons and then break my heart in the playoffs~~
-WIN THE SUPER BOWL!!!!!
-
-<p>
-<img src="/img/personal/missionpeak.JPG" alt="Mission Peak" style="width:500px;
-display:block; margin-left: auto; margin-right: auto;">
-</p>
+WIN THE SUPER BOWL!
 
 ### Delaware
 
@@ -64,7 +59,7 @@ Famous Delawareans include:
 - [Ryan Phillippe](https://en.wikipedia.org/wiki/Ryan_Phillippe)
 - And, of course,
 [Joe Biden](https://en.wikipedia.org/wiki/Joe_Biden),
-our former Vice President ([and a favorite of *The Onion*](https://www.theonion.com/channels/joseph-biden/)).
+our former Vice President
 
 <p>
 <img src="/img/personal/youdee.png" alt="YouDee" style="width: 300px;display:block; margin-left: auto; margin-right: auto;">
@@ -82,11 +77,8 @@ Delaware is also home to:
 - [The Punkin Chunkin World Championship](https://en.wikipedia.org/wiki/Pumpkin_chucking)
 - [A huge music festival](https://fireflyfestival.com)
 - [Some really beautiful beaches](https://www.visitdelaware.com/things-to-do/beaches/)
-  (much nicer than Northern California's 😉)
 
-If city life is your thing, we're less than three hours from Philly, Baltimore, DC, and New York.
-
-For me, Delaware will always be home.
+We're also less than three hours from Philly, Baltimore, DC, and New York.
 
 ### Heritage
 
@@ -104,8 +96,6 @@ In fact, I'm 100% Egyptian.
 My mom was born there and moved to the US as an infant,
 and my dad moved here in his 20s - which makes me 1.5 generation American,
 [I think](https://en.wikipedia.org/wiki/Immigrant_generations).
-Unfortunately, I speak very little Arabic.
-
 
 ### 50 states
 
@@ -129,8 +119,6 @@ there's nothing quite like cutting ice while high-riving wide-eyed kids or,
 more vividly, riding a jammed Zamboni that is violently spitting
 basketball-sized chunks of ice in seemingly impossible directions
 while making terrific gurgling and hissing sounds at 2 AM in an empty ice rink.
-
-
 
 ### UrbanPromise
 

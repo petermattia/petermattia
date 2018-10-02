@@ -4,7 +4,7 @@ title: Presentations
 permalink: /presentations/
 order: -1
 ---
-Last updated February 21, 2018
+Last updated October 2, 2018
 
 # Stanford
 
@@ -17,6 +17,18 @@ Last updated February 21, 2018
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td style="text-align:center">November 2018</td>
+      <td style="text-align:center"><a href="https://www.mrs.org/fall-2018-call-for-papers-detail?code=GI01">
+      Materials Research Society, Fall 2018</a></td>
+      <td style="text-align:center">Stanford, CA</td>
+    </tr>
+    <tr>
+      <td style="text-align:center">October 2018</td>
+      <td style="text-align:center"><a href="https://energy.stanford.edu/research/seed-grants">
+      Stanford Precourt Institute for Energy Seed Grants Annual Workshop</a></td>
+      <td style="text-align:center">Stanford, CA</td>
+    </tr>
     <tr>
       <td style="text-align:center">February 2018</td>
       <td style="text-align:center"><a href="https://www.grc.org/batteries-grs-conference/2018/">

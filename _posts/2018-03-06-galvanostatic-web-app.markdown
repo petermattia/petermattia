@@ -7,9 +7,6 @@ description: Introducing my galvanostatic simulation web app, built with plotly.
 tags: code science
 ---
 
-It's been a while since I've posted - turns out planning a wedding, balancing
-multiple projects, and preparing for a conference is a lot of work!
-
 Recently, I've encountered some subtle differences between experiments
 probed via cyclic voltammetry and via constant-current (galvanostatic)
 conditions. To help understand the differences,

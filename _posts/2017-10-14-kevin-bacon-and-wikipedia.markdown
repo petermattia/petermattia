@@ -11,8 +11,8 @@ tags: data-science code
 <img src="\img\wiki-phil\Kevin_Bacon_SDCC_2014.jpg" style="display:block; margin-left: auto; margin-right: auto;">
 </a></p>
 
-There's a game played among movie buffs (of which I can't claim to be) called
-"Six Degrees of Kevin Bacon". The goal is to find the fewest degrees of seperation
+There's a game played among movie buffs called "Six Degrees of Kevin Bacon".
+The goal is to find the fewest degrees of seperation
 between any actor or actress and
 [Kevin Bacon](https://en.wikipedia.org/wiki/Kevin_Bacon)
 by connecting them through other

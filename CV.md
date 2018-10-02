@@ -4,7 +4,7 @@ title: Curriculum Vitae
 permalink: /cv/
 order: 4
 ---
-Last updated February 21, 2018
+Last updated October 2, 2018
 
 ## Education
 
@@ -98,9 +98,7 @@ Last updated February 21, 2018
 
 ## Skills and Certifications
 
-**Scientific computing:** MATLAB, Python
-
-**Programming languages:** Python, bash, Javascript
+**Scientific computing:** Python, MATLAB
 
 **Materials characterization:** SEM, TEM, XRD, XPS, Auger, Raman, X-ray CT
 

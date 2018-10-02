@@ -69,6 +69,6 @@ and I started thinking twice before asking them to do something routine.
 
 This summer was incredibly productive - our project progressed
 well above my expectations.
-While both of the students I mentored were excellent and would have succeeded
+While all of the students I have mentored were excellent and would have succeeded
 regardless of my role, I like to think that this shift in my mentoring
-style at least helped. 😉
+style at least helped.

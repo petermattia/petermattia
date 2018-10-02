@@ -7,11 +7,10 @@ description: My "realist" perspective of scientific innovation
 tags: science
 ---
 
-I kept getting LinkedIn emails pestering me to visit their site, and eventually
-I gave in. One of the first links I saw was [this post](https://www.linkedin.com/pulse/please-stop-re-posting-news-stories-exciting-new-battery-stewart)
-about academic battery research that's overhyped by the media.
+A [recent post](https://www.linkedin.com/pulse/please-stop-re-posting-news-stories-exciting-new-battery-stewart)
+I saw on LinkedIn discussed academic battery research that's overhyped by the media.
 I'm occasionally asked about my thoughts on
-"*battery breakthrough press release X*", and I think this article comes close
+"*battery breakthrough press release X*", and this article comes close
 to my perspective.
 
 Overall, I share the author's view on "breakthrough" technologies.
@@ -19,7 +18,7 @@ In a mature (25-year), successful [~$30 billion dollar](http://www.marketwatch.c
 industry like this one, challengers to incumbents like Samsung
 and Panasonic are competing with commodities -
 a bad idea, according to Microeconomics 101.
-The battery field seems especially prone to [gimmicky "breakthroughs"](https://www.pocket-lint.com/news/130380-future-batteries-coming-soon-charge-in-seconds-last-months-and-power-over-the-air) that can't approach lithium-ion technology on energy density or
+The battery field is especially prone to [gimmicky "breakthroughs"](https://www.pocket-lint.com/news/130380-future-batteries-coming-soon-charge-in-seconds-last-months-and-power-over-the-air) that can't approach lithium-ion technology on energy density or
  cycle life, let alone cost.
 
 (There are certainly exceptions - I'm biased, but I'm excited by my labmates'

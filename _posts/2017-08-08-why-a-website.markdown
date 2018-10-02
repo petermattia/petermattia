@@ -7,10 +7,7 @@ description: Why I'm making a website as a grad student
 tags: personal code
 ---
 Why am I making a personal website? It's not very common for graduate students
-in materials science (I don't think I know anyone else with one...), and it's
-arguably a distraction from my priorities (namely, writing my paper...*cough cough*).
-
-A few reasons:
+in materials science (I don't know anyone else with one...). A few reasons:
 * Start blogging, as a way to maintian writing skills (with some accountability).
 I plan on posting a mix of science and personal content
 * Develop a larger community for electrochemistry and materials science online -
@@ -20,7 +17,7 @@ I wish there were more resources when I started grad school
 * Learn web technologies, specifically AWS and d3.js
 
 The last one, in particular, was compelling enough for me to actually make this website.
-After a summer of learning a bit of both data science and software engineering
+After a summer of learning some both data science and software engineering
 for my fast charging project (see [Research](/research)),
 I'm beginning to become more interested in both, either as career options
 or as critical components of a battery-testing-automation startup
@@ -28,7 +25,7 @@ or as critical components of a battery-testing-automation startup
 
 In both chemical engineering and materials science, everyone uses MATLAB,
 which I think is exceptional for routine scientific computing tasks.
-I'm a big fan of MATLAB - it's perfect for engineers, particularly
+I'm a big fan of MATLAB - it's great for engineers, particularly
 students, who need to quickly analyze data and don't want to deal with
 'CS stuff' like libraries, dependencies, etc.
 But, of course, I recognize no serious software engineer would even think about
@@ -66,7 +63,7 @@ I definitely wouldn't recommend this method to most people trying to create a
 website, but it worked well for my purposes - I became more familiar with the
 Terminal, Markdown, AWS S3, domain names, etc.
 
-Welp, first post down. Here's to what's next!
+First post down - here's to what's next!
 
 <style>
   svg {

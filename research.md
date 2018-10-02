@@ -19,14 +19,17 @@ More technically, I use electrochemical characerization to study
 how surface effects impact the side reactions and rate capability
 of carbon anodes.
 I'll provide more details when I've published my work, but my main projects include:
+- High-throughput screening of fast-charging policies for commercial batteries
 - Studying the growth of the
 [solid-electrolyte interphase](https://en.wikipedia.org/wiki/Lithium-ion_battery#Electrolytes),
-which is one of the largest sources of degradation in lithium-ion batteries
-- High-throughput screening of fast-charging policies for commercial cells
+a major cause of degradation in lithium-ion batteries
 
 <br>
 
-![University of Delaware](/img/UDfull.jpg)
+<p>
+<img src="/img/UDfull.jpg" alt="University of Delaware" style="width:500px;
+display:block; margin-left: auto; margin-right: auto;">
+</p>
 
 Research at Delaware
 ====================
