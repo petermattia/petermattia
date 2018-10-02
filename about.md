@@ -9,7 +9,7 @@ order: 1
 <img src="/img/eclub_suit_2.jpg" style="display:block; margin-left: auto; margin-right: auto;">
 </p>
 
-I am a fourth-year PhD student in
+I am a fifth-year PhD student in
 [Materials Science and Engineering](https://mse.stanford.edu)
 at [Stanford University](https://www.stanford.edu).
 [My research](/research) focuses on making lithium-ion batteries last longer
