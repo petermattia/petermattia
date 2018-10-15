@@ -8,7 +8,7 @@ tags: science
 ---
 
 My colleague Yiyang's [work](https://dx.doi.org/10.1038/s41563-018-0168-4)
-was accepted into Nature Materials!
+was published in *Nature Materials*!
 This comprehensive work incorporated experiment, simulation, modeling to
 uncover a key effect in lithium-iron phosphate (LFP), a common cathode material
 in lithium-ion batteries.
