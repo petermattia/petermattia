@@ -1,9 +1,9 @@
 ---
 layout: post
 categories: articles
-title: Surface diffusion paper accepted!
+title: Surface diffusion paper published!
 date: 2018-09-20
-description: Co-authored paper accepted in Nature Materials
+description: Co-authored paper published in Nature Materials
 tags: science
 ---
 

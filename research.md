@@ -10,7 +10,7 @@ order: 2
 
 ![Stanford](/img/SUSig_2color_Stree_Left.png)
 
-Research at Stanford
+Research at Stanford University
 ====================
 
 I work with [Prof. William Chueh](https://chuehlab.stanford.edu) on
@@ -31,7 +31,7 @@ a major cause of degradation in lithium-ion batteries
 display:block; margin-left: auto; margin-right: auto;">
 </p>
 
-Research at Delaware
+Research at University of Delaware
 ====================
 
 I worked with [Dr. Joshua Zide](https://www.zidelab.org/) for three years on a novel application of
