@@ -26,19 +26,19 @@ Last updated October 2, 2018
 
 ## Technical Experience
 
-**Graduate Research Assistant**, *Stanford University* ([Chueh Lab](https://chuehlab.stanford.edu))
+**Graduate Student Researcher**, *Stanford University* ([Chueh Lab](https://chuehlab.stanford.edu))
 * Leading experimental side of a multi-disciplinary team developing methods for autonomous optimization of battery fast-charging policies
 * Developing a new method of electrochemical analysis to measure solid-electrolyte interphase (SEI) growth during galvanostatic cycling
 * Designing the Chueh lab’s “Gen 2” battery fabrication and characterization facilities; expanded total battery testing channels from 24 to 160
 
-**Undergraduate Research Assistant**, *University of Delaware* ([Zide Lab](https://www.zidelab.org/))
+**Undergraduate Student Researcher**, *University of Delaware* ([Zide Lab](https://www.zidelab.org/))
 * Built lumped parameter model of heat transfer in thermoelectric materials using MATLAB
 * Designed and fabricated experimental devices to test heat transfer model
 * Developed pulse-width-modulation solar simulator in LabVIEW
 
 **Engineering Intern**, *[DuPont](https://www.dupont.com) Engineering Technologies*
 * Assessed the competitiveness of a key DuPont product in an existing market
-* Analyzed the thermal performance of various brines to replace existing carcinogenic brine
+* Analyzed the thermal performance of low-toxicity brines to replace existing carcinogenic brine
 * Evaluated vendor proposals for a solid-liquid suspension impeller and proposed alternative designs
 
 ## Journal Publications
@@ -102,7 +102,7 @@ Last updated October 2, 2018
 
 **Materials characterization:** SEM, TEM, XRD, XPS, Auger, Raman, X-ray CT
 
-**Electrochemical characterization:** Sweep voltammetry, galvanostatic, and
+**Electrochemical characterization:** Galvanostatic, sweep voltammetry, and
 impedance characterization of full cells and half cells
 with Bio-logic, Arbin, and Maccor potentiostats
 
@@ -112,7 +112,7 @@ with Bio-logic, Arbin, and Maccor potentiostats
 
 ## Professional service
 
-**Lab manager:** [Chueh group](https://chuehlab.stanford.edu) (January 2018-present)
+**Lab manager:** [Chueh group](https://chuehlab.stanford.edu) (January 2018-December 2018)
 
 **Reviewer:** [*Journal of the Electrochemical Society*](http://jes.ecsdl.org)
 

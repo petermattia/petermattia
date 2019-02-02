@@ -4,11 +4,25 @@ title: Publications
 permalink: /publications/
 order: -1
 ---
-Last updated October 2, 2017
+Last updated February 2, 2019
 
 [Google Scholar](https://scholar.google.com/citations?user=GyD43R4AAAAJ&hl=en&oi=ao)
 
 # Stanford University
+
+S. Das, **P. M. Attia**, M. Z. Bazant, W. C. Chueh.
+Electrochemical kinetics of SEI growth on carbon black, II: Modeling.
+**Journal of the Electrochemical Society**, in press. ([arxiv](https://arxiv.org/abs/1901.01326)).
+
+**P. M. Attia**, S. Das, S. J. Harris, M. Z. Bazant, W. C. Chueh.
+Electrochemical kinetics of SEI growth on carbon black, I: Experiments.
+**Journal of the Electrochemical Society**, in press. ([arxiv](https://arxiv.org/abs/1901.01190)).
+
+K. A. Severson\*, **P. M. Attia\***, N. Jin, N. Perkins, B. Jiang,
+Z. Yang, M. H. Chen, M. Aykol, P. K. Herring, D. Fraggedakis,
+M. Z. Bazant, S. J. Harris, W. C. Chueh, R. D. Braatz.
+Data-driven prediction of battery cycle life before capacity degradation.
+*Nature Energy*, in press. *Equal contribution authors
 
 Y. Li, H. Chen, K. Lim, H. D. Deng, J. Lim, D. Fraggedakis, **P. M. Attia**,
 S. C. Lee, N. Jin, J. Moškon, Z. Guan, W. E. Gent, J. Hong, Y. S. Yu,
@@ -50,3 +64,14 @@ Enhanced room temperature electronic and thermoelectric properties of the dilute
 *J Appl Phys*, 112, 093710 (2012).
 [PDF]({{site.url}}/papers/Dongmo et al. - 2012 - Enhanced room temperature electronic and thermoelectric properties of the dilute bismuthide InGaBiAs.pdf),
 [DOI](https://dx.doi.org/10.1063/1.4761996)
+
+# Patents
+
+K. A. Severson, R. D. Braatz, W. C. Chueh, **P. M. Attia**, N. Jin,
+S. J. Harris, N. Perkins.
+"A Data-driven Model for Lithium-ion Battery Capacity Fade and Lifetime Prediction".
+Patent pending.
+
+S. Ermon, W. C. Chueh, A. Grover, T. M. Markov, N. Perkins, **P. M. Attia**.
+"Autonomous screening and optimization of battery formation and cycling procedures".
+Patent pending.

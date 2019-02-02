@@ -22,6 +22,8 @@ One of the many things I've learned in grad school so far is that I like science
 but I love engineering - specifically, **building systems that save people time**.
 I'm especially interested in
 [accelerating scientific progress through automation](/articles/2017/09/18/automating-science.html).
+For global challenges like climate change, we need to accelerate the development
+of alternative energy technologies so they're available in years, rather than decades.
 While my background is in the physical sciences,
 I'm developing skills in data science and software engineering
 to create platforms for autonomous scientific research.
