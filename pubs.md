@@ -12,11 +12,11 @@ Last updated February 2, 2019
 
 S. Das, **P. M. Attia**, M. Z. Bazant, W. C. Chueh.
 Electrochemical kinetics of SEI growth on carbon black, II: Modeling.
-**Journal of the Electrochemical Society**, in press. ([arxiv](https://arxiv.org/abs/1901.01326)).
+*Journal of the Electrochemical Society*, in press. ([arxiv](https://arxiv.org/abs/1901.01326)).
 
 **P. M. Attia**, S. Das, S. J. Harris, M. Z. Bazant, W. C. Chueh.
 Electrochemical kinetics of SEI growth on carbon black, I: Experiments.
-**Journal of the Electrochemical Society**, in press. ([arxiv](https://arxiv.org/abs/1901.01190)).
+*Journal of the Electrochemical Society*, in press. ([arxiv](https://arxiv.org/abs/1901.01190)).
 
 K. A. Severson\*, **P. M. Attia\***, N. Jin, N. Perkins, B. Jiang,
 Z. Yang, M. H. Chen, M. Aykol, P. K. Herring, D. Fraggedakis,
