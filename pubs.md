@@ -10,6 +10,12 @@ Last updated February 2, 2019
 
 # Stanford University
 
+K. A. Severson\*, **P. M. Attia\***, N. Jin, N. Perkins, B. Jiang,
+Z. Yang, M. H. Chen, M. Aykol, P. K. Herring, D. Fraggedakis,
+M. Z. Bazant, S. J. Harris, W. C. Chueh, R. D. Braatz.
+Data-driven prediction of battery cycle life before capacity degradation.
+*Nature Energy*, in press. *Equal contribution authors
+
 S. Das, **P. M. Attia**, M. Z. Bazant, W. C. Chueh.
 Electrochemical kinetics of SEI growth on carbon black, II: Modeling.
 *Journal of the Electrochemical Society*, in press. ([arxiv](https://arxiv.org/abs/1901.01326)).
@@ -17,12 +23,6 @@ Electrochemical kinetics of SEI growth on carbon black, II: Modeling.
 **P. M. Attia**, S. Das, S. J. Harris, M. Z. Bazant, W. C. Chueh.
 Electrochemical kinetics of SEI growth on carbon black, I: Experiments.
 *Journal of the Electrochemical Society*, in press. ([arxiv](https://arxiv.org/abs/1901.01190)).
-
-K. A. Severson\*, **P. M. Attia\***, N. Jin, N. Perkins, B. Jiang,
-Z. Yang, M. H. Chen, M. Aykol, P. K. Herring, D. Fraggedakis,
-M. Z. Bazant, S. J. Harris, W. C. Chueh, R. D. Braatz.
-Data-driven prediction of battery cycle life before capacity degradation.
-*Nature Energy*, in press. *Equal contribution authors
 
 Y. Li, H. Chen, K. Lim, H. D. Deng, J. Lim, D. Fraggedakis, **P. M. Attia**,
 S. C. Lee, N. Jin, J. Moškon, Z. Guan, W. E. Gent, J. Hong, Y. S. Yu,

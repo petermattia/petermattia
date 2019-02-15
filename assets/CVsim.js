@@ -40,14 +40,34 @@ var CVplot = function() {
   document.getElementById("echemrev").value = Lambda.toExponential(3);
   document.getElementById("chemrev").value = km.toExponential(3);
 
-  // CHEMICAL REVERSIBILITY WARNING
+  // WARNINGS
+  var warning = '';
   if (km>0.1) {
-    var warning = 'k_1*t_k/L equals '+ km.toString() +', ' +
-      'which exceeds the upper limit of 0.1 (see B&F, pg 797). Try lowering k_1';
-  } else {
-    var warning = 'No warnings';
+    warning = warning.concat('k_1*t_k/L equals '+ km.toString() +', ' +
+      'which exceeds the upper limit of 0.1 (see B&F, pg 797). Try lowering k_1\n');
   }
-  document.getElementById("chemrevwarn").value = warning;
+  if (C < 0) {
+    warning = warning.concat('Concentration cannot be negative\n');
+  }
+  if (D < 0) {
+    warning = warning.concat('Diffusion coefficient cannot be negative\n');
+  }
+  if (etai < etaf) {
+    warning = warning.concat('Initial-final overpotential cannot be negative\n');
+  }
+  if (alpha < 0 || alpha > 1){
+    warning = warning.concat('Alpha must range between 0 and 1\n')
+  }
+  if (k0 < 0) {
+    warning = warning.concat('Electrochemical rate constant cannot be negative\n');
+  }
+  if (kc < 0) {
+    warning = warning.concat('Chemical rate constant cannot be negative\n');
+  }
+  if (warning === "") {
+    warning = 'No warnings';
+  }
+  document.getElementById("warnings").value = warning;
 
   // PRE-INITIALIZATION
   var k = math.range(0,L+1);    // time index vector

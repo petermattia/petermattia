@@ -38,7 +38,7 @@ description: A JavaScript web app for cyclic voltammetry simulations, built with
 </head>
 
 <body>
-  Last updated: May 9, 2018 <br><br>
+  Last updated: February 4, 2019 <br><br>
 
   This cyclic voltammetry simulation couples a one-electron electrochemical
   reaction with a subsequent chemical reaction of the reduced species, as below:
@@ -62,6 +62,7 @@ description: A JavaScript web app for cyclic voltammetry simulations, built with
   To study the concentration profiles, use the
   <a href="/cyclic_voltammetry_simulation/index.html">MATLAB version</a>
   of this app.
+  This app works best on a desktop browser.
 
   <br><br>
   <div id="CVplot"><!-- Plotly chart will be drawn inside this DIV --></div>
@@ -87,7 +88,7 @@ description: A JavaScript web app for cyclic voltammetry simulations, built with
       <a href="/cyclic_voltammetry_simulation/reversibility.html"><big>Reversibility parameters</big></a><br>
       $ \Lambda = $ <input type="text" id="echemrev" value="0" class="field left" readonly><br>
       $ k_c t_k = $ <input type="text" id="chemrev" value="0" class="field left" readonly><br>
-      <textarea cols="50" id="chemrevwarn" value="" class="field left" readonly style="color:#f00;"></textarea><br>
+      <textarea cols="50" rows="6" id="warnings" value="" class="field left" readonly style="color:#f00;"></textarea><br>
     </div>
   </div>
   <br><br>

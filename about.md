@@ -5,9 +5,7 @@ permalink: /about/
 order: 1
 ---
 
-<p>
-<img src="/img/eclub_suit_2.jpg" style="display:block; margin-left: auto; margin-right: auto;">
-</p>
+<img src="/img/me_20190214.jpg" width="300" style="float:left; margin-right:20px;">
 
 I am a fifth-year PhD student in
 [Materials Science and Engineering](https://mse.stanford.edu)

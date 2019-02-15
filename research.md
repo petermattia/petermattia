@@ -34,9 +34,10 @@ Fast charging is important to enable adaptation of electric vehicles, but it
 Multistep charging protocols can achieve both low charging time and high lifetime,
 but this optimization problem is expensive due to the long testing time
 and high number of experiments required.
-In our work, we first use machine learning to predict the final lifetime (1000s of cycles)
-using data from the first 100 cycles. Then, we use optimal experimental design
-to efficiently find the highest-lifetime charging policies.
+In our work, we first develop simple machine learning models to predict the
+final lifetime (1000s of cycles) using data from the first 100 cycles.
+Then, we use optimal experimental design to efficiently find
+the highest-lifetime charging policies.
 By reducing the number of cycles required per experiment (using early prediction)
 and the total number of experiments (using optimal experimental design),
 we can optimize previously intractible battery challenges in a fraction of the time.

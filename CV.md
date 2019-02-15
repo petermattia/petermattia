@@ -4,7 +4,7 @@ title: Curriculum Vitae
 permalink: /cv/
 order: 4
 ---
-Last updated October 2, 2018
+Last updated February 2, 2018
 
 ## Education
 
