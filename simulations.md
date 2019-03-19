@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Projects
-permalink: /projects/
+title: Simulations
+permalink: /simulations/
 order: 3
 ---
 
@@ -21,5 +21,7 @@ Cyclic voltammetry, JavaScript version:
 <img src="/img/CVsimplotly.png" style="display:block; margin-left: auto; margin-right: auto;">
 </a></p>
 
+<!---
 Cyclic voltammetry, MATLAB version:
 ![Screenshot](/img/CVsimscreenshot.png)
+-->

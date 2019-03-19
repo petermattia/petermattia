@@ -4,7 +4,7 @@ title: Publications
 permalink: /publications/
 order: -1
 ---
-Last updated February 2, 2019
+Last updated February 25, 2019
 
 [Google Scholar](https://scholar.google.com/citations?user=GyD43R4AAAAJ&hl=en&oi=ao)
 
@@ -17,12 +17,18 @@ Data-driven prediction of battery cycle life before capacity degradation.
 *Nature Energy*, in press. *Equal contribution authors
 
 S. Das, **P. M. Attia**, M. Z. Bazant, W. C. Chueh.
-Electrochemical kinetics of SEI growth on carbon black, II: Modeling.
-*Journal of the Electrochemical Society*, in press. ([arxiv](https://arxiv.org/abs/1901.01326)).
+Electrochemical kinetics of SEI growth on carbon black, Part II: Modeling.
+*Journal of the Electrochemical Society*, **166** (4) E107-E118 (2019).
+[PDF]({{site.url}}/papers/Das et al. - 2019 - Electrochemical Kinetics of SEI Growth on Carbon Black.pdf),
+[DOI](https://dx.doi.org/10.1149/2.0241904jes),
+[arxiv](https://arxiv.org/abs/1901.01326)
 
 **P. M. Attia**, S. Das, S. J. Harris, M. Z. Bazant, W. C. Chueh.
-Electrochemical kinetics of SEI growth on carbon black, I: Experiments.
-*Journal of the Electrochemical Society*, in press. ([arxiv](https://arxiv.org/abs/1901.01190)).
+Electrochemical kinetics of SEI growth on carbon black, Part I: Experiments.
+*Journal of the Electrochemical Society*, **166** (4) E97-E106 (2019).
+[PDF]({{site.url}}/papers/Attia et al. - 2019 - Electrochemical Kinetics of SEI Growth on Carbon Black.pdf),
+[DOI](https://dx.doi.org/10.1149/2.0231904jes),
+[arxiv](https://arxiv.org/abs/1901.01190)
 
 Y. Li, H. Chen, K. Lim, H. D. Deng, J. Lim, D. Fraggedakis, **P. M. Attia**,
 S. C. Lee, N. Jin, J. Moškon, Z. Guan, W. E. Gent, J. Hong, Y. S. Yu,

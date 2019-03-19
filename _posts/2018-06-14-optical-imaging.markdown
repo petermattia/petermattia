@@ -22,7 +22,7 @@ their color changes from gray to red to yellow.
 
 The top electrode is lithium metal, which is commonly regarded as a "next-generation"
 anode material.
-The regions on the surface that grow and shrink are called "dendrites".
+The regions on the surface that grow and shrink are commonly called "dendrites".
 After many battery cycles, a dendrite may reach the other battery electrode,
 which causes an electrical short.
 Controlling the formation of these dendrites is the key to safe,

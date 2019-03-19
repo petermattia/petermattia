@@ -60,36 +60,36 @@ Last updated February 2, 2018
   </thead>
   <tbody>
   	<tr>
-      <td style="text-align:center">April 2014</td>
-      <td style="text-align:center">Alexander J. Taylor Outstanding Senior Man Finalist (University of Delaware) </td>
+      <td style="text-align:left">April 2014</td>
+      <td style="text-align:left">Alexander J. Taylor Outstanding Senior Man Finalist (University of Delaware) </td>
     </tr>
     <tr>
-      <td style="text-align:center">April 2014</td>
-      <td style="text-align:center">National Science Foundation Graduate Research Fellowship </td>
+      <td style="text-align:left">April 2014</td>
+      <td style="text-align:left">National Science Foundation Graduate Research Fellowship </td>
     </tr>
     <tr>
-      <td style="text-align:center">March 2014</td>
-      <td style="text-align:center">Stanford Graduate Fellowship </td>
+      <td style="text-align:left">March 2014</td>
+      <td style="text-align:left">Stanford Graduate Fellowship </td>
     </tr>
     <tr>
-      <td style="text-align:center">February 2014</td>
-      <td style="text-align:center">Gates-Cambridge Scholarship Finalist </td>
+      <td style="text-align:left">February 2014</td>
+      <td style="text-align:left">Gates-Cambridge Scholarship Finalist </td>
     </tr>
     <tr>
-      <td style="text-align:center">June 2013</td>
-      <td style="text-align:center">Tau Beta Pi Engineering Honor Society Scholarship </td>
+      <td style="text-align:left">June 2013</td>
+      <td style="text-align:left">Tau Beta Pi Engineering Honor Society Scholarship </td>
     </tr>
     <tr>
-      <td style="text-align:center">March 2013</td>
-      <td style="text-align:center"><a href="https://www.udel.edu/udaily/2013/apr/space-grant-042613.html">NASA Space Grant Scholarship </a> </td>
+      <td style="text-align:left">March 2013</td>
+      <td style="text-align:left"><a href="https://www.udel.edu/udaily/2013/apr/space-grant-042613.html">NASA Space Grant Scholarship </a> </td>
     </tr>
     <tr>
-      <td style="text-align:center">March 2013</td>
-      <td style="text-align:center"><a href="https://www.udel.edu/udaily/2013/apr/goldwater-scholars-041113.html">Barry Goldwater Scholarship </a> </td>
+      <td style="text-align:left">March 2013</td>
+      <td style="text-align:left"><a href="https://www.udel.edu/udaily/2013/apr/goldwater-scholars-041113.html">Barry Goldwater Scholarship </a> </td>
     </tr>
     <tr>
-      <td style="text-align:center">March 2010</td>
-      <td style="text-align:center">University of Delaware Distinguished Scholarship - Full Tuition </td>
+      <td style="text-align:left">March 2010</td>
+      <td style="text-align:left">University of Delaware Distinguished Scholarship - Full Tuition </td>
     </tr>
   </tbody>
 </table>
