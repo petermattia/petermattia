@@ -17,6 +17,7 @@ Data-driven prediction of battery cycle life before capacity degradation.
 *Nature Energy* (2019).
 [PDF]({{site.url}}/papers/Severson, Attia - 2019 - Data-driven prediction of battery cycle life before capacity degradation.pdf),
 [DOI](https://doi.org/10.1038/s41560-019-0356-8),
+[press release](https://news.stanford.edu/2019/03/25/ai-accurately-predicts-useful-life-batteries/)
 *Equal contribution authors
 
 S. Das, **P. M. Attia**, M. Z. Bazant, W. C. Chueh.
