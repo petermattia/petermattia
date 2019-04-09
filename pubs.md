@@ -4,7 +4,7 @@ title: Publications
 permalink: /publications/
 order: -1
 ---
-Last updated February 25, 2019
+Last updated April 2, 2019
 
 [Google Scholar](https://scholar.google.com/citations?user=GyD43R4AAAAJ&hl=en&oi=ao)
 
@@ -14,7 +14,10 @@ K. A. Severson\*, **P. M. Attia\***, N. Jin, N. Perkins, B. Jiang,
 Z. Yang, M. H. Chen, M. Aykol, P. K. Herring, D. Fraggedakis,
 M. Z. Bazant, S. J. Harris, W. C. Chueh, R. D. Braatz.
 Data-driven prediction of battery cycle life before capacity degradation.
-*Nature Energy*, in press. *Equal contribution authors
+*Nature Energy*, in press.
+[PDF]({{site.url}}/papers/Severson, Attia - 2019 - Data-driven prediction of battery cycle life before capacity degradation.pdf),
+[DOI](https://doi.org/10.1038/s41560-019-0356-8),
+*Equal contribution authors
 
 S. Das, **P. M. Attia**, M. Z. Bazant, W. C. Chueh.
 Electrochemical kinetics of SEI growth on carbon black, Part II: Modeling.

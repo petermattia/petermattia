@@ -84,7 +84,7 @@ geometry can influence the extent of chemical irreversibility.
 
 For an $ EC $ mechanism with a first-order chemical reaction,
 the degree of chemical irreversibility is controlled by the extent of the chemical reaction.
-The extent of the chemical eraction, in turn, is controlled by the rate constant
+The extent of the chemical reaction, in turn, is controlled by the rate constant
 of the chemical reaction, $ k_c $, and the timescale of the experiment, or $ t_k $.
 Bard and Faulkner (pg 790) define $ t_k $ as the "characteristic experimental
 timescale"; for a cyclic voltammetry experiment running from an initial voltage

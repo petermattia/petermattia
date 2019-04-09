@@ -44,7 +44,7 @@ online (hence the "m" in [peter**m**attia.com](https://petermattia.com)).
 
 In particular, two identically-named gentlemen have a much larger web presence than I.
 I'm not [Peter Attia, M.D.](http://eatingacademy.com/dr-peter-attia),
-although we both went to Stanford after studying engineering as an undergraduate
-(although that's about where the similarities end). I'm also not the Peter Attia
+although we both went to Stanford after studying engineering as an undergraduate.
+I'm also not the Peter Attia
 of [cucumbernebula.com](http://www.cucumbernebula.com/peter-attia/),
 who works on search engine optimization.
