@@ -14,7 +14,7 @@ K. A. Severson\*, **P. M. Attia\***, N. Jin, N. Perkins, B. Jiang,
 Z. Yang, M. H. Chen, M. Aykol, P. K. Herring, D. Fraggedakis,
 M. Z. Bazant, S. J. Harris, W. C. Chueh, R. D. Braatz.
 Data-driven prediction of battery cycle life before capacity degradation.
-*Nature Energy*, in press.
+*Nature Energy* (2019).
 [PDF]({{site.url}}/papers/Severson, Attia - 2019 - Data-driven prediction of battery cycle life before capacity degradation.pdf),
 [DOI](https://doi.org/10.1038/s41560-019-0356-8),
 *Equal contribution authors
