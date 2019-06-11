@@ -11,7 +11,9 @@ Last updated February 2, 2019
 
 |  Date | &nbsp; &nbsp; Conference | &nbsp; &nbsp; Location |
 | :-----------    |  :-----------------       | :-------- |
-| April 2019    |  &nbsp; &nbsp; Materials Research Society, Spring 2019 | &nbsp; &nbsp; Phoenix, AZ |
+| June 2019    |  &nbsp; &nbsp; [22<sup>nd</sup> International Conference on Solid State Ionics](http://ssi-22.org/?page_id=2123) |  Pyeong chang, Korea |
+| April 2019    |  &nbsp; &nbsp; AI for Climate Change Bootcamp | &nbsp; &nbsp; Stanford, CA |
+| April 2019    |  &nbsp; &nbsp; Materials Research Society, Spring 2019 [(1)](https://www.mrs.org/spring2019/symposium-sessions/symposium-sessions-detail?code=ES03) [(2)](https://www.mrs.org/spring2019/symposium-sessions/symposium-sessions-detail?code=GI01) | &nbsp; &nbsp; Phoenix, AZ |
 | March 2019    |  &nbsp; &nbsp; [International Battery Association Conference](https://ecs.confex.com/ecs/iba2019/webprogram/Paper117948.html) | &nbsp; &nbsp; San Diego, CA |
 | December 2018    |  &nbsp; &nbsp; Guest lecture, [MATSCI 303](https://explorecourses.stanford.edu/search?q=MATSCI+303&view=catalog&page=0&filter-coursestatus-Active=on&collapse=&academicYear=20182019) | &nbsp; &nbsp; Stanford, CA |
 | November 2018    |  &nbsp; &nbsp; [Materials Research Society, Fall 2018](https://www.mrs.org/fall-2018-symposium-sessions/symposium-sessions-detail?code=GI01) | &nbsp; &nbsp; Boston, MA |

@@ -4,7 +4,7 @@ title: Publications
 permalink: /publications/
 order: -1
 ---
-Last updated April 2, 2019
+Last updated June 11, 2019
 
 [Google Scholar](https://scholar.google.com/citations?user=GyD43R4AAAAJ&hl=en&oi=ao)
 
@@ -14,7 +14,7 @@ K. A. Severson\*, **P. M. Attia\***, N. Jin, N. Perkins, B. Jiang,
 Z. Yang, M. H. Chen, M. Aykol, P. K. Herring, D. Fraggedakis,
 M. Z. Bazant, S. J. Harris, W. C. Chueh, R. D. Braatz.
 Data-driven prediction of battery cycle life before capacity degradation.
-*Nature Energy* (2019).
+*Nature Energy*, **4**, 383–391 (2019).
 [PDF]({{site.url}}/papers/Severson, Attia - 2019 - Data-driven prediction of battery cycle life before capacity degradation.pdf),
 [DOI](https://doi.org/10.1038/s41560-019-0356-8),
 [press release](https://news.stanford.edu/2019/03/25/ai-accurately-predicts-useful-life-batteries/)

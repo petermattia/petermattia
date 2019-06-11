@@ -4,7 +4,7 @@ title: Curriculum Vitae
 permalink: /cv/
 order: 4
 ---
-Last updated February 2, 2018
+Last updated June 11, 2019
 
 ## Education
 
@@ -59,6 +59,19 @@ Last updated February 2, 2018
     </tr>
   </thead>
   <tbody>
+    <tr>
+      <td style="text-align:left">April 2019</td>
+      <td style="text-align:left"><a href="https://www.electrochem.org/battery-student-research-award">
+      Electrochemical Society Battery Division Student Research Award</a> </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">April 2019</td>
+      <td style="text-align:left"><a href="https://www.mrs.org/open-data-challenge">Materials Research Society Open Data Challenge, 1<sup>st</sup> place </a></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">April 2019</td>
+      <td style="text-align:left"><a href="https://www.mrs.org/gsa-past">Materials Research Society Graduate Student Award</a> </td>
+    </tr>
   	<tr>
       <td style="text-align:left">April 2014</td>
       <td style="text-align:left">Alexander J. Taylor Outstanding Senior Man Finalist (University of Delaware) </td>
