@@ -11,7 +11,7 @@ Last updated July 12, 2019
 
 |  Date | &nbsp; &nbsp; Conference | &nbsp; &nbsp; Location |
 | :-----------    |  :-----------------       | :-------- |
-| October 2019    |  &nbsp; &nbsp; 236<sup>st</sup> Electrochemical Society Meeting |  &nbsp; &nbsp; Atlanta, GA |
+| October 2019    |  &nbsp; &nbsp; 236<sup>th</sup> Electrochemical Society Meeting |  &nbsp; &nbsp; Atlanta, GA |
 | August 2019    |  &nbsp; &nbsp; Argonne National Laboratory |  &nbsp; &nbsp; Lemont, IL |
 | July 2019    |  &nbsp; &nbsp; Cyclotron Road "Batteries and Brews" Seminar |  &nbsp; &nbsp; Berkeley, CA |
 | June 2019    |  &nbsp; &nbsp; Addis Ababa Science and Technology Univeristy |  &nbsp; &nbsp; Addis Ababa, Ethiopia |
