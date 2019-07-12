@@ -4,13 +4,13 @@ title: Curriculum Vitae
 permalink: /cv/
 order: 4
 ---
-Last updated June 11, 2019
+Last updated July 12, 2019
 
 ## Education
 
-# Stanford University (September 2014-Present)
+# Stanford University (September 2014-August 2019)
 
-*Ph. D. Candidate, [Materials Science and Engineering](https://mse.stanford.edu/)*
+PhD, [Materials Science and Engineering](https://mse.stanford.edu/)
 
 **Advisor:** [Prof. William Chueh](https://chuehlab.stanford.edu)
 
@@ -18,7 +18,7 @@ Last updated June 11, 2019
 
 # University of Delaware (August 2010-May 2014)
 
-*Bachelor of [Chemical and Biomolecular Engineering](https://cbe.udel.edu)*
+BChE, [Chemical and Biomolecular Engineering](https://cbe.udel.edu)
 
 **GPA:** 3.95/4.00; [Honors Program](https://honors.udel.edu/); Minor in Nanoscale Materials
 
@@ -26,17 +26,17 @@ Last updated June 11, 2019
 
 ## Technical Experience
 
-**Graduate Student Researcher**, *Stanford University* ([Chueh Lab](https://chuehlab.stanford.edu))
-* Leading experimental side of a multi-disciplinary team developing methods for autonomous optimization of battery fast-charging policies
-* Developing a new method of electrochemical analysis to measure solid-electrolyte interphase (SEI) growth during galvanostatic cycling
-* Designing the Chueh lab’s “Gen 2” battery fabrication and characterization facilities; expanded total battery testing channels from 24 to 160
+**Graduate Student Researcher**, Stanford University ([Chueh Lab](https://chuehlab.stanford.edu))
+* Lead experimental side of a multi-disciplinary team developing methods for autonomous optimization of battery fast-charging policies
+* Developed a new method of electrochemical analysis to measure solid-electrolyte interphase (SEI) growth during galvanostatic cycling
+* Designed the Chueh lab’s “Gen 2” battery fabrication and characterization facilities; expanded total battery testing channels from 24 to 160
 
-**Undergraduate Student Researcher**, *University of Delaware* ([Zide Lab](https://www.zidelab.org/))
+**Undergraduate Student Researcher**, University of Delaware ([Zide Lab](https://www.zidelab.org/))
 * Built lumped parameter model of heat transfer in thermoelectric materials using MATLAB
 * Designed and fabricated experimental devices to test heat transfer model
 * Developed pulse-width-modulation solar simulator in LabVIEW
 
-**Engineering Intern**, *[DuPont](https://www.dupont.com) Engineering Technologies*
+**Engineering Intern**, [DuPont](https://www.dupont.com) Engineering Technologies
 * Assessed the competitiveness of a key DuPont product in an existing market
 * Analyzed the thermal performance of low-toxicity brines to replace existing carcinogenic brine
 * Evaluated vendor proposals for a solid-liquid suspension impeller and proposed alternative designs
