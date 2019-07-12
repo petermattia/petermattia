@@ -21,13 +21,13 @@ Last updated July 12, 2019
 | March 2019    |  &nbsp; &nbsp; [International Battery Association Conference](https://ecs.confex.com/ecs/iba2019/webprogram/Paper117948.html) | &nbsp; &nbsp; San Diego, CA |
 | December 2018    |  &nbsp; &nbsp; Guest lecture, [MATSCI 303](https://explorecourses.stanford.edu/search?q=MATSCI+303&view=catalog&page=0&filter-coursestatus-Active=on&collapse=&academicYear=20182019) | &nbsp; &nbsp; Stanford, CA |
 | November 2018    |  &nbsp; &nbsp; [Materials Research Society, Fall 2018](https://www.mrs.org/fall-2018-symposium-sessions/symposium-sessions-detail?code=GI01) | &nbsp; &nbsp; Boston, MA |
-| October 2018    |  &nbsp; &nbsp; [Stanford Precourt Institute for Energy Seed Grants Workshop](https://energy.stanford.edu/research/seed-grants) | &nbsp; &nbsp; Stanford, CA |
+| October 2018    |  &nbsp; &nbsp; [Stanford PIE Seed Grants Workshop](https://energy.stanford.edu/research/seed-grants) | &nbsp; &nbsp; Stanford, CA |
 | May 2018    |  &nbsp; &nbsp; [TRI](https://www.tri.global/research/) Advanced Materials Discovery and Design Conference | &nbsp; &nbsp; Redwood City, CA |
 | February 2018    |  &nbsp; &nbsp; [Gordon Research Seminar & Conference: Batteries](https://www.grc.org/batteries-grs-conference/2018/) | &nbsp; &nbsp; Ventura, CA |
 | January 2018    |  &nbsp; &nbsp; [Stanford Energy Week](http://www.stanfordenergyweek.com) | &nbsp; &nbsp; Stanford, CA |
 | November 2017    |  &nbsp; &nbsp; SAIC Day Poster Session | &nbsp; &nbsp; Stanford, CA |
 | October 2017    |  &nbsp; &nbsp; [GCEP Research Symposium Poster Session](https://gcepsymposium.stanford.edu) | &nbsp; &nbsp; Stanford, CA |
-| October 2017    |  &nbsp; &nbsp; [Stanford Precourt Institute for Energy Seed Grants Workshop](https://energy.stanford.edu/research/seed-grants) | &nbsp; &nbsp; Stanford, CA |
+| October 2017    |  &nbsp; &nbsp; [Stanford PIE Seed Grants Workshop](https://energy.stanford.edu/research/seed-grants) | &nbsp; &nbsp; Stanford, CA |
 | August 2017    |  &nbsp; &nbsp; [SUPER Lunch Seminar](https://energy.stanford.edu/research/research-opportunities/super) | &nbsp; &nbsp; Stanford, CA |
 | July 2017    |  &nbsp; &nbsp; [GCEP Student Energy Lectures](http://gcep.stanford.edu/outreach/studentactivities_abstracts2017.html#july31) | &nbsp; &nbsp; Stanford, CA |
 | May 2017    |  &nbsp; &nbsp; [231<sup>st</sup> Electrochemical Society Meeting](http://ma.ecsdl.org/content/MA2017-01/1/104.short) | &nbsp; &nbsp; New Orleans, LA |
