@@ -22,7 +22,7 @@ Last updated July 12, 2019
 | December 2018    |  &nbsp; &nbsp; Guest lecture, [MATSCI 303](https://explorecourses.stanford.edu/search?q=MATSCI+303&view=catalog&page=0&filter-coursestatus-Active=on&collapse=&academicYear=20182019) | &nbsp; &nbsp; Stanford, CA |
 | November 2018    |  &nbsp; &nbsp; [Materials Research Society, Fall 2018](https://www.mrs.org/fall-2018-symposium-sessions/symposium-sessions-detail?code=GI01) | &nbsp; &nbsp; Boston, MA |
 | October 2018    |  &nbsp; &nbsp; [Stanford PIE Seed Grants Workshop](https://energy.stanford.edu/research/seed-grants) | &nbsp; &nbsp; Stanford, CA |
-| May 2018    |  &nbsp; &nbsp; [TRI](https://www.tri.global/research/) Advanced Materials Discovery and Design Conference | &nbsp; &nbsp; Redwood City, CA |
+| May 2018    |  &nbsp; &nbsp; [TRI](https://www.tri.global/research/) Advanced Materials Discovery and Design | &nbsp; &nbsp; Redwood City, CA |
 | February 2018    |  &nbsp; &nbsp; [Gordon Research Seminar & Conference: Batteries](https://www.grc.org/batteries-grs-conference/2018/) | &nbsp; &nbsp; Ventura, CA |
 | January 2018    |  &nbsp; &nbsp; [Stanford Energy Week](http://www.stanfordenergyweek.com) | &nbsp; &nbsp; Stanford, CA |
 | November 2017    |  &nbsp; &nbsp; SAIC Day Poster Session | &nbsp; &nbsp; Stanford, CA |
