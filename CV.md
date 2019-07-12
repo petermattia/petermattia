@@ -10,7 +10,7 @@ Last updated July 12, 2019
 
 # Stanford University (September 2014-August 2019)
 
-PhD, [Materials Science and Engineering](https://mse.stanford.edu/)
+**PhD**, [Materials Science and Engineering](https://mse.stanford.edu/)
 
 **Advisor:** [Prof. William Chueh](https://chuehlab.stanford.edu)
 
@@ -18,7 +18,7 @@ PhD, [Materials Science and Engineering](https://mse.stanford.edu/)
 
 # University of Delaware (August 2010-May 2014)
 
-BChE, [Chemical and Biomolecular Engineering](https://cbe.udel.edu)
+**BChE**, [Chemical and Biomolecular Engineering](https://cbe.udel.edu)
 
 **GPA:** 3.95/4.00; [Honors Program](https://honors.udel.edu/); Minor in Nanoscale Materials
 
