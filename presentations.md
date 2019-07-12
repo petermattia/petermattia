@@ -11,11 +11,11 @@ Last updated July 12, 2019
 
 |  Date | &nbsp; &nbsp; Conference | &nbsp; &nbsp; Location |
 | :-----------    |  :-----------------       | :-------- |
-| October 2019    |  &nbsp; &nbsp; Addis Ababa Science and Technology Univeristy |  Atlanta, GA |
-| August 2019    |  &nbsp; &nbsp; Argonne National Laboratory |  Lemont, IL |
-| July 2019    |  &nbsp; &nbsp; Cyclotron Road "Batteries and Brews" Seminar |  Berkeley, CA |
-| June 2019    |  &nbsp; &nbsp; Addis Ababa Science and Technology Univeristy |  Addis Ababa, Ethiopia |
-| June 2019    |  &nbsp; &nbsp; [22<sup>nd</sup> International Conference on Solid State Ionics](http://ssi-22.org/?page_id=2123) |  Pyeong chang, Korea |
+| October 2019    |  &nbsp; &nbsp; Addis Ababa Science and Technology Univeristy |  &nbsp; &nbsp; Atlanta, GA |
+| August 2019    |  &nbsp; &nbsp; Argonne National Laboratory |  &nbsp; &nbsp; Lemont, IL |
+| July 2019    |  &nbsp; &nbsp; Cyclotron Road "Batteries and Brews" Seminar |  &nbsp; &nbsp; Berkeley, CA |
+| June 2019    |  &nbsp; &nbsp; Addis Ababa Science and Technology Univeristy |  &nbsp; &nbsp; Addis Ababa, Ethiopia |
+| June 2019    |  &nbsp; &nbsp; [22<sup>nd</sup> International Conference on Solid State Ionics](http://ssi-22.org/?page_id=2123) |  &nbsp; &nbsp; Pyeong chang, Korea |
 | April 2019    |  &nbsp; &nbsp; AI for Climate Change Bootcamp | &nbsp; &nbsp; Stanford, CA |
 | April 2019    |  &nbsp; &nbsp; Materials Research Society, Spring 2019 [(1)](https://www.mrs.org/spring2019/symposium-sessions/symposium-sessions-detail?code=ES03) [(2)](https://www.mrs.org/spring2019/symposium-sessions/symposium-sessions-detail?code=GI01) | &nbsp; &nbsp; Phoenix, AZ |
 | March 2019    |  &nbsp; &nbsp; [International Battery Association Conference](https://ecs.confex.com/ecs/iba2019/webprogram/Paper117948.html) | &nbsp; &nbsp; San Diego, CA |
