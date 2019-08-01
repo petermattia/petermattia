@@ -28,7 +28,7 @@ Data-driven prediction of battery cycle life before capacity degradation.
 [PDF]({{site.url}}/papers/Severson, Attia et al. - 2019 - Data-driven prediction of battery cycle life before capacity degradation.pdf),
 [DOI](https://doi.org/10.1038/s41560-019-0356-8),
 [press release](https://news.stanford.edu/2019/03/25/ai-accurately-predicts-useful-life-batteries/),
-[*Nature* News & Views](https://www.nature.com/articles/d41586-019-01138-1).
+[*Nature* News & Views](https://www.nature.com/articles/d41586-019-01138-1)
 
 S. Das, **P. M. Attia**, M. Z. Bazant, W. C. Chueh.
 Electrochemical kinetics of SEI growth on carbon black, Part II: Modeling.
