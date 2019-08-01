@@ -4,21 +4,31 @@ title: Publications
 permalink: /publications/
 order: -1
 ---
-Last updated June 11, 2019
+Last updated August 1, 2019
 
 [Google Scholar](https://scholar.google.com/citations?user=GyD43R4AAAAJ&hl=en&oi=ao)
 
 # Stanford University
+
+*Equal contribution authors
+
+W. Huang, **P. M. Attia\***, H. Wang, S. E. Renfrew, N. Jin, S. Das, Z. Zhang,
+D. T. Boyle, Y. Li, M. Z. Bazant, B. D. McCloskey, W. C. Chueh, Y. Cui.
+Evolution of the Solid−Electrolyte Interphase on Carbonaceous Anodes
+Visualized by Atomic-Resolution Cryogenic Electron Microscopy
+*Nano Letters* (2019).
+[PDF]({{site.url}}/papers/Huang, Attia et al. - 2019 - Evolution of the Solid-Electrolyte Interphase on Carbonaceous Andoes Visualized by Atomic-Resolution Cryogenic Electron Microscopy.pdf),
+[DOI](https://dx.doi.org/10.1021/acs.nanolett.9b01515)
 
 K. A. Severson\*, **P. M. Attia\***, N. Jin, N. Perkins, B. Jiang,
 Z. Yang, M. H. Chen, M. Aykol, P. K. Herring, D. Fraggedakis,
 M. Z. Bazant, S. J. Harris, W. C. Chueh, R. D. Braatz.
 Data-driven prediction of battery cycle life before capacity degradation.
 *Nature Energy*, **4**, 383–391 (2019).
-[PDF]({{site.url}}/papers/Severson, Attia - 2019 - Data-driven prediction of battery cycle life before capacity degradation.pdf),
+[PDF]({{site.url}}/papers/Severson, Attia et al. - 2019 - Data-driven prediction of battery cycle life before capacity degradation.pdf),
 [DOI](https://doi.org/10.1038/s41560-019-0356-8),
-[press release](https://news.stanford.edu/2019/03/25/ai-accurately-predicts-useful-life-batteries/)
-*Equal contribution authors
+[press release](https://news.stanford.edu/2019/03/25/ai-accurately-predicts-useful-life-batteries/),
+[*Nature* News & Views](https://www.nature.com/articles/d41586-019-01138-1).
 
 S. Das, **P. M. Attia**, M. Z. Bazant, W. C. Chueh.
 Electrochemical kinetics of SEI growth on carbon black, Part II: Modeling.
@@ -80,8 +90,12 @@ Enhanced room temperature electronic and thermoelectric properties of the dilute
 K. A. Severson, R. D. Braatz, W. C. Chueh, **P. M. Attia**, N. Jin,
 S. J. Harris, N. Perkins.
 "A Data-driven Model for Lithium-ion Battery Capacity Fade and Lifetime Prediction".
-Patent pending.
+US Patent Application 16/161,852.
+[PDF]({{site.url}}/papers/US20190113577A1.pdf),
+[link](https://patents.google.com/patent/US20190113577A1/)
 
 S. Ermon, W. C. Chueh, A. Grover, T. M. Markov, N. Perkins, **P. M. Attia**.
 "Autonomous screening and optimization of battery formation and cycling procedures".
-Patent pending.
+US Patent Application 16/161,790.
+[PDF]({{site.url}}/papers/US20190115778A1.pdf),
+[link](https://patents.google.com/patent/US20190115778A1/)

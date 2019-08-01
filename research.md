@@ -17,27 +17,25 @@ I work with [Prof. William Chueh](https://chuehlab.stanford.edu) on
 **making lithium-ion batteries last longer** and **charge faster.**
 My work aims to combine bottom-up and top-down experiments to
 study degradation in carbon anodes.
-This degradation occurs on length scales ranging from nanometers to centimeters,
-requiring a range of characterization techniques.
 
-My main projects include:
+My primary projects include:
 - **Characterizing the growth of the
 [solid-electrolyte interphase](https://en.wikipedia.org/wiki/Lithium-ion_battery#Electrolytes) (SEI).**
 SEI growth is a major degradation mode in lithium-ion batteries.
 This process is similar to iron oxidation (i.e. rusting); a surface layer forms that both
-consumes material (lithium or iron) but also prevents further growth (termed self-passivation).
+consumes material (lithium or iron) and also prevents further growth (termed self-passivation).
 We characterize SEI growth via electrochemical and microscopic techniques.
 Notably, we discovered that the growth of this layer primarily occurs during battery charging.
-- **Optimizating fast-charging policies for commercial batteries.**
+- **Optimizating fast-charging protocols for commercial batteries.**
 Fast charging is important to enable adaptation of electric vehicles, but it
  generally reduces battery lifetime.
 Multistep charging protocols can achieve both low charging time and high lifetime,
 but this optimization problem is expensive due to the long testing time
-and high number of experiments required.
+and large number of experiments required.
 In our work, we first develop simple machine learning models to predict the
 final lifetime (1000s of cycles) using data from the first 100 cycles.
 Then, we use optimal experimental design to efficiently find
-the highest-lifetime charging policies.
+the highest-lifetime charging protocols.
 By reducing the number of cycles required per experiment (using early prediction)
 and the total number of experiments (using optimal experimental design),
 we can optimize previously intractible battery challenges in a fraction of the time.

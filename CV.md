@@ -32,14 +32,8 @@ BChE, [Chemical and Biomolecular Engineering](https://cbe.udel.edu)
 * Designed the Chueh lab’s “Gen 2” battery fabrication and characterization facilities; expanded total battery testing channels from 24 to 160
 
 **Undergraduate Student Researcher**, University of Delaware ([Zide Lab](https://www.zidelab.org/))
-* Built lumped parameter model of heat transfer in thermoelectric materials using MATLAB
-* Designed and fabricated experimental devices to test heat transfer model
-* Developed pulse-width-modulation solar simulator in LabVIEW
 
 **Engineering Intern**, [DuPont](https://www.dupont.com) Engineering Technologies
-* Assessed the competitiveness of a key DuPont product in an existing market
-* Analyzed the thermal performance of low-toxicity brines to replace existing carcinogenic brine
-* Evaluated vendor proposals for a solid-liquid suspension impeller and proposed alternative designs
 
 ## Journal Publications
 

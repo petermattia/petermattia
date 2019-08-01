@@ -14,26 +14,19 @@ at [Stanford University](https://www.stanford.edu).
 and charge faster.
 Prior to Stanford,
 I graduated from the [University of Delaware](https://www.udel.edu)
-with a degree in [chemical engineering](https://www.cbe.udel.edu).
+with a degree in [chemical engineering](https://cbe.udel.edu).
 
 One of the many things I've learned in grad school so far is that I like science,
 but I love engineering—specifically, **building systems that save people time**.
 I'm especially interested in
 [accelerating scientific progress through automation](/articles/2017/09/18/automating-science.html).
-For global challenges like climate change, we need to accelerate the development
+To combat climate change, we need to accelerate the development
 of alternative energy technologies so they're available in years, rather than decades.
 While my background is in the physical sciences,
 I'm developing skills in data science and software engineering
 to create platforms for autonomous scientific research.
 
-This website serves as a collection of software projects,
-data science explorations, electrochemistry tutorials,
-and musings about batteries. I create stuff mostly for myself—putting
-it online keeps me honest.
-Since you're here, I hope my content informs or amuses you.
-Feel free to reach out!
-
-If you *really* want to know more about me, [click here](/personal).
+If you really want to know more about me, [click here](/personal).
 
 ### Which Peter Attia are you?
 
