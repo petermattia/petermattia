@@ -1,0 +1,26 @@
+---
+layout: post
+categories: articles
+title: "Paper published: SEI visualized via cryo-EM"
+date: 2019-08-20
+description: SEI microscopy paper published in Nano Letters
+tags: science
+---
+
+I'm excited to announce that our paper (co-led with
+[William Huang](https://scholar.google.com/citations?user=Dt82VI8AAAAJ&hl=en))
+was recently [published in *Nano Letters*](https://dx.doi.org/10.1021/acs.nanolett.9b01515)!
+
+This work used cryogenic transmission electron microscopy ("cryo-EM") to visualize
+the SEI on carbon electrodes.
+Cryo-EM enables atomic-resolution microscopy with minimal air exposure and beam damage.
+We found two morphologies of SEI growth: compact SEI (~2 nm) and
+extended SEI (~100s of nm), consistent with the SEI literature.
+However, we find that instead of observing both morphologies on a single particle,
+as was previously hypothesized, these morphologies are present on individual particles.
+These results highlight the complexity of the SEI and highlight the power of
+cryo-EM as a characterization tool.
+
+<p>
+<img src="/img/cryo.svg" style="display:block; margin-left: auto; margin-right: auto;">
+</p>

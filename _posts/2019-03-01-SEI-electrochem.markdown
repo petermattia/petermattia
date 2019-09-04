@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: articles
-title: SEI electrochemistry papers published
+title: "Papers published: SEI kinetics via electrochemistry"
 date: 2019-03-01
 description: Electrochemical kinetics of SEI growth, Parts I and II
 tags: science

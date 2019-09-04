@@ -5,13 +5,13 @@ permalink: /presentations/
 order: -1
 ---
 
-Last updated July 12, 2019
+Last updated September 4, 2019
 
 # Stanford University
 
 |  Date | &nbsp; &nbsp; Conference | &nbsp; &nbsp; Location |
 | :-----------    |  :-----------------       | :-------- |
-| October 2019    |  &nbsp; &nbsp; 236<sup>th</sup> Electrochemical Society Meeting |  &nbsp; &nbsp; Atlanta, GA |
+| October 2019    |  &nbsp; &nbsp; [236<sup>th</sup> Electrochemical Society Meeting](https://ecs.confex.com/ecs/236/meetingapp.cgi/Paper/128078) |  &nbsp; &nbsp; Atlanta, GA |
 | August 2019    |  &nbsp; &nbsp; Argonne National Laboratory |  &nbsp; &nbsp; Lemont, IL |
 | July 2019    |  &nbsp; &nbsp; Cyclotron Road "Batteries and Brews" Seminar |  &nbsp; &nbsp; Berkeley, CA |
 | June 2019    |  &nbsp; &nbsp; Addis Ababa Science and Technology Univeristy |  &nbsp; &nbsp; Addis Ababa, Ethiopia |
