@@ -101,8 +101,6 @@ BChE, [Chemical and Biomolecular Engineering](https://cbe.udel.edu)
   </tbody>
 </table>
 
-<br>
-
 ## Skills and Certifications
 
 **Scientific computing:** Python, MATLAB

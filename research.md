@@ -24,16 +24,16 @@ My primary projects include:
 SEI growth is a major degradation mode in lithium-ion batteries.
 This process is similar to iron oxidation (i.e. rusting); a surface layer forms that both
 consumes material (lithium or iron) and also prevents further growth (termed self-passivation).
-We characterize SEI growth via electrochemical and microscopic techniques.
-Notably, we discovered that the growth of this layer primarily occurs during battery charging.
+We characterize SEI growth via [electrochemical](/articles/2019/03/01/SEI-electrochem.html) and [microscopic](/articles/2019/08/20/SEI-cryo.html) techniques.
+Notably, we discovered that the growth of this layer occurs much faster during battery charging
+than battery discharging.
 - **Optimizating fast-charging protocols for commercial batteries.**
 Fast charging is important to enable adaptation of electric vehicles, but it
- generally reduces battery lifetime.
+generally reduces battery lifetime.
 Multistep charging protocols can achieve both low charging time and high lifetime,
 but this optimization problem is expensive due to the long testing time
 and large number of experiments required.
-In our work, we first develop simple machine learning models to predict the
-final lifetime (1000s of cycles) using data from the first 100 cycles.
+In our work, we first [develop machine learning models to predict the final lifetime (1000s of cycles) using data from the first 100 cycles.](/articles/2019/04/09/data-driven.html)
 Then, we use optimal experimental design to efficiently find
 the highest-lifetime charging protocols.
 By reducing the number of cycles required per experiment (using early prediction)
