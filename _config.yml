@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Peter M. Attia
 email: peter.m.attia@gmail.com
-description: Batteries, electrochemistry, graduate school, and random thoughts
+description: Batteries, electrochemistry, graduate school, etc
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://petermattia.com"
 google_analytics: UA-104350225-1
@@ -29,6 +29,13 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate-v2
+
+pagination:
+  enabled: true
+  per_page: 3
+  collection: 'posts'
+  permalink: '/page/:num/'
 
 collections:
   cyclic_voltammetry_simulation:

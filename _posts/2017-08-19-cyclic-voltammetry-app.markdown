@@ -8,7 +8,7 @@ tags: science code
 ---
 
 Recently, I've been learning about fundamental electrochemistry
-through my battery research -
+through my battery research---  
 charge-transfer vs mass-transfer, reversibility, asymmetry, etc. I found myself
 frequently confused by these terms and concepts, without a good resource to
 develop my understanding. Of course,
@@ -18,8 +18,8 @@ reference textbook than a "learning" textbook.
 
 With help from a post-doc in my lab (who took Allen Bard's
 electrochemistry class at UT Austin!),
-I built a MATLAB app to help me perform simple electrochemical simulations -
-and thus better understand electrochemistry.
+I built a MATLAB app to help me perform simple electrochemical simulations---and
+thus better understand electrochemistry.
 Check out a screenshot below:
 
 ![Screenshot](/img/CVsimscreenshot.png)

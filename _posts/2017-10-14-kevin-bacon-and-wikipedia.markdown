@@ -87,7 +87,7 @@ I'll illustrate this with some Wikipedia pages of personal interest:
 [**Philosophy**](https://en.wikipedia.org/wiki/Philosophy). **6 degrees**
 
 There are some rules for what counts as the first link:
-- It must link to a valid Wikipedia page - no in-page citations, external links,
+- It must link to a valid Wikipedia page---no in-page citations, external links,
 "meta" Wikipedia pages like
 [this one for pronunciation](https://en.wikipedia.org/wiki/Help:IPA/English), etc
 - The link can't be in parentheses, since these links typically reference language pages
@@ -113,8 +113,8 @@ Check it out here:
 <img src="\img\wiki-phil\random_dist.svg" style="display:block; margin-left: auto; margin-right: auto;">
 </p>
 
-The distribution is [right-tailed](https://en.wikipedia.org/wiki/Skewness) -
-most pages are clustered between 8-17 degrees, but there's a long tail of
+The distribution is [right-tailed](https://en.wikipedia.org/wiki/Skewness)---most
+pages are clustered between 8-17 degrees, but there's a long tail of
 very distant articles.
 
 Some fun ones:
@@ -211,21 +211,21 @@ and click on a point to go to its Wikipedia page.
 As to be expected, there's no relationship between page rank and degrees from
 "philosophy".
 
-There were six pages that were five degrees from "philosophy" - five of
+There were six pages that were five degrees from "philosophy"---five of
 which are TV shows
 ([*The Big Bang Theory*](https://en.wikipedia.org/wiki/The_Big_Bang_Theory),
 [*Game of Thrones*](https://en.wikipedia.org/wiki/Game_of_Thrones),
 [*How I Met Your Mother*](https://en.wikipedia.org/wiki/How_I_Met_Your_Mother),
 [*Breaking Bad*](https://en.wikipedia.org/wiki/Breaking_Bad), and
-[*Lost*](https://en.wikipedia.org/wiki/Lost_(TV_series))) -
-all of which connected through the
+[*Lost*](https://en.wikipedia.org/wiki/Lost_(TV_series)))---all
+of which connected through the
 [genre](https://en.wikipedia.org/wiki/Genre) →
 [category](https://en.wikipedia.org/wiki/Category) →
 [ontology](https://en.wikipedia.org/wiki/Ontology) →
 [philosophy](https://en.wikipedia.org/wiki/Philosophy)
 connection documented earlier.
 Interestingly, the page in the top 100 with the highest "philosophy number" (27)
-was also a TV show - [*Glee*](https://en.wikipedia.org/wiki/Glee_(TV_series)).
+was also a TV show---[*Glee*](https://en.wikipedia.org/wiki/Glee_(TV_series)).
 For whatever it's worth (read: very little), the second-highest-ranking page,
 [Donald Trump](https://en.wikipedia.org/wiki/Donald_Trump), is equally removed
 from "philosophy" than the third-highest-ranking page,

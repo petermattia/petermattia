@@ -328,14 +328,19 @@ Bard and Faulkner write an equation for current in Eqn B.4.9:
 
 $$ \frac{i(t)}{nFA} = k_fO(x=0,t) - k_bR(x=0,t) $$
 
-However, I find the Bard and Faulkner sign convention confusing.
-I prefer negative currents for negative overpotential
-(potentials less than the redox potential).
-I switch the current convention below.
-If you prefer the Bard and Faulkner convention,
-you can simply change `plot(eta,Z)` to `plot(eta,-Z)` with no loss of fidelity.
+However, Bard and Faulkner use the American current convention,
+but I prefer the IUPAC convention (negative currents for negative overpotential, or
+potentials less than the redox potential).
+[This page](https://www.asdlib.org/onlineArticles/ecourseware/Kelly_Potentiometry/PDF-3-PlotCon.pdf)
+details the differences between the two conventions;
+current conventions are one of the more confusing elements in electrochemistry,
+as [this paper](https://doi.org/10.1021/ed076p853) documents.
+I use the IUPAC current convention in the rest of this walkthrough.
+If you prefer the American current convention used in Bard and Faulkner,
+you can simply change `plot(eta,Z)` to `plot(eta,-Z)` at the end of this script,
+with no loss of fidelity.
 
-With my preferred current convention, the above equation becomes:
+Using the IUPAC current convention, the above equation becomes:
 
 $$ \frac{i(t)}{nFA} = -k_fO(x=0,t) + k_bR(x=0,t) $$
 

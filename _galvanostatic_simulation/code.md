@@ -1,7 +1,7 @@
 ---
 layout: page
 categories: articles
-title: "Galvnostatic simulations: Code"
+title: "Galvanostatic simulations: Code"
 description: Galvanostatic simulation code
 ---
 

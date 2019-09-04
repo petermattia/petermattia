@@ -24,7 +24,7 @@ The two most significant highlights of this work include:
 - Achieving ~10% prediction error using machine learning models
 and rationalizing their performance
 
-This is just the tip of the iceberg - more to come!
+This is just the tip of the iceberg---more to come!
 
 <p>
 <img src="/img/Energy_Cover_May19.png" style="display:block; margin-left: auto; margin-right: auto;">

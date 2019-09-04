@@ -8,7 +8,7 @@ Last updated July 12, 2019
 
 ## Education
 
-# Stanford University (September 2014-August 2019)
+# Stanford University (September 2014--August 2019)
 
 PhD, [Materials Science and Engineering](https://mse.stanford.edu/)
 
@@ -16,7 +16,7 @@ PhD, [Materials Science and Engineering](https://mse.stanford.edu/)
 
 **Support:** NSF GRFP & Thomas V. Jones Stanford Graduate Fellowships
 
-# University of Delaware (August 2010-May 2014)
+# University of Delaware (August 2010--May 2014)
 
 BChE, [Chemical and Biomolecular Engineering](https://cbe.udel.edu)
 
@@ -119,7 +119,7 @@ with Bio-logic, Arbin, and Maccor potentiostats
 
 ## Professional service
 
-**Lab manager:** [Chueh group](https://chuehlab.stanford.edu) (January 2018-December 2018)
+**Lab manager:** [Chueh group](https://chuehlab.stanford.edu) (January 2018--December 2018)
 
 **Reviewer:** [*Journal of the Electrochemical Society*](http://jes.ecsdl.org)
 

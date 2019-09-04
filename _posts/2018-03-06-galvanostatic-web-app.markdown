@@ -24,7 +24,7 @@ simulations.
 The simulation tutorials are still in progress.
 
 This simulation was built with the same tools as my cyclic voltammetry
-simulation - more info [here](/articles/2017/09/24/cyclic-voltammetry-web-app.html).
+simulation---more info [here](/articles/2017/09/24/cyclic-voltammetry-web-app.html).
 If you're interested, the source code for the
 [front end](https://github.com/petermattia/petermattia/blob/master/_galvanostatic_simulation/galvanostaticwebapp.md)
 and the [back end](https://github.com/petermattia/petermattia/blob/master/assets/galv_sim.js) is on GitHub.

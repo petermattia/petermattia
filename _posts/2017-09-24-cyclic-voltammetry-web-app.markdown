@@ -40,7 +40,7 @@ but it doesn't nativly support plotting standard *xy* data
 (it supports *xy* pairs, which is less functional than plotting separate
 *x* and *y* vectors).
 The [plotly.js](https://plot.ly/javascript/) library was very straightforward
-to set up and had built-in functionality for saving figures and data -
+to set up and had built-in functionality for saving figures and data---
 it was clearly designed for scientific applications like my own.
 Lastly, I used the [math.js](http://mathjs.org) library for some array
 manipulations and the [w3.css](https://www.w3schools.com/w3css/default.asp)

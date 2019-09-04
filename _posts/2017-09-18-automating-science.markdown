@@ -7,8 +7,8 @@ description: Thoughts on accelerating scientific innovation through automation
 tags: science
 ---
 
-Like everyone else, I wish I had more time -
-there's too much to do with only 24 hours a day!
+Like everyone else, I wish I had more time---there's
+too much to do with only 24 hours a day!
 If graduate school has taught me one thing, it's the value of time.
 Yet I spend much of my research time doing low-level tasks,
 like ordering supplies, preparing samples, and converting files.
@@ -39,7 +39,7 @@ by reducing the low-level data conversion overhead.
 Often, scientific instrumentation saves data in obtuse formats,
 and it can take hours to extract data into a usable format,
 let alone extract meaningful insight.
-The time savings can be massive - the process of
+The time savings can be massive---the process of
 ["data wrangling"](https://en.wikipedia.org/wiki/Data_wrangling) in
 data science often takes 90% of the analysis time, and I imagine a similar
 ratio for battery analysis.
@@ -118,7 +118,7 @@ While I enjoyed making [coin cells](https://en.wikipedia.org/wiki/Button_cell)
 (mini-batteries for research purposes)
 when I joined the lab, the novelty quickly wore off;
 now, as I near my 1000<sup>th</sup> cell, making coin cells is
-most definitely work - especially when I need 50 identical cells at once.
+most definitely work---especially when I need 50 identical cells at once.
 
 ### Automated everything
 
@@ -144,7 +144,7 @@ and
 [*Science*](http://science.sciencemag.org/content/324/5923/85.full),
 Adam optimizes the growth of microbial cell cultures by changing
 the genotype and environment, a multi-dimensional parameter space.
-Adam made over 7 million optical density measurements - a feat that would
+Adam made over 7 million optical density measurements---a feat that would
 take years to perform manually.
 The second-generation robot, [Eve](https://www.cam.ac.uk/research/news/artificially-intelligent-robot-scientist-eve-could-boost-search-for-new-drugs), innovates over Adam by more efficiently sampling the parameter space.
 

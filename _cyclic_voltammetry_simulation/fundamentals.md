@@ -96,9 +96,9 @@ $$ \frac{\partial C_i(x,t)}{\partial t} = D_i\frac{\partial C_i^2(x,t)}{\partial
 The interplay between the electrochemical reaction at the surface, the
 chemical reaction of the reduced product $ R $, and the diffusion of both $ O $
 and $ R $ yield the cyclic voltammetry result. Specifically, two dimensionless
-numbers - $ \Lambda $, an indicator for charge transfer vs mass transfer
+numbers---$ \Lambda $, an indicator for charge transfer vs mass transfer
 rates, and $ k_c t_k $, an indicator for chemical reaction rate vs experiment
-time, define the system's electrochemical reversibility and
+time---define the system's electrochemical reversibility and
 chemical reversibility, respectively.
 I discuss these in greater detail
 [here](/cyclic_voltammetry_simulation/reversibility.html).

@@ -66,7 +66,7 @@ derives it nicely in equations (2-18) to (2-26).
 
 Basically, we approach this problem with an energy balance:
 
-$$ \text{(rate of energy in) - (rate of energy out) + (rate of heat generation) = (rate of change in energy)} $$
+$$ \text{(rate of energy in) − (rate of energy out) + (rate of heat generation) = (rate of change in energy)} $$
 
 The end result is below:
 

@@ -146,8 +146,8 @@ This policy increases the incentive to purchase non-luxury battery
 electric vehicles;
 interestingly, [every EV currently on the market except Teslas fall into
 this category](http://www.dnrec.delaware.gov/energy/Documents/Transportation%20Program/Clean%20Transportation%20Updates/Vehicle%20List.pdf).
-The logic is likely that Tesla buyers are wealthy enough - and interested
-enough - to purchase a Tesla without a government subsidy.
+The logic is likely that Tesla buyers are wealthy enough---and interested
+enough---to purchase a Tesla without a government subsidy.
 The incentives for PHEVs is also reduced.
 
 How does this change in policy affect sales of alternative fuel vehicles?

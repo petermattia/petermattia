@@ -185,9 +185,9 @@ var simplemaps_usmap_mapdata={
     },
     IL: {
       name: "Illinois",
-      description: "default",
-      color: "default",
-      hover_color: "default",
+      description: "Visited!",
+      color: "#414F12",
+      hover_color: "#6B8E23",
       url: "default"
     },
     CT: {
@@ -382,9 +382,9 @@ var simplemaps_usmap_mapdata={
     },
     AZ: {
       name: "Arizona",
-      description: "default",
-      color: "default",
-      hover_color: "default",
+      description: "Visited!",
+      color: "#414F12",
+      hover_color: "#6B8E23",
       url: "default"
     },
     NV: {

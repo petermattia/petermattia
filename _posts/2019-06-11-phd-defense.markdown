@@ -4,7 +4,7 @@ categories: articles
 title: PhD defense!
 date: 2019-06-11
 description: PhD defense
-tags: science
+tags: science personal
 ---
 
 I succesfully defended my PhD!
