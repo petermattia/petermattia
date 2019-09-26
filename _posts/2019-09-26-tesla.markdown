@@ -1,0 +1,26 @@
+---
+layout: post
+categories: articles
+title: "Next steps: Tesla"
+date: 2019-09-26
+description: New job at Tesla
+tags: personal
+---
+
+I’m excited to announce that I’ll be starting at Tesla next week.
+The science of climate change is becoming
+[clearer and clearer](https://doi.org/10.1038/s41586-019-1401-2)---
+the benefits of reducing our carbon emissions are
+[well worth the costs](https://doi.org/10.1126/science.aaw6974).
+Transportation contributes [nearly 30%](https://www.epa.gov/greenvehicles/fast-facts-transportation-greenhouse-gas-emissions) of carbon emissions in the US,
+but its demanding energy density requirements make it
+one of the most challenging sectors to decarbonize.
+
+Perhaps more than any other organization,
+Tesla got the world excited about decarbonized transportation.
+I’m excited to contribute to Tesla’s mission of accelerating the
+world's transition to sustainable energy. 
+
+<p>
+<img src="/img/model3.jpg" style="display:block; margin-left: auto; margin-right: auto;">
+</p>
