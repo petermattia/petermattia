@@ -7,14 +7,14 @@ order: 1
 
 <img src="/img/me_20190214.jpg" width="300" style="float:left; margin-right:20px;">
 
-I am a fifth-year PhD student in
+I work for [Tesla Inc](https://www.tesla.com).
+I hold a PhD in 
 [Materials Science and Engineering](https://mse.stanford.edu)
-at [Stanford University](https://www.stanford.edu).
-[My research](/research) focuses on making lithium-ion batteries last longer
-and charge faster.
-Prior to Stanford,
-I graduated from the [University of Delaware](https://www.udel.edu)
-with a degree in [chemical engineering](https://cbe.udel.edu).
+from [Stanford University](https://www.stanford.edu)
+and a BChE in [chemical engineering](https://cbe.udel.edu)
+from the [University of Delaware](https://www.udel.edu).
+[My graduate research](/research) focused on making lithium-ion batteries last longer
+and charge faster through combining fundamental understanding and data-driven methods.
 
 My primary research interest is **building systems that save people time**.
 I'm especially interested in
@@ -26,6 +26,9 @@ I've developed skills in data science and software engineering
 to create platforms for autonomous scientific research.
 
 If you really want to know more about me, [click here](/personal).
+
+This is my personal website.
+The views expressed on this page are mine alone and not those of my employer.
 
 ### Which Peter Attia are you?
 

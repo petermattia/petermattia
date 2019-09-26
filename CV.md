@@ -4,11 +4,11 @@ title: Curriculum Vitae
 permalink: /cv/
 order: 4
 ---
-Last updated July 12, 2019
+Last updated September 26, 2019
 
 ## Education
 
-# Stanford University (September 2014--August 2019)
+# Stanford University (September 2014--September 2019)
 
 PhD, [Materials Science and Engineering](https://mse.stanford.edu/)
 
@@ -25,6 +25,8 @@ BChE, [Chemical and Biomolecular Engineering](https://cbe.udel.edu)
 **Senior Thesis:** ["Thermoelectric Power Generation in Dynamic Temperature Environments"](https://udspace.udel.edu/bitstream/handle/19716/13231/Attia%2c%20Peter.pdf?sequence=1&isAllowed=y)
 
 ## Technical Experience
+
+**Sr Battery Data Analyst**, [Tesla Inc](https://www.tesla.com)
 
 **Graduate Student Researcher**, Stanford University ([Chueh Lab](https://chuehlab.stanford.edu))
 * Lead experimental side of a multi-disciplinary team developing methods for autonomous optimization of battery fast-charging policies

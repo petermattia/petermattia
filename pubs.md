@@ -4,10 +4,13 @@ title: Publications
 permalink: /publications/
 order: -1
 ---
-Last updated September 4, 2019
+Last updated September 26, 2019
 
 [Google Scholar](https://scholar.google.com/citations?user=GyD43R4AAAAJ&hl=en&oi=ao)
 
+<div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0003-4745-5726" href="https://orcid.org/0000-0003-4745-5726" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">https://orcid.org/0000-0003-4745-5726</a></div>
+
+<br>
 *Equal contribution authors
 
 0.  W. Huang\*, **P. M. Attia\***, H. Wang, S. E. Renfrew, N. Jin, S. Das, Z. Zhang,
@@ -40,7 +43,7 @@ M. Z. Bazant, S. J. Harris, W. C. Chueh, R. D. Braatz.
 S. C. Lee, N. Jin, J. Moškon, Z. Guan, W. E. Gent, J. Hong, Y. S. Yu,
 M. Gaberšček, M. S. Islam, M. Z. Bazant, W. C. Chueh.  
 [Fluid-enhanced surface diffusion controls intraparticle phase transformations.](https://dx.doi.org/10.1038/s41563-018-0168-4)  
-*Nature Materials*, 17, 915–922 (2018).  
+*Nature Materials*, **17**, 915–922 (2018).  
 [PDF]({{site.url}}/papers/Li et al. - 2018 - Fluid-enhanced surface diffusion controls intraparticle phase transformations.pdf),
 [press release](https://www6.slac.stanford.edu/news/2018-09-17-x-rays-uncover-hidden-property-leads-failure-lithium-ion-battery-material.aspx)
 
