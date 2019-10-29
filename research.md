@@ -50,8 +50,8 @@ display:block; margin-left: auto; margin-right: auto;">
 Research at University of Delaware
 ====================
 
-I worked with [Dr. Joshua Zide](https://www.zidelab.org/) for three years on a novel application of
-[thermoelectric materials](http://www.thermoelectrics.caltech.edu/thermoelectrics/index.html).
+I worked with [Dr. Joshua Zide](http://www.zidelab.org/) for three years on a novel application of
+[thermoelectric materials](http://thermoelectrics.matsci.northwestern.edu/thermoelectrics/index.html).
  Thermoelectrics are often considered for waste-heat recovery applications,
  exploiting a steady-state spatial temperature gradient to generate electricity.
  We investigated thermoelectric power generation in dynamic temperature environments,

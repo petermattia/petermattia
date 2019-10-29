@@ -33,7 +33,7 @@ BChE, [Chemical and Biomolecular Engineering](https://cbe.udel.edu)
 * Developed a new method of electrochemical analysis to measure solid-electrolyte interphase (SEI) growth during galvanostatic cycling
 * Designed the Chueh lab’s “Gen 2” battery fabrication and characterization facilities; expanded total battery testing channels from 24 to 160
 
-**Undergraduate Student Researcher**, University of Delaware ([Zide Lab](https://www.zidelab.org/))
+**Undergraduate Student Researcher**, University of Delaware ([Zide Lab](http://www.zidelab.org/))
 
 **Engineering Intern**, [DuPont](https://www.dupont.com) Engineering Technologies
 
