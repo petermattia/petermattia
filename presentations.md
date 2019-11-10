@@ -11,6 +11,7 @@ Last updated September 4, 2019
 
 |  Date | Conference | Location |
 | :----------- |  :----------------- | :-------- |
+| December 2019 | Guest lecture, [MATSCI 303](https://explorecourses.stanford.edu/search?q=MATSCI+303&view=catalog&page=0&filter-coursestatus-Active=on&collapse=&academicYear=20182019) |  Stanford, CA |
 | October 2019 | [236<sup>th</sup> Electrochemical Society Meeting](https://ecs.confex.com/ecs/236/meetingapp.cgi/Paper/128078) | Atlanta, GA |
 | August 2019 | Argonne National Laboratory | Lemont, IL |
 | July 2019 | Cyclotron Road "Batteries and Brews" Seminar | Berkeley, CA |

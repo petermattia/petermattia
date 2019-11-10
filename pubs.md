@@ -4,7 +4,7 @@ title: Publications
 permalink: /publications/
 order: -1
 ---
-Last updated September 26, 2019
+Last updated November 9, 2019
 
 [Google Scholar](https://scholar.google.com/citations?user=GyD43R4AAAAJ&hl=en&oi=ao)
 
@@ -12,6 +12,13 @@ Last updated September 26, 2019
 
 <br>
 *Equal contribution authors
+
+0. X. Zhang, Q. J. Wang, K. L. Harrison, K. Jungjohann,
+B. L. Boyce, S. A. Roberts,  **P. M. Attia**, S. J. Harris.  
+[Rethinking How External Pressure Can Suppress Dendrites in
+Lithium Metal Batteries.](https://dx.doi.org/10.1149/2.0701914jes)  
+*Journal of the Electrochemical Society*, **166** (15) A3639-A3652 (2019).  
+[PDF]({{site.url}}/papers/Zhang et al. - 2019 - Rethinking How External Pressure Can Suppress Dendrites.pdf)
 
 0.  W. Huang\*, **P. M. Attia\***, H. Wang, S. E. Renfrew, N. Jin, S. Das, Z. Zhang,
 D. T. Boyle, Y. Li, M. Z. Bazant, B. D. McCloskey, W. C. Chueh, Y. Cui.  

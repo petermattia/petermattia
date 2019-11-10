@@ -17,6 +17,6 @@ more states. I only count a state if I've spent the night there.
 Green means I've visited it, blue means it's still on the list,
 and red means I've lived there.
 
-Current count: 24/50
+Current count: 25/50
 
 {% include map.html %}
