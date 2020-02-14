@@ -4,7 +4,7 @@ title: Publications
 permalink: /publications/
 order: -1
 ---
-Last updated November 9, 2019
+Last updated February 13, 2020
 
 [Google Scholar](https://scholar.google.com/citations?user=GyD43R4AAAAJ&hl=en&oi=ao)
 
@@ -12,6 +12,10 @@ Last updated November 9, 2019
 
 <br>
 *Equal contribution authors
+
+**P. M. Attia\***, **A. Grover\***, **N. Jin**, **K. A. Severson**, **T. M. Markov**, **Y.-H. Liao**, **M. H. Chen**, **B. Cheong**, **N. Perkins**, **Z. Yang**, **P. K. Herring**, **M. Aykol**, **S. J. Harris**, **R. D. Braatz**, **S. Ermon**, **W. C. Chueh**.  
+[Closed-loop optimization of fast-charging protocols for batteries with machine learning](https://doi.org/10.1038/s41586-020-1994-5)  
+*Nature* (2020).
 
 0. X. Zhang, Q. J. Wang, K. L. Harrison, K. Jungjohann,
 B. L. Boyce, S. A. Roberts,  **P. M. Attia**, S. J. Harris.  
@@ -34,7 +38,8 @@ M. Z. Bazant, S. J. Harris, W. C. Chueh, R. D. Braatz.
 *Nature Energy*, **4**, 383–391 (2019).  
 [PDF]({{site.url}}/papers/Severson, Attia et al. - 2019 - Data-driven prediction of battery cycle life before capacity degradation.pdf),
 [press release](https://news.stanford.edu/2019/03/25/ai-accurately-predicts-useful-life-batteries/),
-[*Nature* News & Views](https://www.nature.com/articles/d41586-019-01138-1)
+[*Nature* News & Views](https://www.nature.com/articles/d41586-019-01138-1),
+[*Nature Energy* cover](https://www.nature.com/nenergy/volumes/4/issues/5)
 
 0.  S. Das, **P. M. Attia**, M. Z. Bazant, W. C. Chueh.  
 [Electrochemical kinetics of SEI growth on carbon black, Part II: Modeling.](https://dx.doi.org/10.1149/2.0241904jes)  

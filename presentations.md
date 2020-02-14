@@ -5,12 +5,13 @@ permalink: /presentations/
 order: -1
 ---
 
-Last updated September 4, 2019
+Last updated February 13, 2020
 
 # Stanford University
 
 |  Date | Conference | Location |
 | :----------- |  :----------------- | :-------- |
+| June 2020 | [Advanced Automotive Battery Conference (AABC)](https://www.advancedautobat.com/aabc-us/battery-intelligence.html) |  San Francisco, CA |
 | December 2019 | Guest lecture, [MATSCI 303](https://explorecourses.stanford.edu/search?q=MATSCI+303&view=catalog&page=0&filter-coursestatus-Active=on&collapse=&academicYear=20182019) |  Stanford, CA |
 | October 2019 | [236<sup>th</sup> Electrochemical Society Meeting](https://ecs.confex.com/ecs/236/meetingapp.cgi/Paper/128078) | Atlanta, GA |
 | August 2019 | Argonne National Laboratory | Lemont, IL |

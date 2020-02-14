@@ -105,7 +105,7 @@ BChE, [Chemical and Biomolecular Engineering](https://cbe.udel.edu)
 
 ## Skills and Certifications
 
-**Scientific computing:** Python, MATLAB
+**Scientific computing:** Python, SQL, MATLAB
 
 **Materials characterization:** SEM, TEM, XRD, XPS, Auger, Raman, X-ray CT
 
