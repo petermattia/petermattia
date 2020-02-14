@@ -13,7 +13,7 @@ Last updated February 13, 2020
 <br>
 *Equal contribution authors
 
-**P. M. Attia\***, **A. Grover\***, **N. Jin**, **K. A. Severson**, **T. M. Markov**, **Y.-H. Liao**, **M. H. Chen**, **B. Cheong**, **N. Perkins**, **Z. Yang**, **P. K. Herring**, **M. Aykol**, **S. J. Harris**, **R. D. Braatz**, **S. Ermon**, **W. C. Chueh**.  
+0. **P. M. Attia\***, A. Grover\*, N. Jin, K. A. Severson, T. M. Markov, Y.-H. Liao, M. H. Chen, B. Cheong, N. Perkins, Z. Yang, P. K. Herring, M. Aykol, S. J. Harris, R. D. Braatz, S. Ermon, W. C. Chueh.  
 [Closed-loop optimization of fast-charging protocols for batteries with machine learning](https://doi.org/10.1038/s41586-020-1994-5)  
 *Nature* (2020).
 
