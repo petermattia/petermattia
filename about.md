@@ -22,7 +22,7 @@ I'm especially interested in
 To combat climate change, we need to accelerate the development
 of alternative energy technologies so that they're available in years, rather than decades.
 While my background is in the physical sciences,
-I've developed skills in data science and software engineering
+I've developed skills in software engineering and machine learning
 to create platforms for autonomous scientific research.
 
 If you really want to know more about me, [click here](/personal).
