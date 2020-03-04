@@ -16,8 +16,10 @@ Last updated February 13, 2020
 0. **P. M. Attia\***, A. Grover\*, N. Jin, K. A. Severson, T. M. Markov, Y.-H. Liao, M. H. Chen, B. Cheong, N. Perkins, Z. Yang, P. K. Herring, M. Aykol, S. J. Harris, R. D. Braatz, S. Ermon, W. C. Chueh.  
 [Closed-loop optimization of fast-charging protocols for batteries with machine learning.](https://doi.org/10.1038/s41586-020-1994-5)  
 *Nature* **578**, 397–402 (2020).  
-[Press release](https://news.stanford.edu/2020/02/19/machine-learning-speed-arrival-ultra-fast-charging-electric-car/),
-[*Nature* podcast](https://www.nature.com/articles/d41586-020-00482-x)
+[Full text](https://rdcu.be/b1U6H),
+[press release](https://news.stanford.edu/2020/02/19/machine-learning-speed-arrival-ultra-fast-charging-electric-car/),
+[*Nature* podcast](https://www.nature.com/articles/d41586-020-00482-x),
+[*San Jose Mercury News*](https://www.mercurynews.com/2020/02/29/machines-drive-better-battery-designs/)
 
 0. X. Zhang, Q. J. Wang, K. L. Harrison, K. Jungjohann,
 B. L. Boyce, S. A. Roberts,  **P. M. Attia**, S. J. Harris.  

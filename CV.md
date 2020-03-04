@@ -4,7 +4,7 @@ title: Curriculum Vitae
 permalink: /cv/
 order: 4
 ---
-Last updated September 26, 2019
+Last updated February 26, 2020
 
 ## Education
 
@@ -13,6 +13,8 @@ Last updated September 26, 2019
 PhD, [Materials Science and Engineering](https://mse.stanford.edu/)
 
 **Advisor:** [Prof. William Chueh](https://chuehlab.stanford.edu)
+
+**Thesis:** [Degradation of carbon negative electrodes in lithium-ion batteries](https://searchworks.stanford.edu/view/13335784)
 
 **Support:** NSF GRFP & Thomas V. Jones Stanford Graduate Fellowships
 
