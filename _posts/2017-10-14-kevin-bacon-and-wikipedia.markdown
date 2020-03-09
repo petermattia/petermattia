@@ -3,7 +3,7 @@ layout: post
 categories: articles
 title: "Kevin Bacon and Wikipedia: My introduction to web scraping"
 date: 2017-10-14
-description: Text mining Wikipedia using Beautiful Soup 4
+description: Text mining Wikipedia using Beautiful Soup
 tags: data-science code
 ---
 

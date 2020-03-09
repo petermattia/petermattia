@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Peter M. Attia
 email: peter.m.attia@gmail.com
-description: Batteries, electrochemistry, graduate school, etc
+description: Batteries, electrochemistry, machine learning, and more
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://petermattia.com"
 google_analytics: UA-104350225-1

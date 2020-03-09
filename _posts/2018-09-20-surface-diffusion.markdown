@@ -3,7 +3,7 @@ layout: post
 categories: articles
 title: "Paper published: Surface diffusion in LFP"
 date: 2018-09-20
-description: Co-authored paper published in Nature Materials
+description: Co-authored paper published in <i>Nature Materials</i>
 tags: science
 ---
 

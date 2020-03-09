@@ -3,8 +3,8 @@ layout: post
 categories: articles
 title: "Paper published: Closed-loop optimization of fast-charging protocols for batteries with machine learning"
 date: 2020-02-26
-description: Machine learning for battery fast charging published in Nature
-tags: science data-science
+description: Machine learning for battery fast charging published in <i>Nature</i>
+tags: science machine-learning
 ---
 
 <iframe width="728" height="410" src="https://www.youtube.com/embed/5K_uDQCVxjo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

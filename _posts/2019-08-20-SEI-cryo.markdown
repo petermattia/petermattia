@@ -3,7 +3,7 @@ layout: post
 categories: articles
 title: "Paper published: SEI visualized via cryo-EM"
 date: 2019-08-20
-description: SEI microscopy paper published in Nano Letters
+description: SEI microscopy paper published in <i>Nano Letters</i>
 tags: science
 ---
 

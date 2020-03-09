@@ -14,7 +14,7 @@ PhD, [Materials Science and Engineering](https://mse.stanford.edu/)
 
 **Advisor:** [Prof. William Chueh](https://chuehlab.stanford.edu)
 
-**Thesis:** [Degradation of carbon negative electrodes in lithium-ion batteries](https://searchworks.stanford.edu/view/13335784)
+**Thesis:** [*Degradation of carbon negative electrodes in lithium-ion batteries*](https://searchworks.stanford.edu/view/13335784)
 
 **Support:** NSF GRFP & Thomas V. Jones Stanford Graduate Fellowships
 
@@ -24,7 +24,7 @@ BChE, [Chemical and Biomolecular Engineering](https://cbe.udel.edu)
 
 **GPA:** 3.95/4.00; [Honors Program](https://honors.udel.edu/); Minor in Nanoscale Materials
 
-**Senior Thesis:** ["Thermoelectric Power Generation in Dynamic Temperature Environments"](https://udspace.udel.edu/bitstream/handle/19716/13231/Attia%2c%20Peter.pdf?sequence=1&isAllowed=y)
+**Thesis:** [*Thermoelectric power generation in dynamic temperature environments*](https://udspace.udel.edu/bitstream/handle/19716/13231/Attia%2c%20Peter.pdf?sequence=1&isAllowed=y)
 
 ## Technical Experience
 
