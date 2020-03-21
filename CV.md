@@ -4,7 +4,7 @@ title: Curriculum Vitae
 permalink: /cv/
 order: 4
 ---
-Last updated February 26, 2020
+Last updated March 21, 2020
 
 ## Education
 
@@ -28,16 +28,16 @@ BChE, [Chemical and Biomolecular Engineering](https://cbe.udel.edu)
 
 ## Technical Experience
 
-**Sr Battery Data Analyst**, [Tesla Inc](https://www.tesla.com)
+**Sr Battery Data Analyst**, [Tesla Inc](https://www.tesla.com) (September 2019--Present)
 
-**Graduate Student Researcher**, Stanford University ([Chueh Lab](https://chuehlab.stanford.edu))
-* Lead experimental side of a multi-disciplinary team developing methods for autonomous optimization of battery fast-charging policies
+**Graduate Student Researcher**, [Chueh Lab](https://chuehlab.stanford.edu), [Stanford University](https://www.stanford.edu) (September 2014--September 2019)
+* Lead experimental side of a multi-disciplinary team developing methods for autonomous optimization of battery fast-charging policies; work published in [*Nature*](https://doi.org/10.1038/s41586-020-1994-5) and [*Nature Energy*](https://doi.org/10.1038/s41560-019-0356-8)
 * Developed a new method of electrochemical analysis to measure solid-electrolyte interphase (SEI) growth during galvanostatic cycling
 * Designed the Chueh lab’s “Gen 2” battery fabrication and characterization facilities; expanded total battery testing channels from 24 to 160
 
-**Undergraduate Student Researcher**, University of Delaware ([Zide Lab](http://www.zidelab.org/))
+**Undergraduate Student Researcher**, [Zide Lab](http://www.zidelab.org/), [University of Delaware](https://www.udel.edu) (August 2010--May 2014)
 
-**Engineering Intern**, [DuPont](https://www.dupont.com) Engineering Technologies
+**Engineering Intern**, [DuPont](https://www.dupont.com) Engineering Technologies (June 2013--August 2013)
 
 ## Journal Publications
 
