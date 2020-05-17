@@ -25,7 +25,7 @@ While my background is in the physical sciences,
 I've developed skills in software engineering and machine learning
 to create platforms for autonomous scientific research.
 
-If you really want to know more about me, [click here](/personal).
+Some personal tidbits about me can be found [here](/personal).
 
 This is my personal website.
 The views expressed on this page are mine alone and not those of my employer.

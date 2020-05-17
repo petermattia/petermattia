@@ -4,7 +4,7 @@ title: Curriculum Vitae
 permalink: /cv/
 order: 4
 ---
-Last updated March 21, 2020
+Last updated May 17, 2020
 
 ## Education
 
@@ -107,17 +107,15 @@ BChE, [Chemical and Biomolecular Engineering](https://cbe.udel.edu)
 
 ## Skills and Certifications
 
-**Scientific computing:** Python, SQL, MATLAB
+**Scientific computing:** Python, MATLAB
+
+**Software engineering:** Python, MySQL, Javascript/React
 
 **Materials characterization:** SEM, TEM, XRD, XPS, Auger, Raman, X-ray CT
 
 **Electrochemical characterization:** Galvanostatic, sweep voltammetry, and
 impedance characterization of full cells and half cells
 with Bio-logic, Arbin, and Maccor potentiostats
-
-**Shop experience:** Milling, lathing, welding, torching, casting
-
-**Engineer-in-Training certification** (obtained by passing the Fundamentals of Engineering exam)
 
 ## Professional service
 

@@ -4,7 +4,7 @@ categories: articles
 title: "Paper published: Surface diffusion in LFP"
 date: 2018-09-20
 description: Co-authored paper published in <i>Nature Materials</i>
-tags: science
+tags: publications science
 ---
 
 My colleague Yiyang's [work](https://dx.doi.org/10.1038/s41563-018-0168-4)

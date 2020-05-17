@@ -18,8 +18,8 @@ one of the most challenging sectors to decarbonize.
 
 Perhaps more than any other organization,
 Tesla got the world excited about decarbonized transportation.
-I’m excited to contribute to Tesla’s mission of accelerating the
-world's transition to sustainable energy. 
+I’m excited to contribute to Tesla’s mission of [accelerating the
+world's transition to sustainable energy](https://www.tesla.com/about). 
 
 <p>
 <img src="/img/model3.jpg" style="display:block; margin-left: auto; margin-right: auto;">

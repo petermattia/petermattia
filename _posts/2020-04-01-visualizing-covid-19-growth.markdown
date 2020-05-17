@@ -156,21 +156,21 @@ However, the current number of daily cases is much lower in the US.
 While the daily number of cases was leveling off in Spain and Italy,
 the daily number of deaths does is still increasing.
 
-#### Cumulative death rate (case mortality rate)
+#### Cumulative death rate (case fatality rate)
 
 {% include_relative /covid-19/Cumulative_death_rate.html %}
 
-- I'm confident that Iran's initial 100% case mortality rate is an artifact of a lack of testing.
+- I'm confident that Iran's initial 100% case fatality rate is an artifact of a lack of testing.
 - Zooming in on the bottom-right of the plot, we see that
-the case mortality rates differ by an order of magnitude.
+the case fatality rates differ by an order of magnitude.
 Germany is at around 1%, while Italy is close to 12%.
-All of these numbers are certainly upper bounds on the case mortality rate.
+All of these numbers are certainly upper bounds on the case fatality rate.
 Given [Germany's extensive testing](https://www.ft.com/content/6a8d66a4-5862-4937-8d53-b2d10794e795),
 its numbers are likely more accurate.
-- What's most surprising to me is that the case mortality rate is *increasing*
+- What's most surprising to me is that the case fatality rate is *increasing*
 for Italy and Spain.
 Is this just an artifact of a focus on treatment, and lack of testing, given the medical crisis?
-- The case mortality rate peaked at 7% in the US in early March and has been
+- The case fatality rate peaked at 7% in the US in early March and has been
 largely decreasing since. I assume that this decrease is a result of the
 extensive testing that has taken place since.
 

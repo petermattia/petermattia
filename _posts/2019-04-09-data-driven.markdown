@@ -4,7 +4,7 @@ categories: articles
 title: "Paper published: Data-driven prediction of battery cycle life"
 date: 2019-04-09
 description: Machine learning for batteries paper published in <i>Nature Energy</i>
-tags: science machine-learning
+tags: publications science machine-learning
 ---
 
 <iframe width="728" height="410" src="https://www.youtube.com/embed/ah3yJrPzZsw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

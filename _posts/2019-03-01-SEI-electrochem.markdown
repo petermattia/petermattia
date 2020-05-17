@@ -4,7 +4,7 @@ categories: articles
 title: "Papers published: SEI kinetics via electrochemistry"
 date: 2019-03-01
 description: Electrochemical kinetics of SEI growth, Parts I and II
-tags: science
+tags: publications science
 ---
 
 My [first first-author publication in graduate school](https://dx.doi.org/10.1149/2.0231904jes)
