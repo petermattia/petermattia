@@ -14,9 +14,9 @@ Last updated May 17, 2020
 *Equal contribution authors
 
 
-0. P. Herring, C. B. Gopal, M. Aykol, J. H.Montoya, A. Anapolsky, **P. M. Attia**,
-W. Gent, J. S.Hummelshøj, L. Huang, H.-K. Kwon, P. Moore, D. Schweigert,
-K. A.Severson, S. Suram, Z. Yang, R. D. Braatz, B. D. Storey.  
+0. P. Herring, C. B. Gopal, M. Aykol, J. H. Montoya, A. Anapolsky, **P. M. Attia**,
+W. Gent, J. S. Hummelshøj, L. Huang, H.-K. Kwon, P. Moore, D. Schweigert,
+K. A. Severson, S. Suram, Z. Yang, R. D. Braatz, B. D. Storey.  
 [BEEP: A Python library for Battery Evaluation and Early Prediction](https://doi.org/10.1016/j.softx.2020.100506)  
 *SoftwareX*, **11** 100506 (2020).  
 [PDF](https://www.sciencedirect.com/science/article/pii/S2352711020300492/pdfft?isDTMRedir=true&download=true)

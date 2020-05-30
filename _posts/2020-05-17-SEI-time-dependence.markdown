@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: articles
-title: "Paper published: Revisiting the Time Dependence of SEI Growth"
+title: "Paper published: Revisiting the time dependence of SEI growth"
 date: 2020-05-17
 description: Meta-analysis of the time dependence of SEI growth published in <i>JES</i>
 tags: publications science
