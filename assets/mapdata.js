@@ -354,16 +354,16 @@ var simplemaps_usmap_mapdata={
     },
     WY: {
       name: "Wyoming",
-      description: "default",
-      color: "default",
-      hover_color: "default",
+      description: "Visited!",
+      color: "#414F12",
+      hover_color: "#6B8E23",
       url: "default"
     },
     MT: {
       name: "Montana",
-      description: "default",
-      color: "default",
-      hover_color: "default",
+      description: "Visited!",
+      color: "#414F12",
+      hover_color: "#6B8E23",
       url: "default"
     },
     CO: {
@@ -424,9 +424,9 @@ var simplemaps_usmap_mapdata={
     },
     ID: {
       name: "Idaho",
-      description: "default",
-      color: "default",
-      hover_color: "default",
+      description: "Visited!",
+      color: "#414F12",
+      hover_color: "#6B8E23",
       url: "default"
     },
     GU: {
