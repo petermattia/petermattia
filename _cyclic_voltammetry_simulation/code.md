@@ -5,7 +5,7 @@ title: "Cyclic Voltammetry App: Code"
 description: Cyclic voltammetry simulation code
 ---
 
-Last updated: May 9, 2018
+Last updated: September 20, 2020
 
 I've posted the standalone
 [cyclic voltammetry simulation](/cyclic_voltammetry_simulation/index.html)
@@ -22,13 +22,13 @@ which you can download [here](/assets/CVsim2.m).
 % Peter Attia
 % Based on Bard and Faulkner, Appendix B
 % EC mechanism
-% Updated May 10, 2018
+% Updated September 20, 2020
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %clear, clc, close all
 
 %% INDEPENDENT VARIABLES %%
-C      = 1.0;    % [=] mol/cm^3, initial concentration of O. Default = 1.0
+C      = 1.0;    % [=] mol/L, initial concentration of O. Default = 1.0
 D      = 1E-5;   % [=] cm^2/s, O & R diffusion coefficient. Default = 1E-5
 etai   = +0.2;   % [=] V, initial overpotential (relative to redox potential). Default = +0.2
 etaf   = -0.2;   % [=] V, final overpotential (relative to redox potential). Default = -0.2
@@ -66,6 +66,7 @@ if km>0.1
 end
 
 %% PRE-INITIALIZATION %%
+C = C / 1000;           % Convert C from mol/L to mol/cm3
 k = 0:L;                % time index vector
 t = Dt * k;             % time vector
 eta1 = etai - v*t;      % overpotential vector, negative scan
@@ -99,7 +100,7 @@ for i1 = 1:L
 end
 
 % Calculate current density, Z, from flux of O
-Z = -n.*F.*JO/10; % [=] A/m^2 -> mA/cm^2, current density
+Z = -n.*F.*JO * 1000; % [=] A/cm^2 -> mA/cm^2, current density
 
 %% PLOT RESULTS %%
 % Sometimes length(eta) = length(Z) + 1. If this is the case, truncate last value

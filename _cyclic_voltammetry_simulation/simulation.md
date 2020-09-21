@@ -5,7 +5,7 @@ title: "Cyclic Voltammetry App: Simulation walkthrough"
 description: A tutorial on cyclic voltammetry simulations
 ---
 
-Last updated: May 10, 2018
+Last updated: September 20, 2020
 
 In this post, I'll explain the
 [cyclic voltammetry simulation](/cyclic_voltammetry_simulation/index.html)
@@ -21,7 +21,7 @@ You can find the full MATLAB script file
 % Peter Attia
 % Based on Bard and Faulkner, Appendix B
 % EC mechanism
-% Updated September 24, 2017
+% Updated September 20, 2020
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 clear, clc, close all
@@ -37,7 +37,7 @@ occasionally dense writing style more accessible.
 
 ~~~~matlab
 %% INDEPENDENT VARIABLES %%
-C      = 1.0;    % [=] mol/cm^3, initial concentration of O. Default = 1.0
+C      = 1.0;    % [=] mol/L, initial concentration of O. Default = 1.0
 D      = 1E-5;   % [=] cm^2/s, O & R diffusion coefficient. Default = 1E-5
 etai   = +0.2;   % [=] V, initial overpotential (relative to redox potential). Default = +0.2
 etaf   = -0.2;   % [=] V, final overpotential (relative to redox potential). Default = -0.2
@@ -214,6 +214,7 @@ To study a system with a high value of $ k_c $, increase $ L $.
 Almost there. The next section is mostly pre-initialization:
 ~~~~matlab
 %% PRE-INITIALIZATION %%
+C = C / 1000;           % Convert C from mol/L to mol/cm3
 k = 0:L;                % time index vector
 t = Dt * k;             % time vector
 eta1 = etai - v*t;      % overpotential vector, negative scan
@@ -285,7 +286,7 @@ for i1 = 1:L
 end
 
 % Calculate current density, Z, from flux of O
-Z = -n.*F.*JO/10; % [=] A/m^2 -> mA/cm^2, current density
+Z = -n.*F.*JO * 1000; % [=] A/cm^2 -> mA/cm^2, current density
 ~~~~
 
 I found Bard and Faulkner's derivations opaque, since I was always mentally

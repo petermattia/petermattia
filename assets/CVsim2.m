@@ -13,7 +13,7 @@
 clear, clc, close all
 
 %% INDEPENDENT VARIABLES %%
-C      = 1.0;    % [=] mol/cm^3, initial concentration of O. Default = 1.0
+C      = 1.0;    % [=] mol/L, initial concentration of O. Default = 1.0
 D      = 1E-5;   % [=] cm^2/s, O & R diffusion coefficient. Default = 1E-5
 etai   = +0.2;   % [=] V, initial overpotential (relative to redox potential). Default = +0.2
 etaf   = -0.2;   % [=] V, final overpotential (relative to redox potential). Default = -0.2
@@ -51,6 +51,7 @@ if km>0.1
 end
 
 %% PRE-INITIALIZATION %%
+C = C / 1000;           % Convert C from mol/L to mol/cm3
 k = 0:L;                % time index vector
 t = Dt * k;             % time vector
 eta1 = etai - v*t;      % overpotential vector, negative scan

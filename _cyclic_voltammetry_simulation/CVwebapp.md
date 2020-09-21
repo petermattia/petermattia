@@ -38,7 +38,7 @@ description: A JavaScript web app for cyclic voltammetry simulations, built with
 </head>
 
 <body>
-  Last updated: February 4, 2019 <br><br>
+  Last updated: September 20, 2020 <br><br>
 
   This cyclic voltammetry simulation couples a one-electron electrochemical
   reaction with a subsequent chemical reaction of the reduced species, as below:
@@ -67,7 +67,7 @@ description: A JavaScript web app for cyclic voltammetry simulations, built with
   <br><br>
   <div id="CVplot"><!-- Plotly chart will be drawn inside this DIV --></div>
   <br>
-  $ C_O = $ <input type="text" id="conc" value="1"> $ \text{mol/cm}^3 $, initial concentration of $ O $ <br>
+  $ C_O = $ <input type="text" id="conc" value="1"> $ \text{mol/L} $, initial concentration of $ O $ <br>
   $ D = $ <input type="text" id="D" value="1E-5"> $ \text{cm}^2 \text{/s} $, diffusion coefficient of both $ O $ and $ R $<br>
   $ \eta_i = $ <input type="text" id="etai" value="0.2"> $ \text{V} $, initial overpotential <br>
   $ \eta_f = $ <input type="text" id="etaf" value="-0.2"> $ \text{V} $, final overpotential <br>

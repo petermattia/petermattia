@@ -15,7 +15,7 @@ var CVplot = function() {
   var kc = parseFloat(document.getElementById('kc').value);
 
   // CONSTANTS
-  var n = 1; // nu,ber of electrons per reaction
+  var n = 1; // number of electrons per reaction
   var F = 96485;   // [=] C/mol, Faraday's constant
   var R = 8.3145; // [=] J/mol-K, ideal gas constant
   var T = 298.15;  // [=] K, temperature. Default = 298.15
@@ -93,6 +93,8 @@ var CVplot = function() {
     curr_eta = eta2.subset(math.index(k));
   }
   eta[i] = curr_eta;
+  
+  C = C / 1000; // convert from mol/L to mol/cm^3
 
   var Enorm = math.eval('eta.*f',{eta: eta, f: f}); // dimensionless overpotential
   // kf [=] cm/s, fwd rate constant (pg 799)
@@ -120,7 +122,7 @@ var CVplot = function() {
       R[i1+1][0] = R[i1+1][1] + JO[i1+1]*(Dx/D) - km*R[i1+1][1];
   }
   // Calculate current density, Z, from flux of O
-  var Z = math.eval('-n*F.*JO./10',{n:n, F:F, JO:JO}); // [=] A/m^2 -> mA/cm^2, current density
+  var Z = math.eval('-n*F.*JO.*1000',{n:n, F:F, JO:JO}); // [=] A/cm^2 -> mA/cm^2, current density
 
   return [eta, Z];
 }

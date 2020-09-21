@@ -5,7 +5,7 @@ permalink: /about/
 order: 1
 ---
 
-<img src="/img/me_20190214.jpg" width="250" style="float:left; margin-right:20px;">
+<img src="/img/me_20200920.jpg" width="250" style="float:left; margin-right:20px;">
 
 I work for [Tesla Inc](https://www.tesla.com).
 I hold a PhD in 
