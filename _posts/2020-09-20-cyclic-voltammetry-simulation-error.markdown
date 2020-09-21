@@ -14,7 +14,7 @@ the units of the concentration term and the current:
 The default value of concentration is now 1 mol/L (i.e. 1 M).
 2. This concentration is subsequently divided by 1000 to convert to mol/cm^3,
 since cm is the primary unit of length in the simulation.
-3. The final current is divided by 100 to convert from A/cm^2 to mA/cm^2.
+3. The final current is divided by 1000 to convert from A/cm^2 to mA/cm^2.
 
 The net effect of these changes is a 10x change in the magnitude of the reported current.
 
