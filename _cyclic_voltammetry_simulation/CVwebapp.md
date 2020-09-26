@@ -75,6 +75,7 @@ description: A JavaScript web app for cyclic voltammetry simulations, built with
   $ \alpha = $ <input type="text" id="alpha" value="0.5">, charge transfer coefficient <br>
   $ k^0 = $ <input type="text" id="k0" value="1E-2"> $ \text{cm/s} $, electrochemical rate constant <br>
   $ k_c = $ <input type="text" id="kc" value="1E-3"> $ \text{s}^{-1} $, chemical rate constant <br>
+  $ T = $ <input type="text" id="T" value="298.15"> $ \text{K} $, temperature <br>
   <br>
 
   <div class="row">

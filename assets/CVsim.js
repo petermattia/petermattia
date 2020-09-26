@@ -13,12 +13,12 @@ var CVplot = function() {
   var alpha = parseFloat(document.getElementById('alpha').value);
   var k0 = parseFloat(document.getElementById('k0').value);
   var kc = parseFloat(document.getElementById('kc').value);
+  var T = parseFloat(document.getElementById('T').value);
 
   // CONSTANTS
   var n = 1; // number of electrons per reaction
   var F = 96485;   // [=] C/mol, Faraday's constant
   var R = 8.3145; // [=] J/mol-K, ideal gas constant
-  var T = 298.15;  // [=] K, temperature. Default = 298.15
   var f = F/(R*T); // [=] 1/V, normalized Faraday's constant at room temperature
 
   // SIMULATION VARIABLES
