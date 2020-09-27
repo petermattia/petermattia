@@ -42,7 +42,7 @@ var CVplot = function() {
 
   // WARNINGS
   var warning = '';
-  if (km>0.1) {
+  if (km > 0.1) {
     warning = warning.concat('k_c*t_k/L equals '+ km.toString() +', ' +
       'which exceeds the upper limit of 0.1 (see B&F, pg 797). Try lowering k_c\n');
   }
