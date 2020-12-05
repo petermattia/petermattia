@@ -21,5 +21,5 @@ The net effect of these changes is a 10x change in the magnitude of the reported
 I believe I have addressed this error throughout my website, MATLAB app, etc.
 
 Thanks to both Leonard Bezinge and
-[Hans-Georg Steinrück](https://chemie.uni-paderborn.de/en/steinrueck)
+[Hans-Georg Steinrück](https://chemie.uni-paderborn.de/en/arbeitskreise/technische-chemie/steinrueck)
 for alterting me to this error.
