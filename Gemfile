@@ -8,7 +8,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", ">= 3.6.3"
+gem "jekyll", ">= 4.2"
 gem "ffi", ">= 1.9.24"
 gem "rack", ">= 2.0.6"
 

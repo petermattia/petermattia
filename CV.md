@@ -4,7 +4,7 @@ title: Curriculum Vitae
 permalink: /cv/
 order: 4
 ---
-Last updated May 17, 2020
+Last updated December 31, 2020
 
 ## Education
 
@@ -22,8 +22,6 @@ PhD, [Materials Science and Engineering](https://mse.stanford.edu/)
 
 BChE, [Chemical and Biomolecular Engineering](https://cbe.udel.edu)
 
-**GPA:** 3.95/4.00; [Honors Program](https://honors.udel.edu/); Minor in Nanoscale Materials
-
 **Thesis:** [*Thermoelectric power generation in dynamic temperature environments*](https://udspace.udel.edu/bitstream/handle/19716/13231/Attia%2c%20Peter.pdf?sequence=1&isAllowed=y)
 
 ## Technical Experience
@@ -31,7 +29,7 @@ BChE, [Chemical and Biomolecular Engineering](https://cbe.udel.edu)
 **Sr Battery Data Analyst**, [Tesla Inc](https://www.tesla.com) (September 2019--Present)
 
 **Graduate Student Researcher**, [Chueh Lab](https://chuehlab.stanford.edu), [Stanford University](https://www.stanford.edu) (September 2014--September 2019)
-* Lead experimental side of a multi-disciplinary team developing methods for autonomous optimization of battery fast-charging policies; work published in [*Nature*](https://doi.org/10.1038/s41586-020-1994-5) and [*Nature Energy*](https://doi.org/10.1038/s41560-019-0356-8)
+* Lead experimental side of a multi-disciplinary team developing methods for autonomous optimization of battery fast-charging policies; work published in [*Nature*](https://doi.org/10.1038/s41586-020-1994-5) and [*Nature Energy*](https://doi.org/10.1038/s41560-019-0356-8) and covered by [*WIRED*](hhttps://www.wired.com/story/ai-is-throwing-battery-development-into-overdrive/) and the [*WSJ*](https://www.wsj.com/articles/electric-car-batteries-get-a-boost-from-artificial-intelligence-11604422792)
 * Developed a new method of electrochemical analysis to measure solid-electrolyte interphase (SEI) growth during galvanostatic cycling
 * Designed the Chueh lab’s “Gen 2” battery fabrication and characterization facilities; expanded total battery testing channels from 24 to 160
 
@@ -108,8 +106,6 @@ BChE, [Chemical and Biomolecular Engineering](https://cbe.udel.edu)
 ## Skills and Certifications
 
 **Scientific computing:** Python, MATLAB
-
-**Software engineering:** Python, MySQL, Javascript/React
 
 **Materials characterization:** SEM, TEM, XRD, XPS, Auger, Raman, X-ray CT
 
