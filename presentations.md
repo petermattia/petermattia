@@ -11,8 +11,9 @@ Last updated January 6, 2021
 
 |  Date | Conference | Location |
 | :----------- |  :----------------- | :-------- |
+| May 2021 | [239<sup>st</sup> Electrochemical Society Meeting](https://www.electrochem.org/239) |  Virtual |
 | March 2021 | [International Battery Seminar](https://www.internationalbatteryseminar.com/automotive-batteries#PeterAttia) |  Virtual |
-| November 2020 | [Advanced Automotive Battery Conference (AABC)](https://www.advancedautobat.com/aabc-us/battery-intelligence.html) |  Virtual |
+| November 2020 | [Advanced Automotive Battery Conference (AABC)](https://www.advancedautobat.com/20/aabc-us/battery-intelligence.html#Day2) |  Virtual |
 | March 2020 | [Battery modeling webinar series](https://www.linkedin.com/posts/venkat-viswanathan-6a97548_closed-loop-optimization-of-fast-charging-activity-6653656029475196928-DYCv) |  Virtual |
 | March 2020 | University of California, Berkeley |  Berkeley, CA |
 | December 2019 | Guest lecture, [MATSCI 303](https://explorecourses.stanford.edu/search?q=MATSCI+303&view=catalog&page=0&filter-coursestatus-Active=on&collapse=&academicYear=20182019) |  Stanford, CA |
