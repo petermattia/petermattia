@@ -4,7 +4,7 @@ title: Curriculum Vitae
 permalink: /cv/
 order: 4
 ---
-Last updated January 6, 2021
+Last updated April 3, 2021
 
 ## Education
 
@@ -81,18 +81,6 @@ BChE, [Chemical and Biomolecular Engineering](https://cbe.udel.edu)
       <td style="text-align:left">Stanford Graduate Fellowship </td>
     </tr>
     <tr>
-      <td style="text-align:left">February 2014</td>
-      <td style="text-align:left">Gates-Cambridge Scholarship Finalist </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">June 2013</td>
-      <td style="text-align:left">Tau Beta Pi Engineering Honor Society Scholarship </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">March 2013</td>
-      <td style="text-align:left"><a href="https://www.udel.edu/udaily/2013/apr/space-grant-042613.html">NASA Space Grant Scholarship </a> </td>
-    </tr>
-    <tr>
       <td style="text-align:left">March 2013</td>
       <td style="text-align:left"><a href="https://www.udel.edu/udaily/2013/apr/goldwater-scholars-041113.html">Barry Goldwater Scholarship </a> </td>
     </tr>
@@ -103,20 +91,10 @@ BChE, [Chemical and Biomolecular Engineering](https://cbe.udel.edu)
   </tbody>
 </table>
 
-## Skills and Certifications
-
-**Scientific computing:** Python, MATLAB
-
-**Materials characterization:** SEM, TEM, XRD, XPS, Auger, Raman, X-ray CT
-
-**Electrochemical characterization:** Galvanostatic, sweep voltammetry, and
-impedance characterization of full cells and half cells
-with Bio-logic, Arbin, and Maccor potentiostats
-
 ## Professional service
 
 **Lab manager:** [Chueh group](https://chuehlab.stanford.edu) (January 2018--December 2018)
 
-**Reviewer:** [*Journal of the Electrochemical Society*](http://jes.ecsdl.org)
+**Reviewer:** [*Journal of the Electrochemical Society*](http://jes.ecsdl.org), [*Joule*](https://www.cell.com/joule/home)
 
 **Mentor:** Four undergraduate & masters students; [EDGE mentor](https://vpge.stanford.edu/fellowships-funding/enhancing-diversity-graduate)

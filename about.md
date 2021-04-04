@@ -7,7 +7,7 @@ order: 1
 
 <img src="/img/me_20200920.jpg" width="250" style="float:left; margin-right:20px;">
 
-I work for [Tesla Inc](https://www.tesla.com).
+I work for [Tesla Inc](https://www.tesla.com) as a battery data analyst.
 I hold a PhD in 
 [Materials Science and Engineering](https://mse.stanford.edu)
 from [Stanford University](https://www.stanford.edu)
@@ -16,14 +16,11 @@ from the [University of Delaware](https://www.udel.edu).
 [My graduate research](/research) focused on making lithium-ion batteries last longer
 and charge faster through combining fundamental understanding and data-driven methods.
 
-My primary research interest is **building systems that save people time**.
-I'm especially interested in
-[accelerating scientific progress through automation](/articles/2017/09/18/automating-science.html).
-To combat climate change, we need to accelerate the development
-of alternative energy technologies so that they're available in years, rather than decades.
+My primary professional interest is **accelerating the pace of battery development**.
+As a battery data analyst, I work with manufacturing data, lab data, and field data to forecast battery lifetime.
 While my background is in the physical sciences,
-I've developed skills in software engineering and machine learning
-to create platforms for autonomous scientific research.
+I've developed skills in software engineering
+and data analysis to efficiently make sense of data from disparate sources.
 
 Some personal tidbits about me can be found [here](/personal).
 

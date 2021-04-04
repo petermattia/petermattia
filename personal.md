@@ -115,7 +115,7 @@ a landscaping manager, an app developer, and a college tutor.
 My most eclectic job to date, however, would be driving a Zamboni.
 I will always remember my two years at the
 [University of Delaware Ice Arenas](https://www.udel.edu/icearena/) -
-there's nothing quite like cutting ice while high-riving wide-eyed kids or,
+there's nothing quite like cutting ice while high-fiving wide-eyed kids or,
 more vividly, riding a jammed Zamboni that is violently spitting
 basketball-sized chunks of ice in seemingly impossible directions
 while making terrific gurgling and hissing sounds at 2 AM in an empty ice rink.

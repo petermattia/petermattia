@@ -19,7 +19,6 @@ description: Batteries, electrochemistry, machine learning, and more
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://petermattia.com"
 google_analytics: UA-104350225-1
-facebook_username: peter.attia
 linkedin_username: peter-m-attia
 github_username:  petermattia
 gscholar_username:  GyD43R4AAAAJ
