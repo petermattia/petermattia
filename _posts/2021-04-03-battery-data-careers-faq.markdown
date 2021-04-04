@@ -55,3 +55,6 @@ Work on meaningful projects with a similar skill set to the job you want. Convin
 A full list of the conferences I have attended is available [here](/presentations). The [Gordon Research Conference](https://www.grc.org/batteries-conference/2018/) was my favorite battery conference. Overall, the rise in virtual conferences and talks has been a welcome trend for me since it makes it easy to attend as an industrial scientist.
 
 I’m a member of the [Electrochemical Society](https://www.electrochem.org) since I think it’s the closest match to my field and because I support their [“Free the Science”](https://freethescience.org/about) initiative. 
+
+### Summary
+Hope this was helpful! Feel free to reach out with any additonal quesitons.
