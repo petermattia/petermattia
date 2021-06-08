@@ -1,0 +1,14 @@
+---
+layout: post
+categories: articles
+title: "Paper published: ENPOLITE"
+date: 2021-06-06
+description: Benchmarking batteries
+tags: publications science
+---
+
+I contributed to a recently-published paper lead by [Philipp Dechant](https://www.isea.rwth-aachen.de/cms/ISEA/Die-Organisationseinheit/Team/Leitungsebene-Abteilungsleitung-Prof-/~pkpq/Philipp-Dechent/lidx/1/) at RWTH Aachen University. The title of the paper is ["ENPOLITE: Comparing Lithium-Ion Cells across Energy, Power, Lifetime, and Temperature"](https://pubs.acs.org/doi/10.1021/acsenergylett.1c00743), where "ENPOLITE" is short for “energy power lifetime temperature”. The goal of this work is to enable cell comparisons across a variety of performance dimensions, a challenging yet important task. Check out the interactive plots at [enpolite.org](https://enpolite.org).
+
+<p>
+<img src="/img/enpolite.svg" style="display:block; margin-left: auto; margin-right: auto;">
+</p>
