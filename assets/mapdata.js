@@ -72,9 +72,9 @@ var simplemaps_usmap_mapdata={
   state_specific: {
     HI: {
       name: "Hawaii",
-      description: "default",
-      color: "default",
-      hover_color: "default",
+      description: "Visited!",
+      color: "#414F12",
+      hover_color: "#6B8E23",
       url: "default"
     },
     AK: {
@@ -396,16 +396,16 @@ var simplemaps_usmap_mapdata={
     },
     OR: {
       name: "Oregon",
-      description: "default",
-      color: "default",
-      hover_color: "default",
+      description: "Visited!",
+      color: "#414F12",
+      hover_color: "#6B8E23",
       url: "default"
     },
     WA: {
       name: "Washington",
-      description: "default",
-      color: "default",
-      hover_color: "default",
+      description: "Visited!",
+      color: "#414F12",
+      hover_color: "#6B8E23",
       url: "default"
     },
     CA: {
