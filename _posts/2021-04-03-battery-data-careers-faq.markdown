@@ -42,7 +42,7 @@ I can only speak to the cell engineering team. Some observations after 1.5 years
 - It moves fast—buckle up :)
 
 ### How can I get a job at Tesla?
-The party line for hiring is "evidence of exceptional achievement". In other words, could you convince Elon why we should hire you in 2-3 bullet points? Of course, expectations are a function of your level of experience; candidates with all sorts of backgrounds (including junior candidates) are more than welcome. You can apply here; contact me directly if you’re interested in the cell qualification team. We’re growing fast!
+The party line for hiring is "evidence of exceptional achievement". In other words, could you convince Elon why we should hire you in 2-3 bullet points? Of course, expectations are a function of your level of experience; candidates with all sorts of backgrounds (including junior candidates) are more than welcome. You can apply [here](https://www.tesla.com/cell-jobs); contact me directly if you’re interested in the cell qualification team. We’re growing fast!
 
 [This slightly dated article](https://www.cnbc.com/2018/04/16/how-to-land-a-job-at-tesla.html) also has good advice.
 
