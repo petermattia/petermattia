@@ -4,7 +4,7 @@ title: Publications
 permalink: /publications/
 order: -1
 ---
-Last updated June 6, 2021
+Last updated October 30, 2021
 
 [Google Scholar](https://scholar.google.com/citations?user=GyD43R4AAAAJ&hl=en&oi=ao)
 
@@ -13,10 +13,29 @@ Last updated June 6, 2021
 <br>
 *Equal contribution authors
 
+0. B. Jiang, W. E. Gent, F. Mohr, S. Das, M. D. Berliner, M. Forsuelo, H. Zhao,
+**P. M. Attia**, A. Grover, P. K. Herring, M. Z. Bazant, S. J. Harris, S. Ermon,
+W. C. Chueh, R. D. Braatz.  
+[Bayesian learning for rapid prediction of lithium-ion battery-cycling protocols](https://doi.org/10.1016/j.joule.2021.10.010)  
+*Joule*, (2021).  
+[PDF]({{site.url}}/papers/Jiang et al. - 2021 - Bayesian learning for rapid prediction of lithium-ion battery-cycling protocols.pdf)
+
+0. A. Weng, P. Mohtat, **P. M. Attia**, V. Sulzer, S. Lee, G. Less, A. Stefanopoulou.  
+[Predicting the impact of formation protocols on battery lifetime immediately after manufacturing](https://doi.org/10.1016/j.joule.2021.09.015)  
+*Joule*, (2021).  
+[PDF]({{site.url}}/papers/Weng et al. - 2021 - Predicting the impact of formation protocols on battery lifetime immediately after manufacturing.pdf), [press release](https://news.umich.edu/resistance-is-not-futile-predicting-how-changes-in-production-materials-impact-ev-battery-life/)
+
+0. **P. M. Attia**, K. A. Severson, J. D. Witmer.  
+[Statistical Learning for Accurate and Interpretable Battery Lifetime Prediction](https://doi.org/10.1149/1945-7111/ac2704)  
+*Journal of the Electrochemical Society*, **168** 050543 (2021).  
+[PDF](https://iopscience.iop.org/article/10.1149/1945-7111/ac2704/pdf)
+
 0. P. Dechent, A. Epp, D. Jöst, Y. Preger, **P. M. Attia**, W. Li, D. U. Sauer.  
 [ENPOLITE: Comparing Lithium-Ion Cells across Energy, Power, Lifetime, and Temperature](https://doi.org/10.1021/acsenergylett.1c00743)  
 *ACS Energy Letters*, **6** 2351−2355 (2021).  
-[PDF](https://pubs.acs.org/doi/pdf/10.1021/acsenergylett.1c00743)
+[PDF](https://pubs.acs.org/doi/pdf/10.1021/acsenergylett.1c00743),
+[website](https://enpolite.org),
+[interview](https://www.youtube.com/watch?v=IlB3Ptz6nbw)
 
 0. **P. M. Attia**, S. J. Harris, W. C. Chueh.  
 [Benefits of Fast Battery Formation in a Model System
@@ -50,7 +69,7 @@ B. L. Boyce, S. A. Roberts,  **P. M. Attia**, S. J. Harris.
 [Rethinking How External Pressure Can Suppress Dendrites in
 Lithium Metal Batteries](https://doi.org/10.1149/2.0701914jes)  
 *Journal of the Electrochemical Society*, **166** (15) A3639-A3652 (2019).  
-[PDF]({{site.url}}/papers/Zhang et al. - 2019 - Rethinking How External Pressure Can Suppress Dendrites.pdf)
+[PDF](https://iopscience.iop.org/article/10.1149/2.0701914jes/pdf)
 
 0.  W. Huang\*, **P. M. Attia\***, H. Wang, S. E. Renfrew, N. Jin, S. Das, Z. Zhang,
 D. T. Boyle, Y. Li, M. Z. Bazant, B. D. McCloskey, W. C. Chueh, Y. Cui.  
