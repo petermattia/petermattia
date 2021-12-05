@@ -22,7 +22,7 @@ W. C. Chueh, R. D. Braatz.
 
 0. A. Weng, P. Mohtat, **P. M. Attia**, V. Sulzer, S. Lee, G. Less, A. Stefanopoulou.  
 [Predicting the impact of formation protocols on battery lifetime immediately after manufacturing](https://doi.org/10.1016/j.joule.2021.09.015)  
-*Joule*, (2021).  
+*Joule*, **5**, 11, 2971-2992 (2021).  
 [PDF]({{site.url}}/papers/Weng et al. - 2021 - Predicting the impact of formation protocols on battery lifetime immediately after manufacturing.pdf), [press release](https://news.umich.edu/resistance-is-not-futile-predicting-how-changes-in-production-materials-impact-ev-battery-life/)
 
 0. **P. M. Attia**, K. A. Severson, J. D. Witmer.  
@@ -32,7 +32,7 @@ W. C. Chueh, R. D. Braatz.
 
 0. P. Dechent, A. Epp, D. Jöst, Y. Preger, **P. M. Attia**, W. Li, D. U. Sauer.  
 [ENPOLITE: Comparing Lithium-Ion Cells across Energy, Power, Lifetime, and Temperature](https://doi.org/10.1021/acsenergylett.1c00743)  
-*ACS Energy Letters*, **6** 2351−2355 (2021).  
+*ACS Energy Letters*, **6**, 2351−2355 (2021).  
 [PDF](https://pubs.acs.org/doi/pdf/10.1021/acsenergylett.1c00743),
 [website](https://enpolite.org),
 [interview](https://www.youtube.com/watch?v=IlB3Ptz6nbw)

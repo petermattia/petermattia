@@ -4,7 +4,7 @@ categories: articles
 title: "Adding milk to coffee: An optimization problem"
 date: 2021-10-30
 description: Quick simulations on the best time to add milk to coffee
-tags: science
+tags: science code
 ---
 
 On a recent road trip with friends, we debated the optimal time to add 

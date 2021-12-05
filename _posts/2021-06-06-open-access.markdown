@@ -4,7 +4,7 @@ categories: articles
 title: Why open access is important to me
 date: 2021-06-06
 description: The case for open access
-tags: science
+tags: science personal
 ---
 
 Last year, [I published a paper in *Nature*](https://doi.org/10.1038/s41586-020-1994-5). However, when I went to check out the fruits of my labor on the day it was published, I could not access the paper. Tesla does not pay for any journal subscriptions, and thus I was unable to read the final version of a paper I had worked on for nearly 3 years.

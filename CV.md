@@ -4,7 +4,7 @@ title: Curriculum Vitae
 permalink: /cv/
 order: 4
 ---
-Last updated April 3, 2021
+Last updated December 5, 2021
 
 ## Education
 
@@ -56,6 +56,11 @@ BChE, [Chemical and Biomolecular Engineering](https://cbe.udel.edu)
   </thead>
   <tbody>
     <tr>
+      <td style="text-align:left">December 2021</td>
+      <td style="text-align:left"><a href="https://www.forbes.com/profile/peter-attia/">
+      Forbes 30 under 30 in Energy, 2022</a> </td>
+    </tr>
+    <tr>
       <td style="text-align:left">April 2019</td>
       <td style="text-align:left"><a href="https://www.electrochem.org/battery-student-research-award">
       Electrochemical Society Battery Division Student Research Award</a> </td>
@@ -93,8 +98,10 @@ BChE, [Chemical and Biomolecular Engineering](https://cbe.udel.edu)
 
 ## Professional service
 
-**Lab manager:** [Chueh group](https://chuehlab.stanford.edu) (January 2018--December 2018)
+**Board member:** [SciFro](http://www.scifro.org)
 
-**Reviewer:** [*Journal of the Electrochemical Society*](http://jes.ecsdl.org), [*Joule*](https://www.cell.com/joule/home)
+**Reviewer:** [*Journal of the Electrochemical Society*](https://iopscience.iop.org/article/10.1149), [*Joule*](https://www.cell.com/joule/home)
 
 **Mentor:** Four undergraduate & masters students; [EDGE mentor](https://vpge.stanford.edu/fellowships-funding/enhancing-diversity-graduate)
+
+**Lab manager:** [Chueh group](https://chuehlab.stanford.edu) (January 2018--December 2018)

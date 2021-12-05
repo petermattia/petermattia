@@ -4,7 +4,7 @@ categories: articles
 title: "Paper published: Statistical learning for battery lifetime prediciton"
 date: 2021-09-26
 description: Statistical learning for battery lifetime prediciton
-tags: publications science
+tags: publications science machine-learning
 ---
 
 I just published a paper work entitled ["Statistical Learning for Accurate and Interpretable Battery Lifetime Prediction"](https://doi.org/10.1149/1945-7111/ac2704) with [Kristen Severson](https://kseverso.github.io) and [Jeremy Witmer](https://scholar.google.com/citations?user=szQebygAAAAJ&hl=en). This work builds on [my class project](http://cs229.stanford.edu/proj2018/report/206.pdf) for [CS229](http://cs229.stanford.edu), where we explored concepts building on the work of [Severson et al.](https://doi.org/10.1038/s41560-019-0356-8), and answers some of the remaining questions I had about our original paper after it was published.
