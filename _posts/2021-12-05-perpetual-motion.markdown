@@ -47,11 +47,11 @@ This means for 1 mol of water:
 - Fuel cell energy generated = $0.95$ * $237$ kJ = $225$ kJ
 - Energy required by turbine to break even = (Electrolysis energy required) - (fuel cell energy generated) = $ 249 $ kJ - $ 225 $ kJ = $ 24 $ kJ
 - Effective force provided by water = (turbine efficiency) * (mass of water) * (acceleration due to gravity) = $ 0.95 $ * $ 1 $ mol * $ 18 $ g/mol * $ 9.81 $ m/s$^2$ = $ 0.177 $ kg m / s$^2$
-- Height requirement of water to break even = (energy required by turbine to break even) / (effective force provided by water) = $ 24 $ kJ / ($ 0.177 $ kg m / s$^2$) = $ \textbf{136} $ **km**
+- Height requirement of water to break even = (energy required by turbine to break even) / (effective force provided by water) = $ 24 $ kJ / ($ 0.177 $ kg m / s$^2$) = $ \textbf{143} $ **km**
 
 Even with extremely generous assumptions, a truly ridiculous height is required to “break even”.
-This height is around 164 [Burj Khalifas](https://en.wikipedia.org/wiki/Burj_Khalifa),
-15 [Mt. Everests](https://en.wikipedia.org/wiki/Mount_Everest),
+This height is around 172 [Burj Khalifas](https://en.wikipedia.org/wiki/Burj_Khalifa),
+16 [Mt. Everests](https://en.wikipedia.org/wiki/Mount_Everest),
 and well into outer space as defined by the [Kármán line](https://en.wikipedia.org/wiki/Kármán_line).
 So yes, a tad impractical. Long story short, chemistry >> gravity.
 
