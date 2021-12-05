@@ -53,7 +53,7 @@ Even with extremely generous assumptions, a truly ridiculous height is required 
 This height is around 172 [Burj Khalifas](https://en.wikipedia.org/wiki/Burj_Khalifa),
 16 [Mt. Everests](https://en.wikipedia.org/wiki/Mount_Everest),
 and well into outer space as defined by the [Kármán line](https://en.wikipedia.org/wiki/Kármán_line).
-So yes, a tad impractical. Long story short, chemistry $ > $ $ > $ gravity.
+So yes, a tad impractical. Long story short, chemistry $ \gg $ gravity.
 
 All that said, however, none of this answers the key question:
 **why does this proposal violate thermodynamics**?
