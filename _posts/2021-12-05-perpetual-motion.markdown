@@ -35,7 +35,8 @@ In effect, we are exploiting the phase behavior of the hydrogen and the water.
 <img src="/img/perpetual_motion/schematic.svg" style="display:block; margin-left: auto; margin-right: auto;" width="350px">
 </p>
 
-To be clear, this proposal has all sorts of practical problems---low electrolysis efficiencies, terminal velocity of water, etc. perhaps its biggest practical flaw is that the height of the “mountain” is truly massive.
+To be clear, this proposal has all sorts of practical problems---low electrolysis efficiencies, terminal velocity of water, etc.
+Perhaps its biggest practical flaw is that the height of the “mountain” is truly massive.
 To get a sense for the absurdity of this idea in practice:
 water electrolysis requires [237 kJ/mol](http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/electrol.html) of electrical energy at a minimum,
 and fuel cells produce [237 kJ/mol](http://hyperphysics.phy-astr.gsu.edu/hbase/thermo/electrol.html) of electrical energy at a maximum.
@@ -46,8 +47,8 @@ This means for 1 mol of water:
 - Electrolysis energy required = $237$ kJ / $0.95$ = $249$ kJ
 - Fuel cell energy generated = $0.95$ * $237$ kJ = $225$ kJ
 - Energy required by turbine to break even = (Electrolysis energy required) - (fuel cell energy generated) = $ 249 $ kJ - $ 225 $ kJ = $ 24 $ kJ
-- Effective force provided by water = (turbine efficiency) * (mass of water) * (acceleration due to gravity) = $ 0.95 $ * $ 1 $ mol * $ 18 $ g/mol * $ 9.81 $ m/s$^2$ = $ 0.177 $ kg m / s$^2$
-- Height requirement of water to break even = (energy required by turbine to break even) / (effective force provided by water) = $ 24 $ kJ / ($ 0.177 $ kg m / s$^2$) = $ \textbf{143} $ **km**
+- Effective force provided by water = (turbine efficiency) * (mass of water) * (acceleration due to gravity) = $ 0.95 $ * $ 1 $ mol * $ 18 $ g/mol * $ 9.81 $ m/s$^2$ = $ 0.177 $ kg m / s$^2$ = = $ 0.177 $ N $
+- Height requirement of water to break even = (energy required by turbine to break even) / (effective force provided by water) = $ 24 $ kJ / ($ 0.177 $ N $) = $ \textbf{143} $ **km**
 
 Even with extremely generous assumptions, a truly ridiculous height is required to “break even”.
 This height is around 172 [Burj Khalifas](https://en.wikipedia.org/wiki/Burj_Khalifa),

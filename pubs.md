@@ -62,7 +62,8 @@ K. A. Severson, S. Suram, Z. Yang, R. D. Braatz, B. D. Storey.
 [press release](https://news.stanford.edu/2020/02/19/machine-learning-speed-arrival-ultra-fast-charging-electric-car/),
 [*Nature* podcast](https://www.nature.com/articles/d41586-020-00482-x),
 [*Joule* Preview](https://www.sciencedirect.com/science/article/abs/pii/S2542435120301318),
-[*San Jose Mercury News*](https://www.mercurynews.com/2020/02/29/machines-drive-better-battery-designs/)
+[*San Jose Mercury News*](https://www.mercurynews.com/2020/02/29/machines-drive-better-battery-designs/),
+[more press](https://aditya-grover.github.io/files/media/nature20.html)
 
 0. X. Zhang, Q. J. Wang, K. L. Harrison, K. Jungjohann,
 B. L. Boyce, S. A. Roberts,  **P. M. Attia**, S. J. Harris.  
