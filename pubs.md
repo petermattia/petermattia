@@ -4,7 +4,7 @@ title: Publications
 permalink: /publications/
 order: -1
 ---
-Last updated October 30, 2021
+Last updated January 8, 2022
 
 [Google Scholar](https://scholar.google.com/citations?user=GyD43R4AAAAJ&hl=en&oi=ao)
 
@@ -17,7 +17,7 @@ Last updated October 30, 2021
 **P. M. Attia**, A. Grover, P. K. Herring, M. Z. Bazant, S. J. Harris, S. Ermon,
 W. C. Chueh, R. D. Braatz.  
 [Bayesian learning for rapid prediction of lithium-ion battery-cycling protocols](https://doi.org/10.1016/j.joule.2021.10.010)  
-*Joule*, (2021).  
+*Joule*, **5**, 12, 3187-3203 (2021).  
 [PDF]({{site.url}}/papers/Jiang et al. - 2021 - Bayesian learning for rapid prediction of lithium-ion battery-cycling protocols.pdf)
 
 0. A. Weng, P. Mohtat, **P. M. Attia**, V. Sulzer, S. Lee, G. Less, A. Stefanopoulou.  
@@ -144,7 +144,7 @@ US Patent Application 16/161,852.
 [PDF]({{site.url}}/papers/US20190113577A1.pdf)
 
 0.  S. Ermon, W. C. Chueh, A. Grover, T. M. Markov, N. Perkins, **P. M. Attia**.  
-[Autonomous screening and optimization of battery formation and cycling procedures](https://patents.google.com/patent/US20190115778A1/)  
-US Patent Application 16/161,790.  
-[PDF]({{site.url}}/papers/US20190115778A1.pdf)
+[Autonomous screening and optimization of battery formation and cycling procedures](https://patents.google.com/patent/US10992156B2)  
+US 10,992,156 B2.  
+[PDF]({{site.url}}/papers/US10992156.pdf)
 {: reversed="reversed"}
