@@ -62,3 +62,13 @@ Why isn’t there a height where the gravitational potential energy of the water
 could, in theory, exceed the losses from the electrochemical system?
 
 If you’ve made it this far and have the solution, email me and I’ll post the best answers in a new post. 
+
+**EDIT (2022-03-13)**: Leonard Bezinge replied with the following message:
+
+> Your machine wouldn't be perpentual for the following reason:
+>
+> You are **generating** oxygen at altitude zero while **consuming** oxygen at 173 km altitude.
+> The system is losing energy over time, and decreasing its total entropy.
+> The energy loss corresponds to the work it would take to bring oxygen
+> all the way up to your fuel cell (as you mentioned, oxygen is denser than air).
+> In an isolated environment, your system will stop when the oxygen around your fuel cell is depleted.
