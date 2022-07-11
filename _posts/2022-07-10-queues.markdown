@@ -1,0 +1,90 @@
+---
+layout: post
+categories: articles
+title: "Your call is important to us: Resourcing teams to keep up with demand"
+date: 2022-07-10
+description: A brief intro to queueing theory
+tags: science
+---
+
+As a developing manager, I've recently been thinking about how to ensure speedy
+response times for requests to my team.
+A core challenge is balancing supply and demand.
+If the number of requests is low, we can easily turn around requests within a day or two,
+and everyone is happy.
+However, if the rate of new requests exceeds our ability to turn them around,
+the delays grow, and requestors and request fulfillers are unhappy.
+
+These types of problems show up everywhere: think traffic, customer support,
+airport security, your own inbox.
+Unsurprisingly, queueing theory is a well-developed field.
+While queueing theory has plenty of mathematical formalism for those so inclined
+(see [Wikipedia](https://en.wikipedia.org/wiki/Queueing_theory)
+and [Wolfram](https://blog.wolfram.com/2013/03/21/the-mathematics-of-queues/)),
+I wanted to explore some simple use cases on my own with a bare-bones simulation
+(see the bottom of the page for the code).
+
+First, some assumptions:
+- The tasks are completed independently
+- All tasks take the same amount of time
+- Tasks are completed first-in, first-out ([FIFO](https://en.wikipedia.org/wiki/FIFO_(computing_and_electronics)))
+
+We can track two metrics, both of which may change with time:
+- The average time in the queue for tasks completed today
+- The average time in the queue for tasks still in the queue at day's end
+
+The key parameters in this simulation are `n_tasks_arriving_per_day` and
+`n_tasks_completed_per_day`.
+If `n_tasks_arriving_per_day < n_tasks_completed_per_day`, all tasks can be
+completed within the same day, and everyone is happy.
+In this case, the queue is empty at day's end, so average times cannot be computed.
+The results of a simulation with `n_tasks_arriving_per_day = 9` and 
+`n_tasks_completed_per_day = 10` are below.
+
+<p>
+<img src="/img/queues/queue_results_9arriving_10completed.svg" style="display:block; margin-left: auto; margin-right: auto;">
+</p>
+
+However, if `n_tasks_arriving_per_day > n_tasks_completed_per_day`,
+the queue starts to build. The results of a simulation
+with `n_tasks_arriving_per_day = 12` and 
+`n_tasks_completed_per_day = 10` are below.
+
+<p>
+<img src="/img/queues/queue_results_12arriving_10completed.svg" style="display:block; margin-left: auto; margin-right: auto;">
+</p>
+
+Naturally, the average queue times of both metrics increase as the queue gets
+longer.
+The average queue time of tasks completed today grows linearly with a slope of
+`(excess tasks per day) / (tasks completed per day)`, or, in this case, `2 / 10 = 1 / 5`.
+The average queue time of remaining tasks stays level at `1` until the backlog
+begins to accumulate multi-day tasks, after which it linearly increases.
+Note that these simulations use discrete blocks of time (days) and thus the
+results contain some discontinuities.
+
+Lastly, the results of a simulation with `n_tasks_arriving_per_day = 20` and 
+`n_tasks_completed_per_day = 10` are below. The queue quickly gets out of hand.
+
+<p>
+<img src="/img/queues/queue_results_20arriving_10completed.svg" style="display:block; margin-left: auto; margin-right: auto;">
+</p>
+
+These highly simplified simulations illustrated a key point to me:
+**for teams that are at the precipice of
+`n_tasks_arriving_per_day > n_tasks_completed_per_day`, the marginal cost of
+substantial decreases in queue time is low.**
+In other words, for a team with `n_tasks_arriving_per_day = 12` and 
+`n_tasks_completed_per_day = 10`, 
+a small increase in `n_tasks_completed_per_day` (e.g., to `12`) will reduce
+response times to a fraction of what they would be if `n_tasks_completed_per_day = 10`.
+Another factor that lowers the marginal cost even further is that if as a task queue
+begins to build, triaging and prioritization schemes become necessary, which
+adds overhead and leads to an effective decrease in `n_tasks_completed_per_day`.
+Lastly, for teams at the precipice, an extended vacation, leave of absence, or
+vacancy can make the difference between keeping up and falling behind.
+
+tl;dr: Keep up with your queues! And don't forget to add a buffer.
+
+The code I used is in this GitHub Gist:
+<script src="https://gist.github.com/petermattia/6de8a3a2b261bc0c6b68fac60c31d6b6.js"></script>

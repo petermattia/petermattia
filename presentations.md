@@ -11,7 +11,7 @@ Last updated April 4, 2021
 
 |  Date | Conference | Location |
 | :----------- |  :----------------- | :-------- |
-| December 2021 | [Advanced Automotive Battery Conference (AABC)](hhttps://www.advancedautobat.com/aabc-us/battery-intelligence.html) |  Virtual |
+| December 2021 | [Advanced Automotive Battery Conference (AABC)](https://www.advancedautobat.com/21/aabc-us/battery-intelligence.html#Day1) |  Virtual |
 | May 2021 | [239<sup>th</sup> Electrochemical Society Meeting](https://www.electrochem.org/239) |  Virtual |
 | March 2021 | [International Battery Seminar](https://www.internationalbatteryseminar.com/21/automotive-batteries#PeterAttia) |  Virtual |
 | November 2020 | [Advanced Automotive Battery Conference (AABC)](https://www.advancedautobat.com/20/aabc-us/battery-intelligence.html#Day2) |  Virtual |

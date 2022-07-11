@@ -4,7 +4,7 @@ title: Publications
 permalink: /publications/
 order: -1
 ---
-Last updated January 8, 2022
+Last updated July 10, 2022
 
 [Google Scholar](https://scholar.google.com/citations?user=GyD43R4AAAAJ&hl=en&oi=ao)
 
@@ -12,6 +12,13 @@ Last updated January 8, 2022
 
 <br>
 *Equal contribution authors
+
+0. **P. M. Attia**, A. Bills, F. B. Planella, P. Dechent, G. d. Reis, M. Dubarry,
+P. Gasper, R. Gilchrist, S. Greenbank, D. Howey, O. Liu, E. Khoo, Y. Preger,
+A. Soni, S. Sripad, A. G. Stefanopoulou, V. Sulzer.  
+["Knees" in Lithium-Ion Battery Aging Trajectories](https://doi.org/10.1149/1945-7111/ac6d13)  
+*Journal of the Electrochemical Society*, **169** 060517 (2022).  
+[PDF](https://iopscience.iop.org/article/10.1149/1945-7111/ac6d13/pdf)
 
 0. B. Jiang, W. E. Gent, F. Mohr, S. Das, M. D. Berliner, M. Forsuelo, H. Zhao,
 **P. M. Attia**, A. Grover, P. K. Herring, M. Z. Bazant, S. J. Harris, S. Ermon,

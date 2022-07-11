@@ -1,0 +1,49 @@
+---
+layout: post
+categories: articles
+title: "Paper published: Knees in lithium-ion battery aging trajectories"
+date: 2022-07-10
+description: Why do batteries suddenly lose capacity?
+tags: publications science
+---
+
+I just published a paper work entitled
+["'Knees' in lithium-ion battery aging trajectories"](https://doi.org/10.1149/1945-7111/ac6d13),
+along with a broad consortium of contributors with affiliations in five countries
+(and seven US states) across academia, national labs, and industry.
+This paper is a comprehensive review of the "knee" effect commonly observed
+as lithium-ion batteries age, where the energy and/or capacity suddenly
+drops (<span style="color:red">red curve</span> below).
+
+<p>
+<img src="/img/degradation_rates.pdf" width="500" style="display:block; margin-left: auto; margin-right: auto;">
+</p>
+
+Many papers have proposed knee mechanisms, with various degrees of validation
+and supporting evidence. Our aim here was to create a unifying framework for
+current and future knee mechanisms.
+
+Some of the key conclusions of this work include:
+1. We identified six "knee pathways" (physical routes by which knees can occur),
+but also three "internal state trajectories" (how the internal states vary and interact
+to produce an observable knee); see below figure
+2. Some of these pathways have readily-observable electrochemical signals,
+while others involve subtle changes that are challenging to measure nondestructively
+(e.g., local porosity, local additive concentrations)
+3. Knee pathways are subtle and complex; comprehesive knee prediction is not easy!
+
+I hope this paper serves as a starting point for folks working on challenging 
+battery lifetime problems across the battery industry.
+I'm quite proud of this work for its breadth and depth on an important but
+poorly understood topic.
+Kudos to my coauthors -- I learned a lot working with such a wide range
+of contributors and time zones!
+
+<p>
+<img src="/img/pathways_and_trajectories.pdf" width=750 style="display:block; margin-left: auto; margin-right: auto;">
+</p>
+
+Lastly, a presentation I gave on this topic at [AABC](https://www.advancedautobat.com/21/aabc-us/battery-intelligence.html#Day1) in December 2021 is present below.
+
+<iframe src="/assets/2021-12-03 AABC.pdf" width="100%" height="420px">
+</iframe>
