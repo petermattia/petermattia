@@ -36,7 +36,7 @@ news is I'm in good company; the bad news is it can be difficult to find me via
 online (hence the "m" in [peter**m**attia.com](https://petermattia.com)).
 
 In particular, two identically-named gentlemen have a larger web presence than I.
-I'm not [Peter Attia, M.D.](http://eatingacademy.com/dr-peter-attia),
+I'm not [Peter Attia, M.D.](https://peterattiamd.com/about/),
 although we both went to Stanford after studying engineering as an undergraduate.
 I'm also not [this Peter Attia](https://twitter.com/peterattia),
 who works on search engine optimization.
