@@ -241,9 +241,9 @@ var simplemaps_usmap_mapdata={
     },
     MO: {
       name: "Missouri",
-      description: "default",
-      color: "default",
-      hover_color: "default",
+      description: "Visited!",
+      color: "#414F12",
+      hover_color: "#6B8E23",
       url: "default"
     },
     GA: {

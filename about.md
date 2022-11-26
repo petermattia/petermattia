@@ -30,12 +30,12 @@ The views expressed on this page are mine alone and not those of my employer.
 
 ### Which Peter Attia are you?
 
-Seeing how my website barely cracks the top 10 pages of a Google search for
+Seeing how my website doesn't show up in the top results of a Google search for
 "Peter Attia", the Peter Attias of this world are doing quite well! The good
 news is I'm in good company; the bad news is it can be difficult to find me via
 online (hence the "m" in [peter**m**attia.com](https://petermattia.com)).
 
-In particular, two identically-named gentlemen have a larger web presence than I.
+In particular, one identically-named gentleman has a larger web presence than I.
 I'm not [Peter Attia, M.D.](https://peterattiamd.com/about/),
 although we both went to Stanford after studying engineering as an undergraduate.
 I'm also not [this Peter Attia](https://twitter.com/peterattia),

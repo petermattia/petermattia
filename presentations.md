@@ -11,7 +11,10 @@ Last updated April 4, 2021
 
 |  Date | Conference | Location |
 | :----------- |  :----------------- | :-------- |
+| August 2022 | Battery modeling webinar series |  Virtual |
+| August 2022 | [Battery brunch](https://www.batterybrunch.org) |  Virtual |
 | December 2021 | [Advanced Automotive Battery Conference (AABC)](https://www.advancedautobat.com/21/aabc-us/battery-intelligence.html#Day1) |  Virtual |
+| July 2021 | [Battery brunch](https://www.batterybrunch.org) |  Virtual |
 | May 2021 | [239<sup>th</sup> Electrochemical Society Meeting](https://www.electrochem.org/239) |  Virtual |
 | March 2021 | [International Battery Seminar](https://www.internationalbatteryseminar.com/21/automotive-batteries#PeterAttia) |  Virtual |
 | November 2020 | [Advanced Automotive Battery Conference (AABC)](https://www.advancedautobat.com/20/aabc-us/battery-intelligence.html#Day2) |  Virtual |
