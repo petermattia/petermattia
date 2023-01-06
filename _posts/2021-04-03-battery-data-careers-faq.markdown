@@ -7,7 +7,7 @@ description: FAQ on battery data scientist careers
 tags: science data-science personal
 ---
 
-I've recently received a few requests to chat from students and other folks interested in Tesla, batteries, battery lifetime prediction, etc. I'm super excited to see the interest in this field! Although I'm unable to meet with everyone who reaches out, I'd like to address many of these thoughtful questions in a more scalable and accessible format.
+I've recently been receiving many requests to chat from students and other folks interested in Tesla, batteries, battery lifetime prediction, etc. I'm super excited to see the interest in this field! Although I'm unable to meet with everyone who reaches out, I'd like to address many of these thoughtful questions in a more scalable and accessible format.
 
 While I feel entirely unqualified (through flattered!) to give career advice to people I don't know, I’m happy to share my experiences and let people glean from them what they'd like. I've addressed some of the most common questions here, with some editing so that my responses only reflect my experiences and are not blanket advice for others. Note that for obvious reasons I can't discuss my work at Tesla in depth.
 

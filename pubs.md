@@ -4,7 +4,7 @@ title: Publications
 permalink: /publications/
 order: -1
 ---
-Last updated July 10, 2022
+Last updated January 2, 2023
 
 [Google Scholar](https://scholar.google.com/citations?user=GyD43R4AAAAJ&hl=en&oi=ao)
 
@@ -146,9 +146,9 @@ B. Cheong, M. Chen, Z. Yang, S. Harris, W. Chueh, S. Ermon.
 
 0.  K. A. Severson, R. D. Braatz, W. C. Chueh, **P. M. Attia**, N. Jin,
 S. J. Harris, N. Perkins.  
-[Data-driven Model for Lithium-ion Battery Capacity Fade and Lifetime Prediction](https://patents.google.com/patent/US20190113577A1/)  
-US Patent Application 16/161,852.  
-[PDF]({{site.url}}/papers/US20190113577A1.pdf)
+[Data-driven Model for Lithium-ion Battery Capacity Fade and Lifetime Prediction](https://patents.google.com/patent/US11226374B2)  
+US 11,226,374 B2.  
+[PDF]({{site.url}}/papers/US11226374.pdf)
 
 0.  S. Ermon, W. C. Chueh, A. Grover, T. M. Markov, N. Perkins, **P. M. Attia**.  
 [Autonomous screening and optimization of battery formation and cycling procedures](https://patents.google.com/patent/US10992156B2)  

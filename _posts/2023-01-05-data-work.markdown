@@ -1,0 +1,30 @@
+---
+layout: post
+categories: articles
+title: Data work in batteries
+date: 2023-01-05
+description: My perspective on what the battery academic community should focus on
+tags: science
+---
+
+I read [this paper](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/0d556e45afc54afeb2eb6b51a9bc1827b9961ff4.pdf) from Google Research when it first came out, and it's stuck with me since.
+The title tells the story well: *"Everyone wants to do the model work, not the data work"*.
+I've been thinking about what how these concepts apply to the battery world, particularly for battery academics (industry certainly "does the data work").
+
+We published [*Data-driven prediction of battery cycle life before capacity degradation*](https://doi.org/10.1038/s41560-019-0356-8) almost four years ago.
+At the time of this writing, the paper has received 893 citations.
+While I haven't counted, a good chunk of these papers are training new machine learning models on these datasets.
+I'm really happy that many people find this data useful (especially new entrants to the battery field)!
+And there's certainly plenty of room to improve model performance over the simple linear models we published with.
+However, I haven't seen significantly expanded or improved battery cycling datasets (admittedly, I'm not following as closely as I could be).
+The datasets we published were still leading the pack in terms of number of cells as of the publication time of [this paper](https://doi.org/10.1016/j.egyai.2021.100081).
+To be honest, I was expecting an arms race between academic groups to see who would be the first to 500 or 1000 cell datasets, but this expectation hasn't materialized.
+
+I get it — collecting battery cycling data sucks! Cells lose electronic contact with their fixtures, the temperature chamber fails to maintain its setpoint, thermocouples disconnect, channels are out of calibration, the computer restarts despite every protestation to the contrary, the power in the lab goes out (sometimes planned, often unplanned), the data is hard to parse and clean, and the experiments just take forever. Check out a snapshot of some of the issues we dealt with [here](https://data.matr.io/1/projects/5c48dd2bc625d700019f3204/batches/5c86c0b5fa2ede00015ddf67). This work is definitely less fun than training models on available data using `sklearn` or `pytorch`. But given the [unreasonable effectiveness of data](https://storage.googleapis.com/pub-tools-public-publication-data/pdf/35179.pdf), we need a lot more data work for both data-driven and fundamental studies of battery lifetime. And I'd bet that a paper with 1000 cells and a crappy ML model will get 100x the citations of a paper with 10 cells and an amazing ML model, so focusing on the data work is good for your career too.
+
+With all the resources going towards academic battery research these days, I'd love to see more research groups invest in the data work.
+If I had a magic wand, I would direct a good fraction of the federal battery research budget towards collecting high quality battery data.
+This directive would extend well beyond battery cycling — material properties, electrolyte properties, electrode properties, and cell properties could all use "battery data Manhattan projects". 
+Related needs include developing standards and best practices for data collection and developing high-quality tooling and infrastructure for data storage and retrieval.
+
+In lieu of a magic wand, I hope those of you who read this and have the power to influence research directions are inpsired to "do the data work"!

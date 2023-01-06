@@ -72,3 +72,5 @@ If you’ve made it this far and have the solution, email me and I’ll post the
 > The energy loss corresponds to the work it would take to bring oxygen
 > all the way up to your fuel cell (as you mentioned, oxygen is denser than air).
 > In an isolated environment, your system will stop when the oxygen around your fuel cell is depleted.
+
+**EDIT (2023-01-05)**: Robert Murphy proposed a similar idea, but with the electrolyzer deep underwater and the fuel cell at sea level.
