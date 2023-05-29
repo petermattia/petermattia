@@ -1,0 +1,30 @@
+---
+layout: post
+categories: articles
+title: Moving on
+date: 2023-05-29
+description: Life after Tesla
+tags: personal
+---
+
+I recently left Tesla after 3.5 years.
+The primary motivation was personal:
+My wife and I are looking forward to moving closer to family as we're expecting our first child.
+That said, I've been in California nearly nine years, and deciding to leave was not an easy decision:
+I'll dearly miss California's incredible nature and weather, not to mention many of my closest friends.
+Moreover, I'll also miss Tesla (my first job out of school!).
+I joined at a time when its future was very much uncertain (along with the future of the EV industry).
+The future of EVs is no longer in doubt, and I'm honored to have worked for the company
+that did more to make it happen than any other.
+Tesla's far from perfect, but by and large they get the most important things right:
+a motivating mission, a healthy impatience for getting things done, an emphasis on first-principles reasoning,
+and, most crucially, an insistence on hiring the very best engineers in the world.
+I'm super excited for Tesla's future.
+
+The battery industry faces many challenges during this next phase of scaling.
+The materials supply chain is perhaps the most daunting.
+I'll be starting a company in what I believe is the second largest challenge.
+More to come soon!
+
+In the next few months, I'll start a new venture, become a father, and move to the Boston area.
+If you're reading this, please wish me luck 😃
