@@ -7,7 +7,17 @@ order: 2
 
 [See my current publications here](/publications)
 
-As a PhD student in the Stanford Department of Materials Science and Engineering,
+Broadly, my career has focused on lithium-ion battery lifetime, failure, quality, and reliability,
+with an emphasis on data-driven techniques.
+
+## Tesla
+As a member of the Cell Qualification team, I worked at the intersection of lab testing, cell production,
+and field quality to understand and prevent key lithium-ion battery failure modes.
+In addition, my team developed data-driven techniques for characterizing
+cell performance, lifetime, quality, and variabiliity.
+
+## Graduate school
+As a PhD student in the [Stanford Department of Materials Science and Engineering](https://mse.stanford.edu),
 I worked with [Prof. William Chueh](https://chuehlab.stanford.edu) on
 **making lithium-ion batteries last longer** and **charge faster.**
 My work aimed to combine fundamental and applied approaches to
@@ -15,7 +25,7 @@ study battery degradation.
 
 My primary projects included:
 
-1. **Optimizating battery fast-charging protocols.**
+1. **Data-driven mehtods for predicting and optimizing battery lifetime during fast charging.**
 Fast charging is important for widespread adaptation of electric vehicles, but it
 generally reduces battery lifetime.
 Multistep charging protocols can achieve both low charging time and high lifetime,
