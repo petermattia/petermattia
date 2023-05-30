@@ -144,19 +144,20 @@ B. Cheong, M. Chen, Z. Yang, S. Harris, W. Chueh, S. Ermon.
 
 # Patents
 
-0.  A. S. Weng, **P. M. Attia**, N. Jin, S. J. Harris, N. Perkins.  
-[Data-driven Model for Lithium-ion Battery Capacity Fade and Lifetime Prediction](https://patents.google.com/patent/US11226374B2)  
+US-only
+0.  A. G. Stefanopoulou, A. Weng, P. Mohtat, **P. M. Attia**, V. Sulzer, S. Lee, G. Less.  
+[Early-Life Diagnostics For Fast Battery Formation Protocols And Their Impacts To Long-Term Aging](https://patents.google.com/patent/US20230029405A1/en)  
 US 11,226,374 B2.  
-[PDF]({{site.url}}/papers/US11226374.pdf)
+[PDF](https://patentimages.storage.googleapis.com/45/48/37/11686d6a5077be/US20230029405A1.pdf)
 
 0.  K. A. Severson, R. D. Braatz, W. C. Chueh, **P. M. Attia**, N. Jin,
 S. J. Harris, N. Perkins.  
 [Data-driven Model for Lithium-ion Battery Capacity Fade and Lifetime Prediction](https://patents.google.com/patent/US11226374B2)  
 US 11,226,374 B2.  
-[PDF]({{site.url}}/papers/US11226374.pdf)
+[PDF](https://patentimages.storage.googleapis.com/61/9c/a1/456ca53e408459/US11226374.pdf)
 
 0.  S. Ermon, W. C. Chueh, A. Grover, T. M. Markov, N. Perkins, **P. M. Attia**.  
 [Autonomous screening and optimization of battery formation and cycling procedures](https://patents.google.com/patent/US10992156B2)  
 US 10,992,156 B2.  
-[PDF]({{site.url}}/papers/US10992156.pdf)
+[PDF](https://patentimages.storage.googleapis.com/2e/ed/81/b092ea27024388/US10992156.pdf)
 {: reversed="reversed"}
