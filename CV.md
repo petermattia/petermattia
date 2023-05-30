@@ -4,7 +4,7 @@ title: Curriculum Vitae
 permalink: /cv/
 order: 4
 ---
-Last updated December 5, 2021
+Last updated May 29, 2023
 
 ## Education
 
@@ -26,7 +26,14 @@ BChE, [Chemical and Biomolecular Engineering](https://cbe.udel.edu)
 
 ## Technical Experience
 
-**Sr Battery Data Analyst**, [Tesla Inc](https://www.tesla.com) (September 2019--Present)
+Co-founder, startup (March 2023 -- Present)
+* More info to come soon!
+
+**Engineer**, [Tesla Inc](https://www.tesla.com) (September 2019--March 2023)
+* Led engineering efforts on Tesla's most complex cell failure modes
+* Pioneered a novel set of techniques for characterizing cell performance, lifetime, quality, and variabiliity
+* Managed a 5-person team within Cell Qualification
+* Contributed technical expertise to Tesla's handling of regulatory affairs regarding cell lifetime
 
 **Graduate Student Researcher**, [Chueh Lab](https://chuehlab.stanford.edu), [Stanford University](https://www.stanford.edu) (September 2014--September 2019)
 * Lead experimental side of a multi-disciplinary team developing methods for autonomous optimization of battery fast-charging policies; work published in [*Nature*](https://doi.org/10.1038/s41586-020-1994-5) and [*Nature Energy*](https://doi.org/10.1038/s41560-019-0356-8) and covered by [*WIRED*](https://www.wired.com/story/ai-is-throwing-battery-development-into-overdrive/) and the [*WSJ*](https://www.wsj.com/articles/electric-car-batteries-get-a-boost-from-artificial-intelligence-11604422792)
