@@ -6,6 +6,9 @@ on:
       - 'dependabot/bundler/**'
     paths:
       - 'Gemfile.lock'
+      
+  # Allow job to be triggered manually
+  workflow_dispatch:
 
 jobs:
   update-gems:
