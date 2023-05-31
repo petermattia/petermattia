@@ -14,7 +14,7 @@ but I still have a ways to go!
 I added this map as a way to track my progress. I'll add to it as I visit
 more states. I only count a state if I've spent the night there.
 
-Green means I've visited it, blue means it's still on the list,
+Green means I've visited, blue means still on the list,
 and red means I've lived there.
 
 Current count: 33/50
