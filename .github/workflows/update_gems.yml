@@ -25,7 +25,7 @@ jobs:
           sudo apt-get install postgresql-client libpq-dev
       - name: Bundle update
         run: |
-          gem install bundler --no-rdoc --no-ri
+          gem install bundler --no-document
           bundle update
       - name: Commit
         run: |
