@@ -4,7 +4,7 @@ title: Curriculum Vitae
 permalink: /cv/
 order: 4
 ---
-Last updated May 29, 2023
+Last updated May 30, 2023
 
 ## Education
 
@@ -26,7 +26,7 @@ BChE, [Chemical and Biomolecular Engineering](https://cbe.udel.edu)
 
 ## Technical Experience
 
-Co-founder, startup (March 2023 -- Present)
+**Co-founder**, [Glimpse](https://glimpse.engineering) (March 2023 -- Present)
 * More info to come soon!
 
 **Engineer**, [Tesla Inc](https://www.tesla.com) (September 2019--March 2023)

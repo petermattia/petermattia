@@ -28,3 +28,13 @@ This directive would extend well beyond battery cycling — material properties,
 Related needs include developing standards and best practices for data collection and developing high-quality tooling and infrastructure for data storage and retrieval.
 
 In lieu of a magic wand, I hope those of you who read this and have the power to influence research directions are inspired to "do the data work"!
+
+### Update 5/31
+
+Upon rereading, I think the tone of this post is more negative than I'd like.
+Like the Google article suggests, I still think the current literature overly emphasizes the "model work" over the "data work".
+That said, I would like to acknowledge some prior "data work" in this space, specifically excellent papers by
+[Preger et al.](https://iopscience.iop.org/article/10.1149/1945-7111/abae37/meta) as well as 
+[Paulson et al.](https://www.sciencedirect.com/science/article/abs/pii/S0378775322001495)
+Additionally, my former lab recently posted [this preprint](https://chemrxiv.org/engage/chemrxiv/article-details/6463bdf1fb40f6b3eeb0ecea).
+At any rate, excited to see what the future holds in this space!
