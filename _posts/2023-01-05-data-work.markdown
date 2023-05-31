@@ -27,4 +27,4 @@ If I had a magic wand, I would direct a good fraction of the federal battery res
 This directive would extend well beyond battery cycling — material properties, electrolyte properties, electrode properties, and cell properties could all use "battery data Manhattan projects". 
 Related needs include developing standards and best practices for data collection and developing high-quality tooling and infrastructure for data storage and retrieval.
 
-In lieu of a magic wand, I hope those of you who read this and have the power to influence research directions are inpsired to "do the data work"!
+In lieu of a magic wand, I hope those of you who read this and have the power to influence research directions are inspired to "do the data work"!
