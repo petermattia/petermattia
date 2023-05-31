@@ -1,0 +1,34 @@
+name: Update Gems After Dependabot
+
+on:
+  push:
+    branches:
+      - 'dependabot/bundler/**'
+    paths:
+      - 'Gemfile.lock'
+
+jobs:
+  update-gems:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: 3.2
+      - name: Installing additional dependencies
+        run: |
+          sudo apt-get install postgresql-client libpq-dev
+      - name: Bundle update
+        run: |
+          gem install bundler --no-rdoc --no-ri
+          bundle update
+      - name: Commit
+        run: |
+          git config --local user.email `git show -s --format='%ae'`
+          git config --local user.name ${GITHUB_ACTOR}
+          git remote add github "https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY.git"
+          git add .
+          git commit -m "`git log --oneline --format=%B -n 1 HEAD | head -n 1` - add gems"
+          git push github HEAD:${GITHUB_REF}
