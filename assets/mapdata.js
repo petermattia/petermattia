@@ -220,9 +220,9 @@ var simplemaps_usmap_mapdata={
     },
     MA: {
       name: "Massachusetts",
-      description: "Visited!",
-      color: "#414F12",
-      hover_color: "#6B8E23",
+      description: "Home",
+      color: "#CD2626",
+      hover_color: "#EE2C2C",
       url: "default"
     },
     TN: {
