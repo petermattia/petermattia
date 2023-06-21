@@ -4,7 +4,7 @@ categories: articles
 title: "Your call is important to us: Resourcing teams to keep up with demand"
 date: 2022-07-10
 description: A brief intro to queueing theory
-tags: science
+tags: science code
 ---
 
 As a developing manager, I've recently been thinking about how to ensure speedy
