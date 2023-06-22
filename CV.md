@@ -24,11 +24,11 @@ Last updated June 22, 2023
 
 #### **Undergraduate Student Researcher**, [Zide Lab](http://www.zidelab.org/), [University of Delaware](https://www.udel.edu) (August 2010--May 2014)
 
-### **Engineering Intern**, [DuPont](https://www.dupont.com) Engineering Technologies (June 2013--August 2013)
+#### **Engineering Intern**, [DuPont](https://www.dupont.com) Engineering Technologies (June 2013--August 2013)
 
 ## Education
 
-#### Stanford University (September 2014--September 2019)
+#### **Stanford University** (September 2014--September 2019)
 
 PhD, [Materials Science and Engineering](https://mse.stanford.edu/)
 
@@ -38,7 +38,7 @@ PhD, [Materials Science and Engineering](https://mse.stanford.edu/)
 
 **Support:** NSF GRFP & Thomas V. Jones Stanford Graduate Fellowships
 
-#### University of Delaware (August 2010--May 2014)
+#### **University of Delaware** (August 2010--May 2014)
 
 BChE, [Chemical and Biomolecular Engineering](https://cbe.udel.edu)
 
