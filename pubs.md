@@ -18,7 +18,7 @@ P. Gasper, R. Gilchrist, S. Greenbank, D. Howey, O. Liu, E. Khoo, Y. Preger,
 A. Soni, S. Sripad, A. G. Stefanopoulou, V. Sulzer.  
 ["Knees" in Lithium-Ion Battery Aging Trajectories](https://doi.org/10.1149/1945-7111/ac6d13)  
 *Journal of the Electrochemical Society*, **169** 060517 (2022).  
-[PDF](https://iopscience.iop.org/article/10.1149/1945-7111/ac6d13/pdf)
+[PDF](https://iopscience.iop.org/article/10.1149/1945-7111/ac6d13/pdf), [*Wall Street Journal* article](https://www.wsj.com/tech/you-dont-need-a-new-iphone-you-just-need-a-new-battery-dc4caaaa)
 
 0. B. Jiang, W. E. Gent, F. Mohr, S. Das, M. D. Berliner, M. Forsuelo, H. Zhao,
 **P. M. Attia**, A. Grover, P. K. Herring, M. Z. Bazant, S. J. Harris, S. Ermon,
