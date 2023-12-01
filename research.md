@@ -16,21 +16,18 @@ and field quality to understand and prevent key lithium-ion battery failure mode
 In addition, my team developed data-driven techniques for characterizing
 cell performance, lifetime, quality, and variabiliity.
 
-## Graduate school
+## Stanford
 As a PhD student in the [Stanford Department of Materials Science and Engineering](https://mse.stanford.edu),
 I worked with [Prof. William Chueh](https://chuehlab.stanford.edu) on
 **making lithium-ion batteries last longer** and **charge faster.**
-My work aimed to combine fundamental and applied approaches to
-study battery degradation.
+My work aimed to combine fundamental and applied approaches to study battery degradation.
 
 My primary projects included:
 
 1. **Data-driven mehtods for predicting and optimizing battery lifetime during fast charging.**
-Fast charging is important for widespread adaptation of electric vehicles, but it
-generally reduces battery lifetime.
+Fast charging is important for widespread adaptation of electric vehicles, but it generally reduces battery lifetime.
 Multistep charging protocols can achieve both low charging time and high lifetime,
-but this optimization problem is expensive due to the long testing time
-and large number of experiments required.
+but this optimization problem is expensive due to the long testing time and large number of experiments required.
 In our work, [we first developed machine learning models to predict the final lifetime (1000s of cycles) using data from the first 100 cycles.](/articles/2019/04/09/data-driven.html)
 Then, [we used optimal experimental design to efficiently find the highest-lifetime charging protocols.](/articles/2020/02/27/closed-loop-optimization.html)
 This work was published in [*Nature*](https://doi.org/10.1038/s41586-020-1994-5)
