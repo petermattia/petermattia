@@ -24,7 +24,7 @@ My work aimed to combine fundamental and applied approaches to study battery deg
 
 My primary projects included:
 
-1. **Data-driven mehtods for predicting and optimizing battery lifetime during fast charging.**
+1. **Data-driven methods for predicting and optimizing battery lifetime during fast charging.**
 Fast charging is important for widespread adaptation of electric vehicles, but it generally reduces battery lifetime.
 Multistep charging protocols can achieve both low charging time and high lifetime,
 but this optimization problem is expensive due to the long testing time and large number of experiments required.
