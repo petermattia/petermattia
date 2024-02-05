@@ -51,8 +51,7 @@ W. C. Chueh, R. D. Braatz.
 [interview](https://www.youtube.com/watch?v=IlB3Ptz6nbw)
 
 0. **P. M. Attia**, S. J. Harris, W. C. Chueh.  
-[Benefits of Fast Battery Formation in a Model System
-](https://doi.org/10.1149/1945-7111/abff35)  
+[Benefits of Fast Battery Formation in a Model System](https://doi.org/10.1149/1945-7111/abff35)  
 *Journal of the Electrochemical Society*, **168** 050543 (2021).  
 [PDF](https://iopscience.iop.org/article/10.1149/1945-7111/abff35/pdf)
 
