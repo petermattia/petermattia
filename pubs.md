@@ -24,7 +24,8 @@ A. Soni, S. Sripad, A. G. Stefanopoulou, V. Sulzer.
 ["Knees" in Lithium-Ion Battery Aging Trajectories](https://doi.org/10.1149/1945-7111/ac6d13)  
 *Journal of the Electrochemical Society*, **169** 060517 (2022).  
 [PDF](https://iopscience.iop.org/article/10.1149/1945-7111/ac6d13/pdf),
-[*Wall Street Journal* article](https://www.wsj.com/tech/you-dont-need-a-new-iphone-you-just-need-a-new-battery-dc4caaaa?st=6wwgtlxt39bujnx&reflink=desktopwebshare_permalink)
+[*Wall Street Journal* article](https://www.wsj.com/tech/you-dont-need-a-new-iphone-you-just-need-a-new-battery-dc4caaaa?st=6wwgtlxt39bujnx&reflink=desktopwebshare_permalink),
+highlighted in [EU Batteries Regulation report](https://op.europa.eu/en/publication-detail/-/publication/3fcf6f9d-c95b-11ee-95d9-01aa75ed71a1/language-en)
 
 0. B. Jiang, W. E. Gent, F. Mohr, S. Das, M. D. Berliner, M. Forsuelo, H. Zhao,
 **P. M. Attia**, A. Grover, P. K. Herring, M. Z. Bazant, S. J. Harris, S. Ermon,
