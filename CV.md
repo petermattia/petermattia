@@ -8,13 +8,13 @@ Last updated June 22, 2023
 
 ## Experience
 
-#### **Co-founder**, [Glimpse](https://glimpse.engineering) (March 2023 -- Present)
+#### **Co-founder & CTO**, [Glimpse](https://glimpse.engineering) (March 2023 -- Present)
 * More info to come soon!
 
 #### **Senior & Staff Engineer**, [Tesla Inc](https://www.tesla.com) (September 2019 -- March 2023)
 * Led engineering efforts on Tesla's most complex cell failure modes
-* Pioneered a novel set of techniques for characterizing cell performance, lifetime, quality, and variabiliity
-* Managed a 5-person team within Cell Qualification
+* Pioneered a novel set of techniques for characterizing cell performance, lifetime, quality, and variability
+* Managed a 5-person team within the Cell Qualification organization
 * Contributed technical expertise to Tesla's handling of regulatory affairs regarding cell lifetime
 
 #### **Graduate Student Researcher**, [Chueh Lab](https://chuehlab.stanford.edu), [Stanford University](https://www.stanford.edu) (September 2014--September 2019)
@@ -74,7 +74,7 @@ BChE, [Chemical and Biomolecular Engineering](https://cbe.udel.edu)
     </tr>
     <tr>
       <td style="text-align:left">April 2019</td>
-      <td style="text-align:left"><a href="https://www.mrs.org/open-data-challenge">Materials Research Society Open Data Challenge, 1<sup>st</sup> place </a></td>
+      <td style="text-align:left"><a href="https://web.archive.org/web/20210518185336/https:/www.mrs.org/open-data-challenge">Materials Research Society Open Data Challenge, 1<sup>st</sup> place </a></td>
     </tr>
     <tr>
       <td style="text-align:left">April 2019</td>
@@ -86,7 +86,7 @@ BChE, [Chemical and Biomolecular Engineering](https://cbe.udel.edu)
     </tr>
     <tr>
       <td style="text-align:left">April 2014</td>
-      <td style="text-align:left">National Science Foundation Graduate Research Fellowship </td>
+      <td style="text-align:left"><a href="https://www.cis.udel.edu/2014/07/07/nsf-graduate-research-fellows/">National Science Foundation Graduate Research Fellowship</a> </td>
     </tr>
     <tr>
       <td style="text-align:left">March 2014</td>
