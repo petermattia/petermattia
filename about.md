@@ -8,7 +8,7 @@ order: 1
 <img src="/img/me_20200920.jpg" width="250" style="float:left; margin-right:20px;">
 
 I'm currently working on a new venture.
-I previously worked for [Tesla Inc](https://www.tesla.com) as a battery data analyst.
+I previously worked for [Tesla](https://www.tesla.com) as a battery data analyst.
 I hold a PhD in [Materials Science and Engineering](https://mse.stanford.edu)
 from [Stanford University](https://www.stanford.edu)
 and a BChE in [chemical engineering](https://cbe.udel.edu)
