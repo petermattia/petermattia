@@ -7,8 +7,10 @@ order: 1
 
 <img src="/img/me_20200920.jpg" width="250" style="float:left; margin-right:20px;">
 
-I'm currently working on a new venture.
-I previously worked for [Tesla](https://www.tesla.com) as a battery data analyst.
+I am the cofounder and CTO of [Glimpse](https://glimp.se), a startup whose mission is to enable battery quality at scale.
+We are realizing this mission by scaling [CT scanning](https://en.wikipedia.org/wiki/Industrial_computed_tomography)
+to achieve the throughputs needed for GWh-scale battery production.
+I previously worked for [Tesla](https://www.tesla.com) on the Cell Qualification team.
 I hold a PhD in [Materials Science and Engineering](https://mse.stanford.edu)
 from [Stanford University](https://www.stanford.edu)
 and a BChE in [chemical engineering](https://cbe.udel.edu)
@@ -16,12 +18,15 @@ from the [University of Delaware](https://www.udel.edu).
 [My graduate research](/research) focused on making lithium-ion batteries last longer
 and charge faster through combining fundamental understanding and data-driven methods.
 
-My primary professional interest is **accelerating the pace of battery development**.
-As a battery data analyst, I work with manufacturing data, lab data, and field data
+My primary professional interest is **accelerating the pace of battery development & production**.
+I aim to understand battery technology from length scales of
+[nanometers](https://doi.org/10.1021/acs.nanolett.9b01515) to [centimeters](https://www.nature.com/articles/s41586-020-1994-5)
+and [everywhere in between](https://iopscience.iop.org/article/10.1149/1945-7111/ac6d13/meta).
+I also enjoy working with manufacturing data, lab data, and field data
 to forecast battery lifetime and prevent battery failures.
 While my background is in the physical sciences,
-I've developed skills in software engineering
-and data analysis to efficiently make sense of data from disparate sources.
+I've developed skills in software engineering, data analysis,
+and computer vision to efficiently make sense of data from disparate sources.
 
 Some personal tidbits about me can be found [here](/personal).
 

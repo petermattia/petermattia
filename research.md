@@ -10,6 +10,11 @@ order: 2
 Broadly, my career has focused on lithium-ion battery lifetime, failure, quality, and reliability,
 with an emphasis on data-driven techniques.
 
+## Glimpse
+As the cofounder and CTO of [Glimpse](https://glimp.se), I set our technical vision and roadmap.
+I'm primarily responsible for our image stack, ranging from state-of-the-art X-ray imaging hardware
+to software-based image enhancement and battery-specific automated inspection.
+
 ## Tesla
 As a member of the Cell Qualification team, I worked at the intersection of lab testing, cell production,
 and field quality to understand and prevent key lithium-ion battery failure modes.
