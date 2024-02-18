@@ -31,10 +31,10 @@ Here's the battery startup I would start if I were optimizing for time-to-market
 1. Incorporate Boring Batteries, Inc. Mission: Make Batteries Boring Again, just like alkaline batteries or silicon solar cells.
 2. Pick a chemistry. Main criteria: Minimal supply chain concerns and good-enough performance. LFP would have been the only option a year ago, but sodium-ion would also have to be on the table today. Pick a maximum of one.
 3. Pick a form factor. Main criteria: Lowest-cost to make and good-enough performance. Probably prismatic, solely since that's what large Chinese battery manufacturers have converged on. Possibly cylindrical. Probably not pouch.
-4. Lock a cell design. I would reverse engineer the top 5 cells of the chemistry<>form factor combo that was selected above (e.g., prismatic LFP).
+4. Lock a cell design. I would reverse engineer the top 5 cells of the chemistry<>form factor combination that was selected above (e.g., prismatic LFP).
 5. Pick a location. Somewhere in the [Battery Belt](https://www.axios.com/2022/08/17/electric-cars-vehicles-batteries-battery-belt-biden) seems right. I love California, but fire anyone who proposes production there.
 6. Build two identical 1 GWh lines next to each other: one for process development and one for production.
-7. Buy the production line equipment. Today, you can buy everything you need for a line from China. Something like [this](https://www.battery-equipments.com/1gwh-ev-car-battery-lfp-nmc-lto-30ah-50ah-100ah-200ah-prismatic-cell-aluminium-case-cell-production-line_p1323.html)
+7. Buy the production line equipment. Today, you can buy everything you need for a line from China, e.g. [this](https://www.battery-equipments.com/1gwh-ev-car-battery-lfp-nmc-lto-30ah-50ah-100ah-200ah-prismatic-cell-aluminium-case-cell-production-line_p1323.html).
 8. Hire an A+ production team. Past battery production experience would be awesome, but if not then look for people from the semiconductor industry or similar. Start a strong battery quality team.
 9. Hire a small R&D team. Only a few R&D efforts are allowed: abuse testing, simple reliability and echem testing, fleet analytics, and an electrolyte team (since the electrolyte can have an outsize effect on cell lifetime).
 10. Find a beachhead market. Not EVs yet. Maybe [golf carts](https://www.epochbatteries.com/collections/lithium-golf-cart-batteries)?
@@ -45,7 +45,7 @@ Here's the battery startup I would start if I were optimizing for time-to-market
 15. Keep improving the process as future sites are scoped. Most of the R&D focus should be on process improvements, including cell design changes in the service of process improvements. At this stage, I'd start investing in more R&D.
 
 This startup would be painful, not to mention expensive, but I think this playbook is about right.
-To be fair, it's not at all creative: it's essentially cloning what successful Chinese battery companies have done.
+To be fair, it's not at all creative: it's essentially cloning what successful Chinese battery companies have already done.
 
 I would seriously consider starting this if I wasn't working on [Glimpse](https://glimp.se) (launching soon!).
 If you're reading this post and feeling inspired, please do this!
