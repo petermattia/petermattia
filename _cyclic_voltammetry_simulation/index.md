@@ -25,9 +25,6 @@ I also validated my simulation with the
 You can also find an excellent (qualitative) cyclic voltammetry tutorial
 [here](http://sop4cv.com/index.html).
 
-I also created similar apps and tutorials for
-[galvanostatic simulations](/galvanostatic_simulation/index.html).
-
 Enjoy!
 
 ### [Online simulation](/cyclic_voltammetry_simulation/cvwebapp.html)
