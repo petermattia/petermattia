@@ -1,9 +1,9 @@
 ---
 layout: post
 categories: articles
-title: "Updates on "knees" paper"
+title: Updates on "knees" paper
 date: 2024-02-18
-description: "WSJ interview and EU regulations for the "knees" paper"
+description: WSJ interview and EU regulations for the "knees" paper
 tags: publications science
 ---
 
