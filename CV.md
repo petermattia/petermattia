@@ -9,7 +9,8 @@ Last updated June 22, 2023
 ## Experience
 
 #### **Co-founder & CTO**, [Glimpse](https://glimpse.engineering) (March 2023 -- Present)
-* More info to come soon!
+* Leading technical vision and strategy for Glimpse's product offering
+* Responsible for Glimpse's imaging stack, including CT hardware selection, scanner optimization, image enhancement algorithms, and automated inspection pipeline
 
 #### **Senior & Staff Engineer**, [Tesla Inc](https://www.tesla.com) (September 2019 -- March 2023)
 * Led engineering efforts on Tesla's most complex cell failure modes
@@ -18,7 +19,7 @@ Last updated June 22, 2023
 * Contributed technical expertise to Tesla's handling of regulatory affairs regarding cell lifetime
 
 #### **Graduate Student Researcher**, [Chueh Lab](https://chuehlab.stanford.edu), [Stanford University](https://www.stanford.edu) (September 2014--September 2019)
-* Lead experimental side of a multi-disciplinary team developing methods for autonomous optimization of battery fast-charging policies; work published in [*Nature*](https://doi.org/10.1038/s41586-020-1994-5) and [*Nature Energy*](https://doi.org/10.1038/s41560-019-0356-8) and covered by [*WIRED*](https://www.wired.com/story/ai-is-throwing-battery-development-into-overdrive/) and the [*WSJ*](https://www.wsj.com/articles/electric-car-batteries-get-a-boost-from-artificial-intelligence-11604422792)
+* Led experimental side of a multi-disciplinary team developing methods for autonomous optimization of battery fast-charging policies; work published in [*Nature*](https://doi.org/10.1038/s41586-020-1994-5) and [*Nature Energy*](https://doi.org/10.1038/s41560-019-0356-8) and covered by [*WIRED*](https://www.wired.com/story/ai-is-throwing-battery-development-into-overdrive/) and the [*WSJ*](https://www.wsj.com/articles/electric-car-batteries-get-a-boost-from-artificial-intelligence-11604422792)
 * Developed a new method of electrochemical analysis to measure solid-electrolyte interphase (SEI) growth during galvanostatic cycling
 * Designed the Chueh lab’s “Gen 2” battery fabrication and characterization facilities; expanded total battery testing channels from 24 to 160
 

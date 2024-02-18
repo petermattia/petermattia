@@ -15,8 +15,8 @@ Last updated February 4, 2023
 
 0. H. D. Deng, N. Jin, **P. M. Attia**, K. Lim, S. D. Kang, N. Kapate, H. Zhao, Y. Li, M. Z. Bazant, W. C. Chueh.  
 [Beyond Constant Current: Origin of Pulse-Induced Activation in Phase-Transforming Battery Electrodes](https://doi.org/10.1021/acsnano.3c09742)  
-*ACS Nano*, **18**, 3, 2210–2218 (2024).
-
+*ACS Nano*, **18**, 3, 2210–2218 (2024).  
+[PDF]({{site.url}}/papers/Deng et al. - 2024 - Beyond constant current Origin of pulse-induced activation in phase-transforming battery electrodes.pdf)
 
 0. **P. M. Attia**, A. Bills, F. B. Planella, P. Dechent, G. d. Reis, M. Dubarry,
 P. Gasper, R. Gilchrist, S. Greenbank, D. Howey, O. Liu, E. Khoo, Y. Preger,
