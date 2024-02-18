@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: articles
-title: Moving on
+title: A new chapter
 date: 2023-05-29
 description: Life after Tesla
 tags: personal
