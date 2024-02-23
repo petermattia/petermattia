@@ -29,5 +29,5 @@ The second is the [EU Batteries Regulation report](https://op.europa.eu/en/publi
 This report is a review of battery performance and durability for the EU's [upcoming minimum battery durability regulations](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:52020PC0798#:~:text=Article%2010%2C%20together%20with%20Annex,vehicle%20batteries%20with%20internal%20storage.).
 Our work is cited nine times in this report.
 
-Overall, I'm pleased that this work has impact beyond battery nerds and can help folks
+Overall, I'm pleased that this work has impact beyond hardcore battery nerds and can help folks
 ranging from policymakers to readers of the WSJ's tech column.
