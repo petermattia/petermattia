@@ -7,7 +7,7 @@ description: AI.ai
 tags: personal science
 ---
 
-My overall thoughts on AI boil down to some simple concepts:
+My overall thoughts on AI boil down to:
 1. AI is a powerful tool.
 2. Engineers should use the right tool for the job. In other words, engineers should always be driven by problems, not solutions.
 3. Engineers should use AI when it's the best tool to solve a given problem.
