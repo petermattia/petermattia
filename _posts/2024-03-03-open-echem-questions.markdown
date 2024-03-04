@@ -46,8 +46,10 @@ Briefly, we found many, many papers that experimentally observed its presence, b
 Here's the relevant section from the text:
 
 <p>
-<img src="/img/open-echem-questions/covering_layer_text.jpg" style="display:block; margin-left: auto; margin-right: auto;">
+<img src="/img/open-echem-questions/covering_layer_text.png" style="display:block; margin-left: auto; margin-right: auto;">
 </p>
+
+And the figure:
 
 <p>
 <img src="/img/open-echem-questions/jesac6d13f16_hr.jpg" style="display:block; margin-left: auto; margin-right: auto;">
