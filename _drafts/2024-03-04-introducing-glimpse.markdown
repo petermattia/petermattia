@@ -2,9 +2,9 @@
 layout: post
 categories: articles
 title: Introducing Glimpse
-date: 2024-03-04
+date: 2024-03-07
 description: Introducing Glimpse
-tags: publications science
+tags: personal science
 ---
 
 <p>
