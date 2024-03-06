@@ -24,7 +24,7 @@ Patrick might be Glimpse’s secret weapon. I’m confident there are very few, 
 
 Our founding engineering team of Owen, Amariah, Bailey, and Jim all bring unique skills and perspectives to the table, and Glimpse would not be where it is today without each of them. I hope we can all work together for a long time.
 
-Last but not least, we’ve set up shop in Boston; while I certainly miss the California sunshine, we’ve enjoyed being walking distance from family. [Greentown Labs](https://greentownlabs.com) has been an incredible launching pad for us; highly recommend.
+Last but not least, we’ve set up shop in Boston; while I certainly miss the California sunshine, my wife and I have enjoyed being walking distance from family. [Greentown Labs](https://greentownlabs.com) has been an incredible launching pad for us; highly recommend.
 
 We have big plans for Glimpse and we’re just getting started.
 If you're interested, check out [https://glimp.se](https://glimp.se) and perhaps consider joining us.
