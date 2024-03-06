@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: articles
-title: Open questions in battery electrochemistry
+title: Some open questions in battery electrochemistry
 date: 2024-03-03
 description: 
 tags: personal science
