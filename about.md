@@ -7,10 +7,10 @@ order: 1
 
 <img src="/img/me_20200920.jpg" width="250" style="float:left; margin-right:20px;">
 
-I am the cofounder and CTO of [Glimpse](https://glimp.se), a startup whose mission is to enable battery quality at scale.
+I am the cofounder and CTO of [Glimpse](https://glimp.se); our mission is to enable battery quality at scale.
 We are realizing this mission by scaling [CT scanning](https://en.wikipedia.org/wiki/Industrial_computed_tomography)
 to achieve the throughputs needed for GWh-scale battery production.
-I previously worked for [Tesla](https://www.tesla.com) on the Cell Qualification team.
+Previously, I worked for [Tesla](https://www.tesla.com) on the Cell Qualification team.
 I hold a PhD in [Materials Science and Engineering](https://mse.stanford.edu)
 from [Stanford University](https://www.stanford.edu)
 and a BChE in [chemical engineering](https://cbe.udel.edu)
