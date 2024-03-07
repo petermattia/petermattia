@@ -8,7 +8,7 @@ tags: personal science
 ---
 
 <p>
-<img src="img/Glimpse_logo_horizontal_final_gradient.png" style="display:block; margin-left: auto; margin-right: auto;">
+<img src="/img/Glimpse_logo_horizontal_final_gradient.png" style="display:block; margin-left: auto; margin-right: auto;">
 </p>
 
 I’m thrilled to announce [Glimpse](https://glimp.se)’s public launch. To show our vision and our progress towards this vision so far, we’re launching a [public demo of the Glimpse portal](https://app.glimp.se) with scans of 1000 commercial off-the-shelf cells. Anyone can download and play with this data [here](https://figshare.com/s/d81465707bb7313fe85d) (brief dataset paper [here](https://arxiv.org/abs/2403.02527)); I’m excited to see what the community comes up with. We’ve also authored a [perspective paper](https://arxiv.org/abs/2403.01065) on the challenge of battery quality at scale, which is precisely what Glimpse has set out to address.
