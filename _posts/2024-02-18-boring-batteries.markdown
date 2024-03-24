@@ -52,3 +52,5 @@ If you're reading this post and feeling inspired, please do this!
 Drop me a line and I'll help in any way I can.
 
 Shameless plug, but Glimpse is eager to support anyone looking to scale their battery production today.
+
+EDIT 2024-03-24: I hope they don't take offense to being associated with "Boring Batteries Inc.", but [American Battery Factory](https://americanbatteryfactory.com) appears to be the first company I'm aware of taking a very similar approach to what's outlined here. Very cool!
