@@ -36,21 +36,21 @@ Last updated May 27, 2024
 | August 2019 | Argonne National Laboratory | Lemont, IL |
 | July 2019 | Cyclotron Road "Batteries and Brews" Seminar | Berkeley, CA |
 | June 2019 | Addis Ababa Science and Technology Univeristy | Addis Ababa, Ethiopia |
-| June 2019 | [22<sup>nd</sup> International Conference on Solid State Ionics](http://ssi-22.org/?page_id=2123) | Pyeong chang, Korea |
+| June 2019 | [22<sup>nd</sup> International Conference on Solid State Ionics](https://web.archive.org/web/20190630110135/http://ssi-22.org/) | Pyeong chang, Korea |
 | April 2019 | AI for Climate Change Bootcamp |  Stanford, CA |
 | April 2019 | Materials Research Society, Spring 2019 [(1)](https://www.mrs.org/spring2019/symposium-sessions/symposium-sessions-detail?code=ES03) [(2)](https://www.mrs.org/spring2019/symposium-sessions/symposium-sessions-detail?code=GI01) |  Phoenix, AZ |
 | March 2019 | [International Battery Association Conference](https://ecs.confex.com/ecs/iba2019/webprogram/Paper117948.html) |  San Diego, CA |
 | December 2018 | Guest lecture, [MATSCI 303](https://explorecourses.stanford.edu/search?q=MATSCI+303&view=catalog&page=0&filter-coursestatus-Active=on&collapse=&academicYear=20182019) |  Stanford, CA |
 | November 2018 | [Materials Research Society, Fall 2018](https://www.mrs.org/fall-2018-symposium-sessions/symposium-sessions-detail?code=GI01) |  Boston, MA |
-| October 2018 | [Stanford PIE Seed Grants Workshop](https://energy.stanford.edu/research/seed-grants) |  Stanford, CA |
+| October 2018 | [Stanford PIE Seed Grants Workshop](https://web.archive.org/web/20181211090501/https://energy.stanford.edu/research/seed-grants) |  Stanford, CA |
 | May 2018 | [TRI](https://www.tri.global/research/) Advanced Materials Discovery and Design |  Redwood City, CA |
 | February 2018 | [Gordon Research Seminar & Conference: Batteries](https://www.grc.org/batteries-grs-conference/2018/) |  Ventura, CA |
-| January 2018 | [Stanford Energy Week](http://www.stanfordenergyweek.com) |  Stanford, CA |
+| January 2018 | [Stanford Energy Week](https://web.archive.org/web/20190907222629/http://www.stanfordenergyweek.com/) |  Stanford, CA |
 | November 2017 | SAIC Day Poster Session |  Stanford, CA |
-| October 2017 | [GCEP Research Symposium Poster Session](https://gcepsymposium.stanford.edu) |  Stanford, CA |
-| October 2017 | [Stanford PIE Seed Grants Workshop](https://energy.stanford.edu/research/seed-grants) |  Stanford, CA |
+| October 2017 | [GCEP Research Symposium Poster Session](https://web.archive.org/web/20191219033923/https://gcepsymposium.stanford.edu/) |  Stanford, CA |
+| October 2017 | [Stanford PIE Seed Grants Workshop](https://web.archive.org/web/20181211090501/https://energy.stanford.edu/research/seed-grants) |  Stanford, CA |
 | August 2017 | [SUPER Lunch Seminar](https://energy.stanford.edu/research/research-opportunities/super) |  Stanford, CA |
-| July 2017 | [GCEP Student Energy Lectures](http://gcep.stanford.edu/outreach/studentactivities_abstracts2017.html#july31) |  Stanford, CA |
+| July 2017 | [GCEP Student Energy Lectures](https://web.archive.org/web/20191213013656/https://gcep.stanford.edu/outreach/studentactivities_abstracts2017.html#july31) |  Stanford, CA |
 | May 2017 | [231<sup>st</sup> Electrochemical Society Meeting](http://ma.ecsdl.org/content/MA2017-01/1/104.short) |  New Orleans, LA |
 
 <!--
@@ -134,9 +134,9 @@ Last updated May 27, 2024
 
 # Univeristy of Delaware
 
-| Date | Conference |  Location  | Award |
+| Date | Venue |  Location  | Award |
 | :----------- |  :----------------- | :-------- | :-- |
-| November 2013 |  American Institute of Chemical Engineers Student Conference | San Francisco, CA | [1<sup>st</sup> Place, Best Poster (Materials Engineering and Sciences Group VII)](http://www.aiche.org/conferences/annual-aiche-student-conference/2013/events/2013-undergraduate-student-poster-competition) |
+| November 2013 |  American Institute of Chemical Engineers Student Conference | San Francisco, CA | [1<sup>st</sup> Place, Best Poster (Materials Engineering and Sciences Group VII)](https://web.archive.org/web/20141220203050/http://www.aiche.org/conferences/annual-aiche-student-conference/2013/events/2013-undergraduate-student-poster-competition) |
 | March 2013 |  NSF Nanotechnology: Ethics, Science and Technology Workshop | COMSTATS IIT, Islamabad, Pakistan |  |
 | February 2013 |  Materials Information Society Open House | University of Delaware, Newark, DE | 1<sup>st</sup> Place, Best Undergraduate Poster |
 | January 2013 |  National Collegiate Research Conference | Harvard University, Cambridge, MA | |

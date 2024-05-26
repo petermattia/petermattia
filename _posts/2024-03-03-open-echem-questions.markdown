@@ -3,8 +3,8 @@ layout: post
 categories: articles
 title: Some open questions in battery electrochemistry
 date: 2024-03-03
-description: 
-tags: personal science
+description: Research topics for battery lifetime
+tags: science
 ---
 
 I have two big open questions from my battery electrochemistry research.
