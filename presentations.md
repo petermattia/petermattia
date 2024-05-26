@@ -5,11 +5,22 @@ permalink: /presentations/
 order: -1
 ---
 
-Last updated November 25, 2022
+Last updated May 27, 2024
+
+# Glimpse
+
+|  Date | Venue | Location |
+| :----------- |  :----------------- | :-------- |
+| May 2024 | [Cell Symposia: Technology barriers to EV implementation](https://www.cell-symposia.com/electric-vehicles-2024/index.html) |  Ann Arbor, MI |
+| April 2024 | [Excillum webinar](https://www.excillum.com/enabling-battery-quality-at-scale-via-high-throughput-ct/) |  Virtual |
+| April 2024 | Fluence BESS Innovation Seminars |  Virtual |
+| April 2024 | Battery modeling webinar series |  Virtual |
+| March 2024 | [AIonics Fortnightly](https://aionics.io/fortnightly/enabling-battery-quality-at-scale-with-glimpse-cofounders-drs-peter-attia-and-patrick-herring/) |  Virtual |
+| March 2024 | [Battery Forum](https://www.linkedin.com/posts/battery-forum_electriccars-metrology-statisticalanalysis-activity-7172975308793458688-6I0Y?utm_source=share&utm_medium=member_desktop) | Virtual |
 
 # Stanford University
 
-|  Date | Conference | Location |
+|  Date | Venue | Location |
 | :----------- |  :----------------- | :-------- |
 | August 2022 | Battery modeling webinar series |  Virtual |
 | August 2022 | [Battery Brunch](https://www.batterybrunch.org) |  Virtual |
