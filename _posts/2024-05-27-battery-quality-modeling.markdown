@@ -32,3 +32,5 @@ Here are ten that I think are particularly interesting, complete with emojis:
 9. ⏳ Can we design accelerated tests and/or prediction models for hard-to-predict functional failures and safety events?
 
 10. 🔬 What is the minimum set of characterization techniques needed for comprehensive battery lifetime evaluation? (Multimodal foundation models?)
+
+I saw a new paper on #2 today: [Lithium Plating at the Cell Edge Induced by Anode Overhang during Cycling in Lithium-Ion Batteries: Part I. Modeling and Mechanism](https://doi.org/10.1149/1945-7111/ad4a12).
