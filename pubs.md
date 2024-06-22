@@ -13,6 +13,11 @@ Last updated February 4, 2023
 <br>
 *Equal contribution authors
 
+0. A. Condon, B. Buscarino, E. Moch, W. J. Sehnert, O. Miles, P. K. Herring, **P. M. Attia**  
+[A dataset of over one thousand computed tomography scans of battery cells](https://doi.org/10.1016/j.dib.2024.110614)  
+*Data in Brief*, **55**, (2024).  
+[PDF](https://www.sciencedirect.com/science/article/pii/S235234092400581X/pdfft)
+
 0. H. D. Deng, N. Jin, **P. M. Attia**, K. Lim, S. D. Kang, N. Kapate, H. Zhao, Y. Li, M. Z. Bazant, W. C. Chueh.  
 [Beyond Constant Current: Origin of Pulse-Induced Activation in Phase-Transforming Battery Electrodes](https://doi.org/10.1021/acsnano.3c09742)  
 *ACS Nano*, **18**, 3, 2210–2218 (2024).  

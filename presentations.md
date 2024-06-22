@@ -5,12 +5,13 @@ permalink: /presentations/
 order: -1
 ---
 
-Last updated May 27, 2024
+Last updated June 21, 2024
 
 # Glimpse
 
 |  Date | Venue | Location |
 | :----------- |  :----------------- | :-------- |
+| June 2024 | [BatteryMBA lecture](https://www.battery.mba) |  Virtual |
 | May 2024 | [Cell Symposia: Technology barriers to EV implementation](https://www.cell-symposia.com/electric-vehicles-2024/index.html) |  Ann Arbor, MI |
 | April 2024 | [Excillum webinar](https://www.excillum.com/enabling-battery-quality-at-scale-via-high-throughput-ct/) |  Virtual |
 | April 2024 | Fluence BESS Innovation Seminars |  Virtual |
