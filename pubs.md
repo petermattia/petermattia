@@ -13,7 +13,7 @@ Last updated February 4, 2023
 <br>
 *Equal contribution authors
 
-0. A. Condon, B. Buscarino, E. Moch, W. J. Sehnert, O. Miles, P. K. Herring, **P. M. Attia**  
+0. A. Condon, B. Buscarino, E. Moch, W. J. Sehnert, O. Miles, P. K. Herring, **P. M. Attia**.  
 [A dataset of over one thousand computed tomography scans of battery cells](https://doi.org/10.1016/j.dib.2024.110614)  
 *Data in Brief*, **55**, (2024).  
 [PDF](https://www.sciencedirect.com/science/article/pii/S235234092400581X/pdfft)
