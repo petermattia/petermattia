@@ -17,3 +17,8 @@ To add slightly more color, I think AI can be the right tool for the job when (a
 I enjoyed reading Microsoft CTO Kevin Scott's take [here](https://www.newyorker.com/magazine/2023/12/11/the-inside-story-of-microsofts-partnership-with-openai) on how AI copilots are an ideal model for AI tools.
 
 I think [Geslin et al.](https://www.sciencedirect.com/science/article/abs/pii/S2542435123003197?dgcid=coauthor) is a fantastic overview of AI for battery lifetime prediction.
+
+*UPDATE 2024-06-24*: Another framework I've found useful is replacing "AI" with "statistical model".
+Could a statistical model write a good draft of an offer letter? Sure.
+How about a scientific paper? Unless your work is unoriginal, probably not.
+Can it predict the future? Depends on if the future follows the same distribution as the past.
