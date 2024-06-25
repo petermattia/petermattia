@@ -1,0 +1,43 @@
+---
+layout: post
+categories: articles
+title: Kemps
+date: 2024-06-24
+description: Why is Kemps so much faster with 8 people than with 4?
+tags: personal code
+---
+
+
+On a recent family vacation, we played a few games of [Kemps](https://en.wikipedia.org/wiki/Kemps_(card_game)).
+If you’re not familiar with this card game, read the rules [here](https://www.pagat.com/commerce/kemps.html) or read [this](https://boardgamegeek.com/blogpost/132980/the-curious-case-of-kemps) to see why it’s great. For a choice quote:
+
+> It’s a riot. It’s a card game playable with a standard deck, but it’s also pure chaos. Real-time, limited communication, partners, secret signals that can be intercepted, card counting, bluffing, double-bluffing, furious card swaps, there’s a lot going on. Most sessions end in yelling or laughing. Or ideally, both.
+
+Very briefly, the objective of the game is to get “four-of-a-kind” by swapping cards with a shared pool in the middle of the table, and then signal to your partner that you’re done — without anyone else catching you.
+
+If you play with four players, the game takes quite some time.
+However, if you play with eight players, the game often ends in the first or second round (and is pure, unadulterated chaos).
+While obviously more people = more playable cards (each player starts with four cards in their hand) = higher chance of four-of-a-kind being present, I was curious how this probability changes as a function of the number of players.
+
+The task, then, is to estimate the probability of having four-of-a-kind present in a random selection of *n* cards from a standard 52-card deck. There’s certainly a first-principles method to calculate this probability, but I opted to skip the derivations and just simulate this task from random number generation. ChatGPT solved this pretty easily:
+
+<script src="https://gist.github.com/petermattia/fc85e5ba4bf2f3d5711b6b804cf6a870.js"></script>
+
+Here’s the result:
+
+<p>
+<img src="/img/kemps.png" style="display:block; margin-left: auto; margin-right: auto;">
+</p>
+
+Summary:
+
+| Number of players | Number of cards in play | $P_{4KR1}$ |
+|-------------------|-------------------------|------------|
+| 4                 | 20                      | 0.22       |
+| 6                 | 28                      | 0.71       |
+| 8                 | 36                      | 0.99       |
+
+$P_{4KR1}$ is the probability of having four-of-a-kind present in the first round.
+
+With 4 players, it’s unlikely that four of a kind are initially present, and only 4 new cards are surfaced every round.
+With 8 players, it’s almost certain that 4-of-a-kind is initially present, thus the game *should* end in the first round---unless, of course, players are not trying to collect 4-of-a-kind themselves and are actively preventing opponents from collecting their needed cards.
