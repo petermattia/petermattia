@@ -23,7 +23,7 @@ The task, then, is to estimate the probability of having four-of-a-kind present 
 
 <script src="https://gist.github.com/petermattia/fc85e5ba4bf2f3d5711b6b804cf6a870.js"></script>
 
-Here’s the result:
+Here’s the result. $x = $ the number of cards in play in the first round, and $y = P_{4KR1}$, the probability of having four-of-a-kind present in the first round.
 
 <p>
 <img src="/img/kemps.png" style="display:block; margin-left: auto; margin-right: auto;">
@@ -37,7 +37,8 @@ Summary:
 | 6                 | 28                      | 0.71       |
 | 8                 | 36                      | 0.99       |
 
-$P_{4KR1}$ is the probability of having four-of-a-kind present in the first round.
+The number of cards in play is $4n+4$.
 
-With 4 players, it’s unlikely that four of a kind are initially present, and only 4 new cards are surfaced every round.
-With 8 players, it’s almost certain that 4-of-a-kind is initially present, thus the game *should* end in the first round---unless, of course, players are not trying to collect 4-of-a-kind themselves and are actively preventing opponents from collecting their needed cards.
+This very simple simulation neglects multi-round play (i.e., the fact that we discard 4 cards each subsequent round), but it’s clear why the game is so much faster with 8 players than with 4:
+- With 4 players, it’s unlikely that four of a kind are initially present; since only 4 new cards are surfaced every round, the game often lasts many rounds.
+- With 8 players, it’s almost certain that 4-of-a-kind is initially present, thus the game *should* end in the first round---unless, of course, players are not trying to collect 4-of-a-kind themselves and are actively preventing opponents from collecting their needed cards.
