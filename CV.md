@@ -4,7 +4,7 @@ title: Curriculum Vitae
 permalink: /cv/
 order: 4
 ---
-Last updated February 18, 2023
+Last updated February 18, 2024
 
 ## Experience
 
