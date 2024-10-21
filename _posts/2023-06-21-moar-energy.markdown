@@ -23,3 +23,5 @@ I think one natural consequence of this position is a pro-nuclear stance.
 This “energy abundance” position seems to be associated with the political center-right, but I believe energy abundance benefits all and should be a bipartisan issue (provided that energy access and associated externalities are reasonably equitable). Here are two more articles ([1](https://www.thecgo.org/research/energy-superabundance/) and [2](https://www.slowboring.com/p/energy-abundance)) discussing this topic.
 
 A useful counterpoint is offered by Prof. Tom Murphy [here](https://dothemath.ucsd.edu/2011/07/galactic-scale-energy/). In short, we don’t have infinite energy available at our disposal (in the literal sense of the word infinite), so our energy usage can’t grow forever. I agree in principle (of course we don’t have *infinite* energy), but I think we’re far from any practical limits on how much energy we can use today — especially in a world with soon-to-be decreasing population.
+
+**EDIT Oct 21 2024:** [This post](https://caseyhandmer.wordpress.com/2023/10/11/radical-energy-abundance/) is another great perspective on this topic.
