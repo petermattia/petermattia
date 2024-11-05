@@ -5,12 +5,18 @@ permalink: /presentations/
 order: -1
 ---
 
-Last updated June 21, 2024
+Last updated November 4, 2024
 
 # Glimpse
 
 |  Date | Venue | Location |
 | :----------- |  :----------------- | :-------- |
+| December 2024 | DOE/AMMTO Battery Manufacturing Forum |  Herndon, VA |
+| December 2024 | [3rd Battery Sustainability Workshop](https://www.batterysustain.center/2024-workshop) |  Cambridge, MA |
+| November 2024 | [NASA Aerospace Battery Workshop](https://www.nasa.gov/batteryworkshop/) |  Huntsville, AL |
+| November 2024 | [Volta Foundation Boston Battery Social](https://learn.volta.foundation/battery-social-boston) |  Somerville, MA |
+| October 2024 | [Infinita Lab](https://www.linkedin.com/events/7239353135750676481/comments/) webinar |  Virtual |
+| September 2024 | [Electrochemical Society webinar](https://www.electrochem.org/ecsnews/webinar-qa-battery-quality-attia/) |  Virtual |
 | June 2024 | [BatteryMBA lecture](https://www.battery.mba) |  Virtual |
 | May 2024 | [Cell Symposia: Technology barriers to EV implementation](https://www.cell-symposia.com/electric-vehicles-2024/index.html) |  Ann Arbor, MI |
 | April 2024 | [Excillum webinar](https://www.excillum.com/enabling-battery-quality-at-scale-via-high-throughput-ct/) |  Virtual |
