@@ -15,7 +15,7 @@ Last updated November 4, 2024
 | December 2024 | [3rd Battery Sustainability Workshop](https://www.batterysustain.center/2024-workshop) |  Cambridge, MA |
 | November 2024 | [NASA Aerospace Battery Workshop](https://www.nasa.gov/batteryworkshop/) |  Huntsville, AL |
 | November 2024 | [Volta Foundation Boston Battery Social](https://learn.volta.foundation/battery-social-boston) |  Somerville, MA |
-| October 2024 | [Infinita Lab](https://www.linkedin.com/events/7239353135750676481/comments/) webinar |  Virtual |
+| October 2024 | [Infinita Lab webinar](https://www.linkedin.com/events/7239353135750676481/comments/) |  Virtual |
 | September 2024 | [Electrochemical Society webinar](https://www.electrochem.org/ecsnews/webinar-qa-battery-quality-attia/) |  Virtual |
 | June 2024 | [BatteryMBA lecture](https://www.battery.mba) |  Virtual |
 | May 2024 | [Cell Symposia: Technology barriers to EV implementation](https://www.cell-symposia.com/electric-vehicles-2024/index.html) |  Ann Arbor, MI |
