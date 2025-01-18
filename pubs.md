@@ -4,7 +4,7 @@ title: Publications
 permalink: /publications/
 order: -1
 ---
-Last updated June 23, 2024
+Last updated January 17, 2025
 
 [Google Scholar](https://scholar.google.com/citations?user=GyD43R4AAAAJ&hl=en&oi=ao)
 
@@ -13,9 +13,14 @@ Last updated June 23, 2024
 <br>
 *Equal contribution authors
 
+0. **P. M. Attia**, E. Moch, P. K. Herring.  
+[Challenges and opportunities for high-quality battery production at scale.](https://doi.org/10.1038/s41467-025-55861-7)  
+*Nature Communications*, **16**, 611 (2025).  
+[PDF](https://rdcu.be/d6FFQ)
+
 0. A. Condon, B. Buscarino, E. Moch, W. J. Sehnert, O. Miles, P. K. Herring, **P. M. Attia**.  
 [A dataset of over one thousand computed tomography scans of battery cells](https://doi.org/10.1016/j.dib.2024.110614)  
-*Data in Brief*, **55**, (2024).  
+*Data in Brief*, **55**, 110614 (2024).  
 [PDF](https://www.sciencedirect.com/science/article/pii/S235234092400581X/pdfft)
 
 0. H. D. Deng, N. Jin, **P. M. Attia**, K. Lim, S. D. Kang, N. Kapate, H. Zhao, Y. Li, M. Z. Bazant, W. C. Chueh.  
