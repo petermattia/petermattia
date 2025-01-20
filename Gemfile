@@ -13,7 +13,7 @@ gem "ffi", ">= 1.9.24"
 gem "rack", ">= 2.0.6"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minima", "~> 2.0"
+gem "minima", "~> 2.5"
 gem "kramdown-parser-gfm"
 gem "lanyon"
 
