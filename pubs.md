@@ -16,7 +16,7 @@ Last updated January 17, 2025
 0. **P. M. Attia**, E. Moch, P. K. Herring.  
 [Challenges and opportunities for high-quality battery production at scale.](https://doi.org/10.1038/s41467-025-55861-7)  
 *Nature Communications*, **16**, 611 (2025).  
-[PDF](https://rdcu.be/d6FFQ)
+[PDF](https://rdcu.be/d6FFQ), highlighted as a [*Nature Communications* Editors' Highlight](https://www.nature.com/collections/dmmhtcypsc)
 
 0. A. Condon, B. Buscarino, E. Moch, W. J. Sehnert, O. Miles, P. K. Herring, **P. M. Attia**.  
 [A dataset of over one thousand computed tomography scans of battery cells](https://doi.org/10.1016/j.dib.2024.110614)  
