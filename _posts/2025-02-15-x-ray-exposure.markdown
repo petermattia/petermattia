@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: articles
-title: "Paper published: Impact of lab-scale X-ray exposure on batteries and a love letter to MDPI"
+title: "Paper published: Impact of lab-scale X-ray exposure on batteries—and a love letter to MDPI"
 date: 2025-02-15
 description: The negligible impact of X-ray exposure on batteries, plus my experience publishing with MDPI
 tags: publications science
