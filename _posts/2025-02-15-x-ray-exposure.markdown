@@ -16,7 +16,7 @@ This is a good thing, as it means that our CT scans are safe for batteries.
 This very simple conclusion is the title of the manuscript.
 
 <p>
-<img src="/img/xray_exposure.pdf" style="display:block; margin-left: auto; margin-right: auto;">
+<img src="/img/xray_exposure.pdf" style="display:block; margin-left: auto; margin-right: auto; width:300%;">
 </p>
 
 In some sense, this is a boring study.
