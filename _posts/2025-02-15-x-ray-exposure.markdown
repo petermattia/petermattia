@@ -7,7 +7,7 @@ description: The negligible impact of X-ray exposure on batteries, plus my exper
 tags: publications science
 ---
 
-I'm excited to announce that our paper, "Lab-Scale X-Ray Exposure Has No Measurable Impact on Lithium-Ion Battery Performance and Lifetime", has been published in [Batteries](https://www.mdpi.com/journal/batteries). You can read the paper [here](https://www.mdpi.com/2313-0105/11/2/73).
+I'm excited to announce that our paper, "Lab-Scale X-Ray Exposure Has No Measurable Impact on Lithium-Ion Battery Performance and Lifetime", has been published in [*Batteries*](https://www.mdpi.com/journal/batteries). You can read the paper [here](https://www.mdpi.com/2313-0105/11/2/73).
 
 This study was led by [Glimpse](https://glimp.se)’s summer intern Jinhong.
 The study was simple: we took a bunch of batteries, exposed them to X-rays for either 0 minutes (control group), 2 minutes, or 60 minutes, and then tested their performance.
@@ -77,10 +77,7 @@ In fact, the more I read, especially [this SO post](
 https://academia.stackexchange.com/questions/5466/is-mdpi-a-reputable-academic-publisher), the more I started to like them and *Batteries* in particular. Reevaluating this journal in light of my criteria:
 1. **Respectable journal:** *Batteries* has some solid papers and some crappy papers. Is it really all that different from any other journal? I know impact factor is a bad metric but *Batteries*'s impact factor is 4.5 vs. *Nature*-affiliated *Scientific Report*’s 3.5
 2. **Open access (primary audience is industry):** Yes
-3. **Minimal APC (we’re a scrappy startup):** It’s $3000 by default, which would have been too high for this side project. But Nick suggested emailing them asking for a fee waiver, and after a bit of back and forth they offered me a 100% fee waiver.
-
-Sidebar on finances: Apparently they make [1-6% margin per paper](https://academia.stackexchange.com/a/163462). That’s battery production type margins! Even if they asked for a modest APC, I’d be comfortable paying. This seems better than paying Springer Nature or Elsevier given their 40% margins!
-
+3. **Minimal APC (we’re a scrappy startup):** It’s $3000 by default, which would have been too high for this side project. But Nick suggested emailing them asking for a fee waiver, and after a bit of back and forth they offered me a 100% fee waiver. (Sidebar on finances: Apparently they make [1-6% margin per paper](https://academia.stackexchange.com/a/163462). That’s battery production type margins! Even if they asked for a modest APC, I’d be comfortable paying. This seems better than paying Springer Nature or Elsevier given their [40% margins](https://tidsskriftet.no/en/2020/08/kronikk/money-behind-academic-publishing)!)
 4. **Fast handling process while still being legit (this paper isn’t worth a year-long review cycle).** This is a big one for me. 6-9 month "time to publication" feels much slower than it should be IMO. Speed is a virtue, and frankly I don’t have much patience for waiting around weeks for the editor to send the paper out for review or for the typesetter to get back to me with minor formatting tweaks that they could make themselves. I see no shame, only pride, in supporting a journal that actively aims to reduce time to publication (provided manuscript quality does not significantly suffer).
 
 Overall, I see MDPI as a “state school publisher”.
