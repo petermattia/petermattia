@@ -4,7 +4,7 @@ title: Publications
 permalink: /publications/
 order: -1
 ---
-Last updated January 17, 2025
+Last updated February 15, 2025
 
 [Google Scholar](https://scholar.google.com/citations?user=GyD43R4AAAAJ&hl=en&oi=ao)
 
@@ -12,6 +12,10 @@ Last updated January 17, 2025
 
 <br>
 *Equal contribution authors
+
+0. J. Min, A. Condon, **P. M. Attia**.  
+[Lab-Scale X-Ray Exposure Has No Measurable Impact on Lithium-Ion Battery Performance and Lifetime.](https://doi.org/10.3390/batteries11020073)  
+*Batteries*, **2025**, *11*, 73 (2025).  
 
 0. **P. M. Attia**, E. Moch, P. K. Herring.  
 [Challenges and opportunities for high-quality battery production at scale.](https://doi.org/10.1038/s41467-025-55861-7)  
