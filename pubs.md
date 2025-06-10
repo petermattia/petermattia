@@ -13,18 +13,18 @@ Last updated June 10, 2025
 <br>
 *Equal contribution authors
 
-0. P. Gasper, N. Prakash, B. Knutson, T. Bethel, K. Ramirez-Meyers*, A. Condon, **P. M. Attia**, M. Keyser  
+0. P. Gasper, N. Prakash, B. Knutson, T. Bethel, K. Ramirez-Meyers, A. Condon, **P. M. Attia**, M. Keyser  
 [Searching for a Pulse: Evaluating the Use of Rapid DC Pulses for Diagnosing Battery Health, State-of-Charge, and Safety](https://doi.org/10.1149/1945-7111/addd50)  
 *Journal of the Electrochemical Society*, **172** 060503 (2025).  
 [PDF](https://iopscience.iop.org/article/10.1149/1945-7111/addd50/pdf)
 
 0. J. Min, A. Condon, **P. M. Attia**.  
-[Lab-Scale X-Ray Exposure Has No Measurable Impact on Lithium-Ion Battery Performance and Lifetime.](https://doi.org/10.3390/batteries11020073)  
+[Lab-Scale X-Ray Exposure Has No Measurable Impact on Lithium-Ion Battery Performance and Lifetime](https://doi.org/10.3390/batteries11020073)  
 *Batteries*, **2025**, *11*, 73 (2025).  
 [PDF](https://www.mdpi.com/2313-0105/11/2/73/pdf?version=1739423963)
 
 0. **P. M. Attia**, E. Moch, P. K. Herring.  
-[Challenges and opportunities for high-quality battery production at scale.](https://doi.org/10.1038/s41467-025-55861-7)  
+[Challenges and opportunities for high-quality battery production at scale](https://doi.org/10.1038/s41467-025-55861-7)  
 *Nature Communications*, **16**, 611 (2025).  
 [PDF](https://rdcu.be/d6FFQ), highlighted as a [*Nature Communications* Editors' Highlight](https://www.nature.com/collections/dmmhtcypsc)
 
