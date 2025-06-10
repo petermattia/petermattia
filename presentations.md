@@ -5,12 +5,14 @@ permalink: /presentations/
 order: -1
 ---
 
-Last updated November 4, 2024
+Last updated June 10, 2025
 
 # Glimpse
 
 |  Date | Venue | Location |
 | :----------- |  :----------------- | :-------- |
+| May 2025 | Electrochemical Science Research Alliance career talk |  Virtual |
+| May 2025 | [Excillum webinar](https://www.excillum.com/battery-quality-control-from-first-principles/) |  Virtual |
 | December 2024 | DOE/AMMTO Battery Manufacturing Forum |  Herndon, VA |
 | December 2024 | [3rd Battery Sustainability Workshop](https://www.batterysustain.center/2024-workshop) |  Cambridge, MA |
 | November 2024 | [NASA Aerospace Battery Workshop](https://www.nasa.gov/batteryworkshop/) |  Huntsville, AL |
