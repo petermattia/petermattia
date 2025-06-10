@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: articles
-title: "Paper published: Searching for a Pulse"
+title: "Paper published: \"Searching for a Pulse\""
 date: 2025-06-10
 description: Scans on scans on scans
 tags: publications science
