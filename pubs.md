@@ -13,7 +13,14 @@ Last updated June 10, 2025
 <br>
 *Equal contribution authors
 
-0. P. Gasper, N. Prakash, B. Knutson, T. Bethel, K. Ramirez-Meyers, A. Condon, **P. M. Attia**, M. Keyser  
+
+
+0. R. C. Ihuaenyi, R. Fang, A. S. Ashok, A. Condon, J. Jiao, P. M. Attia, W. Li, J. Zhu.  
+[Lifetime extension of aged Li-ion prismatic batteries via mechanical constraints](https://doi.org/10.1016/j.xcrp.2025.102685)  
+*Cell Reports Physical Sciences*, **6** 102685 (2025).  
+[PDF](https://www.cell.com/action/showPdf?pii=S2666-3864%2825%2900284-X)
+
+0. P. Gasper, N. Prakash, B. Knutson, T. Bethel, K. Ramirez-Meyers, A. Condon, **P. M. Attia**, M. Keyser.  
 [Searching for a Pulse: Evaluating the Use of Rapid DC Pulses for Diagnosing Battery Health, State-of-Charge, and Safety](https://doi.org/10.1149/1945-7111/addd50)  
 *Journal of the Electrochemical Society*, **172** 060503 (2025).  
 [PDF](https://iopscience.iop.org/article/10.1149/1945-7111/addd50/pdf)

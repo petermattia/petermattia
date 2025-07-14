@@ -3,7 +3,7 @@ layout: post
 categories: articles
 title: "Paper published: \"Searching for a Pulse\""
 date: 2025-06-10
-description: Scans on scans on scans
+description: How CT scanning can reveal safety and reliability risks that electrochemical pulses miss
 tags: publications science
 ---
 
