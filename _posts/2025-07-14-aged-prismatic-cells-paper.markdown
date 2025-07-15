@@ -18,7 +18,7 @@ The main goal of this paper was to evaluate how external pressure impacts the ag
 CT scanning the cells periodically over life (see below) quickly revealed the answer: The jellyroll of the unconstrained cell began exhibiting mechanical deformation as early as 200 cycles and then deformed massively (delamination, visible gas pockets, etc.) upon subsequent cycling. The “knee” in the capacity-cycle number from 300 to 500 cycles tracks with when major cell deformation occurs as visualized via CT.
 
 <p>
-<img src="/img/img/aged_prismatic_cells_paper_fig2.jpg" style="display:block; margin-left: auto; margin-right: auto;">
+<img src="/img/aged_prismatic_cells_paper_fig2.jpg" style="display:block; margin-left: auto; margin-right: auto;">
 </p>
 
 *CT scans of a prismatic cell without mechanical constraints obtained throughout a cycling test. Note the severe deformation of the jellyroll and casing that occurs over the cell’s lifetime. Reproduced from Figure 2 of [Ihuaenyi et al.](https://doi.org/10.1016/j.xcrp.2025.102685)*
