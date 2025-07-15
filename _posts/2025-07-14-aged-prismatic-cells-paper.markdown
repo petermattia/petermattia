@@ -1,7 +1,7 @@
 ---
 layout: post
 categories: articles
-title: "Paper published: \"Searching for a Pulse\""
+title: "Paper published: CT scans of aged prismatic cells as a function of mechanical constraints"
 date: 2025-07-14
 description: How CT scanning can reveal jellyroll deformation during cycling
 tags: publications science
