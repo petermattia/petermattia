@@ -14,6 +14,10 @@ Last updated June 10, 2025
 *Equal contribution authors
 
 
+0. K. Madi, L. Courtois, L. Raspolini, J. Min, A. Condon, **P. M. Attia**.  
+[Coupling X-ray computed tomography with digital volume correlation to study core collapse in lithium-ion batteries](https://doi.org/10.1039/D5EB00229J)  
+*EES Batteries*, (2026).  
+[PDF](https://pubs.rsc.org/en/content/articlepdf/2026/eb/d5eb00229j)
 
 0. A. Liu, W. Yao, S. Yang, D. Gonsoulin, A. Larson, A. Condon, **P. M. Attia**, Y. S. Meng.  
 [Design and Performance of the BYD LFP/Graphite 4680 Cylindrical Cell](https://doi.org/10.1149/1945-7111/ae1e33)  
