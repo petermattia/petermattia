@@ -14,6 +14,16 @@ Last updated June 10, 2025
 *Equal contribution authors
 
 
+0. M. Donais, E. J. Butler, A. Condon, **P. M. Attia**, C. Floras, S. M. Maher, Y. Zhao, M. Johnson, S. Hy, R. Petibon.  
+[Electrolyte Motion Induced Salt Inhomogeneity in Si-Containing Cylindrical Cells – A Case Study](https://doi.org/10.1149/1945-7111/ae4b6e)  
+*Journal of the Electrochemical Society* (2026).  
+[PDF](https://iopscience.iop.org/article/10.1149/1945-7111/ae4b6e/pdf)
+
+0. X. Shi, W. Li, J. Min, A. Condon, W. Li, **P. M. Attia**, J. Zhu.  
+[Core Collapse Instability of Spirally Wound Jelly-Roll Lithium-Ion Batteries](https://doi.org/10.1007/s11340-026-01287-1)  
+*Experimental Mechanics* (2026).  
+[PDF](https://link.springer.com/content/pdf/10.1007/s11340-026-01287-1.pdf)
+
 0. K. Madi, L. Courtois, L. Raspolini, J. Min, A. Condon, **P. M. Attia**.  
 [Coupling X-ray computed tomography with digital volume correlation to study core collapse in lithium-ion batteries](https://doi.org/10.1039/D5EB00229J)  
 *EES Batteries* (2026).  
