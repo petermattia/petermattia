@@ -4,7 +4,7 @@ title: Publications
 permalink: /publications/
 order: -1
 ---
-Last updated June 10, 2025
+Last updated April 17, 2026
 
 [Google Scholar](https://scholar.google.com/citations?user=GyD43R4AAAAJ&hl=en&oi=ao)
 
@@ -12,6 +12,17 @@ Last updated June 10, 2025
 
 <br>
 *Equal contribution authors
+
+
+0. **P. M. Attia**, A. Weng, W. C. Chueh.  
+[Limits of electrochemical data for predicting battery lifetime and failure](https://doi.org/10.1016/j.joule.2026.102423)  
+*Joule* (2026).  
+[Author share link](https://authors.elsevier.com/c/1mvBE925JEZBss)
+
+0. A. Kazem-Ghamsari, K. Peng, W. Li, R. Fang, A. Condon, **P. M. Attia**, J. Zhu.  
+[Visualization and Detection of Internal Damage Caused by External Mechanical Loads in Cylindrical Li-Ion Batteries](https://doi.org/10.1149/1945-7111/ae5b2a)  
+*Journal of the Electrochemical Society*, **173** 070515 (2026).  
+[PDF](https://iopscience.iop.org/article/10.1149/1945-7111/ae5b2a/pdf)
 
 
 0. M. Donais, E. J. Butler, A. Condon, **P. M. Attia**, C. Floras, S. M. Maher, Y. Zhao, M. Johnson, S. Hy, R. Petibon.  
