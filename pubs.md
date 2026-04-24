@@ -4,7 +4,7 @@ title: Publications
 permalink: /publications/
 order: -1
 ---
-Last updated April 17, 2026
+Last updated April 24, 2026
 
 [Google Scholar](https://scholar.google.com/citations?user=GyD43R4AAAAJ&hl=en&oi=ao)
 
@@ -26,7 +26,7 @@ Last updated April 17, 2026
 
 0. M. Donais, E. J. Butler, A. Condon, **P. M. Attia**, C. Floras, S. M. Maher, Y. Zhao, M. Johnson, S. Hy, R. Petibon.  
 [Electrolyte Motion Induced Salt Inhomogeneity in Si-Containing Cylindrical Cells – A Case Study](https://doi.org/10.1149/1945-7111/ae4b6e)  
-*Journal of the Electrochemical Society* (2026).  
+*Journal of the Electrochemical Society*, **173** 050519 (2026).  
 [PDF](https://iopscience.iop.org/article/10.1149/1945-7111/ae4b6e/pdf)
 
 0. X. Shi, W. Li, J. Min, A. Condon, W. Li, **P. M. Attia**, J. Zhu.  
@@ -36,7 +36,12 @@ Last updated April 17, 2026
 
 0. K. Madi, L. Courtois, L. Raspolini, J. Min, A. Condon, **P. M. Attia**.  
 [Coupling X-ray computed tomography with digital volume correlation to study core collapse in lithium-ion batteries](https://doi.org/10.1039/D5EB00229J)  
-*EES Batteries* (2026).  
+*EES Batteries*, **2** 683 (2026).  
+[PDF](https://pubs.rsc.org/en/content/articlepdf/2026/eb/d5eb00229j)
+
+0. D. A. Cogswell, J. Min, A. Condon, W. Jia, W. J. Sehnert, **P. M. Attia**.  
+[Geometric Changes in Cylindrical Batteries as a Function of State of Charge](https://doi.org/10.1149/1945-7111/ae24b3)  
+*Journal of the Electrochemical Society*, **172** 120509 (2026).  
 [PDF](https://pubs.rsc.org/en/content/articlepdf/2026/eb/d5eb00229j)
 
 0. A. Liu, W. Yao, S. Yang, D. Gonsoulin, A. Larson, A. Condon, **P. M. Attia**, Y. S. Meng.  
