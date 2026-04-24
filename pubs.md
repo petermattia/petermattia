@@ -41,7 +41,7 @@ Last updated April 24, 2026
 
 0. D. A. Cogswell, J. Min, A. Condon, W. Jia, W. J. Sehnert, **P. M. Attia**.  
 [Geometric Changes in Cylindrical Batteries as a Function of State of Charge](https://doi.org/10.1149/1945-7111/ae24b3)  
-*Journal of the Electrochemical Society*, **172** 120509 (2026).  
+*Journal of the Electrochemical Society*, **172** 120509 (2025).  
 [PDF](https://iopscience.iop.org/article/10.1149/1945-7111/ae24b3/pdf)
 
 0. A. Liu, W. Yao, S. Yang, D. Gonsoulin, A. Larson, A. Condon, **P. M. Attia**, Y. S. Meng.  
