@@ -4,7 +4,7 @@ title: Publications
 permalink: /publications/
 order: -1
 ---
-Last updated April 24, 2026
+Last updated August 27, 2026
 
 [Google Scholar](https://scholar.google.com/citations?user=GyD43R4AAAAJ&hl=en&oi=ao)
 
@@ -13,6 +13,11 @@ Last updated April 24, 2026
 <br>
 *Equal contribution authors
 
+
+0. **P. M. Attia**, C. Ban, P. Kots, N. Carson, M. Barecka.  
+[Bridging the gap between lab discovery and commercial deployment](https://doi.org/10.1016/j.xcrp.2026.103499)  
+*Cell Reports Physical Sciences*, **7** 103499 (2026).  
+[PDF](https://www.cell.com/action/showPdf?pii=S2666-3864%2826%2900405-4)
 
 0. A. Kazem-Ghamsari, K. Peng, W. Li, R. Fang, A. Condon, **P. M. Attia**, J. Zhu.  
 [Visualization and Detection of Internal Damage Caused by External Mechanical Loads in Cylindrical Li-Ion Batteries](https://doi.org/10.1149/1945-7111/ae5b2a)  
