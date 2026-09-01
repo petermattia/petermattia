@@ -16,7 +16,7 @@ GEM
       bigdecimal
       rake (>= 13)
     http_parser.rb (0.8.0)
-    i18n (1.14.6)
+    i18n (1.14.7)
       concurrent-ruby (~> 1.0)
     jekyll (4.3.2)
       addressable (~> 2.4)
@@ -58,7 +58,7 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
-    minima (2.5.1)
+    minima (2.5.2)
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
@@ -93,7 +93,7 @@ DEPENDENCIES
   jekyll-sitemap
   kramdown-parser-gfm
   lanyon
-  minima (~> 2.0)
+  minima (~> 2.5)
   rack (>= 2.0.6)
   tzinfo-data
 
