@@ -5,12 +5,18 @@ permalink: /presentations/
 order: -1
 ---
 
-Last updated June 10, 2025
+Last updated September 25, 2026
 
 # Glimpse
 
 |  Date | Venue | Location |
 | :----------- |  :----------------- | :-------- |
+| October 2026 | [Military Power Sources Consortium](https://militarypowersourcesconsortium.wildapricot.org/page-18069) |  Dallas, TX |
+| September 2026 | [Glimpse/Voltaiq/Avrion webinar](https://lnkd.in/p/gvY4Sp_H) |  Virtual |
+| September 2026 | [ECS New England Section Meeting](https://www.electrochem.org/ecsnews/ecs-new-england-section-hosts-september-2026-meeting) | Lowell, MA |
+| June 2026 | [Battery Safety Workshop](https://www.batterysafetyworkshop.com) |  Newark, DE |
+| May 2026 | 249<sup>th</sup> Electrochemical Society Meeting [(1)](https://ecs.confex.com/ecs/249/meetingapp.cgi/Paper/215348) [(2)](https://ecs.confex.com/ecs/249/meetingapp.cgi/Paper/215349) |  Seattle, WA |
+| March 2026 | [International Battery Seminar and Exhibit](https://www.internationalbatteryseminar.com/26/battery-technologies-for-military-applications) |  Orlando, FL |
 | May 2025 | Electrochemical Science Research Alliance career talk |  Virtual |
 | May 2025 | [Excillum webinar](https://www.excillum.com/battery-quality-control-from-first-principles/) |  Virtual |
 | December 2024 | DOE/AMMTO Battery Manufacturing Forum |  Herndon, VA |
