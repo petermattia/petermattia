@@ -11,6 +11,7 @@ Last updated September 25, 2026
 
 |  Date | Venue | Location |
 | :----------- |  :----------------- | :-------- |
+| October 2026 | University of Michigan ECS Chapter |  Ann Arbor, MI |
 | October 2026 | [Military Power Sources Consortium](https://militarypowersourcesconsortium.wildapricot.org/page-18069) |  Dallas, TX |
 | September 2026 | [Glimpse/Voltaiq/Avrion webinar](https://lnkd.in/p/gvY4Sp_H) |  Virtual |
 | September 2026 | [ECS New England Section Meeting](https://www.electrochem.org/ecsnews/ecs-new-england-section-hosts-september-2026-meeting) | Lowell, MA |
